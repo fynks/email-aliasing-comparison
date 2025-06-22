@@ -2,7 +2,7 @@
 
 # Awesome Email Aliasing
 
-A comprehensive guide to email aliasing services, comparing features, pricing, and capabilities to help you protect your privacy and organize your digital communications.
+A comprehensive, up-to-date guide to email aliasing services—comparing features, pricing, and capabilities—to help you protect your privacy and organize your digital communications.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -18,7 +18,7 @@ A comprehensive guide to email aliasing services, comparing features, pricing, a
 3. [Provider Comparison](#provider-comparison)
 4. [Addy.io vs SimpleLogin](#addyio-vs-simplelogin)
 5. [Pricing Comparison](#pricing-comparison)
-6. [Feature Comparisom](#features-comparison)
+6. [Feature Comparison](#feature-comparison)
 7. [Technical Specifications](#technical-specifications)
 8. [Subscription Policies](#subscription-policies)
 9. [Decision Guide](#decision-guide)
@@ -28,17 +28,17 @@ A comprehensive guide to email aliasing services, comparing features, pricing, a
 
 ## Introduction
 
-Email aliasing is a privacy-focused technique that allows you to create multiple email addresses that forward to your primary inbox. This comprehensive guide analyzes the top email aliasing providers, comparing their features, pricing, and policies to help you make an informed decision.
+Email aliasing is a privacy-focused technique that allows you to create multiple email addresses that forward to your primary inbox. This guide analyzes the top email aliasing providers, comparing their features, pricing, and policies to help you make an informed decision and take control of your digital identity.
 
 ## Why Use Email Aliasing
 
-Email aliasing provides several key benefits for personal and professional use:
+Email aliasing offers several key benefits for both personal and professional use:
 
-- **Privacy Protection**: Shield your real email address from data breaches and spam
-- **Organization**: Categorize emails by source (shopping, newsletters, work, etc.)
-- **Security**: Easily identify compromised services and disable specific aliases
-- **Professional Flexibility**: Use custom domains for business communications
-- **Spam Management**: Block unwanted emails without changing your primary address
+- **Privacy Protection**: Shield your real email address from data breaches and spam.
+- **Organization**: Categorize emails by source (shopping, newsletters, work, etc.).
+- **Security**: Identify compromised services and disable specific aliases.
+- **Professional Flexibility**: Use custom domains for business communications.
+- **Spam Management**: Block unwanted emails without changing your primary address.
 
 ---
 
@@ -51,7 +51,7 @@ Email aliasing provides several key benefits for personal and professional use:
 <td align="center" width="50%">
 <img src="https://addy.io/assets/img/logo-dark.svg" alt="Addy.io" width="200"/>
 <br><strong>Addy.io</strong>
-<br>Individual developer-maintained
+<br>Independently developed
 <br>Granular pricing tiers
 </td>
 <td align="center" width="50%">
@@ -70,7 +70,7 @@ Email aliasing provides several key benefits for personal and professional use:
 | **[Apple Hide My Email](https://support.apple.com/en-us/105078)**                                                                    | Integrated      | Native iOS/macOS integration | Apple ecosystem users |
 | **[Firefox Relay](https://relay.firefox.com/)**                                                                                      | Browser-based   | Mozilla integration          | Firefox users         |
 | **[DuckDuckGo Email Protection](https://duckduckgo.com/duckduckgo-help-pages/email-protection/what-is-duckduckgo-email-protection)** | Privacy-focused | Simple forwarding            | Basic privacy needs   |
-| [Adguard Mail](https://app.adguard-mail.com/)| Privacy-focused| Simple forwarding | Basic privacy needs |
+| [Adguard Mail](https://app.adguard-mail.com/)                                                                                        | Privacy-focused | Simple forwarding            | Basic privacy needs   |
 
 ---
 
@@ -116,8 +116,8 @@ Email aliasing provides several key benefits for personal and professional use:
 
 ## Pricing Comparison
 
-### Free Plan ($0/month )
-| Feature                                                                     | addy.io                                                                     | SimpleLogin   |
+### Free Plan ($0/month)
+| Feature                                                                     | Addy.io                                                                     | SimpleLogin   |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------- |
 | Aliases                                                                     | Unlimited [Standard Aliases](https://addy.io/faq/#what-is-a-standard-alias) | 10 aliases    |
 | [Shared Domain Aliases](https://addy.io/faq/#what-is-a-shared-domain-alias) | 10 Active                                                                   | Not specified |
@@ -126,16 +126,16 @@ Email aliasing provides several key benefits for personal and professional use:
 
 ### Lite/Basic Plan ($1/month)
 
-| Feature        | addy.io                        | SimpleLogin |
+| Feature        | Addy.io                        | SimpleLogin |
 | -------------- | ------------------------------ | ----------- |
 | Aliases        | Unlimited Standard + 50 Shared | N/A         |
 | Recipients     | 5                              | N/A         |
 | Custom Domains | 1                              | N/A         |
 | Bandwidth      | 100MB/month                    | N/A         |
 
-### Premium Plan ($4 monthly)
+### Premium Plan ($4/month)
 
-| Feature        | addy.io   | SimpleLogin         |
+| Feature        | Addy.io   | SimpleLogin         |
 | -------------- | --------- | ------------------- |
 | Aliases        | Unlimited | Unlimited           |
 | Recipients     | 30        | Unlimited mailboxes |
@@ -144,11 +144,11 @@ Email aliasing provides several key benefits for personal and professional use:
 
 ---
 
-## Features Comparison
+## Feature Comparison
 
 ### Core Features
 
-| Feature           | addy.io  | SimpleLogin |
+| Feature           | Addy.io  | SimpleLogin |
 | ----------------- | -------- | ----------- |
 | Email Forwarding  | ✅        | ✅           |
 | Reply from Alias  | ✅ (Paid) | ✅ (Free)    |
@@ -156,10 +156,9 @@ Email aliasing provides several key benefits for personal and professional use:
 | Custom Domains    | ✅ (Paid) | ✅ (Paid)    |
 | Catch-All Domains | ✅ (Free) | ✅ (Paid)    |
 
-
 ### Security & Privacy
 
-| Feature                | addy.io | SimpleLogin |
+| Feature                | Addy.io | SimpleLogin |
 | ---------------------- | ------- | ----------- |
 | GPG/OpenPGP Encryption | ✅       | ✅           |
 | Open Source            | ✅       | ✅           |
@@ -168,25 +167,26 @@ Email aliasing provides several key benefits for personal and professional use:
 
 ### Platform Support
 
-| Feature            | addy.io                           | SimpleLogin                 |
+| Feature            | Addy.io                           | SimpleLogin                 |
 | ------------------ | --------------------------------- | --------------------------- |
 | Browser Extensions | ✅ (Chrome, Firefox, Edge, Safari) | ✅ (Chrome, Firefox, Safari) |
 | Mobile Apps        | ✅ (iOS, Android)                  | ✅ (iOS, Android)            |
 
 ### Advanced Features
 
-| Feature                       | addy.io                           | SimpleLogin                             |
+| Feature                       | Addy.io                           | SimpleLogin                             |
 | ----------------------------- | --------------------------------- | --------------------------------------- |
 | Multiple Recipients per Alias | ✅ (Up to 10)                      | ✅                                       |
 | Additional Usernames          | ✅ (Paid) (5-20 depending on plan) | ✅ (50 directories/usernames on premium) |
 | Subdomain Support             | ✅  (Paid)                         | ✅ (5 subdomains on premium)             |
 | Regular Expression Matching   | ✅                                 | ✅                                       |
 | Rules/Filters                 | ✅ (5-20 depending on plan)        | Not specified                           |
+
 ---
 
 ## Technical Specifications
 
-| Category                  | addy.io                                  | SimpleLogin                               |
+| Category                  | Addy.io                                  | SimpleLogin                               |
 | ------------------------- | ---------------------------------------- | ----------------------------------------- |
 | **Email Storage**         | No storage - forwards only               | No storage - forwards only                |
 | **Email Size Limit**      | 25MB                                     | 25MB                                      |
@@ -250,9 +250,8 @@ Email aliasing provides several key benefits for personal and professional use:
 
 ### Migration Considerations
 
-**From Addy.io**: Export alias list before subscription ends to avoid service disruption.
-
-**From SimpleLogin**: Minimal risk during subscription lapses, making it safer for temporary financial constraints.
+- **From Addy.io**: Export your alias list before your subscription ends to avoid service disruption.
+- **From SimpleLogin**: Minimal risk during subscription lapses, making it safer for temporary financial constraints.
 
 ---
 
@@ -260,17 +259,17 @@ Email aliasing provides several key benefits for personal and professional use:
 
 ### Choose Addy.io If You:
 
-- **Budget-conscious**: Need affordable entry-level pricing
-- **Technical user**: Want detailed controls and monitoring
-- **Flexible usage**: Prefer granular plan options
-- **Active management**: Don't mind managing subscription timing
+- **Budget-conscious**: Need affordable entry-level pricing.
+- **Technical user**: Want detailed controls and monitoring.
+- **Flexible usage**: Prefer granular plan options.
+- **Active management**: Don't mind managing subscription timing.
 
 ### Choose SimpleLogin If You:
 
-- **Enterprise user**: Need reliability and infrastructure backing
-- **Proton ecosystem**: Already use Proton services
-- **Subscription flexibility**: Want lenient cancellation policies
-- **Set-and-forget**: Prefer minimal maintenance
+- **Enterprise user**: Need reliability and infrastructure backing.
+- **Proton ecosystem**: Already use Proton services.
+- **Subscription flexibility**: Want lenient cancellation policies.
+- **Set-and-forget**: Prefer minimal maintenance.
 
 ---
 
@@ -293,4 +292,4 @@ Email aliasing provides several key benefits for personal and professional use:
 
 **Last Updated**: June 2025 | **License**: MIT
 
-</div> 
+</div>
