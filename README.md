@@ -70,6 +70,7 @@ Email aliasing provides several key benefits for personal and professional use:
 | **[Apple Hide My Email](https://support.apple.com/en-us/105078)**                                                                    | Integrated      | Native iOS/macOS integration | Apple ecosystem users |
 | **[Firefox Relay](https://relay.firefox.com/)**                                                                                      | Browser-based   | Mozilla integration          | Firefox users         |
 | **[DuckDuckGo Email Protection](https://duckduckgo.com/duckduckgo-help-pages/email-protection/what-is-duckduckgo-email-protection)** | Privacy-focused | Simple forwarding            | Basic privacy needs   |
+| [Adguard Mail](https://app.adguard-mail.com/)| Privacy-focused| Simple forwarding | Basic privacy needs |
 
 ---
 
