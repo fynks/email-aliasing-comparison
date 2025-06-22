@@ -1,0 +1,21 @@
+{
+  "name": "favicon-generator",
+  "version": "1.0.0",
+  "description": "Generate favicons for the Awesome Email Aliasing website",
+  "main": "generate-favicons.js",
+  "scripts": {
+    "generate": "node generate-favicons.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.2",
+    "svg2png": "^4.1.1"
+  },
+  "keywords": [
+    "favicon",
+    "generator",
+    "email",
+    "aliasing"
+  ],
+  "author": "Awesome Email Aliasing",
+  "license": "MIT"
+}
