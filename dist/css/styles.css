@@ -844,6 +844,127 @@ p {
     color: #1e293b;
 }
 
+/* Resources Grid Base Layout */
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Enhanced Resource Section Styles */
+.resource-category {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.resource-category:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.resource-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.resource-category h3 {
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.resource-description {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.resource-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.resource-links li {
+    margin-bottom: 0.75rem;
+}
+
+.resource-links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 0.25rem 0;
+    border-radius: 4px;
+    position: relative;
+}
+
+.resource-links a:hover {
+    color: #1d4ed8;
+    transform: translateX(5px);
+}
+
+.resource-links a::before {
+    content: "→";
+    margin-right: 0.5rem;
+    color: #64748b;
+    transition: color 0.3s ease;
+}
+
+.resource-links a:hover::before {
+    color: #2563eb;
+}
+
+/* Resource CTA Section */
+.resource-cta {
+    background: white;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 3rem;
+    border: 1px solid #e2e8f0;
+}
+
+.resource-cta h3 {
+    color: #1e293b;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.resource-cta p {
+    color: #64748b;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-buttons .btn {
+    min-width: 180px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
