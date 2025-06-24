@@ -486,50 +486,6 @@ The two leading email aliasing providers deserve a comprehensive comparison. We'
 | **Android** | [🤖 Play Store](https://play.google.com/store/apps/details?id=host.stjin.anonaddy) | [🤖 Play Store](https://play.google.com/store/apps/details?id=io.simplelogin.android) | [🤖 Play Store](https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android) | Various alternatives |
 | **F-Droid** | [🔓 F-Droid](https://f-droid.org/packages/host.stjin.anonaddy/) | [🔓 F-Droid](https://f-droid.org/packages/io.simplelogin.android.fdroid/) | [🔓 F-Droid](https://f-droid.org/packages/com.duckduckgo.mobile.android/) | Open source versions |
 
-### Advanced Resources
-
-#### Self-Hosting Guides
-- [🏠 Addy.io Self-Hosting Guide](https://github.com/anonaddy/anonaddy/wiki/Self-Hosting)
-- [🏠 SimpleLogin Self-Hosting](https://github.com/simple-login/app/blob/master/docs/install.md)
-- [🐳 Docker Configurations](https://github.com/anonaddy/docker)
-
-#### Development Resources
-- [🔧 Addy.io API Documentation](https://app.addy.io/docs/)
-- [🔧 SimpleLogin API Reference](https://github.com/simple-login/app/blob/master/docs/api.md)
-- [⚙️ Webhook Integration Examples](https://github.com/anonaddy/webhook-examples)
-
-#### Privacy & Security Research
-- [📊 Email Privacy Research Papers](https://scholar.google.com/scholar?q=email+aliasing+privacy)
-- [🔍 Data Breach Analysis Tools](https://haveibeenpwned.com/)
-- [🛡️ Security Audit Reports](https://addy.io/blog/addy-io-passes-independent-security-audit)
-
-### Community Forums & Support
-
-#### Discussion Platforms
-- [💬 Addy.io GitHub Discussions](https://github.com/anonaddy/anonaddy/discussions)
-- [💬 SimpleLogin GitHub Discussions](https://github.com/simple-login/app/discussions)
-- [📱 r/privacy Subreddit](https://www.reddit.com/r/privacy/)
-- [🗨️ Privacy Guides Forum](https://discuss.privacyguides.net/)
-
-#### Real-Time Chat
-- [💬 Matrix: Privacy Community](https://matrix.to/#/#privacy:matrix.org)
-- [💬 Discord: Privacy Focused](https://discord.gg/privacyguides)
-- [💬 Telegram: Privacy Groups](https://t.me/privacyguides)
-
-### Industry News & Updates
-
-#### Blogs & Newsletters
-- [📰 Addy.io Blog](https://addy.io/blog/)
-- [📰 SimpleLogin Blog](https://simplelogin.io/blog/)
-- [📰 Privacy International News](https://privacyinternational.org/news)
-- [📧 The Privacy Post Newsletter](https://theprivacypost.com/)
-
-#### Podcasts & Videos
-- [🎧 Privacy, Security, & OSINT Podcast](https://inteltechniques.com/podcast.html)
-- [🎧 Opt Out Podcast](https://optoutpod.com/)
-- [🎥 YouTube: The Hated One](https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q)
-
----
 
 ## 🤝 Contributing
 
@@ -544,27 +500,9 @@ We welcome contributions to make this the most comprehensive email aliasing reso
 4. **📝 Improve Content**: Enhance explanations and guides
 5. **🌍 Translations**: Help make this guide accessible globally
 
-#### Contribution Guidelines
-```markdown
-# When adding a new provider, include:
-- Company background and founding
-- Complete feature analysis
-- Pricing breakdown with calculations
-- Security and privacy assessment
-- Real-world testing results
-- Screenshots and documentation links
-```
-
-#### Provider Evaluation Criteria
-- **Privacy Policy Analysis**: GDPR compliance, data collection practices
-- **Security Implementation**: Encryption, 2FA, audit reports
-- **Technical Performance**: Speed, reliability, uptime
-- **Feature Completeness**: Core and advanced functionality
-- **User Experience**: Setup process, interface quality
-- **Value Proposition**: Price-to-feature ratio
 
 ### Maintainers
-- **Primary**: [Your GitHub Username]
+- **Primary**: [Fynks]
 - **Contributors**: [View full list](https://github.com/awesome-lists/awesome-email-aliasing/graphs/contributors)
 
 ### License & Usage
