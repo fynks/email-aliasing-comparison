@@ -498,40 +498,9 @@ We welcome contributions to make this the most comprehensive email aliasing reso
 4. **📝 Improve Content**: Enhance explanations and guides
 5. **🌍 Translations**: Help make this guide accessible globally
 
-
-### Maintainers
-- **Primary**: [Fynks]
-- **Contributors**: [View full list](https://github.com/awesome-lists/awesome-email-aliasing/graphs/contributors)
-
-### License & Usage
-This project is licensed under the MIT License. You're free to:
-- ✅ Use this guide commercially or personally
-- ✅ Modify and redistribute with attribution
-- ✅ Create derivative works
-- ✅ Contribute improvements back to the community
-
-### Acknowledgments
-Special thanks to:
-- 🙏 The privacy community for ongoing research and testing
-- 🙏 Provider teams for building these essential tools
-- 🙏 Security researchers for independent audits
-- 🙏 Contributors who keep this guide updated and accurate
-
 ---
 
 <div align="center">
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=awesome-lists/awesome-email-aliasing&type=Date)](https://star-history.com/#awesome-lists/awesome-email-aliasing&Date)
-
----
-
-**🔗 Share This Guide:**
-
-[![Share on Twitter](https://img.shields.io/badge/Share%20on-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/tweet?text=Awesome%20Email%20Aliasing%20Guide%20-%20Comprehensive%20comparison%20of%20email%20privacy%20services&url=https://github.com/awesome-lists/awesome-email-aliasing)
-[![Share on Reddit](https://img.shields.io/badge/Share%20on-Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://reddit.com/submit?url=https://github.com/awesome-lists/awesome-email-aliasing&title=Awesome%20Email%20Aliasing%20Guide)
-[![Share on LinkedIn](https://img.shields.io/badge/Share%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/awesome-lists/awesome-email-aliasing)
 
 **Last Updated**: Tuesday, June 24, 2025
 
