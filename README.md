@@ -113,32 +113,39 @@ There are two main types of email aliasing solutions:
 
 ### **🆓 Free Providers**
 
-| Provider | Free Aliases | Reply Support | Custom Domains | Encryption | Key Features |
-|----------|--------------|---------------|----------------|------------|--------------|
-| **DuckDuckGo** | Unlimited @duck.com | ✅ Auto | ❌ | ❌ | Tracker removal, simple setup |
-| **AdGuard Mail** | 10 aliases, temp email | ✅ Via inbox | ❌ | ❌ | 2K emails/month, ad blocking focus |
-| **Erine.email** | Unlimited | ❌ | ❌ | ❌ | Open source, minimalist |
-| **ForwardMail** | Unlimited (own domain) | ✅ Full mailbox | ✅ | ✅ TLS/E2EE | 10GB storage, developer-focused |
+| Provider         | Free Aliases                                                 | Reply Support  | Custom Domains | Encryption |
+| :--------------- | :----------------------------------------------------------- | :------------- | :------------- | :--------- |
+| **Addy.io**      | Unlimited Standard Aliases / 10 Active Shared Domain Aliases | ❌              | ❌              | ✅ GPG/PGP  |
+| **SimpleLogin**  | 10 aliases                                                   | ✅              | ❌              | ✅ PGP      |
+| **DuckDuckGo**   | Unlimited @duck.com                                          | ✅ Auto         | ❌              | ❌          |
+| **AdGuard Mail** | 10 aliases                                                   | ❌              | ❌              | ❌          |
+| **33Mail**       | Unlimited                                                    | ❌              | ❌              | ❌          |
+| **Erine.email**  | Unlimited                                                    | ❌              | ❌              | ❌          |
+| **ForwardMail**  | Unlimited (own domain)                                       | ✅ Full mailbox | ✅              | ✅ TLS/E2EE |
 
 ### **💰 Paid Providers**
 
-| Provider | Starting Price | Free Tier | Reply Support | Custom Domains | Encryption | Key Features |
-|----------|----------------|-----------|---------------|----------------|------------|--------------|
-| **Addy.io** | $1/mo (Lite) | Unlimited aliases | ❌ Free / ✅ Paid | ✅ | ✅ GPG/PGP | Mobile apps, best free plan |
-| **SimpleLogin** | $4/mo | 10 aliases | ✅ | ✅ Premium | ✅ PGP | Proton-owned, most advanced |
-| **33Mail** | $1/mo | Unlimited | ✅ 20/day free | ✅ Paid | ❌ | Simple interface, affordable |
-| **IronVest** | $3.25/mo ($39/yr) | 3 masked emails | ✅ | ❌ | ❌ | Privacy suite (cards, phone) |
-| **AtomicMail** | Free (basic) | 10 aliases | ✅ | ❌ | ✅ E2E | Self-destructing messages |
-
-**Legend:** ✅ Available • ❌ Not available
+| Provider         | Starting Price      | Aliasis                                                      | Reply Support | Custom Domains | Encryption |
+| :--------------- | :------------------ | :----------------------------------------------------------- | :------------ | :------------- | :--------- |
+| **Addy.io**      | $1/mo (Lite)        | Unlimited Standard Aliases / 50 Active Shared Domain Aliases | ✅             | 1              | ✅ GPG/PGP  |
+|                  | $4/mo (Pro)         | Unlimited aliases / Unlimited Active Shared Domain Aliases   | ✅             | 20             | ✅ GPG/PGP  |
+| **SimpleLogin**  | $4/mo               | 10 aliases                                                   | ✅             | Unlimited      | ✅ PGP      |
+| **AdGuard Mail** | $2.99/mo            | 1,000                                                        | ❌             | 1              | ❌          |
+| **33Mail**       | $1/mo (Premium)     | Unlimited                                                    | ✅ 20/day      | 5              | ❌          |
+|                  | $5/mo (Pro)         | Unlimited                                                    | ✅ 1000/day    | Unlimited      | ❌          |
+|                  | $50/mo (Enterprise) | Unlimited                                                    | ✅ 20/day free | ✅ Paid         | ❌          |
+| **IronVest**     | $3.25/mo ($39/yr)   | 3 masked emails                                              | ✅             | ❌              | ❌          |
+| **AtomicMail**   | Free (basic)        | 10 aliases                                                   | ✅             | ❌              | ✅ E2E      |
 
 ---
 
 ## Quick Comparison by Use Case
 
 ### **💚 Best Free Options**
+- **Addy.io** - Unlimited Standard Aliases, NO Reply Support
 - **DuckDuckGo** - Unlimited aliases, tracker removal, zero setup
-- **AdGuard Mail** - 10 aliases + temp email, 2K monthly forwards
+- **SimpleLogin** - 10 Aliasis + Reply Support
+- **AdGuard Mail** - 10 aliases + 2K monthly forwards + No Reply Support
 - **ForwardMail** - Most features (requires own domain setup)
 
 ### **💙 Best Value Paid ($1-3/month)**
@@ -148,7 +155,7 @@ There are two main types of email aliasing solutions:
 
 ### **💜 Premium Features ($4+/month)**
 - **SimpleLogin** ($4) - Unlimited aliases, PGP, Proton ecosystem
-- **Addy.io Pro** ($3-4) - 20 domains, unlimited bandwidth
+- **Addy.io Pro** ($3-4) - Unlimited aliases, 20 domains, unlimited bandwidth
 
 ---
 
