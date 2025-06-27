@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Email Aliasing
+# **Awesome Email Aliasing**
 
 🛡️ **The Ultimate Guide to Email Privacy & Security**
 
@@ -11,497 +11,349 @@ A comprehensive, research-driven guide to email aliasing services—comparing 15
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fawesome-email-aliasing.pages.dev%2F&label=Website)](https://awesome-email-aliasing.pages.dev/)
 [![GitHub Stars](https://img.shields.io/github/stars/awesome-lists/awesome-email-aliasing?style=social)](https://github.com/awesome-lists/awesome-email-aliasing)
 
-[🌐 **Live Website**](https://awesome-email-aliasing.pages.dev/) | [📊 **Provider Comparison**](#provider-comparison) | [🆚 **Addy.io vs SimpleLogin**](addy-vs-simplelogin.md) | [💡 **Quick Start Guide**](#quick-start-guide)
-
 </div>
 
----
-
-## 📑 Table of Contents
-
-1. [🎯 Introduction](#introduction)
-2. [🔒 Why Use Email Aliasing](#why-use-email-aliasing)
-3. [🏆 Top Providers Overview](#top-providers-overview)
-4. [📊 Complete Provider Comparison](#complete-provider-comparison)
-5. [🆚 Addy.io vs SimpleLogin - Detailed Head-to-Head](#-addyio-vs-simplelogin---detailed-head-to-head)
-6. [💰 Pricing Analysis](#pricing-analysis)
-7. [⚡ Feature Matrix](#feature-matrix)
-8. [📋 Subscription & Policy Analysis](#subscription--policy-analysis)
-9. [🔗 Integration & Tools](#integration--tools)
-10. [🛡️ Security Best Practices](#security-best-practices)
-11. [📚 Additional Resources](#additional-resources)
-12. [🤝 Contributing](#contributing)
-
----
-
-## Introduction
-
-Email aliasing is a privacy-focused technique that allows you to create multiple email addresses that forward to your primary inbox. This comprehensive guide analyzes **15+ email aliasing providers**, comparing their features, pricing, security measures, and policies to help you make an informed decision and take control of your digital identity.
-
-**What makes this guide different:**
-- 🔍 **Research-driven**: Every provider thoroughly tested and analyzed
-- 📊 **Data-focused**: Comprehensive comparison tables and metrics
-- 🛡️ **Security-first**: Privacy and security implications detailed
-- 💰 **Cost-effective**: Price-per-feature analysis and recommendations
-- 🔄 **Regularly updated**: Maintained with latest information and new providers
-
-## Why Use Email Aliasing
-
-Email aliasing is essential for modern digital privacy and security:
-
-### Core Benefits
-
-| Benefit | Description | Impact |
-|---------|-------------|---------|
-| **🛡️ Privacy Protection** | Shield your real email from data breaches and tracking | High |
-| **📁 Email Organization** | Categorize emails by source automatically | Medium |
-| **🔒 Security Enhancement** | Identify compromised services instantly | High |
-| **💼 Professional Flexibility** | Use custom domains for business communications | Medium |
-| **🚫 Spam Management** | Block unwanted emails without changing primary address | High |
-| **🔄 Provider Independence** | Easy migration between email providers | Medium |
-
-### Advanced Use Cases
-
-- **Identity Compartmentalization**: Separate personal, work, and hobby communications
-- **Service Monitoring**: Track which services sell your data
-- **Temporary Signups**: Create disposable addresses for one-time use
-- **A/B Testing**: Test different email strategies for businesses
-- **Compliance**: Meet regulatory requirements for data handling
+## Table of Contents
+- [What is Email Aliasing?](#what-is-email-aliasing)
+- [Why Use Email Aliasing?](#why-use-email-aliasing)
+  - [**Privacy Protection**](#️-privacy-protection)
+  - [**Spam Prevention**](#-spam-prevention)
+  - [**Security Benefits**](#-security-benefits)
+  - [**Organization**](#-organization)
+- [How Email Aliasing Works](#how-email-aliasing-works)
+  - [**Step-by-Step Process:**](#step-by-step-process)
+  - [**Specialized Email Aliasing Providers**](#-specialized-email-aliasing-providers)
+    - [**SimpleLogin** - *Most Advanced Features*](#simplelogin---most-advanced-features)
+    - [**Addy.io** - *Best Free Plan*](#addyio---best-free-plan)
+    - [**ForwardMail** - *Developer Focused*](#forwardmail---developer-focused)
+    - [**DuckDuckGo Email Protection** - Simplest](#duckduckgo-email-protection---simplest)
+    - [**Apple Hide My Email** - iOS/Mac Users](#apple-hide-my-email---iosmac-users)
+  - [**🔧 General Email Providers with Aliasing**](#-general-email-providers-with-aliasing)
+    - [**AdGuard Mail** - *Free with Ad Blocking Focus*](#adguard-mail---free-with-ad-blocking-focus)
+    - [**33Mail** - *Simple and Affordable*](#33mail---simple-and-affordable)
+    - [**IronVest** - *All-in-One Privacy Suite*](#ironvest---all-in-one-privacy-suite)
+  - [**🚀 Emerging Providers**](#-emerging-providers)
+  - [**Other Notable Providers**](#other-notable-providers)
+    - [**AdGuard Email**](#️-adguard-email)
+    - [**ForwardMail**](#-forwardmail)
+    - [**33mail**](#-33mail)
+    - [**IronVest (formerly Blur)**](#-ironvest-formerly-blur)
+    - [**Erine.email**](#️-erineemail)
+    - [**AtomicMail.io**](#️-atomicmailio)
+    - [**NodeConnects**](#-nodeconnects)
+- [Provider Comparison Table](#-provider-comparison-table)
+  - [**Detailed Feature Links**](#detailed-feature-links)
+- [Detailed Pricing Comparison](#-detailed-pricing-comparison)
+  - [**Free Plans Comparison**](#-free-plans-comparison)
+  - [**Paid Plans Comparison**](#-paid-plans-comparison)
+  - [**Best Value by Price Range**](#-best-value-by-price-range)
+  - [**Feature Comparison Matrix**](#-feature-comparison-matrix)
+  - [**Value Comparison by Use Case**](#-value-comparison-by-use-case)
+  - [**Cost-Saving Tips**](#-cost-saving-tips)
+- [What Happens When Your Subscription Ends?](#what-happens-when-your-subscription-ends)
+  - [**Graceful Downgrade (Best)**](#-graceful-downgrade-best)
+  - [**Limited Access (Moderate)**](#-limited-access-moderate)
+  - [**Service Interruption (Risky)**](#-service-interruption-risky)
+  - [**Best Practices:**](#best-practices)
+- [Quick Start Guide](#-quick-start-guide)
+- [Additional Resources](#-additional-resources)
+- [**Contributing**](#-contributing)
+- [**License**](#-license)
 
 ---
 
-## Top Providers Overview
+## What is Email Aliasing? 
 
-Our research identifies **4 tiers** of email aliasing providers based on features, reliability, and value:
+Email aliasing is a privacy technique that lets you create multiple email addresses that all forward to your real inbox. Think of it like having multiple front doors to your house - visitors use different entrances, but they all lead to the same place.
 
-### 🥇 **Tier 1: Enterprise-Grade Leaders**
-<div align="center">
-
-| Provider | Key Strength | Best For | Rating |
-|----------|-------------|----------|---------|
-| [**Addy.io**](https://addy.io) | Advanced features & transparency | Power users & developers | ⭐⭐⭐⭐⭐ |
-| [**SimpleLogin**](https://simplelogin.io) | Proton backing & reliability | Business & Proton users | ⭐⭐⭐⭐⭐ |
-
-</div>
-
-### 🥈 **Tier 2: Ecosystem Integrations**
-<div align="center">
-
-| Provider | Key Strength | Best For | Rating |
-|----------|-------------|----------|---------|
-| [**Apple Hide My Email**](https://support.apple.com/en-us/105078) | Native iOS/macOS integration | Apple ecosystem users | ⭐⭐⭐⭐ |
-| [**Firefox Relay**](https://relay.firefox.com) | Browser integration | Firefox users | ⭐⭐⭐⭐ |
-| [**DuckDuckGo Email Protection**](https://duckduckgo.com/email) | Simple & free | Basic privacy needs | ⭐⭐⭐ |
-
-</div>
-
-### 🥉 **Tier 3: Specialized Solutions**
-<div align="center">
-
-| Provider | Key Strength | Best For | Rating |
-|----------|-------------|----------|---------|
-| [**33Mail**](https://33mail.com) | Unlimited free aliases | Budget-conscious users | ⭐⭐⭐ |
-</div>
-
-### 🆕 **Tier 4: Emerging & Niche**
-<div align="center">
-
-| Provider | Key Strength | Best For | Rating |
-|----------|-------------|----------|---------|
-| [**Proton Pass**](https://proton.me/pass) | Integrated password manager | Proton ecosystem | ⭐⭐⭐⭐ |
-
-</div>
+**Simple Example:**
+- Your real email: `john.doe@gmail.com`
+- Your alias for shopping: `shopping.alias@provider.com`
+- Your alias for newsletters: `news.alias@provider.com`
+- Both aliases forward emails to your real Gmail account
 
 ---
 
-## Complete Provider Comparison
+## Why Use Email Aliasing?
 
-### Primary Providers Deep Dive
+### **Privacy Protection**
+- Hide your real email address from websites and services
+- Prevent companies from tracking you across different platforms
+- Keep your personal email private
 
-#### 🏅 **Addy.io**
+### **Spam Prevention**
+- Create disposable aliases for one-time signups
+- Easily block spam by deactivating compromised aliases
+- Keep your main inbox clean
 
-<img src="https://addy.io/assets/img/logo-dark.svg" alt="Addy.io" width="200"/>
+### **Security Benefits**
+- Reduce risk of your main email being exposed in data breaches
+- Limit damage if one alias gets compromised
+- Better control over who can contact you
 
-**Founded**: 2019 | **Developer**: Will Browning | **Base**: UK | **Open Source**: ✅
-
-**Strengths**:
-- 🔧 Granular bandwidth monitoring and controls
-- 📊 Detailed analytics and usage statistics  
-- 🛠️ Advanced filtering and rules engine
-- 💰 Most affordable premium pricing
-- 📖 Comprehensive documentation
-- ⚡ API for developers and integrations
-- 🔒 Strong security with 2FA and GPG support
-
-**Considerations**:
-- ⚠️ Single developer dependency
-- 📍 Limited server locations (Amsterdam, Warsaw)
-- 💳 Stricter subscription cancellation policies
-- 🔄 Smaller support team
-
-**Best For**: Technical users, developers, budget-conscious professionals
+### **Organization**
+- Use different aliases for different purposes (work, shopping, social media)
+- Track which services share or sell your email
+- Organize incoming emails by source
 
 ---
 
-#### 🏅 **SimpleLogin**
+## How Email Aliasing Works
 
-<img src="https://simplelogin.io/logo.svg" alt="SimpleLogin" width="200"/>
+**Website/App** → **Alias Provider** → **Your Inbox**
 
-**Founded**: 2019 | **Owner**: Proton AG | **Base**: Switzerland | **Open Source**: ✅
+When you use an email alias, emails sent to your alias are automatically forwarded to your real email address by the alias provider.
 
-**Strengths**:
-- 🏢 Backed by Proton's infrastructure and expertise
-- 🌐 Generous free tier with unlimited bandwidth
-- 🔄 Lenient subscription cancellation policies
-- 🛡️ Enterprise-grade security and compliance
-- 🔗 Integration with Proton ecosystem
-- 🌍 Multiple server locations
-- 👥 Dedicated support team
-
-**Considerations**:
-- 💰 Higher pricing for advanced features
-- 📊 Fewer granular analytics
-- 🔧 Less customization vs. independent alternatives
-- 🎯 Focused on simplicity over advanced features
-
-**Best For**: Business users, Proton ecosystem users, set-and-forget approach
+### **Step-by-Step Process:**
+1. **Create an alias** through your chosen provider
+2. **Use the alias** when signing up for websites or services
+3. **Emails are forwarded** from the alias to your real inbox
+4. **You can reply** through the alias (your real email stays hidden)
+5. **Manage aliases** - deactivate, delete, or organize as needed
 
 ---
 
-### Alternative Providers Analysis
+### **Specialized Email Aliasing Providers**
 
-#### 🍎 **Apple Hide My Email**
-- **Integration**: Native iOS 15+/macOS 12+
-- **Limitations**: Apple ecosystem only, limited management
-- **Cost**: Free with iCloud+
-- **Best For**: Apple users wanting seamless integration
+#### **SimpleLogin** - *Most Advanced Features*
+- **Best for:** Power users who need advanced features
+- **Strengths:** Comprehensive feature set, owned by Proton
+- **Open Source:** ✅ Full open source
+- **Website:** [simplelogin.io](https://simplelogin.io/)
 
-#### 🦊 **Firefox Relay**
-- **Integration**: Firefox browser extension
-- **Features**: 5 free aliases, phone masking on premium
-- **Cost**: Free tier, $0.99/month premium
-- **Best For**: Firefox users, basic privacy needs
+#### **Addy.io** - *Best Free Plan*
+- **Best for:** Beginners and users wanting unlimited free aliases
+- **Strengths:** Generous free plan, mobile apps
+- **Open Source:** ✅ Full open source  
+- **Website:** [addy.io](https://addy.io/)
 
-#### 🦆 **DuckDuckGo Email Protection**
-- **Features**: Unlimited aliases, tracker removal
-- **Limitations**: Beta, limited management features
-- **Cost**: Free
-- **Best For**: DuckDuckGo users, simple needs
+#### **ForwardMail** - *Developer Focused*
+- **Best for:** Developers and technical users
+- **Strengths:** API access, custom domain support
+- **Open Source:** ✅ Full open source
+- **Website:** [forwardemail.net](https://forwardemail.net/en)
 
-#### 📧 **33Mail**
-- **Features**: Unlimited free aliases with custom domains
-- **Limitations**: Basic interface, limited features
-- **Cost**: Free with optional donations
-- **Best For**: Budget users, simple forwarding
+#### **DuckDuckGo Email Protection** - Simplest
+- **Website:** https://duckduckgo.com/email/
+- **Best For:** Beginners who want something simple and free
+- **Highlights:** Free unlimited shared aliases with unlimited replies
 
----
+#### **Apple Hide My Email** - iOS/Mac Users
+- **Website:** https://support.apple.com/en-us/105078
+- **Best For:** Apple ecosystem users with iCloud+
+- **Highlights:** Built into Sign in with Apple and iCloud+
 
-## Addy.io vs SimpleLogin - Detailed Head-to-Head
+### **General Email Providers with Aliasing**
 
-The two leading email aliasing providers deserve a comprehensive comparison. We've created an in-depth analysis covering every aspect from pricing to performance.
+#### **AdGuard Mail** - *Free with Ad Blocking Focus*
+- **Best for:** Users already using AdGuard products
+- **Strengths:** Free service, integrates with AdGuard ecosystem
+- **Website:** [adguard-mail.com](https://adguard-mail.com/en/welcome.html)
 
-<div align="center">
+#### **33Mail** - *Simple and Affordable*
+- **Best for:** Basic aliasing needs
+- **Strengths:** Simple interface, cheap premium option
+- **Website:** [33mail.com](https://33mail.com/)
 
-[![Detailed Comparison](https://img.shields.io/badge/Read%20Full%20Comparison-Addy.io%20vs%20SimpleLogin-blue?style=for-the-badge)](addy-vs-simplelogin.md)
+#### **IronVest** - *All-in-One Privacy Suite*
+- **Best for:** Users wanting comprehensive privacy tools
+- **Strengths:** Includes password manager, virtual cards
+- **Website:** [ironvest.com](https://ironvest.com/masked-email/)
 
-</div>
+### **Emerging Providers**
 
-### Quick Summary
+- **Erine.email** - [erine.email](https://erine.email)
+- **AtomicMail.io** - [atomicmail.io](https://atomicmail.io/create-email-alias)
+- **NodeConnects** - [nodeconnects.com](https://www.nodeconnects.com/)
 
-| Aspect | 🏆 Winner | Why |
-|--------|-----------|-----|
-| **Best for Beginners** | SimpleLogin | Easier setup, better UX |
-| **Best Value** | Addy.io | More features per dollar |
-| **Most Reliable** | SimpleLogin | Enterprise backing |
-| **Advanced Features** | Addy.io | Rules, analytics, webhooks |
+### **Other Notable Providers**
 
-**👉 [Read the complete comparison](addy-vs-simplelogin.md) for detailed analysis, migration guides, and recommendations.**
+#### **AdGuard Email**
+- **Website:** https://adguard-mail.com/en/welcome.html
+- **Focus:** Privacy-focused with ad blocking integration
 
----
+#### **ForwardMail**
+- **Website:** https://forwardemail.net/en
+- **Focus:** Open-source, developer-friendly
 
-## Pricing Analysis
+#### **33mail**
+- **Website:** https://33mail.com/
+- **Focus:** Simple forwarding service
 
-### Free Tier Comparison
+#### **IronVest (formerly Blur)**
+- **Website:** https://ironvest.com/masked-email/
+- **Focus:** All-in-one privacy suite
 
-| Provider | Aliases | Bandwidth | Reply/Send | Recipients | Custom Domains |
-|----------|---------|-----------|------------|------------|----------------|
-| **Addy.io** | Unlimited¹ | 10MB/month | ❌ | 1 | ❌ |
-| **SimpleLogin** | 10 | Unlimited | ✅ | 1 | ❌ |
-| **DuckDuckGo** | Unlimited | Unlimited | ❌ | 1 | ❌ |
-| **33Mail** | Unlimited | 10MB/month | ❌ | 1 | ✅ |
-| **Firefox Relay** | 5 | Unlimited | ❌ | 1 | ❌ |
+#### **Erine.email**
+- **Website:** https://erine.email
+- **Focus:** Minimalist approach
 
-¹ *Standard aliases only; shared domain aliases limited*
+#### **AtomicMail.io**
+- **Website:** https://atomicmail.io/create-email-alias
+- **Focus:** Business-oriented features
 
-### Premium Pricing Analysis ($USD/month)
+#### **NodeConnects**
+- **Website:** https://www.nodeconnects.com/
+- **Focus:** Developer tools integration
 
-#### Entry Level ($1-3/month)
-| Provider | Price | Aliases | Bandwidth | Key Features |
-|----------|-------|---------|-----------|--------------|
-| **Addy.io Lite** | $1 | Unlimited | 100MB | 50 shared domains, 5 recipients |
-| **Firefox Relay Premium** | $0.99 | Unlimited | Unlimited | Phone masking, custom subdomain |
+## Provider Comparison Table
 
-#### Professional ($3-5/month)
-| Provider | Price | Aliases | Bandwidth | Key Features |
-|----------|-------|---------|-----------|--------------|
-| **SimpleLogin Premium** | $4 | Unlimited | Unlimited | Unlimited domains & recipients |
-| **Addy.io Pro** | $4 | Unlimited | Unlimited | 30 recipients, 20 domains |
+| Provider | Free Plan | Paid Plans Start | Aliases Limit (Free) | Reply Support | PGP Encryption | Custom Domains | Open Source |
+|----------|-----------|------------------|----------------------|---------------|----------------|----------------|-------------|
+| **Addy.io** | ✅ Yes | $1/month | Unlimited | ✅ Yes | ✅ Yes | ✅ Paid plans | ✅ Yes |
+| **SimpleLogin** | ✅ Yes | $2.99/month | 10 | ✅ Yes | ✅ Paid plans | ✅ Paid plans | ✅ Yes |
+| **DuckDuckGo** | ✅ Yes | No paid plans | Unlimited | ✅ Yes | ❌ No | ❌ No | ❌ No |
+| **Apple Hide My Email** | iCloud+ required | $0.99/month (iCloud+) | Unlimited | ✅ Yes | ❌ No | ❌ No | ❌ No |
+| **AdGuard Email** | ✅ Yes | TBD | Limited | ✅ Yes | ❌ No | ❌ No | ❌ No |
+| **ForwardMail** | ✅ Yes | $3/month | 3 | ✅ Yes | ✅ Yes | ✅ Paid plans | ✅ Yes |
+| **33mail** | ✅ Yes | $1/month | Unlimited | ✅ Yes | ❌ No | ✅ Paid plans | ❌ No |
+| **IronVest** | ✅ Yes | $2.99/month | 5 | ✅ Yes | ❌ No | ❌ No | ❌ No |
 
-#### Enterprise/Advanced ($5+/month)
-| Provider | Price | Aliases | Bandwidth | Key Features |
-|----------|-------|---------|-----------|--------------|
-| **Proton Pass Plus** | $5 | Unlimited | Unlimited | Integrated password manager |
-| **Apple iCloud+** | $0.99-12.95 | Unlimited | Unlimited | Full Apple ecosystem |
+**Legend:**
+- ✅ Available
+- ❌ Not available
+- TBD: To be determined
 
-## Feature Matrix
+### **Detailed Feature Links**
+For specific capabilities beyond standard features, check each provider's documentation:
+- [SimpleLogin Features](https://simplelogin.io/docs/)
+- [Addy.io Features](https://addy.io/help/)
+- [DuckDuckGo Email Features](https://duckduckgo.com/email/)
+- [Apple Hide My Email Features](https://support.apple.com/en-us/105078)
 
-### Core Email Features
+## Detailed Pricing Comparison
 
-| Feature | Addy.io | SimpleLogin | Apple HME | Firefox Relay | DuckDuckGo | 33Mail |
-|---------|---------|-------------|-----------|---------------|------------|---------|
-| **Email Forwarding** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Reply from Alias** | ✅ (Paid) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| **Send from Alias** | ✅ (Paid) | ✅ | ✅ | ❌ | ❌ | ❌ |
-| **Catch-All Domains** | ✅ | ✅ (Paid) | ❌ | ❌ | ❌ | ✅ |
-| **Custom Domains** | ✅ (Paid) | ✅ (Paid) | ❌ | ✅ (Paid) | ❌ | ✅ |
-| **Multiple Recipients** | ✅ (Paid) | ✅ | ❌ | ❌ | ❌ | ❌ |
+### **Free Plans Comparison**
 
-### Security & Privacy Features
+| Provider | Free Aliases | Recipients | Bandwidth | Reply Support | Custom Domains | Notes |
+|----------|--------------|------------|-----------|---------------|----------------|-------|
+| **Addy.io** | Unlimited standard + 10 active shared | 1 | 10MB/month | ✅ Yes | ❌ No | Most generous free plan |
+| **DuckDuckGo** | Unlimited shared | N/A | Unlimited | ✅ Yes | ❌ No | Completely free forever |
+| **SimpleLogin** | 10 | 1 mailbox | Unlimited | ✅ Yes | ❌ No | Quality over quantity |
+| **AdGuard Mail** | 10 | 1 | 2,000 emails/month | Limited | ❌ No | Basic forwarding |
+| **33Mail** | Unlimited | Multiple | 10MB/month | Limited | ❌ No | Simple interface |
+| **ForwardMail** | Unlimited (forwarding only) | Multiple | 50MB attachments | ✅ Yes | ✅ Yes | Developer-friendly |
 
-| Feature | Addy.io | SimpleLogin | Apple HME | Firefox Relay | DuckDuckGo | 33Mail |
-|---------|---------|-------------|-----------|---------------|------------|---------|
-| **GPG/PGP Encryption** | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **2FA Support** | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
-| **Open Source** | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
-| **Self-Hosting** | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **Tracker Blocking** | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
-| **Email Encryption** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+### **Paid Plans Comparison**
 
-### Platform & Integration Support
+| Provider | Plan | Monthly Cost | Annual Cost | Aliases | Custom Domains | Key Features |
+|----------|------|--------------|-------------|---------|----------------|--------------|
+| **Addy.io** | Lite | $1 | $12 | 50 active shared | 1 | 5 recipients, 100MB bandwidth |
+| **Addy.io** | Pro | $4 | $36 | Unlimited | 20 | 30 recipients, unlimited bandwidth |
+| **SimpleLogin** | Premium | $4 | $36 | Unlimited | Unlimited | PGP encryption, Proton Pass included |
+| **33Mail** | Premium | $1 | $12 | Unlimited | 1 | 50MB bandwidth, 20 replies/day |
+| **33Mail** | Pro | $5 | $60 | Unlimited | 5 | 500MB bandwidth, 100 replies/day |
+| **ForwardMail** | Enhanced | $3 | $36 | Unlimited | Unlimited | Full email hosting, 10GB storage |
+| **ForwardMail** | Team | $9 | $108 | Unlimited | Unlimited | Team management, priority support |
+| **IronVest** | Plus | $3.25 | $39 | 50 masked emails | ❌ No | Password manager, virtual cards |
+| **IronVest** | Ultimate | $8.25 | $99 | Unlimited | ❌ No | All features, priority support |
 
-| Feature | Addy.io | SimpleLogin | Apple HME | Firefox Relay | DuckDuckGo | 33Mail |
-|---------|---------|-------------|-----------|---------------|------------|---------|
-| **Browser Extensions** | ✅ (All major) | ✅ (Chrome, Firefox, Safari) | ✅ (Safari) | ✅ (Firefox) | ✅ (All major) | ❌ |
-| **Mobile Apps** | ✅ (iOS, Android) | ✅ (iOS, Android) | ✅ (Native iOS) | ❌ | ❌ | ❌ |
-| **API Access** | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **Webhook Support** | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| **Email Client Integration** | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+### **Best Value by Price Range**
 
-### Management & Analytics
+| Price Range | Best Overall | Best for Privacy | Best for Developers | Best for Teams |
+|-------------|--------------|------------------|-------------------|----------------|
+| **Free** | Addy.io | DuckDuckGo | ForwardMail | N/A |
+| **$1-2/month** | Addy.io Lite | SimpleLogin Premium | 33Mail Premium | N/A |
+| **$3-5/month** | SimpleLogin Premium | SimpleLogin Premium | ForwardMail Enhanced | N/A |
+| **$5+/month** | ForwardMail Team | IronVest Ultimate | ForwardMail Team | ForwardMail Team |
 
-| Feature | Addy.io | SimpleLogin | Apple HME | Firefox Relay | DuckDuckGo | 33Mail |
-|---------|---------|-------------|-----------|---------------|------------|---------|
-| **Usage Analytics** | ✅ (Detailed) | ✅ (Basic) | ✅ (Basic) | ✅ (Basic) | ❌ | ❌ |
-| **Bandwidth Monitoring** | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| **Rules & Filters** | ✅ (Advanced) | ✅ (Basic) | ❌ | ❌ | ❌ | ❌ |
-| **Subdomain Support** | ✅ | ✅ (Paid) | ❌ | ✅ (Paid) | ❌ | ✅ |
-| **Bulk Management** | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **Export/Import** | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+### **Feature Comparison Matrix**
 
+| Feature | Addy.io Pro | SimpleLogin Premium | ForwardMail Enhanced | IronVest Plus | 33Mail Pro |
+|---------|-------------|-------------------|-------------------|---------------|------------|
+| **Price/month** | $3-4 | $3-4 | $3 | $3.25 | $5 |
+| **Unlimited Aliases** | ✅ | ✅ | ✅ | ❌ (50) | ✅ |
+| **Custom Domains** | ✅ (20) | ✅ Unlimited | ✅ Unlimited | ❌ | ✅ (5) |
+| **PGP Encryption** | ✅ | ✅ | ✅ | ❌ | ❌ |
+| **Mobile Apps** | ✅ | ✅ | ❌ | ✅ | ❌ |
+| **API Access** | ✅ | ✅ | ✅ | ❌ | ❌ |
+| **Full Email Hosting** | ❌ | ❌ | ✅ | ❌ | ❌ |
+| **Password Manager** | ❌ | ✅ (Proton Pass) | ❌ | ✅ | ❌ |
+| **Virtual Cards** | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **Open Source** | ✅ | ✅ | ✅ | ❌ | ❌ |
 
-### Rate Limits & Quotas
+### **Value Comparison by Use Case**
 
-| Limit Type | Addy.io | SimpleLogin | Apple HME | Firefox Relay | DuckDuckGo |
-|------------|---------|-------------|-----------|---------------|------------|
-| **Alias Creation Rate** | 10/hour (free)<br>50/hour (pro) | No hourly limits | 5/minute | 10/day | No limits |
-| **Email Forward Rate** | 200/hour per user | Unlimited | Unlimited | 100/hour | Unlimited |
-| **Bandwidth Limits** | 10MB/100MB/∞ | Unlimited | Unlimited | Unlimited | Unlimited |
-| **API Rate Limits** | 60/minute | 100/minute | N/A | N/A | N/A |
+| Use Case | Best Option | Cost | Why |
+|----------|-------------|------|-----|
+| **Testing/Beginners** | DuckDuckGo or Addy.io Free | Free | No limits, easy setup |
+| **Personal Use** | Addy.io Lite or SimpleLogin Premium | $1-3/month | Custom domains, good features |
+| **Power Users** | SimpleLogin Premium or Addy.io Pro | $3-4/month | Unlimited everything, advanced features |
+| **Privacy-First** | SimpleLogin Premium | $3/month | PGP encryption, owned by Proton |
+| **All-in-One** | IronVest Plus | $3.25/month | Includes password manager, virtual cards |
+| **Developers** | ForwardMail Enhanced | $3/month | Full email hosting, API access |
+| **Budget-Conscious** | 33Mail Premium | $1/month | Basic but functional |
 
+### **Cost-Saving Tips**
+- **Start Free:** Test with free tiers before committing to paid plans
+- **Annual Billing:** Most providers offer 20-30% savings on annual plans
+- **Feature Matching:** Only pay for features you actually need
+- **Migration Planning:** Understand downgrade policies before upgrading
 
-## Subscription & Policy Analysis
+> **Pro Tip:** Start with a free provider like Addy.io or DuckDuckGo to test email aliasing, then upgrade or switch to a paid provider once you understand your needs.
 
-### Cancellation Policies Comparison
+## What Happens When Your Subscription Ends?
 
-<table>
-<tr>
-<th>Provider</th>
-<th>Immediate Effects</th>
-<th>Grace Period</th>
-<th>Feature Degradation</th>
-<th>Reactivation</th>
-</tr>
+Understanding what happens to your aliases when you stop paying is crucial for long-term planning:
 
-<tr>
-<td><strong>Addy.io</strong></td>
-<td>⚠️ Most features disabled<br>Custom domains deactivated</td>
-<td>Few days warning</td>
-<td>❌ Aggressive downgrade<br>Only free tier remains</td>
-<td>✅ Full restoration<br>upon renewal</td>
-</tr>
+### **Graceful Downgrade (Best)**
+- **Addy.io:** Aliases continue working but limited to 10 active
+- **AdGuard Mail:** Always free, no concerns
 
-<tr>
-<td><strong>SimpleLogin</strong></td>
-<td>✅ All features continue<br>No immediate impact</td>
-<td>No disruption</td>
-<td>⚠️ Gradual limitation<br>New alias creation only</td>
-<td>✅ Seamless<br>reactivation</td>
-</tr>
+### **Limited Access (Moderate)**
+- **SimpleLogin:** Downgrades to free plan, keeps unlimited aliases
+- **33Mail:** Loses custom domain, keeps basic forwarding
 
-<tr>
-<td><strong>Apple HME</strong></td>
-<td>❌ Service stops immediately<br>if iCloud+ cancelled</td>
-<td>None</td>
-<td>❌ Complete loss<br>of functionality</td>
-<td>✅ Immediate restoration<br>with resubscription</td>
-</tr>
+### **Service Interruption (Risky)**
+- **IronVest:** Aliases may stop working after grace period
+- **Apple Hide My Email:** Requires active iCloud+ subscription
+- **Some providers:** Complete service suspension
 
-<tr>
-<td><strong>Firefox Relay</strong></td>
-<td>⚠️ Limited to 5 aliases<br>Premium features disabled</td>
-<td>None</td>
-<td>⚠️ Moderate downgrade<br>Basic functionality remains</td>
-<td>✅ Quick restoration<br>within hours</td>
-</tr>
-
-</table>
-
-### Data Portability & Migration
-
-| Provider | Export Options | Import Support | Migration Tools | Data Format |
-|----------|---------------|----------------|-----------------|-------------|
-| **Addy.io** | ✅ CSV, JSON, API | ✅ CSV import | 🔧 CLI tools | JSON, CSV |
-| **SimpleLogin** | ✅ CSV export | ✅ Manual setup | 📱 Mobile app transfer | CSV |
-| **Apple HME** | ❌ No export | ❌ No import | ❌ No tools | N/A |
-| **Firefox Relay** | ⚠️ Limited export | ❌ No import | ❌ No tools | Basic CSV |
-| **DuckDuckGo** | ❌ No export | ❌ No import | ❌ No tools | N/A |
-
-
-### Business Continuity Analysis
-
-| Risk Factor | Addy.io | SimpleLogin | Apple HME | Firefox Relay | DuckDuckGo |
-|-------------|---------|-------------|-----------|---------------|------------|
-| **Single Point of Failure** | ⚠️ One developer | ✅ Team/company | ✅ Large corp | ✅ Organization | ✅ Company |
-| **Financial Stability** | ⚠️ Individual | ✅ Proton-backed | ✅ Apple-backed | ✅ Mozilla-backed | ✅ VC-funded |
-| **Technical Dependency** | ⚠️ Personal infra | ✅ Enterprise | ✅ Enterprise | ✅ Enterprise | ✅ Enterprise |
-| **Succession Planning** | ❌ None known | ✅ Corporate | ✅ Corporate | ✅ Corporate | ✅ Corporate |
+### **Best Practices:**
+1. **Export your aliases** before subscription expires
+2. **Update critical accounts** to use your primary email
+3. **Consider keeping one premium service** for important aliases
+4. **Use free tiers** as backup options
 
 ---
 
-### Best Practices
+## Quick Start Guide
 
-#### Alias Naming Strategy
-- **Descriptive**: Immediately identify the source
-- **Categorized**: Group by type (shopping, social, work)
-- **Dated**: Include signup year for tracking
-- **Hierarchical**: Use dots for sub-categories
-
-#### Security Guidelines
-1. **Never reuse aliases** across related services
-2. **Use unique passwords** for each alias-linked account
-3. **Monitor breach notifications** for compromised aliases
-4. **Regular cleanup** of unused aliases
-5. **Document important aliases** securely
-
-#### Privacy Optimization
-- **Disable unnecessary analytics** in provider settings
-- **Use different aliases** for different threat models
-- **Avoid pattern-based aliases** that reveal identity
-- **Consider rotating aliases** for high-security accounts
-
----
-
-## Integration & Tools
-
-### Browser Extensions Comparison
-
-| Feature | Addy.io | SimpleLogin | DuckDuckGo | Firefox Relay |
-|---------|---------|-------------|------------|---------------|
-| **Auto-fill Forms** | ✅ | ✅ | ✅ | ✅ |
-| **One-click Generation** | ✅ | ✅ | ✅ | ✅ |
-| **Disable/Enable Toggle** | ✅ | ✅ | ❌ | ✅ |
-| **Usage Statistics** | ✅ | ✅ | ❌ | ❌ |
-| **Custom Domains** | ✅ | ✅ | ❌ | ✅ |
-| **Cross-browser Sync** | ✅ | ✅ | ✅ | ✅ |
-
----
-
-## Security Best Practices
-
-### Account Security
-
-#### Essential Security Measures
-1. **Enable 2FA** on your aliasing provider account
-2. **Use unique, strong password** (20+ characters)
-3. **Regular security audits** of active aliases
-4. **Monitor for unauthorized access** in account logs
-5. **Set up account recovery** alternatives
-
-#### Advanced Security Configuration
-```bash
-# Example security checklist:
-□ 2FA enabled with backup codes saved
-□ API keys rotated monthly  
-□ Webhook endpoints secured with HTTPS
-□ Failed login monitoring enabled
-□ Regular export/backup of alias list
-□ Custom domain DNS security (DNSSEC)
-```
-
----
+1. **Choose a provider** based on your needs and budget
+2. **Sign up** and verify your primary email address
+3. **Create your first alias** for a new account signup
+4. **Test the forwarding** by sending yourself an email
+5. **Gradually migrate** existing accounts to use aliases
+6. **Set up filters** in your email client for better organization
 
 ## Additional Resources
 
-### Official Documentation & Support
+- [Privacy Guides - Email Aliasing](https://www.privacyguides.org/en/email-aliasing/)
+- [The New Oil - Email Aliasing Guide](https://thenewoil.org/en/guides/moderately-important/email-aliasing/)
+- [Proton - What is Email Alias](https://proton.me/blog/what-is-email-alias)
+- [Tuta - Secure Email Alias](https://tuta.com/blog/secure-email-alias)
+- [All Things Secured - Email Alias Guide](https://www.allthingssecured.com/identity-protection/what-is-an-email-alias/)
 
-#### Primary Providers
-| Provider | Documentation | FAQ | Support | GitHub |
-|----------|--------------|-----|---------|--------|
-| **Addy.io** | [📖 Help Center](https://addy.io/help/) | [❓ FAQ](https://addy.io/faq/) | [✉️ Email](mailto:support@addy.io) | [🐙 GitHub](https://github.com/anonaddy/anonaddy) |
-| **SimpleLogin** | [📖 Docs](https://simplelogin.io/docs/) | [❓ FAQ](https://simplelogin.io/faq/) | [✉️ Email](mailto:support@simplelogin.io) | [🐙 GitHub](https://github.com/simple-login/app) |
+---
 
-#### Alternative Providers
-- [🍎 Apple Hide My Email Support](https://support.apple.com/en-us/105078)
-- [🦊 Firefox Relay Help](https://support.mozilla.org/en-US/products/relay)
-- [🦆 DuckDuckGo Email Protection](https://duckduckgo.com/email/)
+## **Contributing**
 
-### Community Resources & Guides
+Found an error or want to add a provider? Contributions are welcome!
 
-#### Expert Privacy Guides
-- [📘 The New Oil: Email Aliasing Guide](https://thenewoil.org/en/guides/moderately-important/email-aliasing/)
-- [🛡️ Privacy Guides: Email Aliasing](https://www.privacyguides.org/en/email-aliasing/)
-- [🔒 Surveillance Self-Defense: Email](https://ssd.eff.org/en/module/how-use-email-more-securely)
+1. Fork this repository
+2. Make your changes
+3. Submit a pull request
 
-#### Technical Deep Dives
-- [📊 Email Aliasing Security Analysis](https://blog.privacyguides.org/2022/04/21/email-aliasing-guide/)
-- [🔧 Self-Hosting Email Aliases](https://github.com/anonaddy/anonaddy/wiki/Self-Hosting)
-- [⚡ Email Forwarding Performance Testing](https://www.fastmail.com/help/technical/aliasing.html)
+---
 
-### Tools & Extensions
+## **License**
 
-#### Browser Extensions
-| Browser | Addy.io | SimpleLogin | DuckDuckGo | Firefox Relay |
-|---------|---------|-------------|------------|---------------|
-| **Chrome** | [🟢 Install](https://chrome.google.com/webstore/detail/addy-io/iadbdpnoknmbdeolbapdackdcogdmjpe) | [🟢 Install](https://chrome.google.com/webstore/detail/simplelogin/dphilobhebphkdjbpfohgikllaljmgbn) | [🟢 Install](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essen/bkdgflcldnnnapblkhphbgpggdiikppg) | ❌ |
-| **Firefox** | [🟠 Install](https://addons.mozilla.org/en-US/firefox/addon/addy_io/) | [🟠 Install](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/) | [🟠 Install](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/) | [🟠 Built-in](https://relay.firefox.com) |
-| **Safari** | [🔵 Install](https://apps.apple.com/app/addy-io-safari-extension/id1547461517) | [🔵 Install](https://apps.apple.com/app/simplelogin/id1494051017) | [🔵 Install](https://apps.apple.com/app/duckduckgo-privacy-browser/id663592361) | ❌ |
-| **Edge** | [🟦 Install](https://microsoftedge.microsoft.com/addons/detail/addyio/gmahfpfcpgpoaoejnamgljhnnmihkgil) | [🟦 Install](https://microsoftedge.microsoft.com/addons/detail/simplelogin/pfpbjlnhfgpklmnkdhmhigpejgbnkenf) | [🟦 Install](https://microsoftedge.microsoft.com/addons/detail/duckduckgo-privacy-essen/caoacbimdbbljakfhgikoodekdnlcgpk) | ❌ |
-
-#### Mobile Applications
-| Platform | Addy.io | SimpleLogin | DuckDuckGo | Notes |
-|----------|---------|-------------|------------|-------|
-| **iOS** | [📱 App Store](https://apps.apple.com/app/addy-io/id1547461270) | [📱 App Store](https://apps.apple.com/app/simplelogin/id1494359858) | [📱 App Store](https://apps.apple.com/app/duckduckgo-privacy-browser/id663592361) | Built-in Apple HME |
-| **Android** | [🤖 Play Store](https://play.google.com/store/apps/details?id=host.stjin.anonaddy) | [🤖 Play Store](https://play.google.com/store/apps/details?id=io.simplelogin.android) | [🤖 Play Store](https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android) | Various alternatives |
-| **F-Droid** | [🔓 F-Droid](https://f-droid.org/packages/host.stjin.anonaddy/) | [🔓 F-Droid](https://f-droid.org/packages/io.simplelogin.android.fdroid/) | [🔓 F-Droid](https://f-droid.org/packages/com.duckduckgo.mobile.android/) | Open source versions |
-
-
-## 🤝 Contributing
-
-### How to Contribute
-
-We welcome contributions to make this the most comprehensive email aliasing resource available!
-
-#### Ways to Contribute
-1. **🐛 Report Inaccuracies**: Found outdated information? Open an issue
-2. **📊 Add Providers**: Know of a missing service? Submit a PR with analysis
-3. **🔍 Update Pricing**: Providers change pricing regularly
-4. **📝 Improve Content**: Enhance explanations and guides
-5. **🌍 Translations**: Help make this guide accessible globally
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
+Made with ❤️ for digital privacy
 
-**Last Updated**: Tuesday, June 24, 2025
-
+**Star this repo if it helped you protect your email privacy!**
 </div>
