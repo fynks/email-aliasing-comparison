@@ -92,144 +92,63 @@ There are two main types of email aliasing solutions:
 
 **Dedicated Services:** Third-party providers specializing in alias management with advanced features like custom domains, PGP encryption, and detailed dashboards.
 
-### **🏆 Specialized Email Aliasing Providers**
+### **🏆 Top Email Aliasing Providers**
 
-#### **SimpleLogin** - *Most Advanced Features*
-- **Best for:** Power users who need advanced features
-- **Strengths:** Comprehensive feature set, owned by Proton
-- **Open Source:** ✅ Full open source
-- **Website:** [simplelogin.io](https://simplelogin.io/)
+- **[SimpleLogin](https://simplelogin.io/)** - *Most Advanced* | Power users, Proton-owned, full features | ✅ Open Source
+- **[Addy.io](https://addy.io/)** - *Best Free Plan* | Unlimited free aliases, mobile apps | ✅ Open Source  
+- **[ForwardMail](https://forwardemail.net/en)** - *Developer Focused* | API access, custom domains | ✅ Open Source
+- **[DuckDuckGo Email](https://duckduckgo.com/email/)** - *Simplest* | Free unlimited aliases with replies
+- **[Apple Hide My Email](https://support.apple.com/en-us/105078)** - *iOS/Mac* | iCloud+ users only
 
-#### **Addy.io** - *Best Free Plan*
-- **Best for:** Beginners and users wanting unlimited free aliases
-- **Strengths:** Generous free plan, mobile apps
-- **Open Source:** ✅ Full open source  
-- **Website:** [addy.io](https://addy.io/)
+### **Additional Providers**
 
-#### **ForwardMail** - *Developer Focused*
-- **Best for:** Developers and technical users
-- **Strengths:** API access, custom domain support
-- **Open Source:** ✅ Full open source
-- **Website:** [forwardemail.net](https://forwardemail.net/en)
+- **[AdGuard Mail](https://adguard-mail.com/en/welcome.html)** - Free with ad blocking
+- **[33Mail](https://33mail.com/)** - Simple & affordable
+- **[IronVest](https://ironvest.com/masked-email/)** - Privacy suite
+- **[Erine.email](https://erine.email)** - Minimalist
+- **[AtomicMail.io](https://atomicmail.io/create-email-alias)** - Business features
+- **[NodeConnects](https://www.nodeconnects.com/)** - Developer tools
 
-#### **DuckDuckGo Email Protection** - Simplest
-- **Website:** https://duckduckgo.com/email/
-- **Best For:** Beginners who want something simple and free
-- **Highlights:** Free unlimited shared aliases with unlimited replies
+## Provider Comparison
 
-#### **Apple Hide My Email** - iOS/Mac Users
-- **Website:** https://support.apple.com/en-us/105078
-- **Best For:** Apple ecosystem users with iCloud+
-- **Highlights:** Built into Sign in with Apple and iCloud+
+### **🆓 Free Providers**
 
-### **General Email Providers with Aliasing**
+| Provider | Free Aliases | Reply Support | Custom Domains | Encryption | Key Features |
+|----------|--------------|---------------|----------------|------------|--------------|
+| **DuckDuckGo** | Unlimited @duck.com | ✅ Auto | ❌ | ❌ | Tracker removal, simple setup |
+| **AdGuard Mail** | 10 aliases, temp email | ✅ Via inbox | ❌ | ❌ | 2K emails/month, ad blocking focus |
+| **Erine.email** | Unlimited | ❌ | ❌ | ❌ | Open source, minimalist |
+| **ForwardMail** | Unlimited (own domain) | ✅ Full mailbox | ✅ | ✅ TLS/E2EE | 10GB storage, developer-focused |
 
-#### **AdGuard Mail** - *Free with Ad Blocking Focus*
-- **Best for:** Users already using AdGuard products
-- **Strengths:** Free service, integrates with AdGuard ecosystem
-- **Website:** [adguard-mail.com](https://adguard-mail.com/en/welcome.html)
+### **💰 Paid Providers**
 
-#### **33Mail** - *Simple and Affordable*
-- **Best for:** Basic aliasing needs
-- **Strengths:** Simple interface, cheap premium option
-- **Website:** [33mail.com](https://33mail.com/)
+| Provider | Starting Price | Free Tier | Reply Support | Custom Domains | Encryption | Key Features |
+|----------|----------------|-----------|---------------|----------------|------------|--------------|
+| **Addy.io** | $1/mo (Lite) | Unlimited aliases | ❌ Free / ✅ Paid | ✅ | ✅ GPG/PGP | Mobile apps, best free plan |
+| **SimpleLogin** | $4/mo | 10 aliases | ✅ | ✅ Premium | ✅ PGP | Proton-owned, most advanced |
+| **33Mail** | $1/mo | Unlimited | ✅ 20/day free | ✅ Paid | ❌ | Simple interface, affordable |
+| **IronVest** | $3.25/mo ($39/yr) | 3 masked emails | ✅ | ❌ | ❌ | Privacy suite (cards, phone) |
+| **AtomicMail** | Free (basic) | 10 aliases | ✅ | ❌ | ✅ E2E | Self-destructing messages |
 
-#### **IronVest** - *All-in-One Privacy Suite*
-- **Best for:** Users wanting comprehensive privacy tools
-- **Strengths:** Includes password manager, virtual cards
-- **Website:** [ironvest.com](https://ironvest.com/masked-email/)
-
-### **Emerging Providers**
-
-- **Erine.email** - [erine.email](https://erine.email)
-- **AtomicMail.io** - [atomicmail.io](https://atomicmail.io/create-email-alias)
-- **NodeConnects** - [nodeconnects.com](https://www.nodeconnects.com/)
-
-### **Other Notable Providers**
-
-#### **AdGuard Email**
-- **Website:** https://adguard-mail.com/en/welcome.html
-- **Focus:** Privacy-focused with ad blocking integration
-
-#### **ForwardMail**
-- **Website:** https://forwardemail.net/en
-- **Focus:** Open-source, developer-friendly
-
-#### **33mail**
-- **Website:** https://33mail.com/
-- **Focus:** Simple forwarding service
-
-#### **IronVest (formerly Blur)**
-- **Website:** https://ironvest.com/masked-email/
-- **Focus:** All-in-one privacy suite
-
-#### **Erine.email**
-- **Website:** https://erine.email
-- **Focus:** Minimalist approach
-
-#### **AtomicMail.io**
-- **Website:** https://atomicmail.io/create-email-alias
-- **Focus:** Business-oriented features
-
-#### **NodeConnects**
-- **Website:** https://www.nodeconnects.com/
-- **Focus:** Developer tools integration
-
-## Provider Comparison Table
-
-| Provider | Free Aliases | Reply Support | Custom Domains | PGP/Encryption | Pricing |
-|----------|--------------|---------------|----------------|----------------|---------|
-| **SimpleLogin** | 10 aliases | ✅ Unlimited | ✅ Premium only | ✅ Premium only | $4/mo (unlimited aliases) |
-| **Addy.io** | Unlimited standard | ❌ No free replies | ✅ Paid plans | ✅ Even free | $1/mo (Lite), $4/mo (Pro) |
-| **DuckDuckGo** | Unlimited @duck.com | ✅ Auto | ❌ No | ❌ Plain forwarding | Free |
-| **AdGuard Mail** | Unlimited aliases & temp | ✅ Via your inbox | ❌ No | ❌ No | Free |
-| **ForwardMail** | Unlimited on own domain | ✅ Full mailbox | ✅ Yes | ✅ TLS/IMAP | Free (10GB), $3/10GB extra |
-| **33Mail** | Unlimited | ✅ 20/day free | ✅ Paid plans | ❌ No | $1/mo (50MB), $5/mo (500MB) |
-| **IronVest** | Up to 3 free trial | ✅ Forward | ❌ No | ❌ No | $39/yr (50), $99/yr (unlimited) |
-| **Erine.email** | Unlimited | ❌ Just forwarding | ❌ No | ❌ No | Free |
-| **AtomicMail** | Up to 10 | ✅ Full mailbox | ❌ No | ✅ End-to-end | Free (basic encryption) |
-
-**Legend:**
-- ✅ Available
-- ❌ Not available
-
-### **Detailed Feature Links**
-For specific capabilities beyond standard features, check each provider's documentation:
-- [SimpleLogin Features](https://simplelogin.io/docs/)
-- [Addy.io Features](https://addy.io/help/)
-- [DuckDuckGo Email Features](https://duckduckgo.com/email/)
-- [Apple Hide My Email Features](https://support.apple.com/en-us/105078)
+**Legend:** ✅ Available • ❌ Not available
 
 ---
 
-## Pricing Tiers
+## Quick Comparison by Use Case
 
-### **💚 Free**
-Perfect for basic users who need simple email forwarding.
+### **💚 Best Free Options**
+- **DuckDuckGo** - Unlimited aliases, tracker removal, zero setup
+- **AdGuard Mail** - 10 aliases + temp email, 2K monthly forwards
+- **ForwardMail** - Most features (requires own domain setup)
 
-| Provider | Best For | Key Limitations |
-|----------|----------|-----------------|
-| **DuckDuckGo** | Beginners | Basic features only |
-| **AdGuard Mail** | Ad blocker users | Limited aliases |
-| **Erine.email** | Minimal needs | No replies |
+### **💙 Best Value Paid ($1-3/month)**
+- **Addy.io Lite** ($1) - 50 shared aliases, 5 recipients, GPG encryption
+- **33Mail** ($1) - Custom domain, unlimited aliases, 20 replies/day
+- **IronVest** ($3.25) - All-in-one suite with virtual cards & phone
 
-### **💙 $1-3/month** 
-Ideal for regular users who need more features and reliability.
-
-| Provider | Price | Key Features |
-|----------|-------|--------------|
-| **Addy.io Lite** | $1/month | 1 custom domain, 5 recipients |
-| **33Mail Premium** | $1/month | 1 custom domain, 20 replies/day |
-| **ForwardMail Enhanced** | $3/month | Full email hosting, 10GB storage |
-
-### **💜 $4+/month**
-For power users and businesses with advanced needs.
-
-| Provider | Price | Advanced Features |
-|----------|-------|------------------|
-| **SimpleLogin Premium** | $4/month | Unlimited aliases, PGP, Proton Pass |
-| **Addy.io Pro** | $4/month | 20 custom domains, unlimited bandwidth |
-| **IronVest Plus** | $3.25/month | Password manager, virtual cards |
+### **💜 Premium Features ($4+/month)**
+- **SimpleLogin** ($4) - Unlimited aliases, PGP, Proton ecosystem
+- **Addy.io Pro** ($3-4) - 20 domains, unlimited bandwidth
 
 ---
 
