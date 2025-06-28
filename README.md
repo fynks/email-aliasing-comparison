@@ -95,9 +95,11 @@ When you use an email alias, emails sent to your alias are automatically forward
 
 There are two main types of email aliasing solutions:
 
-**Built-in Aliases:** Many email providers offer free aliasing features like Gmail's `+` addressing (`yourname+tag@gmail.com`) or Apple's Hide My Email. These are free but often have limited management options.
+#### **Built-in Aliases:** 
+Many email providers offer free aliasing features like Gmail's `+` addressing (`yourname+tag@gmail.com`) or Apple's Hide My Email. These are free but often have limited management options.
 
-**Dedicated Services:** Third-party providers specializing in alias management with advanced features like custom domains, PGP encryption, and detailed dashboards.
+#### **Dedicated Services:** 
+Third-party providers specializing in alias management with advanced features like custom domains, PGP encryption, and detailed dashboards.
 
 ### **Top Email Aliasing Providers**
 
