@@ -14,22 +14,29 @@ A comprehensive, research-driven guide to email aliasing services—comparing 15
 </div>
 
 ## Table of Contents
-
-- [What is Email Aliasing?](#what-is-email-aliasing)
 - [Why Use Email Aliasing?](#why-use-email-aliasing)
 - [How Email Aliasing Works](#how-email-aliasing-works)
 - [Email Aliasing Providers](#email-aliasing-providers)
-- [Provider Comparison Table](#provider-comparison-table)
-- [Pricing Tiers](#pricing-tiers)
+  - [**Top Email Aliasing Providers**](#top-email-aliasing-providers)
+  - [**Additional Providers**](#additional-providers)
+- [Provider Comparison](#provider-comparison)
+  - [**Free Plans**](#-free-plans)
+  - [**Paid Plans**](#-paid-plans)
+- [Quick Comparison by Use Case](#quick-comparison-by-use-case)
+  - [**Best Free Options**](#-best-free-options)
+  - [**Best Value Paid ($1-3/month)**](#-best-value-paid-1-3month)
+  - [**Premium Features ($4+/month)**](#-premium-features-4month)
 - [What Happens When Your Subscription Ends?](#what-happens-when-your-subscription-ends)
+  - [**🟢 Graceful Downgrade (Best)**](#-graceful-downgrade-best)
+  - [**🟡 Limited Access (Moderate)**](#-limited-access-moderate)
+  - [**🔴 Service Interruption (Risky)**](#-service-interruption-risky)
 - [Getting Started Guide](#getting-started-guide)
-  - [**Value Comparison by Use Case**](#-value-comparison-by-use-case)
-  - [**Cost-Saving Tips**](#-cost-saving-tips)
-- [What Happens When Your Subscription Ends?](#what-happens-when-your-subscription-ends)
-- [Quick Start Guide](#-quick-start-guide)
-- [Additional Resources](#-additional-resources)
-- [**Contributing**](#-contributing)
-- [**License**](#-license)
+  - [**Step 1: Choose Your Provider**](#step-1-choose-your-provider)
+  - [**Step 2: Sign Up and Set Up**](#step-2-sign-up-and-set-up)
+  - [**Step 3: Best Practices**](#step-3-best-practices)
+- [**🔗 Additional Resources**](#-additional-resources)
+- [**🤝 Contributing**](#-contributing)
+- [**📄 License**](#-license)
 
 ---
 
