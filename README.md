@@ -120,32 +120,30 @@ Third-party providers specializing in alias management with advanced features li
 ## Provider Comparison
 
 ### **🆓 Free Plans**
-
-| Provider          | Free Aliases                                                 | Reply Support | Custom Domains | Monthly Limits | Encryption |
-| :---------------- | :----------------------------------------------------------- | :------------ | :------------- | :------------- | :--------- |
-| **Addy.io**       | Unlimited Standard Aliases / 10 Active Shared Domain Aliases | ❌             | ❌              | 10 mb          | ✅ GPG/PGP  |
-| **SimpleLogin**   | 10 aliases                                                   | ✅             | ❌              | Unlimited      | ✅ PGP      |
-| **DuckDuckGo**    | Unlimited @duck.com                                          | ❌             | ❌              | ❌              | ❌          |
-| **Firefox Relay** | 5                                                            | ❌             | ❌              | ❌              | ✅          |
-| **AdGuard Mail**  | 10 aliases                                                   | ❌             | ❌              | 2,000 emails   | ❌          |
-| **33Mail**        | Unlimited                                                    | ❌             | ❌              | 10MB           | ❌          |
-| **Erine.email**   | Unlimited                                                    | ❌             | ❌              | ❌              | ❌          |
-| **ForwardMail**   | Unlimited (own domain)                                       | ✅             | ✅              |                | ✅ TLS/E2EE |
-| **AtomicMail**    | 10 aliases                                                   | ✅             | ❌              | ❌              | ✅ E2E      |
+| Provider | Free Aliases | Reply Support | Custom Domains | Monthly Limits | Encryption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Addy.io** | Unlimited Standard Aliases / 10 Active Shared Domain Aliases | ❌ | ❌ | 10 mb | ✅ GPG/PGP |
+| **SimpleLogin** | 10 aliases | ✅ | ❌ | Unlimited | ✅ PGP |
+| **DuckDuckGo** | Unlimited @duck.com | ✅ | ❌ | ❌ | ❌ |
+| **Firefox Relay** | 5 | ❌ | ❌ | ❌ | ✅ |
+| **AdGuard Mail** | 10 aliases | ❌ | ❌ | 2,000 emails | ❌ |
+| **33Mail** | Unlimited | ❌ | ❌ | 10MB | ❌ |
+| **Erine.email** | Unlimited | ✅ | ❌ | ❌ | ❌ |
+| **ForwardMail** | Unlimited (own domain) | ✅ | ✅ |  | ✅ TLS/E2EE |
+| **AtomicMail** | 10 aliases | ✅ | ❌ | ❌ | ✅ E2E |
 
 ### **💰 Paid Plans**
-
-| Provider          | Starting Price       | Aliasis                                                      | Reply Support | Custom Domains | Encryption                                          |
-| :---------------- | :------------------- | :----------------------------------------------------------- | :------------ | :------------- | :-------------------------------------------------- |
-| **Addy.io**       | $1/mo (Lite)         | Unlimited Standard Aliases / 50 Active Shared Domain Aliases | ✅             | 1              | ✅ GPG/PGP                                           |
-|                   | $4/mo (Pro)          | Unlimited aliases / Unlimited Active Shared Domain Aliases   | ✅             | 20             | ✅ GPG/PGP                                           |
-| **SimpleLogin**   | $4/mo                | 10 aliases                                                   | ✅             | Unlimited      | ✅ PGP                                               |
-| **AdGuard Mail**  | $2.99/mo             | 1,000                                                        | ❌             | 1              | ❌                                                   |
-| **33Mail**        | $1/mo (Premium)      | Unlimited                                                    | ✅ 20/day      | 5              | ❌                                                   |
-|                   | $5/mo (Pro)          | Unlimited                                                    | ✅ 1000/day    | Unlimited      | ❌                                                   |
-|                   | $50/mo (Enterprise)  | Unlimited                                                    | ✅ 20/day free | ✅ Paid         | ❌                                                   |
-| **IronVest**      | $3.25/mo ($39/yr)    | 50 masked emails                                             | ✅             | ❌              | ❌                                                   |
-| **Hide My Email** | iCloud+ subscription | Unlimited                                                    | ✅             | ✅              | [Read This](https://support.apple.com/en-us/105078) |
+| Provider | Starting Price | Aliasis | Reply Support | Custom Domains | Encryption |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Addy.io** | $1/mo (Lite) | Unlimited Standard Aliases / 50 Active Shared Domain Aliases | ✅ | 1 | ✅ GPG/PGP |
+|  | $4/mo (Pro) | Unlimited aliases / Unlimited Active Shared Domain Aliases | ✅ | 20 | ✅ GPG/PGP |
+| **SimpleLogin** | $4/mo | 10 aliases | ✅ | Unlimited | ✅ PGP |
+| **AdGuard Mail** | $2.99/mo | 1,000 | ✅ | 1 | ❌ |
+| **33Mail** | $1/mo (Premium) | Unlimited | ✅ 20/day | 5 | ❌ |
+|  | $5/mo (Pro) | Unlimited | ✅ 1000/day | Unlimited | ❌ |
+|  | $50/mo (Enterprise) | Unlimited | ✅ 20/day free | ✅ Paid | ❌ |
+| **IronVest** | $3.25/mo ($39/yr) | 50 masked emails | ✅ | ❌ | ❌ |
+| **Hide My Email** | iCloud+ subscription | Unlimited |  |  |  |                                             | ✅             | ✅              | [Read This](https://support.apple.com/en-us/105078) |
 
 ---
 
