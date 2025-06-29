@@ -241,8 +241,6 @@ Premium features lost, back to 5 aliases
 - [Tuta - Secure Email Alias](https://tuta.com/blog/secure-email-alias)
 - [All Things Secured - Email Alias Guide](https://www.allthingssecured.com/identity-protection/what-is-an-email-alias/)
 
-**Last Updated:** January 2025 - Pricing and features verified from official sources.
-
 ---
 
 ## **Contributing**
@@ -266,5 +264,4 @@ Made with ❤️ for digital privacy
 
 **Star this repo if it helped you protect your email privacy!**
 
-*Comparison data last updated: January 29, 2025*
 </div>
