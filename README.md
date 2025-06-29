@@ -1,6 +1,6 @@
 <div align="center">
 
-# **Email Aliasing Providers Comparison**
+# **Email Aliasing Comparison**
 
 🛡️ **The Complete Guide to Email Privacy & Security**
 
