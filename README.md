@@ -99,34 +99,37 @@ Third-party providers specializing in alias management with advanced features li
 
 ## Provider Comparison
 
-### **Free Plans**
+::: tip 💡 This is a simplified comparison, For a detailed comaprison visit [Email Alias Providers Comparison](email-alais-providers/#quick-reference-table)
+:::
+
+### **Free Plans Detail**
 | Provider | Free Aliases | Reply Support | Custom Domains | Monthly Limits | Encryption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Addy.io** | Unlimited Standard + 10 Shared | ❌ | ❌ | 10 MB | ✅ GPG/OpenPGP |
-| **SimpleLogin** | 10 aliases | ✅ | ❌ | Unlimited | ✅ PGP |
-| **DuckDuckGo** | Unlimited @duck.com | ✅ | ❌ | Unlimited | ❌ |
-| **Firefox Relay** | 5 aliases | ❌ | ❌ | Unlimited | ❌ |
-| **AdGuard Mail** | 10 aliases | ❌ | ❌ | 2,000 emails | ❌ |
-| **33Mail** | Unlimited | ❌ | ❌ | 10 MB | ❌ |
-| **Erine.email** | Unlimited | ✅ | ❌ | Unlimited | ❌ |
-| **ForwardMail** | Unlimited (own domain) | ✅ | ✅ | 50 MB | ✅ TLS |
-| **Apple Hide My Email** | Unlimited | ✅ | ❌ | Unlimited | ❌ |
+| **Addy.io** | Unlimited Standard + 10 Shared | No | No | 10 MB | GPG/OpenPGP |
+| **SimpleLogin** | 10 aliases | Yes | No | Unlimited | PGP |
+| **DuckDuckGo** | Unlimited @duck.com | Yes | No | Unlimited | TLS |
+| **Firefox Relay** | 5 aliases | No | No | Unlimited | TLS |
+| **AdGuard Mail** | 10 aliases | No | No | 2,000 emails | TLS |
+| **33Mail** | Unlimited | No | No | 10 MB | TLS |
+| **Erine.email** | Unlimited | Yes | No | Unlimited | TLS |
+| **ForwardMail** | Unlimited (own domain) | Yes | Yes | 50 MB | TLS/Quantum |
+| **Apple Hide My Email** | Unlimited | Yes | No | Unlimited | TLS |
 
-### **Paid Plans**
+### **Paid Plans Detail**
 | Provider | Starting Price | Aliases | Reply Support | Custom Domains | Encryption |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Addy.io** | $1/mo (Lite) | Unlimited Standard + 50 Shared | ✅ | 1 | ✅ GPG/OpenPGP |
-|  | $3/mo (Pro) | Unlimited + Unlimited Shared | ✅ | 20 | ✅ GPG/OpenPGP |
-| **SimpleLogin** | $4/mo | Unlimited | ✅ | Unlimited | ✅ PGP |
-| **AdGuard Mail** | $2.99/mo | 1,000 | ✅ | 1 | ❌ |
-| **33Mail** | $1/mo (Premium) | Unlimited | ✅ 20/day | 5 | ❌ |
-|  | $5/mo (Pro) | Unlimited | ✅ 1000/day | Unlimited | ❌ |
-| **IronVest** |  ($39/yr) | 50 masked emails | ✅ | ❌ | ❌ |
-| **ForwardMail** | $3/mo (Enhanced) | Unlimited | ✅ | Unlimited | ✅ TLS |
-| **Apple Hide My Email** | $0.99/mo (iCloud+ 50GB) | Unlimited | ✅ | ✅ | ❌ |
-|  | $2.99/mo (iCloud+ 200GB) | Unlimited | ✅ | ✅ | ❌ |
+| **Addy.io** | $1/mo (Lite) | Unlimited Standard + 50 Shared | Yes | 1 | GPG/OpenPGP |
+|  | $3/mo (Pro) | Unlimited + Unlimited Shared | Yes | 20 | GPG/OpenPGP |
+| **SimpleLogin** | $4/mo | Unlimited | Yes | Unlimited | PGP |
+| **AdGuard Mail** | $2.99/mo | 1,000 | Yes | 1 | TLS |
+| **33Mail** | $1/mo (Premium) | Unlimited | Yes 20/day | 5 | TLS |
+|  | $5/mo (Pro) | Unlimited | Yes 1000/day | Unlimited | TLS |
+| **IronVest** | $39/yr ($3.25/mo) | 50 masked emails | Yes | No | TLS |
+| **ForwardMail** | $3/mo (Enhanced) | Unlimited | Yes | Unlimited | TLS/Quantum |
+| **Apple Hide My Email** | $0.99/mo (iCloud+ 50GB) | Unlimited | Yes | Yes | TLS |
+|  | $2.99/mo (iCloud+ 200GB) | Unlimited | Yes | Yes | TLS |
 
-<details> <summary><bold>Pricing Notes:</bold></summary>
+<details> <summary><bold>👉 Pricing Notes</bold></summary>
 
 Always refer to official pricing and feature pages for latest and up-to-date information.
 - [Addy.io](https://addy.io/#pricing)
