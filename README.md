@@ -1,4 +1,4 @@
-<div align="center">
+<div class="eac" align="center">
 
 # **Email Aliasing Comparison**
 

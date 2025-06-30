@@ -1,3 +1,8 @@
+---
+title: Addy.io vs SimpleLogin
+description: A comprehensive, unbiased comparison of Addy.io(AnonAddy) and SimpleLogin based on extensive testing, analysis, and real-world usage.
+---
+
 # Addy.io vs SimpleLogin: Complete Head-to-Head Comparison
 
 <div align="center">
