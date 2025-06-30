@@ -1,21 +1,10 @@
 {
-  "name": "favicon-generator",
-  "version": "1.0.0",
-  "description": "Generate favicons for the Awesome Email Aliasing website",
-  "main": "generate-favicons.js",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
   "scripts": {
-    "generate": "node generate-favicons.js"
-  },
-  "dependencies": {
-    "sharp": "^0.34.2",
-    "svg2png": "^4.1.1"
-  },
-  "keywords": [
-    "favicon",
-    "generator",
-    "email",
-    "aliasing"
-  ],
-  "author": "Awesome Email Aliasing",
-  "license": "MIT"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
 }
