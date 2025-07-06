@@ -1,10 +1,48 @@
 {
+  "name": "email-aliasing-comparison",
+  "version": "2.0.0",
+  "description": "A comprehensive comparison of pricing, features, and security of email alias providers including Addy.io, SimpleLogin, DuckDuckGo Email, and more",
+  "keywords": [
+    "email-aliasing",
+    "email-privacy",
+    "email-forwarding",
+    "privacy-tools",
+    "security",
+    "addy.io",
+    "simplelogin",
+    "duckduckgo-email",
+    "firefox-relay",
+    "email-comparison",
+    "privacy-guide",
+    "documentation"
+  ],
+  "homepage": "https://email-aliasing-comparison.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fynks/email-aliasing-comparison.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fynks/email-aliasing-comparison/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Email Aliasing Comparison Team",
+    "url": "https://email-aliasing-comparison.netlify.app"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "docs:dev": "vitepress dev --port 5173 --host 0.0.0.0",
+    "docs:build": "vitepress build --outDir dist",
+    "docs:preview": "vitepress preview --port 4173",
+    "docs:serve": "vitepress serve dist"
+  },
   "devDependencies": {
     "vitepress": "^1.6.3"
   },
-  "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/fynks"
   }
 }
