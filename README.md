@@ -4,12 +4,12 @@
 
 🛡️ **The Complete Guide to Email Privacy & Security**
 
-A comprehensive comparison of pricing, features, and security of email alias providers inlcuding Addy.io, SimpleLogin, Adguard-Mail, DuckDuckGo Email, ForwardMail, Apple Hide My Email, Firefox Relay, 33Mail, IronVest and Erine.email.
+A comprehensive comparison of pricing, features, and security of email alias providers including Addy.io, SimpleLogin, AdGuard Mail, DuckDuckGo Email, ForwardMail, Apple Hide My Email, Firefox Relay, 33Mail, IronVest and Erine.email.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fawesome-email-aliasing.pages.dev%2F&label=Website)](https://awesome-email-aliasing.pages.dev/)
-[![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison)](https://github.com/fynks/email-aliasing-comparison)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Femail-aliasing-comparison.netlify.app%2F&label=Website)](https://email-aliasing-comparison.netlify.app/)
+[![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=social)](https://github.com/fynks/email-aliasing-comparison)
 
 </div>
 
