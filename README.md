@@ -34,7 +34,6 @@ A comprehensive comparison of pricing, features, and security of email alias pro
 
 Email aliasing is a fundamental privacy technique that allows you to **create multiple email addresses that all forward to your real inbox**. This comprehensive guide compares the leading email alias providers to help you choose the best solution for your privacy and security needs.
 
----
 
 ## What is Email Aliasing? 
 
@@ -46,7 +45,6 @@ Email aliasing is a privacy technique that lets you create multiple email addres
 - Your alias for newsletters: `news.alias@provider.com`
 - Both aliases forward emails to your real Gmail account
 
----
 
 ## Benefits and Use Cases
 
@@ -70,7 +68,7 @@ Email aliasing is a privacy technique that lets you create multiple email addres
 - Track which services share or sell your email
 - Organize incoming emails by source automatically
 
----
+
 
 ## How Email Aliasing Works
 
@@ -91,7 +89,6 @@ Email aliasing works through a simple forwarding mechanism:
 
 **Dedicated Services**: Third-party providers specializing in alias management with advanced features like custom domains, encryption, detailed dashboards, and comprehensive privacy controls.
 
----
 
 ## Provider Categories
 
@@ -104,7 +101,7 @@ Services offering substantial free tiers or freemium models. Good for getting st
 ### Built-in Solutions
 Email aliasing features integrated into existing email providers or operating systems. Often the simplest to set up.
 
----
+
 
 ## Complete Provider Directory
 
@@ -209,7 +206,6 @@ Email aliasing features integrated into existing email providers or operating sy
 - **Key Features**: Seamless Apple ecosystem integration, @privaterelay.appleid.com domain, Sign in with Apple integration, custom domains (iCloud+)
 - **Starting Price**: $0.99/month (iCloud+ 50GB)
 
----
 
 ## Comparison Tables
 
@@ -260,7 +256,7 @@ Email aliasing features integrated into existing email providers or operating sy
 | **Apple iCloud+ 50GB** | $0.99/mo | Unlimited | ✓ Yes | ✓ Yes | Apple ecosystem integration |
 | **Apple iCloud+ 200GB** | $2.99/mo | Unlimited | ✓ Yes | ✓ Yes | More storage |
 
----
+
 
 ## Detailed Provider Analysis
 
@@ -311,7 +307,7 @@ Email aliasing features integrated into existing email providers or operating sy
 | **Session Management** | ✓ Standard | ✓ Advanced | SimpleLogin |
 | **Security Audits** | ✓ 2023 (Securitum) | ✓ Regular audits | SimpleLogin |
 
----
+
 
 ## Cancellation Policies
 
@@ -359,7 +355,6 @@ Understanding what happens when you stop paying is crucial for long-term plannin
 ### Recommendation
 Always test the free tier first and understand the downgrade policy before committing to any paid plan.
 
----
 
 ## Use Case Recommendations
 
@@ -440,7 +435,7 @@ Always test the free tier first and understand the downgrade policy before commi
 - Webhook support
 - Enterprise-grade infrastructure
 
----
+
 
 ## Getting Started Guide
 
@@ -520,7 +515,7 @@ Always test the free tier first and understand the downgrade policy before commi
 - Implement advanced rules and automation
 - Consider multiple providers for redundancy
 
----
+
 
 ## Migration Between Providers
 
@@ -580,7 +575,7 @@ Always test the free tier first and understand the downgrade policy before commi
 - Use email forwarding during transition
 - Set up monitoring for missed emails
 
----
+
 
 ## Security and Privacy Considerations
 
@@ -608,7 +603,6 @@ Always test the free tier first and understand the downgrade policy before commi
 - **United Kingdom**: Part of 5 Eyes, post-Brexit privacy laws
 - **Cyprus**: EU member, GDPR compliance
 
----
 
 ## Advanced Features Comparison
 
@@ -638,8 +632,6 @@ Always test the free tier first and understand the downgrade policy before commi
 - Limited historical data
 
 
----
-
 ## Additional Resources
 
 ### Official Documentation
@@ -654,7 +646,6 @@ Always test the free tier first and understand the downgrade policy before commi
 - [Proton - What is Email Alias](https://proton.me/blog/what-is-email-alias)
 
 
----
 
 ## Contributing
 
@@ -673,13 +664,11 @@ Found an error or want to add a provider? Contributions are welcome!
 - Follow existing formatting standards
 - Update comparison tables when adding providers
 
----
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
 **Made with care for digital privacy**
 
