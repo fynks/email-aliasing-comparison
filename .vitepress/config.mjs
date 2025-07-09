@@ -54,7 +54,7 @@ export default defineConfig({
     ['meta', { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }],
     ['meta', { name: 'googlebot', content: 'index, follow, max-image-preview:large, max-snippet:-1' }],
     ['meta', { name: 'bingbot', content: 'index, follow' }],
-    ['meta', { name: 'language', content: 'en-US' }],,
+    ['meta', { name: 'language', content: 'en-US' }],
     ['meta', { name: 'content-language', content: 'en-US' }],
     ['meta', { name: 'distribution', content: 'global' }],
     ['meta', { name: 'rating', content: 'general' }],
