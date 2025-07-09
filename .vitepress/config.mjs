@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: "en-US",
   title: "Email Aliasing Comparison",
-  description: "A comprehensive comparison of pricing, features, and security of email alias providers including Addy.io, SimpleLogin, DuckDuckGo Email, and more",
+  description: "A comprehensive guide to email alias providers with detailed comparisons, pricing analysis, security considerations, and migration guides. Compare Addy.io, SimpleLogin, DuckDuckGo Email, ForwardMail, Apple Hide My Email, and more.",
   ignoreDeadLinks: true,
   cleanUrls: true,
   lastUpdated: true,
@@ -38,7 +38,7 @@ export default defineConfig({
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
 
     // SEO Meta Tags
-    ['meta', { name: 'keywords', content: 'email aliasing, email privacy, email forwarding, Addy.io, SimpleLogin, DuckDuckGo Email, Firefox Relay, email security, privacy protection, anonymous email, email aliases comparison, email providers' }],
+    ['meta', { name: 'keywords', content: 'email aliasing, email privacy, email forwarding, Addy.io, SimpleLogin, DuckDuckGo Email, Firefox Relay, AdGuard Mail, ForwardMail, Apple Hide My Email, 33Mail, IronVest, Erine.email, email security, privacy protection, anonymous email, email aliases comparison, email providers, email privacy guide, secure email, anonymous forwarding, email alias providers comparison, privacy tools, email security guide' }],
     ['meta', { name: 'author', content: 'Email Aliasing Comparison Team' }],
     ['meta', { name: 'publisher', content: 'Email Aliasing Comparison' }],
     ['meta', { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1' }],
@@ -47,8 +47,8 @@ export default defineConfig({
 
     // Open Graph Meta Tags
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Email Aliasing Comparison - Privacy & Security Guide' }],
-    ['meta', { property: 'og:description', content: 'Comprehensive comparison of email alias providers including Addy.io, SimpleLogin, DuckDuckGo Email, and more. Features, pricing, and security analysis.' }],
+    ['meta', { property: 'og:title', content: 'Email Aliasing Comparison - Complete Privacy & Security Guide' }],
+    ['meta', { property: 'og:description', content: 'Comprehensive guide to email alias providers with detailed comparisons, pricing analysis, security considerations, and migration guides. Compare Addy.io, SimpleLogin, DuckDuckGo Email, and 7+ other providers.' }],
     ['meta', { property: 'og:url', content: 'https://email-aliasing-comparison.netlify.app' }],
     ['meta', { property: 'og:site_name', content: 'Email Aliasing Comparison' }],
     ['meta', { property: 'og:image', content: 'https://email-aliasing-comparison.netlify.app/icons/icon-512x512.png' }],
@@ -58,8 +58,8 @@ export default defineConfig({
 
     // Twitter Card Meta Tags
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'Email Aliasing Comparison - Privacy & Security Guide' }],
-    ['meta', { name: 'twitter:description', content: 'Comprehensive comparison of email alias providers. Features, pricing, and security analysis.' }],
+    ['meta', { name: 'twitter:title', content: 'Email Aliasing Comparison - Complete Privacy & Security Guide' }],
+    ['meta', { name: 'twitter:description', content: 'Comprehensive guide to email alias providers with detailed comparisons, pricing analysis, and migration guides. Compare 10+ providers including Addy.io and SimpleLogin.' }],
     ['meta', { name: 'twitter:image', content: 'https://email-aliasing-comparison.netlify.app/icons/icon-512x512.png' }],
 
   
@@ -84,8 +84,8 @@ export default defineConfig({
         },
         translations: {
           button: {
-            buttonText: 'Search providers, features & guides',
-            buttonAriaLabel: 'Search email aliasing providers and guides'
+            buttonText: 'Search providers, features, guides & comparisons',
+            buttonAriaLabel: 'Search email aliasing providers, features and comprehensive guides'
           },
           modal: {
             displayDetails: 'Display detailed list',
@@ -106,11 +106,22 @@ export default defineConfig({
       { 
         text: 'Providers', 
         items: [
-          { text: 'All Providers', link: '/email-alais-providers/' },
-          { text: 'Addy.io vs SimpleLogin', link: '/email-alais-providers/addy-vs-simplelogin' }
+          { text: 'Provider Directory', link: '/#complete-provider-directory' },
+          { text: 'Comparison Tables', link: '/#comparison-tables' },
+          { text: 'Detailed Analysis', link: '/#detailed-provider-analysis' },
+          { text: 'Cancellation Policies', link: '/#cancellation-policies' }
         ]
       },
-      { text: 'Guide', link: '/#getting-started-guide' }
+      { 
+        text: 'Guides', 
+        items: [
+          { text: 'Getting Started', link: '/#getting-started-guide' },
+          { text: 'Use Case Recommendations', link: '/#use-case-recommendations' },
+          { text: 'Migration Guide', link: '/#migration-between-providers' },
+          { text: 'Security Considerations', link: '/#security-and-privacy-considerations' }
+        ]
+      },
+      { text: 'Resources', link: '/#additional-resources' }
     ],
 
     sidebar: {
@@ -127,18 +138,37 @@ export default defineConfig({
         {
           text: 'Getting Started',
           items: [
+            { text: 'Introduction', link: '/#introduction' },
             { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
-            { text: 'Why Use Email Aliasing?', link: '/#why-use-email-aliasing' },
-            { text: 'How It Works', link: '/#how-email-aliasing-works' }
+            { text: 'Benefits and Use Cases', link: '/#benefits-and-use-cases' },
+            { text: 'How Email Aliasing Works', link: '/#how-email-aliasing-works' }
           ]
         },
         {
-          text: 'Provider Comparisons',
+          text: 'Provider Analysis',
           items: [
-            { text: 'Quick Comparison', link: '/#provider-comparison' },
-            { text: 'By Use Case', link: '/#quick-comparison-by-use-case' },
-            { text: 'All Providers', link: '/email-alais-providers/' },
-            { text: 'Addy.io vs SimpleLogin', link: '/email-alais-providers/addy-vs-simplelogin' }
+            { text: 'Provider Categories', link: '/#provider-categories' },
+            { text: 'Complete Directory', link: '/#complete-provider-directory' },
+            { text: 'Comparison Tables', link: '/#comparison-tables' },
+            { text: 'Detailed Analysis', link: '/#detailed-provider-analysis' },
+            { text: 'Cancellation Policies', link: '/#cancellation-policies' }
+          ]
+        },
+        {
+          text: 'Practical Guides',
+          items: [
+            { text: 'Use Case Recommendations', link: '/#use-case-recommendations' },
+            { text: 'Getting Started Guide', link: '/#getting-started-guide' },
+            { text: 'Migration Between Providers', link: '/#migration-between-providers' },
+            { text: 'Security & Privacy', link: '/#security-and-privacy-considerations' }
+          ]
+        },
+        {
+          text: 'Advanced Topics',
+          items: [
+            { text: 'Advanced Features', link: '/#advanced-features-comparison' },
+            { text: 'Additional Resources', link: '/#additional-resources' },
+            { text: 'Contributing', link: '/#contributing' }
           ]
         }
       ]
@@ -150,7 +180,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Email Aliasing Comparison Team'
+      copyright: 'Copyright © 2024-2025 Email Aliasing Comparison Team'
     },
 
     editLink: {
