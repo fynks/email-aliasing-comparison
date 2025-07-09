@@ -2,21 +2,11 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: "en-US",
-  title: "Email Aliasing Comparison 2025 - Best Email Alias Providers Guide",
-  description: "Complete guide to the best email alias providers in 2025. Compare pricing, features, and security of Addy.io, SimpleLogin, DuckDuckGo Email Protection, ForwardMail, Apple Hide My Email, Firefox Relay, AdGuard Mail, 33Mail, IronVest, and Erine.email. Expert reviews, migration guides, and detailed analysis for choosing the perfect email privacy solution.",
+  title: "Best Email Alias Providers Guide",
+  description: "Compare pricing, features, and security of Addy.io, SimpleLogin, DuckDuckGo Email Protection, ForwardMail, Apple Hide My Email, Firefox Relay, AdGuard Mail, 33Mail, IronVest, and Erine.email.",
   ignoreDeadLinks: true,
   cleanUrls: true,
   lastUpdated: true,
-  sitemap: {
-    hostname: 'https://email-aliasing-comparison.netlify.app',
-    transformItems: (items) => {
-      return items.map((item) => ({
-        ...item,
-        changefreq: 'weekly',
-        priority: item.url === '/' ? 1.0 : 0.8
-      }))
-    }
-  },
   rewrites: {
     'README.md': 'index.md'
   },
@@ -169,7 +159,7 @@ export default defineConfig({
       dark: '/favicon.svg',
       alt: 'Email Aliasing Comparison Logo'
     },
-    siteTitle: 'Email Aliasing Guide 2025',
+    siteTitle: 'Email Aliasing Comparison',
     search: {
       provider: 'local',
       options: {
