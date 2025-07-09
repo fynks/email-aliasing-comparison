@@ -56,7 +56,7 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: 'Discover the top email alias providers in 2025. Expert reviews and comparisons of Addy.io, SimpleLogin, DuckDuckGo Email, and 7+ other privacy services. Find the perfect email aliasing solution with our comprehensive guide featuring pricing analysis, security evaluations, and migration tutorials.' }],
     ['meta', { property: 'og:url', content: 'https://email-aliasing-comparison.netlify.app' }],
     ['meta', { property: 'og:site_name', content: 'Email Aliasing Comparison 2025' }],
-    ['meta', { property: 'og:image', content: 'https://email-aliasing-comparison.netlify.app/icons/icon-512x512.png' }],
+    ['meta', { property: 'og:image', content: 'https://email-aliasing-comparison.netlify.app/og.png' }],
     ['meta', { property: 'og:image:alt', content: 'Email Aliasing Comparison Guide - Best Email Alias Providers 2025' }],
     ['meta', { property: 'og:image:width', content: '512' }],
     ['meta', { property: 'og:image:height', content: '512' }],
@@ -76,7 +76,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:creator', content: '@emailprivacy' }],
     ['meta', { name: 'twitter:title', content: 'Best Email Alias Providers 2025 - Complete Privacy & Security Guide' }],
     ['meta', { name: 'twitter:description', content: 'Discover the top email alias providers in 2025. Expert reviews of 10+ services including Addy.io, SimpleLogin, DuckDuckGo Email. Complete with pricing analysis, security evaluations, and step-by-step migration guides.' }],
-    ['meta', { name: 'twitter:image', content: 'https://email-aliasing-comparison.netlify.app/icons/icon-512x512.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://email-aliasing-comparison.netlify.app/og.png' }],
     ['meta', { name: 'twitter:image:alt', content: 'Email Aliasing Comparison Guide - Best Email Alias Providers 2025' }],
 
     // JSON-LD Structured Data
@@ -132,7 +132,7 @@ export default defineConfig({
         name: 'Email Aliasing Comparison Guide',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://email-aliasing-comparison.netlify.app/icons/icon-512x512.png'
+          url: 'https://email-aliasing-comparison.netlify.app/og.png'
         }
       },
       datePublished: '2024-01-01',
@@ -143,7 +143,7 @@ export default defineConfig({
       },
       image: {
         '@type': 'ImageObject',
-        url: 'https://email-aliasing-comparison.netlify.app/icons/icon-512x512.png',
+        url: 'https://email-aliasing-comparison.netlify.app/og.png',
         width: 512,
         height: 512
       },
