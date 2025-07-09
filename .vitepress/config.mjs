@@ -21,12 +21,11 @@ export default defineConfig({
     ['link', { rel: 'dns-prefetch', href: 'https://github.com' }],
 
     // Favicons with improved metadata
-    ['link', { rel: 'icon', type: 'image/png', href: '/icons/favicon-32x32.png', sizes: '32x32' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/icons/favicon-16x16.png', sizes: '16x16' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png', sizes: '96x96' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
 
     // Additional browser compatibility meta tags
     ['meta', { name: 'theme-color', content: '#ffffff' }],
@@ -84,8 +83,8 @@ export default defineConfig({
         },
         translations: {
           button: {
-            buttonText: 'Search providers, features, guides & comparisons',
-            buttonAriaLabel: 'Search email aliasing providers, features and comprehensive guides'
+            buttonText: 'Search providers',
+            buttonAriaLabel: 'Search providers'
           },
           modal: {
             displayDetails: 'Display detailed list',
@@ -102,7 +101,6 @@ export default defineConfig({
       }
     },
     nav: [
-      { text: 'Home', link: '/' },
       { 
         text: 'Providers', 
         items: [
