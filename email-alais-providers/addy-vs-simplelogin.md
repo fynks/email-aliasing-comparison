@@ -224,10 +224,8 @@ A clear, verified comparison of the two leading email aliasing providers based o
 
 | Feature | Addy.io | SimpleLogin | Winner |
 |---------|---------|-------------|---------|
-| **Alias Creation** | < 1 second | < 2 seconds | Addy.io |
 | **Bulk Operations** | ✅ CSV import/export | ✅ Basic bulk | Addy.io |
 | **Search & Filter** | ✅ Advanced | ✅ Basic | Addy.io |
-| **Email Forwarding** | ~500ms avg | ~800ms avg | Addy.io |
 | **Bounce Handling** | ✅ Detailed logs | ✅ Basic | Addy.io |
 | **Spam Detection** | ✅ SpamAssassin | ✅ Basic | Addy.io |
 
@@ -237,34 +235,13 @@ A clear, verified comparison of the two leading email aliasing providers based o
 |---------|---------|-------------|---------|
 | **Conditional Rules** | ✅ Advanced regex | ✅ Basic patterns | Addy.io |
 | **Auto-Enable/Disable** | ✅ Smart rules | ❌ Manual only | Addy.io |
-| **Webhook Support** | ✅ Full API | ❌ Not available | Addy.io |
 | **Usage Analytics** | ✅ Detailed charts | ✅ Basic counts | Addy.io |
 | **Bandwidth Tracking** | ✅ Per-alias | ❌ Not available | Addy.io |
 | **Alert System** | ✅ Configurable | ❌ Basic notifications | Addy.io |
 
-### User Experience
-
-| Feature | Addy.io | SimpleLogin | Winner |
-|---------|---------|-------------|---------|
-| **Setup Time** | 5-10 minutes | 2-5 minutes | SimpleLogin |
-| **Interface Design** | Functional, dense | Clean, minimal | SimpleLogin |
-| **Mobile Apps** | ✅ Good | ✅ Excellent | SimpleLogin |
-| **Learning Curve** | Steep | Gentle | SimpleLogin |
-| **Browser Extensions** | ✅ Full featured | ✅ Well designed | Tie |
-
 ---
 
 ## Security & Privacy
-
-### Infrastructure Security
-
-| Feature | Addy.io | SimpleLogin | Winner |
-|---------|---------|-------------|---------|
-| **Jurisdiction** | Netherlands (GDPR) | Switzerland | SimpleLogin |
-| **Server Hardening** | ✅ Good | ✅ Enterprise-grade | SimpleLogin |
-| **DDoS Protection** | ✅ CloudFlare | ✅ Proton infrastructure | SimpleLogin |
-| **Monitoring** | ✅ Basic | ✅ 24/7 SOC | SimpleLogin |
-| **Incident Response** | ✅ Personal | ✅ Team-based | SimpleLogin |
 
 ### Application Security
 
@@ -292,8 +269,8 @@ A clear, verified comparison of the two leading email aliasing providers based o
 
 | Platform | Addy.io | SimpleLogin | Winner |
 |----------|---------|-------------|---------|
-| **iOS** | ✅ Good features | ✅ Excellent UI | SimpleLogin |
-| **Android** | ✅ F-Droid available | ✅ Rich notifications | SimpleLogin |
+| **iOS** | ✅ | ✅ | Tie |
+| **Android** | ✅  | ✅  | Tie|
 | **Open Source** | ✅ Yes | ✅ Yes | Tie |
 
 ### Browser Extensions
@@ -305,14 +282,6 @@ A clear, verified comparison of the two leading email aliasing providers based o
 | **Safari** | ✅ Basic | ✅ Basic | Tie |
 | **Edge** | ✅ Works | ✅ Works | Tie |
 
-### Developer Tools
-
-| Tool | Addy.io | SimpleLogin | Winner |
-|------|---------|-------------|---------|
-| **API Documentation** | ✅ Comprehensive | ✅ Good | Addy.io |
-| **Webhook Support** | ✅ Full system | ❌ None | Addy.io |
-| **CLI Tools** | ✅ Community-built | ❌ None | Addy.io |
-| **Third-party Integration** | ✅ Multiple libraries | ✅ Basic | Addy.io |
 
 ---
 
@@ -434,5 +403,3 @@ Both providers are excellent choices with strong privacy policies and active dev
 **[Back to Main Guide](../README.md)** | **[All Providers Comparison](../README.md#provider-comparison)**
 
 ---
-
-*Last updated: July 2025. Pricing and features verified from official sources.*
