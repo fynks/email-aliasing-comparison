@@ -20,8 +20,11 @@ A comprehensive comparison of pricing, features, and security of email alias pro
 - [How Email Aliasing Works](#how-email-aliasing-works)
 - [Provider Categories](#provider-categories)
 - [Complete Provider Directory](#complete-provider-directory)
-- [Comparison Tables](#comparison-tables)
-- [Detailed Provider Analysis](#detailed-provider-analysis)
+  - [Quick Reference Table](#quick-reference-table)
+  - [Free Providers Comaprison](#free-plans-detailed-comparison)
+  - [Paid Providers Comaprison](#paid-plans-detailed-comparison)
+  - [Advanced Features & Security Comparison](#advanced-features--security-comparison)
+- [Addy.io vs SimpleLogin](#addyio-vs-simplelogin)
 - [Cancellation Policies](#cancellation-policies)
 - [Use Case Recommendations](#use-case-recommendations)
 - [Getting Started Guide](#getting-started-guide)
@@ -101,128 +104,22 @@ Services offering substantial free tiers or freemium models. Good for getting st
 ### Built-in Solutions
 Email aliasing features integrated into existing email providers or operating systems. Often the simplest to set up.
 
-
-
 ## Complete Provider Directory
-
-### Premium Providers
-
-#### Addy.io (Formerly AnonAddy)
-- **Company**: Independent Developer (Will Browning)
-- **Headquarters**: Netherlands
-- **Founded**: 2019
-- **Business Model**: Bootstrapped, subscription-based
-- **Open Source**: ✓ Yes
-- **Key Features**: GPG/OpenPGP encryption, custom domains, browser extensions, mobile apps, API access, webhook support, advanced rules and analytics
-- **Starting Price**: $1/month (Lite plan)
-- **Free Plan**: Unlimited standard aliases, 10MB bandwidth limit
-
-#### SimpleLogin
-- **Company**: Proton AG (Switzerland)
-- **Headquarters**: Switzerland (Geneva)
-- **Founded**: 2019 (Acquired by Proton in 2022)
-- **Business Model**: Venture-backed, part of Proton ecosystem
-- **Open Source**: ✓ Yes
-- **Key Features**: PGP encryption, Proton ecosystem integration, browser extensions, mobile apps, custom domains, directory/catch-all features
-- **Starting Price**: $4/month
-- **Free Plan**: 10 aliases with reply support
-
-#### ForwardMail
-- **Company**: Forward Email LLC
-- **Headquarters**: United States
-- **Founded**: 2017 (by Nicholas Baugh)
-- **Business Model**: Open-source, enterprise-focused
-- **Open Source**: ✓ Yes
-- **Key Features**: 100% open-source, self-hosting option, enterprise-grade infrastructure, quantum-resistant encryption, webhook support, developer API
-- **Starting Price**: $3/month (Enhanced plan)
-- **Free Plan**: Unlimited (requires own domain setup)
-
-### Free & Freemium Services
-
-#### DuckDuckGo Email Protection
-- **Company**: DuckDuckGo, Inc.
-- **Headquarters**: United States
-- **Founded**: 2021 (Email Protection feature)
-- **Business Model**: Privacy-focused search company
-- **Open Source**: Partial
-- **Key Features**: Unlimited free aliases, email tracker removal, @duck.com domain, browser extension, reply functionality, zero setup required
-- **Pricing**: Completely free
-
-#### Firefox Relay
-- **Company**: Mozilla Corporation
-- **Headquarters**: United States (Mountain View, CA)
-- **Founded**: 2021
-- **Business Model**: Mozilla Foundation backed
-- **Open Source**: ✓ Yes
-- **Key Features**: Email tracker removal, phone number masking (Premium), browser extension, custom domain (Premium), reply functionality (Premium)
-- **Free Plan**: 5 aliases
-- **Premium**: Currently on waitlist
-
-#### AdGuard Mail
-- **Company**: AdGuard Software Ltd.
-- **Headquarters**: Cyprus
-- **Founded**: 2023 (Mail service)
-- **Business Model**: Ad-blocking company expansion
-- **Open Source**: Partial
-- **Key Features**: Temporary and permanent aliases, multi-platform apps, anonymous replies (Premium), premium alias domains
-- **Starting Price**: $2.99/month
-- **Free Plan**: 10 aliases, 2,000 emails/month
-
-#### 33Mail
-- **Company**: 33Mail Ltd.
-- **Headquarters**: United Kingdom
-- **Founded**: 2010
-- **Business Model**: Freemium model
-- **Key Features**: Long-standing provider (15+ years), simple interface, unlimited free aliases, custom domains (Premium), anonymous replies (Premium)
-- **Starting Price**: $1/month (Premium)
-- **Free Plan**: Unlimited aliases, 10MB bandwidth
-
-#### IronVest
-- **Company**: IronVest, Inc.
-- **Headquarters**: United States
-- **Founded**: 2012 (as Abine, rebranded 2021)
-- **Business Model**: All-in-one privacy suite
-- **Key Features**: Masked emails, virtual credit cards, masked phone numbers, biometric fraud prevention, browser extensions, mobile apps
-- **Pricing**: $39/year ($3.25/month)
-- **Email Limit**: 50 masked emails
-
-#### Erine.email
-- **Company**: Independent Developer (France)
-- **Headquarters**: France
-- **Founded**: 2022
-- **Business Model**: Open-source, donation-supported
-- **Open Source**: ✓ Yes
-- **Key Features**: Unlimited free aliases, reply functionality, French privacy laws (GDPR), open-source transparency
-- **Pricing**: Completely free
-- **Note**: Currently experiencing connectivity issues
-
-### Built-in Solutions
-
-#### Apple Hide My Email
-- **Company**: Apple Inc.
-- **Headquarters**: United States (Cupertino, CA)
-- **Founded**: 2021 (as part of iOS 15)
-- **Business Model**: Part of iCloud+ subscription
-- **Key Features**: Seamless Apple ecosystem integration, @privaterelay.appleid.com domain, Sign in with Apple integration, custom domains (iCloud+)
-- **Starting Price**: $0.99/month (iCloud+ 50GB)
-
-
-## Comparison Tables
 
 ### Quick Reference Table
 
-| Provider | Country | Founded | Open Source | Free Tier | Starting Price | Reply Support | Encryption |
-|----------|---------|---------|-------------|-----------|----------------|---------------|------------|
-| **Addy.io** | Netherlands | 2019 | ✓ Yes | Unlimited* | $1/mo | ✓ Yes (Paid) | GPG/OpenPGP |
-| **SimpleLogin** | Switzerland | 2019 | ✓ Yes | 10 aliases | $4/mo | ✓ Yes | PGP |
-| **ForwardMail** | USA | 2017 | ✓ Yes | Unlimited** | $3/mo | ✓ Yes | TLS/Quantum |
-| **DuckDuckGo** | USA | 2021 | Partial | Unlimited | Free only | ✓ Yes | TLS |
-| **Firefox Relay** | USA | 2021 | ✓ Yes | 5 aliases | Waitlist | ✓ Yes (Premium) | TLS |
-| **AdGuard Mail** | Cyprus | 2023 | Partial | 10 aliases | $2.99/mo | ✓ Yes (Premium) | TLS |
-| **33Mail** | UK | 2010 | ✗ No | Unlimited | $1/mo | ✓ Yes (Premium) | TLS |
-| **IronVest** | USA | 2012 | ✗ No | N/A | $39/yr | ✓ Yes | TLS |
-| **Erine.email** | France | 2022 | ✓ Yes | Unlimited | Free | ✓ Yes | TLS |
-| **Apple Hide My Email** | USA | 2021 | ✗ No | Unlimited*** | $0.99/mo | ✓ Yes | TLS |
+| Provider | Country | Founded | Open Source | Free Tier | Starting Price | Reply Support | Encryption | Business Model | Privacy Policy |
+|----------|---------|---------|-------------|-----------|----------------|---------------|------------|----------------|----------------|
+| **[Addy.io](https://addy.io)** | Netherlands | 2019 | ✓ Yes | Unlimited* | $1/mo | ✓ Yes (Paid) | GPG/OpenPGP | Bootstrapped | [Privacy Policy](https://addy.io/privacy/) |
+| **[SimpleLogin](https://simplelogin.io)** | Switzerland | 2019 | ✓ Yes | 10 aliases | $4/mo | ✓ Yes | PGP | Proton AG | [Privacy Policy](https://simplelogin.io/privacy/) |
+| **[ForwardMail](https://forwardemail.net)** | USA | 2017 | ✓ Yes | Unlimited** | $3/mo | ✓ Yes | TLS/Quantum | Open-source | [Privacy Policy](https://forwardemail.net/en/privacy) |
+| **[DuckDuckGo](https://duckduckgo.com/email)** | USA | 2021 | Partial | Unlimited | Free only | ✓ Yes | TLS | Search Company | [Privacy Policy](https://duckduckgo.com/privacy) |
+| **[Firefox Relay](https://relay.firefox.com)** | USA | 2021 | ✓ Yes | 5 aliases | Waitlist | ✓ Yes (Premium) | TLS | Mozilla | [Privacy Policy](https://www.mozilla.org/privacy/firefox-relay/) |
+| **[AdGuard Mail](https://adguard.com/adguard-mail)** | Cyprus | 2023 | Partial | 10 aliases | $2.99/mo | ✓ Yes (Premium) | TLS | Ad-blocking | [Privacy Policy](https://adguard.com/privacy.html) |
+| **[33Mail](https://33mail.com)** | UK | 2010 | ✗ No | Unlimited | $1/mo | ✓ Yes (Premium) | TLS | Freemium | [Privacy Policy](https://33mail.com/tos) |
+| **[IronVest](https://ironvest.com)** | USA | 2012 | ✗ No | N/A | $39/yr | ✓ Yes | TLS | Privacy Suite | [Privacy Policy](https://ironvest.com/legal/privacy-policy/) |
+| **[Erine.email](https://erine.email)** | France | 2022 | ✓ Yes | Unlimited | Free | ✓ Yes | TLS | Donation | [Privacy Policy](https://gitlab.com/mdavranche/erine.email/-/wikis/SaaS/Privacy-policy) |
+| **[Apple Hide My Email](https://support.apple.com/en-us/102219)** | USA | 2021 | ✗ No | Unlimited*** | $0.99/mo | ✓ Yes | TLS | iCloud+ | [Privacy Policy](https://www.apple.com/privacy/) |
 
 *Standard aliases unlimited, shared domain aliases limited  
 **Requires own domain setup  
@@ -230,37 +127,49 @@ Email aliasing features integrated into existing email providers or operating sy
 
 ### Free Plans Detailed Comparison
 
-| Provider | Free Aliases | Reply Support | Custom Domains | Monthly Limits | Encryption | Best For |
-|----------|--------------|---------------|----------------|----------------|------------|----------|
-| **Addy.io** | Unlimited Standard + 10 Shared | ✗ No | ✗ No | 10 MB | GPG/OpenPGP | Power users testing |
-| **SimpleLogin** | 10 aliases | ✓ Yes | ✗ No | Unlimited | PGP | Beginners |
-| **DuckDuckGo** | Unlimited @duck.com | ✓ Yes | ✗ No | Unlimited | TLS | General use |
-| **Firefox Relay** | 5 aliases | ✗ No | ✗ No | Unlimited | TLS | Mozilla users |
-| **AdGuard Mail** | 10 aliases | ✗ No | ✗ No | 2,000 emails | TLS | Light usage |
-| **33Mail** | Unlimited | ✗ No | ✗ No | 10 MB | TLS | Basic forwarding |
-| **Erine.email** | Unlimited | ✓ Yes | ✗ No | Unlimited | TLS | Privacy advocates |
-| **ForwardMail** | Unlimited (own domain) | ✓ Yes | ✓ Yes | 50 MB | TLS/Quantum | Developers |
+| Provider | Free Aliases | Reply Support | Custom Domains | Monthly Limits | Additional Features | Best For |
+|----------|--------------|---------------|----------------|----------------|-------------------|----------|
+| **Addy.io** | Unlimited Standard + 10 Shared | ✗ No | ✗ No | 10 MB | GPG encryption, API access | Power users testing |
+| **SimpleLogin** | 10 aliases | ✓ Yes | ✗ No | Unlimited | PGP encryption, mobile apps | Beginners |
+| **DuckDuckGo** | Unlimited @duck.com | ✓ Yes | ✗ No | Unlimited | Email tracker removal, zero setup | General use |
+| **Firefox Relay** | 5 aliases | ✗ No | ✗ No | Unlimited | Email tracker removal, Mozilla integration | Mozilla users |
+| **AdGuard Mail** | 10 aliases | ✗ No | ✗ No | 2,000 emails | Multi-platform apps, temporary aliases | Light usage |
+| **33Mail** | Unlimited | ✗ No | ✗ No | 10 MB | 15+ years experience, simple interface | Basic forwarding |
+| **Erine.email** | Unlimited | ✓ Yes | ✗ No | Unlimited | French privacy laws (GDPR), open-source | Privacy advocates |
+| **ForwardMail** | Unlimited (own domain) | ✓ Yes | ✓ Yes | 50 MB | Self-hosting option, enterprise-grade | Developers |
+| **Apple Hide My Email** | Unlimited (with iCloud+) | ✓ Yes | ✓ Yes (iCloud+) | Unlimited | Apple ecosystem integration | Apple users |
 
 ### Paid Plans Detailed Comparison
 
-| Provider | Starting Price | Aliases | Reply Support | Custom Domains | Notable Features |
-|----------|----------------|---------|---------------|----------------|------------------|
-| **Addy.io Lite** | $1/mo | Unlimited + 50 Shared | ✓ Yes | 1 | GPG encryption, best value |
-| **Addy.io Pro** | $3/mo | Unlimited + Unlimited Shared | ✓ Yes | 20 | Advanced rules, analytics |
-| **SimpleLogin** | $4/mo | Unlimited | ✓ Yes | Unlimited | PGP encryption, Proton integration |
-| **AdGuard Mail** | $2.99/mo | 1,000 | ✓ Yes | 1 | Anonymous replies |
-| **33Mail Premium** | $1/mo | Unlimited | ✓ Yes (20/day) | 5 | Simple interface |
-| **33Mail Pro** | $5/mo | Unlimited | ✓ Yes (1000/day) | Unlimited | Professional features |
-| **IronVest** | $39/yr | 50 masked emails | ✓ Yes | ✗ No | Virtual cards, phone masking |
-| **ForwardMail Enhanced** | $3/mo | Unlimited | ✓ Yes | Unlimited | Enterprise features |
-| **Apple iCloud+ 50GB** | $0.99/mo | Unlimited | ✓ Yes | ✓ Yes | Apple ecosystem integration |
-| **Apple iCloud+ 200GB** | $2.99/mo | Unlimited | ✓ Yes | ✓ Yes | More storage |
+| Provider | Starting Price | Aliases | Reply Support | Custom Domains | Key Features | Company Type |
+|----------|----------------|---------|---------------|----------------|--------------|--------------|
+| **Addy.io Lite** | $1/mo | Unlimited + 50 Shared | ✓ Yes | 1 | GPG encryption, API access, webhook support | Independent |
+| **Addy.io Pro** | $4/mo | Unlimited + Unlimited Shared | ✓ Yes | 20 | Advanced rules, analytics, bulk operations | Independent |
+| **SimpleLogin** | $4/mo | Unlimited | ✓ Yes | Unlimited | PGP encryption, Proton integration, directory features | Enterprise |
+| **AdGuard Mail** | $2.99/mo | 1,000 | ✓ Yes | 1 | Anonymous replies, premium domains, multi-platform | Corporate |
+| **33Mail Premium** | $1/mo | Unlimited | ✓ Yes (20/day) | 5 | Simple interface, 15+ years experience | Small business |
+| **33Mail Pro** | $5/mo | Unlimitewd | ✓ Yes (1000/day) | Unlimited | Professional features, high volume | Small business |
+| **IronVest** | $39/yr ($3.25/mo) | 50 masked emails | ✓ Yes | ✗ No | Virtual cards, phone masking, biometric security | Privacy suite |
+| **ForwardMail Enhanced** | $3/mo | Unlimited | ✓ Yes | Unlimited | 100% open-source, quantum encryption, webhooks | Open-source |
+| **Apple iCloud+ 50GB** | $0.99/mo | Unlimited | ✓ Yes | ✓ Yes | Seamless Apple integration, @privaterelay.appleid.com | Big Tech |
+| **Apple iCloud+ 200GB** | $2.99/mo | Unlimited | ✓ Yes | ✓ Yes | More storage, family sharing | Big Tech |
 
+### Advanced Features & Security Comparison
 
+| Provider | Mobile Apps | Browser Ext | API/Webhooks | Analytics | Encryption | Jurisdiction | Team Size |
+|----------|-------------|-------------|--------------|-----------|-------------|-------------|-----------|
+| **Addy.io** | ✓ Yes | ✓ Yes | ✓ Both | ✓ Advanced | GPG/OpenPGP | Netherlands | Solo dev |
+| **SimpleLogin** | ✓ Yes | ✓ Yes | ✓ API only | ✓ Basic | PGP | Switzerland | Team |
+| **ForwardMail** | ✗ No | ✗ No | ✓ Both | ✓ Basic | TLS/Quantum | USA | Small team |
+| **DuckDuckGo** | ✗ No | ✓ Yes | ✗ No | ✗ No | TLS | USA | Large team |
+| **Firefox Relay** | ✗ No | ✓ Yes | ✗ No | ✗ No | TLS | USA | Team |
+| **AdGuard Mail** | ✓ Yes | ✓ Yes | ✗ No | ✗ No | TLS | Cyprus | Team |
+| **33Mail** | ✗ No | ✗ No | ✗ No | ✗ No | TLS | UK | Small team |
+| **IronVest** | ✓ Yes | ✓ Yes | ✗ No | ✗ No | TLS | USA | Team |
+| **Erine.email** | ✗ No | ✗ No | ✗ No | ✗ No | TLS | France | Solo dev |
+| **Apple Hide My Email** | ✓ Native | ✓ Safari | ✗ No | ✗ No | TLS | USA | Large team |
 
-## Detailed Provider Analysis
-
-### Addy.io vs SimpleLogin: Head-to-Head Comparison
+## Addy.io vs SimpleLogin
 
 | Criteria | Addy.io | SimpleLogin | Winner |
 |----------|---------|-------------|---------|
@@ -283,29 +192,29 @@ Email aliasing features integrated into existing email providers or operating sy
 #### Feature Comparison Details
 
 **Core Features**
-| Feature | Addy.io | SimpleLogin | Winner |
-|---------|---------|-------------|---------|
-| **Bulk Operations** | ✓ CSV import/export | ✓ Basic bulk | Addy.io |
-| **Search & Filter** | ✓ Advanced | ✓ Basic | Addy.io |
-| **Bounce Handling** | ✓ Detailed logs | ✓ Basic | Addy.io |
-| **Spam Detection** | ✓ SpamAssassin | ✓ Basic | Addy.io |
+| Feature | Addy.io | SimpleLogin |
+| :--- | :--- | :--- |
+| **Bulk Operations** | ✓ CSV import/export | ✓ Basic bulk |
+| **Search & Filter** | ✓ Advanced | ✓ Basic |
+| **Bounce Handling** | ✓ Detailed logs | ✓ Basic |
+| **Spam Detection** | ✓ SpamAssassin | ✓ Basic |
 
 **Advanced Features**
-| Feature | Addy.io | SimpleLogin | Winner |
-|---------|---------|-------------|---------|
-| **Conditional Rules** | ✓ Advanced regex | ✓ Basic patterns | Addy.io |
-| **Auto-Enable/Disable** | ✓ Smart rules | ✗ Manual only | Addy.io |
-| **Usage Analytics** | ✓ Detailed charts | ✓ Basic counts | Addy.io |
-| **Bandwidth Tracking** | ✓ Per-alias | ✗ Not available | Addy.io |
-| **Alert System** | ✓ Configurable | ✗ Basic notifications | Addy.io |
+| Feature | Addy.io | SimpleLogin |
+| :--- | :--- | :--- |
+| **Conditional Rules** | ✓ Advanced regex | ✓ Basic patterns |
+| **Auto-Enable/Disable** | ✓ Smart rules | ✗ Manual only |
+| **Usage Analytics** | ✓ Detailed charts | ✓ Basic counts |
+| **Bandwidth Tracking** | ✓ Per-alias | ✗ Not available |
+| **Alert System** | ✓ Configurable | ✗ Basic notifications |
 
 **Security Comparison**
-| Feature | Addy.io | SimpleLogin | Winner |
-|---------|---------|-------------|---------|
-| **2FA Support** | ✓ TOTP only | ✓ TOTP + WebAuthn | SimpleLogin |
-| **Password Security** | ✓ bcrypt | ✓ Argon2 | SimpleLogin |
-| **Session Management** | ✓ Standard | ✓ Advanced | SimpleLogin |
-| **Security Audits** | ✓ 2023 (Securitum) | ✓ Regular audits | SimpleLogin |
+| Feature | Addy.io | SimpleLogin |
+| :--- | :--- | :--- |
+| **2FA Support** | ✓ TOTP only | ✓ TOTP + WebAuthn |
+| **Password Security** | ✓ bcrypt | ✓ Argon2 |
+| **Session Management** | ✓ Standard | ✓ Advanced |
+| **Security Audits** | ✓ 2023 (Securitum) | ✓ Regular audits |
 
 
 
@@ -315,7 +224,7 @@ Understanding what happens when you stop paying is crucial for long-term plannin
 
 ### Restrictive Cancellation Policies
 
-**Addy.io**
+#### **Addy.io**
 - ✗ Custom domains deactivated
 - ✗ Additional usernames deactivated  
 - ✗ Extra recipients deleted (keeps only 1)
@@ -323,32 +232,32 @@ Understanding what happens when you stop paying is crucial for long-term plannin
 - ✗ Shared domain aliases limited to 10
 - ✗ Catch-all re-enabled if disabled
 
-**Apple Hide My Email**
+#### **Apple Hide My Email**
 - ✗ No new Hide My Email addresses can be created
 - ✗ Existing addresses may stop working
 
-**IronVest**
+#### **IronVest**
 - ✗ Aliases may stop working after grace period
 
 ### Lenient Cancellation Policies
 
-**SimpleLogin**
+#### **SimpleLogin**
 - ✓ All aliases/domains/directories/mailboxes continue working
 - ✓ All settings preserved
 - ✗ Cannot create new aliases if over 10 limit
 
-**ForwardMail**
+#### **ForwardMail**
 - ✓ Downgrades to free forwarding-only plan
 - ✓ Basic functionality maintained
 
-**33Mail**
+#### **33Mail**
 - ✓ Keeps basic forwarding
 - ✗ Loses custom domain features
 
-**AdGuard Mail**
+#### **AdGuard Mail**
 - ✓ Keeps basic service (always has free tier)
 
-**Firefox Relay**
+#### **Firefox Relay**
 - ✓ Back to 5 aliases
 - ✗ Premium features lost
 
@@ -395,7 +304,7 @@ Always test the free tier first and understand the downgrade policy before commi
 - 100MB bandwidth
 
 ### For Power Users
-**Recommended: Addy.io Pro ($3/month)**
+**Recommended: Addy.io Pro ($4/month)**
 
 **Advanced Features:**
 - Advanced rules and automation
@@ -434,7 +343,6 @@ Always test the free tier first and understand the downgrade policy before commi
 - Comprehensive API
 - Webhook support
 - Enterprise-grade infrastructure
-
 
 
 ## Getting Started Guide
@@ -602,35 +510,6 @@ Always test the free tier first and understand the downgrade policy before commi
 - **United States**: FISA courts, NSLs, part of 5 Eyes
 - **United Kingdom**: Part of 5 Eyes, post-Brexit privacy laws
 - **Cyprus**: EU member, GDPR compliance
-
-
-## Advanced Features Comparison
-
-### Automation and Rules
-
-**Addy.io Advanced Rules:**
-- Regex-based filtering
-- Conditional forwarding
-- Auto-enable/disable based on criteria
-- Custom header modifications
-
-**SimpleLogin Basic Rules:**
-- Simple pattern matching
-- Basic forwarding rules
-- Manual alias management
-
-### Analytics and Monitoring
-
-**Detailed Analytics (Addy.io):**
-- Per-alias statistics
-- Bandwidth usage tracking
-- Geographic analysis
-- Time-based reporting
-
-**Basic Analytics (Others):**
-- Simple counts and basic metrics
-- Limited historical data
-
 
 ## Additional Resources
 

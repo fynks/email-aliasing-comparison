@@ -237,7 +237,6 @@ export default defineConfig({
           items: [
             { text: 'Provider Categories', link: '/#provider-categories' },
             { text: 'Complete Directory', link: '/#complete-provider-directory' },
-            { text: 'Comparison Tables', link: '/#comparison-tables' },
             { text: 'Detailed Analysis', link: '/#detailed-provider-analysis' },
             { text: 'Cancellation Policies', link: '/#cancellation-policies' }
           ]
@@ -254,7 +253,6 @@ export default defineConfig({
         {
           text: 'Advanced Topics',
           items: [
-            { text: 'Advanced Features', link: '/#advanced-features-comparison' },
             { text: 'Additional Resources', link: '/#additional-resources' },
             { text: 'Contributing', link: '/#contributing' }
           ]
