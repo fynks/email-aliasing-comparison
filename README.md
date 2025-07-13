@@ -551,4 +551,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with care for digital privacy**
 
-*Star this repository if it helped you protect your email privacy!*
+* ⭐ Star this repository if it helped you protect your email privacy!*
