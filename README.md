@@ -17,8 +17,6 @@ A comprehensive comparison of leading email alias services including pricing, fe
 
 </div>
 
----
-
 
 ## Complete Table of Contents
 
