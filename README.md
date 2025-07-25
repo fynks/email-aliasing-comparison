@@ -6,13 +6,12 @@
 
 A comprehensive comparison of leading email alias services including pricing, features, security, and privacy policies. Compare [Addy.io](https://addy.io), [SimpleLogin](https://simplelogin.io), [DuckDuckGo Email Protection](https://duckduckgo.com/email), [Firefox Relay](https://relay.firefox.com), [ForwardMail](https://forwardemail.net), [Apple Hide My Email](https://support.apple.com/en-us/102219), [AdGuard Mail](https://adguard.com/adguard-mail), [33Mail](https://33mail.com), [IronVest](https://ironvest.com) and [Erine.email](https://erine.email).
 
+---
 
 [![Awesome](https://awesome.re/badge.svg?style=for-the-badge)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge)](https://github.com/fynks/email-aliasing-comparison)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202025-brightgreen.svg?style=for-the-badge)](https://github.com/fynks/email-aliasing-comparison)
-
----
 
 **🚀 Quick Links:** [ Interactive Selector](#interactive-provider-selector) | [ Free Providers](#free-plans-detailed-comparison) | [ Paid Plans](#paid-plans-detailed-comparison) | [ Security Analysis](#advanced-features-security-comparison)
 
