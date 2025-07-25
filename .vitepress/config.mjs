@@ -13,7 +13,7 @@ export default defineConfig({
   head: [
     // Performance optimization
     ['link', { rel: 'preload', href: '/favicon.svg', as: 'image' }],
-    
+
     // Critical resource hints - prioritize most important resources
     ['link', { rel: 'preconnect', href: 'https://img.shields.io', crossorigin: '' }],
     ['link', { rel: 'dns-prefetch', href: 'https://img.shields.io' }],
@@ -38,7 +38,7 @@ export default defineConfig({
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
 
     // SEO Meta Tags
-    ['meta', { name: 'keywords', content: 'email aliasing 2025, best email alias providers, email privacy service comparison, anonymous email forwarding, secure email aliases, email privacy protection, hide real email address, disposable email service, temporary email aliases, email forwarding service, privacy email tools, anonymous email service, email alias generator, secure email forwarding, email privacy guide 2025, Addy.io review, SimpleLogin vs Addy.io, DuckDuckGo email protection, Firefox Relay alternative, Apple Hide My Email review, ForwardMail comparison, AdGuard Mail review, 33Mail alternative, IronVest email masking, Erine.email review, email alias service comparison, best anonymous email service, email privacy tools 2025, secure email providers, email forwarding comparison, privacy-focused email, anonymous email providers, email alias providers ranking, email security service, privacy email forwarding, email anonymity service, temporary email providers, disposable email comparison, email privacy software, secure email alias service, email protection service, anonymous forwarding service, email privacy solutions, secure anonymous email, email alias security, privacy email service, email forwarding security, anonymous email tools, email privacy apps, secure email privacy, email alias features, privacy email comparison, email forwarding providers, secure email solutions, email privacy features, anonymous email comparison, email alias reviews, privacy email providers, secure email forwarding service, email privacy ranking, anonymous email security, email alias guide, privacy email tools comparison, secure email alias providers, email forwarding guide, anonymous email providers comparison, email privacy service review, secure email privacy service, email alias provider comparison, privacy email service ranking, secure anonymous email service, email forwarding service comparison, privacy-focused email providers, secure email alias comparison, anonymous email service review, email privacy provider guide, secure email forwarding comparison, privacy email alias service, anonymous email forwarding service, secure email privacy tools, email alias security comparison, privacy email forwarding service, secure anonymous email providers, email privacy service comparison 2025' }],
+    ['meta', { name: 'keywords', content: 'email aliasing 2025, best email alias providers, email privacy learning path, beginner email privacy guide, expert email aliasing guide, interactive provider selector, email alias setup guide, 5-minute email privacy setup, email aliasing comparison, anonymous email forwarding, secure email aliases, email privacy protection, hide real email address, disposable email service, temporary email aliases, email forwarding service, privacy email tools, anonymous email service, email alias generator, secure email forwarding, email privacy guide 2025, Addy.io review, SimpleLogin vs Addy.io, DuckDuckGo email protection, Firefox Relay alternative, Apple Hide My Email review, ForwardMail comparison, AdGuard Mail review, 33Mail alternative, IronVest email masking, Erine.email review, email alias service comparison, best anonymous email service, email privacy tools 2025, secure email providers, email forwarding comparison, privacy-focused email, anonymous email providers, email alias providers ranking, email security service, privacy email forwarding, email anonymity service, temporary email providers, disposable email comparison, email privacy software, secure email alias service, email protection service, anonymous forwarding service, email privacy solutions, secure anonymous email, email alias security, privacy email service, email forwarding security, anonymous email tools, email privacy apps, secure email privacy, email alias features, privacy email comparison, email forwarding providers, secure email solutions, email privacy features, anonymous email comparison, email alias reviews, privacy email providers, secure email forwarding service, email privacy ranking, anonymous email security, email alias guide, privacy email tools comparison, secure email alias providers, email forwarding guide, anonymous email providers comparison, email privacy service review, secure email privacy service, email alias provider comparison, privacy email service ranking, secure anonymous email service, email forwarding service comparison, privacy-focused email providers, secure email alias comparison, anonymous email service review, email privacy provider guide, secure email forwarding comparison, privacy email alias service, anonymous email forwarding service, secure email privacy tools, email alias security comparison, privacy email forwarding service, secure anonymous email providers, email privacy service comparison 2025' }],
     ['meta', { name: 'author', content: 'Email Privacy Experts' }],
     ['meta', { name: 'publisher', content: 'Email Aliasing Comparison Guide' }],
     ['meta', { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }],
@@ -53,7 +53,7 @@ export default defineConfig({
     // Open Graph Meta Tags
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Best Email Alias Providers 2025 - Complete Privacy & Security Guide' }],
-    ['meta', { property: 'og:description', content: 'Discover the top email alias providers in 2025. Expert reviews and comparisons of Addy.io, SimpleLogin, DuckDuckGo Email, and 7+ other privacy services. Find the perfect email aliasing solution with our comprehensive guide featuring pricing analysis, security evaluations, and migration tutorials.' }],
+    ['meta', { property: 'og:description', content: 'Complete 2025 guide to email alias providers with beginner & expert learning paths. Compare 10+ services including Addy.io, SimpleLogin, DuckDuckGo Email Protection. Features step-by-step setup guides, security analysis, pricing comparison & migration tools for maximum email privacy.' }],
     ['meta', { property: 'og:url', content: 'https://email-aliasing-comparison.netlify.app' }],
     ['meta', { property: 'og:site_name', content: 'Email Aliasing Comparison 2025' }],
     ['meta', { property: 'og:image', content: 'https://email-aliasing-comparison.netlify.app/og.png' }],
@@ -75,7 +75,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:site', content: '@emailprivacy' }],
     ['meta', { name: 'twitter:creator', content: '@emailprivacy' }],
     ['meta', { name: 'twitter:title', content: 'Best Email Alias Providers 2025 - Complete Privacy & Security Guide' }],
-    ['meta', { name: 'twitter:description', content: 'Discover the top email alias providers in 2025. Expert reviews of 10+ services including Addy.io, SimpleLogin, DuckDuckGo Email. Complete with pricing analysis, security evaluations, and step-by-step migration guides.' }],
+    ['meta', { name: 'twitter:description', content: 'Complete 2025 guide to email alias providers with beginner & expert learning paths. Compare 10+ services with step-by-step setup guides, security analysis, and migration tools for maximum email privacy protection.' }],
     ['meta', { name: 'twitter:image', content: 'https://email-aliasing-comparison.netlify.app/og.png' }],
     ['meta', { name: 'twitter:image:alt', content: 'Email Aliasing Comparison Guide - Best Email Alias Providers 2025' }],
 
@@ -84,7 +84,7 @@ export default defineConfig({
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'Email Aliasing Comparison 2025',
-      description: 'Complete guide to the best email alias providers in 2025. Compare pricing, features, and security of top email privacy services.',
+      description: 'Complete guide to the best email alias providers in 2025 with beginner and expert learning paths. Compare pricing, features, and security across 10+ providers with step-by-step setup guides.',
       url: 'https://email-aliasing-comparison.netlify.app',
       author: {
         '@type': 'Organization',
@@ -122,7 +122,7 @@ export default defineConfig({
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: 'Best Email Alias Providers 2025 - Complete Privacy & Security Guide',
-      description: 'Comprehensive comparison and review of the top email alias providers in 2025, featuring detailed analysis of pricing, features, security, and privacy policies.',
+      description: 'Comprehensive comparison and review of the top email alias providers in 2025, featuring beginner and expert learning paths, detailed analysis of pricing, features, security, privacy policies, and step-by-step setup guides.',
       author: {
         '@type': 'Organization',
         name: 'Email Privacy Experts'
@@ -151,7 +151,7 @@ export default defineConfig({
       keywords: 'email aliasing, email privacy, anonymous email, secure email, privacy tools, email security'
     })]
 
-  
+
   ],
   themeConfig: {
     logo: {
@@ -173,8 +173,8 @@ export default defineConfig({
         },
         translations: {
           button: {
-            buttonText: 'Search email providers, features & guides',
-            buttonAriaLabel: 'Search the best email alias providers, features and privacy guides'
+            buttonText: 'Search providers, guides & learning paths',
+            buttonAriaLabel: 'Search email alias providers, setup guides, and learning paths'
           },
           modal: {
             displayDetails: 'Display detailed list',
@@ -189,76 +189,78 @@ export default defineConfig({
           }
         }
       }
-    },
-    nav: [
-      { 
-        text: 'Providers', 
-        items: [
-          { text: 'Provider Directory', link: '/#complete-provider-directory' },
-          { text: 'Comparison Tables', link: '/#comparison-tables' },
-          { text: 'Detailed Analysis', link: '/#detailed-provider-analysis' },
-          { text: 'Cancellation Policies', link: '/#cancellation-policies' }
-        ]
-      },
-      { 
-        text: 'Guides', 
-        items: [
-          { text: 'Getting Started', link: '/#getting-started-guide' },
-          { text: 'Use Case Recommendations', link: '/#use-case-recommendations' },
-          { text: 'Migration Guide', link: '/#migration-between-providers' },
-          { text: 'Security Considerations', link: '/#security-and-privacy-considerations' }
-        ]
-      },
-      { text: 'Resources', link: '/#additional-resources' }
-    ],
-
-    sidebar: {
-      '/email-alais-providers/': [
-        {
-          text: 'Provider Comparisons',
-          items: [
-            { text: 'Overview', link: '/email-alais-providers/' },
-            { text: 'Addy.io vs SimpleLogin', link: '/email-alais-providers/addy-vs-simplelogin' }
-          ]
-        }
-      ],
-      '/': [
-        {
-          text: 'Getting Started',
-          items: [
-            { text: 'Introduction', link: '/#introduction' },
-            { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
-            { text: 'Benefits and Use Cases', link: '/#benefits-and-use-cases' },
-            { text: 'How Email Aliasing Works', link: '/#how-email-aliasing-works' }
+    }, 
+        nav: [
+          {
+            text: 'Get Started',
+            items: [
+              { text: 'Quick Start (5 min)', link: '/#5-minute-setup-guide' },
+              { text: 'Provider Selector', link: '/#interactive-provider-selector' },
+              { text: 'Top 3 Picks', link: '/#top-3-beginner-friendly-providers' }
+            ]
+          },
+          {
+            text: 'Compare',
+            items: [
+              { text: 'All Providers', link: '/#complete-provider-directory' },
+              { text: 'Free Plans', link: '/#free-plans-detailed-comparison' },
+              { text: 'Paid Plans', link: '/#paid-plans-detailed-comparison' }
+            ]
+          },
+          {
+            text: 'Learn',
+            items: [
+              { text: 'Beginner Guide', link: '/#beginner-quick-start-path' },
+              { text: 'Advanced Guide', link: '/#expert-deep-dive-path' },
+              { text: 'Best Practices', link: '/#first-week-best-practices' }
+            ]
+          }
+        ],
+    
+        sidebar: {
+          '/': [
+            {
+              text: '🚀 Quick Start',
+              collapsed: false,
+              items: [
+                { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
+                { text: 'Provider Selector', link: '/#interactive-provider-selector' },
+                { text: 'Top 3 Providers', link: '/#top-3-beginner-friendly-providers' },
+                { text: '5-Min Setup Guide', link: '/#5-minute-setup-guide' }
+              ]
+            },
+            {
+              text: '📊 Provider Comparison',
+              collapsed: false,
+              items: [
+                { text: 'All Providers', link: '/#complete-provider-directory' },
+                { text: 'Free Plans', link: '/#free-plans-detailed-comparison' },
+                { text: 'Paid Plans', link: '/#paid-plans-detailed-comparison' },
+                { text: 'Security Analysis', link: '/#advanced-features-security-comparison' }
+              ]
+            },
+            {
+              text: '📚 Learning Paths',
+              collapsed: true,
+              items: [
+                { text: 'Beginner Path', link: '/#beginner-quick-start-path' },
+                { text: 'Expert Path', link: '/#expert-deep-dive-path' },
+                { text: 'Use Cases', link: '/#use-case-recommendations' },
+                { text: 'Best Practices', link: '/#first-week-best-practices' }
+              ]
+            },
+            {
+              text: '🔧 Help & Support',
+              collapsed: true,
+              items: [
+                { text: 'FAQ', link: '/#frequently-asked-questions' },
+                { text: 'Troubleshooting', link: '/#troubleshooting-guide' },
+                { text: 'Migration Guide', link: '/#migration-between-providers' },
+                { text: 'Glossary', link: '/#complete-feature-glossary' }
+              ]
+            }
           ]
         },
-        {
-          text: 'Provider Analysis',
-          items: [
-            { text: 'Provider Categories', link: '/#provider-categories' },
-            { text: 'Complete Directory', link: '/#complete-provider-directory' },
-            { text: 'Detailed Analysis', link: '/#detailed-provider-analysis' },
-            { text: 'Cancellation Policies', link: '/#cancellation-policies' }
-          ]
-        },
-        {
-          text: 'Practical Guides',
-          items: [
-            { text: 'Use Case Recommendations', link: '/#use-case-recommendations' },
-            { text: 'Getting Started Guide', link: '/#getting-started-guide' },
-            { text: 'Migration Between Providers', link: '/#migration-between-providers' },
-            { text: 'Security & Privacy', link: '/#security-and-privacy-considerations' }
-          ]
-        },
-        {
-          text: 'Advanced Topics',
-          items: [
-            { text: 'Additional Resources', link: '/#additional-resources' },
-            { text: 'Contributing', link: '/#contributing' }
-          ]
-        }
-      ]
-    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fynks/email-aliasing-comparison' }
