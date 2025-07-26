@@ -17,31 +17,31 @@ A comprehensive comparison of leading email alias services including pricing, fe
 
 </div>
 
+## Table of Contents
 
-## Complete Table of Contents
-
-### Beginner Quick Start Path
-*Estimated time: 10-15 minutes*
-
-- [Introduction](#introduction)
-- [Interactive Provider Selector](#interactive-provider-selector) - 2 min
-- [Top 3 Beginner-Friendly Providers](#top-3-beginner-friendly-providers) 
+### Quick Start
+- [What is Email Aliasing?](#what-is-email-aliasing)
+- [Interactive Provider Selector](#interactive-provider-selector)
+- [Top 3 Beginner Providers](#top-3-beginner-friendly-providers)
 - [5-Minute Setup Guide](#5-minute-setup-guide)
-- [First Week Best Practices](#first-week-best-practices)
-- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 
-### Expert Deep Dive Path
-- [Technical Architecture Overview](#technical-architecture-overview)
-- [Complete Provider Directory](#complete-provider-directory)
-- [Advanced Security Analysis](#advanced-security-analysis)
-- [API & Integration Guide](#api--integration-guide)
-- [Enterprise Considerations](#enterprise-considerations)
+### Provider Comparisons
+- [Free Plans Comparison](#free-plans-detailed-comparison) - Compare all free options
+- [Paid Plans Comparison](#paid-plans-detailed-comparison) - Premium features breakdown  
+- [Addy.io vs SimpleLogin](#addyio-vs-simplelogin) - Head-to-head comparison
+- [Complete Provider Directory](#complete-provider-directory) - All 10 providers analyzed
 
-### Reference Sections
-- [Complete Feature Glossary](#complete-feature-glossary)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [Troubleshooting Guide](#troubleshooting-guide)
-- [Legal & Compliance Framework](#legal--compliance-framework)
+### Advanced Topics
+- [Security & Privacy Analysis](#advanced-features-security-comparison)
+- [Enterprise & Business Use](#enterprise-considerations)
+- [API & Developer Guide](#api--integration-guide)
+- [Legal & Compliance](#legal--compliance-framework)
+
+### Reference & Help
+- [Feature Glossary](#complete-feature-glossary) - Understand all terms
+- [Troubleshooting](#troubleshooting-guide) - Fix common issues
+- [FAQ](#frequently-asked-questions) - Quick answers
+- [Best Practices](#first-week-best-practices) - Pro tips
 
 ---
 
