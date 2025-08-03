@@ -39,41 +39,52 @@ Detailed analysis of all major email alias services:
 ### 📚 Learning Guides
 Step-by-step instructions and best practices:
 
-- **[Setup Guides](./guides/setup-guides.md)** - Detailed setup for each provider
-- **[Security Analysis](./guides/security.md)** - Privacy and security deep dive
-- **[Migration Guide](./guides/migration.md)** - Moving between providers
+| Guide | Contents |
+| :--- | :--- |
+| **[Setup Guides](./guides/setup-guides.md)** | Detailed setup for each provider |
+| **[Security Analysis](./guides/security.md)** | Privacy and security deep dive |
+| **[Migration Guide](./guides/migration.md)** | Moving between providers |
 
 ### 📖 Reference Materials
 Quick answers and detailed explanations:
 
-- **[FAQ](./reference/faq.md)** - Frequently asked questions
-- **[Feature Glossary](./reference/features.md)** - Understand all terms and features
-- **[Troubleshooting](./reference/troubleshooting.md)** - Fix common issues
-- **[Legal & Compliance](./reference/legal.md)** - Legal considerations
+| Guide | Contents |
+| :--- | :--- |
+| **[FAQ](./reference/faq.md)** | Frequently asked questions |
+| **[Feature Glossary](./reference/features.md)** | Understand all terms and features |
+| **[Troubleshooting](./reference/troubleshooting.md)** | Fix common issues |
+| **[Legal & Compliance](./reference/legal.md)** | Legal considerations |
 
 ## Choose Your Path
 
 ### New to Email Aliasing?
 **Recommended path for beginners:**
 
-1. Start with [What is Email Aliasing?](./getting-started/what-is-email-aliasing.md)
-2. Check [Top 3 Providers](./providers/top-picks.md) for recommendations
-3. Follow the [Quick Setup Guide](./getting-started/quick-start.md)
-4. Read [First Week Best Practices](./getting-started/first-week.md)
+| Step | Guide | Purpose |
+| :--- | :--- | :--- |
+| 1 | [What is Email Aliasing?](./getting-started/what-is-email-aliasing.md) | Learn the basics |
+| 2 | [Top 3 Providers](./providers/top-picks.md) | Get recommendations |
+| 3 | [Quick Setup Guide](./getting-started/quick-start.md) | Set up your first alias |
+| 4 | [First Week Best Practices](./getting-started/first-week.md) | Optimize your usage |
 
 ### Ready to Compare Providers?
 **Jump straight to comparisons:**
 
-- [Provider Overview](./providers/overview.md) - Quick comparison table
-- [Free Plans](./providers/free-plans.md) - No-cost options
-- [Paid Plans](./providers/paid-plans.md) - Premium features
+| Guide | Contents |
+| :--- | :--- |
+| [Provider Overview](./providers/overview.md) | Quick comparison table |
+| [Free Plans](./providers/free-plans.md) | No-cost options |
+| [Paid Plans](./providers/paid-plans.md) | Premium features |
 
 ### Need Specific Help?
 **Quick access to solutions:**
 
-- [FAQ](./reference/faq.md) - Common questions
-- [Troubleshooting](./reference/troubleshooting.md) - Technical issues
-- [Security Guide](./guides/security.md) - Privacy concerns
+| Guide | Contents |
+| :--- | :--- |
+| [FAQ](./reference/faq.md) | Common questions |
+| [Troubleshooting](./reference/troubleshooting.md) | Technical issues |
+| [Security Guide](./guides/security.md) | Privacy concerns |
+
 
 ## Key Statistics
 
