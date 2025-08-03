@@ -19,18 +19,22 @@ A comprehensive comparison of leading email alias services including pricing, fe
 
 Perfect for beginners who want to get started immediately:
 
-- **New to email aliasing?** → [What is Email Aliasing?](./getting-started/what-is-email-aliasing.md) - Simple explanation with real-world examples
-- **Ready to get started?** → [Quick Setup Guide](./getting-started/quick-start.md) - Get your first alias working in under 5 minutes
-- **Want recommendations?** → [Top 3 Providers](./providers/top-picks.md) - Best options for different needs
+| Guide | Contents |
+| :--- | :--- |
+|  [What is Email Aliasing?](./getting-started/what-is-email-aliasing.md)  | Simple explanation with real-world examples |
+| [Quick Setup Guide](./getting-started/quick-start.md) | Get your first alias working in under 5 minutes |
+| [Top 3 Providers](./providers/top-picks.md) | Best options for different needs |
 
 ## What You'll Find Here
 
 ### 📊 Provider Comparisons
 Detailed analysis of all major email alias services:
 
-- **[Provider Overview](./providers/overview.md)** - Side-by-side comparison of all providers
-- **[Free Plans](./providers/free-plans.md)** - What you get without paying
-- **[Paid Plans](./providers/paid-plans.md)** - Premium features and pricing
+| Guide | Contents |
+| :--- | :--- |
+| [Provider Overview](./providers/overview.md) | Side-by-side comparison of all providers |
+| [Free Plans](./providers/free-plans.md) | What you get without paying |
+| [Paid Plans](./providers/paid-plans.md) | Premium features and pricing |
 
 ### 📚 Learning Guides
 Step-by-step instructions and best practices:
@@ -109,8 +113,11 @@ Email aliasing protects your privacy by:
 ---
 
 ## 🛠 Development
+<details><summary>Click to expand</summary>
 
 This is a VitePress documentation site:
+
+
 
 ```bash
 # Install dependencies
@@ -122,6 +129,8 @@ npm run docs:dev
 # Build for production
 npm run docs:build
 ```
+
+</details>
 
 ## 🤝 Contributing
 
