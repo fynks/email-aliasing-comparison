@@ -87,12 +87,6 @@ Email aliasing protects your privacy by:
 | **Maximum privacy** | [SimpleLogin](./providers/top-picks.md#simplelogin) | Swiss jurisdiction, enterprise-grade |
 | **Apple ecosystem** | [Apple Hide My Email](./providers/top-picks.md#apple-hide-my-email) | Seamless integration |
 
-## Latest Updates
-
-- **January 2025**: Updated pricing for all providers
-- **January 2025**: Added new security analysis section
-- **January 2025**: Restructured guide for better navigation
-
 ---
 
 **Ready to get started?** Choose your path above or jump directly to [What is Email Aliasing?](./getting-started/what-is-email-aliasing.md)

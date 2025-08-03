@@ -62,13 +62,6 @@ npm run docs:dev
 npm run docs:build
 ```
 
-## 📝 Recent Changes
-
-- **January 2025**: Complete restructure into logical, navigable sections
-- **January 2025**: Enhanced beginner-friendly content with practical examples
-- **January 2025**: Comprehensive FAQ, troubleshooting, and reference sections
-- **January 2025**: Updated all provider information and pricing
-
 ## 🤝 Contributing
 
 Found outdated information or want to add a provider? See our [Contributing Guidelines](./archive/original-guide.md#contributing) in the original guide.
