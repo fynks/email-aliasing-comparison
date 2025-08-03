@@ -7,9 +7,6 @@ export default defineConfig({
   ignoreDeadLinks: true,
   cleanUrls: true,
   lastUpdated: true,
-  rewrites: {
-    'README.md': 'archive/original-guide.md'
-  },
   head: [
     // Performance optimization
     ['link', { rel: 'preload', href: '/favicon.svg', as: 'image' }],
