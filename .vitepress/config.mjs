@@ -255,7 +255,7 @@ export default defineConfig({
             items: [
               { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
               { text: 'Provider Selector', link: '/#interactive-provider-selector' },
-              { text: 'Setup Guide', link: '/#5-minute-setup-guide' }
+              { text: 'Setup Guide', link: '/#quick-setup-guide' }
             ]
           },
           {
@@ -303,7 +303,7 @@ export default defineConfig({
               items: [
                 { text: 'Interactive Provider Selector', link: '/#interactive-provider-selector' },
                 { text: 'Top 3 Beginner-Friendly Providers', link: '/#top-3-beginner-friendly-providers' },
-                { text: '5-Minute Setup Guide', link: '/#5-minute-setup-guide' },
+                { text: '5-Minute Setup Guide', link: '/#quick-setup-guide' },
                 { text: 'Use Case Recommendations', link: '/#use-case-recommendations' }
               ]
             },

@@ -28,7 +28,7 @@ A comprehensive comparison of leading email alias services including pricing, fe
 ### 2. Choose Your Provider
 - [Interactive Provider Selector](#interactive-provider-selector)
 - [Top 3 Beginner-Friendly Providers](#top-3-beginner-friendly-providers)
-- [5-Minute Setup Guide](#5-minute-setup-guide)
+- [Quick Setup Guide](#quick-setup-guide)
 - [Use Case Recommendations](#use-case-recommendations)
 
 ### 3. Provider Comparisons
@@ -187,7 +187,7 @@ Answer 3 quick questions to get personalized recommendations:
 
 ---
 
-## 5-Minute Setup Guide
+## Quick Setup Guide
 
 ### Option A: DuckDuckGo (Fastest - 2 minutes)
 
