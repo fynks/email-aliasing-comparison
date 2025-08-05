@@ -25,7 +25,6 @@ A comprehensive comparison of leading email alias services including pricing, fe
 - [What is Email Aliasing?](#what-is-email-aliasing)
 - [How Email Aliasing Works](#how-email-aliasing-works)
 - [Benefits and Use Cases](#benefits-and-use-cases)
-- [Provider Categories](#provider-categories)
 
 ### 2. Quick Start Guide
 - [Interactive Provider Selector](#interactive-provider-selector)
@@ -100,10 +99,9 @@ With Aliasing:    shopping@alias.com → stores
 
 ### Types of Email Aliasing
 
-**Built-in Aliases**: Many email providers offer basic aliasing features like Gmail's `+` addressing (`yourname+tag@gmail.com`) or Outlook's alias system. These are free but have limited management options.
+- **Built-in Aliases**: Many email providers offer basic aliasing features like Gmail's `+` addressing (`yourname+tag@gmail.com`) or Outlook's alias system. These are free but have limited management options.
 
-**Dedicated Services**: Third-party providers specializing in alias management with advanced features like custom domains, encryption, detailed dashboards, and comprehensive privacy controls.
-
+- **Dedicated Services**: Third-party providers specializing in alias management with advanced features like custom domains, encryption, detailed dashboards, and comprehensive privacy controls.
 
 ## Benefits and Use Cases
 
@@ -126,17 +124,6 @@ With Aliasing:    shopping@alias.com → stores
 - Use different aliases for different purposes (work, shopping, social media)
 - Track which services share or sell your email
 - Organize incoming emails by source automatically
-
-## Provider Categories
-
-- ### Premium Providers
-Professional services with advanced features, custom domains, and enterprise-grade infrastructure. Typically subscription-based with comprehensive privacy features.
-
-- ### Free & Freemium Services
-Services offering substantial free tiers or freemium models. Good for getting started or light usage.
-
-- ### Built-in Solutions
-Email aliasing features integrated into existing email providers or operating systems. Often the simplest to set up.
 
 ## Interactive Provider Selector
 
