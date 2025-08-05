@@ -2,7 +2,7 @@
 
 # Email Aliasing Comparison
 
-*🛡️ Complete Guide to Email Privacy & Security*
+🛡️ Complete Guide to Email Privacy & Security
 
 A comprehensive comparison of leading email alias services including pricing, features, security, and privacy policies. Compare [Addy.io](https://addy.io), [SimpleLogin](https://simplelogin.io), [DuckDuckGo Email Protection](https://duckduckgo.com/email), [Firefox Relay](https://relay.firefox.com), [ForwardMail](https://forwardemail.net), [Apple Hide My Email](https://support.apple.com/en-us/102219), [AdGuard Mail](https://adguard.com/adguard-mail), [33Mail](https://33mail.com), [IronVest](https://ironvest.com) and [Erine.email](https://erine.email).
 
@@ -13,7 +13,7 @@ A comprehensive comparison of leading email alias services including pricing, fe
 [![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge)](https://github.com/fynks/email-aliasing-comparison)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202025-brightgreen.svg?style=for-the-badge)](https://github.com/fynks/email-aliasing-comparison)
 
-**Quick Navigation:** [Interactive Selector](#interactive-provider-selector) | [Free Plans](#free-plans-detailed-comparison) | [Paid Plans](#paid-plans-detailed-comparison) | [Security Analysis](#advanced-features-security-comparison)
+**Quick Navigation:** [Interactive Selector](#interactive-provider-selector) | [Free Plans](#free-plans-detailed-comparison) | [Paid Plans](#paid-plans-detailed-comparison) | [Setup Guide](#quick-setup-guide)
 
 </div>
 
