@@ -30,6 +30,7 @@ A comprehensive comparison of leading email alias services including pricing, fe
 - [Paid Plans Comparison](#paid-plans-detailed-comparison) - Premium features breakdown  
 - [Addy.io vs SimpleLogin](#addyio-vs-simplelogin) - Head-to-head comparison
 - [Complete Provider Directory](#complete-provider-directory) - All 10 providers analyzed
+- [Cancellation Policies Comparison](#cancellation-policies-comparison) - Cancellation policies Comparison
 
 ### Advanced Topics
 - [Security & Privacy Analysis](#advanced-features-security-comparison)
@@ -298,65 +299,6 @@ Email aliasing features integrated into existing email providers or operating sy
 
 ## Advanced Security Analysis
 
-### Encryption Implementation Details
-
-#### End-to-End Encryption Support
-
-**Addy.io (GPG/OpenPGP)**
-```bash
-# Example: Setting up GPG encryption
-gpg --gen-key
-gpg --armor --export your-email@example.com > public-key.asc
-# Upload public key to Addy.io dashboard
-```
-
-**SimpleLogin (PGP)**
-```bash
-# Compatible with Proton Mail encryption
-# Automatic encryption when sending to other Proton users
-# Manual PGP key management for external recipients
-```
-
-#### Security Audit History
-
-| Provider | Last Audit | Auditor | Critical Issues | Report Public |
-|----------|------------|---------|-----------------|---------------|
-| **Addy.io** | 2023 | Securitum | 0 | Yes |
-| **SimpleLogin** | 2023 | Cure53 | 0 | Yes |
-| **ForwardMail** | 2022 | Internal | N/A | No |
-
-### Advanced Threat Modeling
-
-**Threat: Government Surveillance**
-- **Best**: Switzerland (SimpleLogin) - No mandatory data retention
-- **Good**: Netherlands (Addy.io) - EU privacy laws
-- **Concern**: USA providers - FISA requests possible
-
-**Threat: Provider Compromise**
-- **Mitigation**: End-to-end encryption (Addy.io, SimpleLogin)
-- **Monitoring**: Regular security audits and transparency reports
-- **Backup**: Multi-provider strategy with different jurisdictions
-
----
-
-## API & Integration Guide
-
-### API Capabilities Comparison
-
-| Feature | Addy.io | SimpleLogin | ForwardMail | Others |
-|---------|---------|-------------|-------------|---------|
-| **REST API** | Full | Full | Full | None |
-| **Rate Limits** | 60/min | 100/min | 30/min | N/A |
-| **Webhooks** | Yes | No | Yes | No |
-| **SDK Available** | No | No | Node.js | No |
-| **GraphQL** | No | No | No | No |
-
----
-
-## Enterprise Considerations
-
-### Compliance & Governance
-
 #### GDPR Compliance Matrix
 | Provider | Data Location | DPO Contact | Data Export | Right to Delete | Processing Legal Basis |
 |----------|---------------|-------------|-------------|----------------|----------------------|
@@ -364,10 +306,6 @@ gpg --armor --export your-email@example.com > public-key.asc
 | **Addy.io** | Netherlands | Yes | Full | Yes | Consent |
 | **ForwardMail** | USA/EU | Yes | Full | Yes | Consent |
 
-#### SOC 2 Type II Status
-- **SimpleLogin**: Certified (Proton AG umbrella)
-- **Addy.io**: Not certified (indie developer)
-- **ForwardMail**: In progress
 
 ### Team Management Features
 
@@ -395,17 +333,6 @@ gpg --armor --export your-email@example.com > public-key.asc
 | **100 users** | $300* | $400 | $300 |
 
 *Enterprise pricing available
-
-### Security Requirements
-
-#### Enterprise Security Checklist
-- **Encryption**: End-to-end encryption support
-- **Audit Logs**: Comprehensive activity logging
-- **Access Control**: Role-based permissions
-- **Backup & Recovery**: Data resilience procedures
-- **Incident Response**: 24/7 security monitoring
-- **Compliance**: Industry certifications
-- **Data Residency**: Geographic data controls
 
 ---
 
@@ -494,6 +421,69 @@ gpg --armor --export your-email@example.com > public-key.asc
 - **★★★ Adequate**: Basic encryption + Reasonable jurisdiction + Some transparency  
 - **★★ Limited**: Basic features only + Privacy concerns
 
+## Cancellation Policies Comparison
+
+Understanding what happens when you stop paying is crucial for long-term planning. Here's how each provider handles subscription cancellations:
+
+### Cancellation Policy Overview
+
+| Provider | Policy Type | Alias Functionality | Custom Domains | Advanced Features | Grace Period | Overall Rating |
+|----------|-------------|-------------------|----------------|-------------------|--------------|----------------|
+| **SimpleLogin** | 🟢 **Lenient** | All aliases continue working | Domains remain active | Settings preserved | Indefinite | ⭐⭐⭐⭐⭐ |
+| **ForwardMail** | 🟢 **Lenient** | Downgrades to free plan | Basic forwarding maintained | Loses premium features | Indefinite | ⭐⭐⭐⭐ |
+| **AdGuard Mail** | 🟢 **Lenient** | Keeps basic service | Returns to free tier limits | Loses premium domains | Indefinite | ⭐⭐⭐⭐ |
+| **33Mail** | 🟡 **Moderate** | Basic forwarding continues | Custom domains disabled | Premium features lost | Indefinite | ⭐⭐⭐ |
+| **Firefox Relay** | 🟡 **Moderate** | Returns to 5 aliases | Premium features lost | Basic functionality only | Indefinite | ⭐⭐⭐ |
+| **Addy.io** | 🔴 **Restrictive** | Limited functionality | Domains deactivated | Most features disabled | Unknown | ⭐⭐ |
+| **Apple Hide My Email** | 🔴 **Restrictive** | May stop working | iCloud+ required | No new aliases | None specified | ⭐⭐ |
+| **IronVest** | 🔴 **Restrictive** | May stop after grace | Not applicable | All features lost | Limited grace period | ⭐ |
+
+### Detailed Cancellation Impact
+
+| Provider | What Continues Working | What Gets Disabled | What Gets Deleted | Risk Level |
+|----------|----------------------|-------------------|------------------|------------|
+| **SimpleLogin** | • All existing aliases<br>• All custom domains<br>• Directory features<br>• All mailboxes | • Creating new aliases (if >10)<br>• Premium support | • Nothing permanently lost | 🟢 **Minimal Risk** |
+| **ForwardMail** | • Basic forwarding<br>• Existing aliases<br>• Core functionality | • Premium features<br>• Advanced analytics<br>• Priority support | • Premium-only configurations | 🟢 **Low Risk** |
+| **AdGuard Mail** | • Basic email service<br>• Free tier features<br>• Up to 10 aliases | • Premium domains<br>• Advanced features<br>• Higher limits | • Premium domain aliases | 🟢 **Low Risk** |
+| **33Mail** | • Basic forwarding<br>• Standard aliases<br>• Core service | • Custom domains<br>• Premium features<br>• Advanced rules | • Custom domain configurations | 🟡 **Moderate Risk** |
+| **Firefox Relay** | • First 5 aliases<br>• Basic forwarding<br>• Firefox integration | • Additional aliases<br>• Premium features<br>• Custom domains | • Aliases beyond 5 limit | 🟡 **Moderate Risk** |
+| **Addy.io** | • Standard aliases (limited)<br>• 1 recipient<br>• Basic forwarding | • Custom domains<br>• Additional usernames<br>• Shared domain aliases<br>• Multiple recipients<br>• Reply functionality | • Extra recipients<br>• Paid domain aliases<br>• Advanced features | 🔴 **High Risk** |
+| **Apple Hide My Email** | • Potentially nothing | • New alias creation<br>• Existing aliases may fail | • Risk of losing all functionality | 🔴 **Very High Risk** |
+| **IronVest** | • Limited grace period | • All masked emails<br>• Privacy features<br>• Virtual cards | • All alias functionality | 🔴 **Very High Risk** |
+
+### Best Practices for Cancellation Protection
+
+#### Before Committing to Any Provider:
+- [ ] **Test free tier** thoroughly before upgrading
+- [ ] **Export alias list** and keep external backup
+- [ ] **Document critical aliases** and their purposes
+- [ ] **Understand exact cancellation terms** from provider
+
+#### For High-Risk Providers (Addy.io, Apple, IronVest):
+- [ ] **Maintain backup provider** account
+- [ ] **Use for non-critical accounts** initially
+- [ ] **Plan migration strategy** before committing
+- [ ] **Keep original email** as fallback
+
+#### Migration Preparedness:
+```yaml
+Essential Documentation:
+  - Complete alias inventory (service → alias mapping)
+  - Custom domain DNS configurations
+  - Critical account recovery emails
+  - Provider API keys and credentials
+
+Emergency Contacts:
+  - Provider support emails
+  - Domain registrar access
+  - Payment processor details
+  - Backup email provider ready
+```
+
+### Recommendation
+Always test the free tier first and understand the downgrade policy before committing to any paid plan.
+
+
 ---
 
 ## Addy.io vs SimpleLogin
@@ -542,52 +532,6 @@ gpg --armor --export your-email@example.com > public-key.asc
 | **Password Security** | bcrypt | Argon2 |
 | **Session Management** | Standard | Advanced |
 | **Security Audits** | 2023 (Securitum) | Regular audits |
-
-## Cancellation Policies
-
-Understanding what happens when you stop paying is crucial for long-term planning:
-
-### Restrictive Cancellation Policies
-
-#### **Addy.io**
-- Custom domains deactivated
-- Additional usernames deactivated  
-- Extra recipients deleted (keeps only 1)
-- Paid-only domain aliases deactivated
-- Shared domain aliases limited to 10
-- Catch-all re-enabled if disabled
-
-#### **Apple Hide My Email**
-- No new Hide My Email addresses can be created
-- Existing addresses may stop working
-
-#### **IronVest**
-- Aliases may stop working after grace period
-
-### Lenient Cancellation Policies
-
-#### **SimpleLogin**
-- All aliases/domains/directories/mailboxes continue working
-- All settings preserved
-- Cannot create new aliases if over 10 limit
-
-#### **ForwardMail**
-- Downgrades to free forwarding-only plan
-- Basic functionality maintained
-
-#### **33Mail**
-- Keeps basic forwarding
-- Loses custom domain features
-
-#### **AdGuard Mail**
-- Keeps basic service (always has free tier)
-
-#### **Firefox Relay**
-- Back to 5 aliases
-- Premium features lost
-
-### Recommendation
-Always test the free tier first and understand the downgrade policy before committing to any paid plan.
 
 ## Use Case Recommendations
 
@@ -1049,55 +993,13 @@ Outlook: Rules → If sent to → shopping@alias.com → Move to Shopping folder
 
 | Provider | Jurisdiction | GDPR Compliance | Data Retention | Govt Requests | Transparency Report |
 | --- | --- | --- | --- | --- | --- |
-| **SimpleLogin** | 🇨🇭 Switzerland | ✅ Full compliance | Account deletion: immediate  <br>Logs: 30 days max | Court order required  <br>Limited scope | ✅ [Annual report](#) |
+| **SimpleLogin** | 🇨🇭 Switzerland | ✅ Full compliance | Account deletion: immediate  <br>Logs: 30 days max | Court order required  <br>Limited scope | ✅  |
 | **Addy.io** | 🇳🇱 Netherlands | ✅ Full compliance | Account deletion: immediate  <br>Logs: minimal | EU legal process  <br>Limited data available | ❌ Not published |
 | **DuckDuckGo** | 🇺🇸 United States | ✅ GDPR compliant | Minimal data collection  <br>No email content stored | Subject to US law  <br>FISA requests possible | ❌ Limited transparency |
-| **ForwardMail** | 🇺🇸 United States | ✅ GDPR compliant | Configurable retention  <br>Open-source logging | Subject to US law  <br>Can be self-hosted | ✅ [GitHub issues](#) |
+| **ForwardMail** | 🇺🇸 United States | ✅ GDPR compliant | Configurable retention  <br>Open-source logging | Subject to US law  <br>Can be self-hosted | ✅ |
 
-### International Data Transfers
-
-#### Privacy Shield Replacements
-**Post-Schrems II Compliance:**
-
-**EU-US Data Transfer Mechanisms:**
-- **Standard Contractual Clauses (SCCs)**: Most providers
-- **Adequacy Decisions**: Switzerland (SimpleLogin advantage)
-- **Binding Corporate Rules**: Not applicable for these providers
-
-**Data Localization Options:**
-```yaml
-SimpleLogin:
-  - Primary: Switzerland 🇨🇭
-  - No US processing
-  - EU data centers available
-
-Addy.io:
-  - Primary: Netherlands 🇳🇱
-  - EU-only processing
-  - No third-country transfers
-
-ForwardMail:
-  - Configurable regions
-  - Self-hosting option
-  - Customer controls location
-```
 
 ### Subpoena and Legal Request Handling
-
-#### Government Request Statistics (Annual)
-```
-SimpleLogin (2023):
-- Requests received: 0
-- Requests complied with: 0
-- User notifications: N/A
-
-DuckDuckGo (2023):
-- Requests received: ~1,000 (search + email)
-- Email-specific: Not disclosed
-- Compliance rate: <1%
-
-Others: No public transparency reports available
-```
 
 #### Legal Request Response Process
 
@@ -1303,7 +1205,12 @@ Found an error, outdated information, or want to add a provider? **Your contribu
 - **Consistent Formatting**: Follow existing table and section structures
 - **Helpful Context**: Explain technical terms and implications
 
+
 #### How to Contribute
+
+<details><summary>
+Click to expand the details
+</summary>
 
 **Method 1: GitHub (Recommended)**
 1. Fork this repository
@@ -1334,7 +1241,6 @@ Features:
   - Paid plan pricing and features  
   - Reply support (free/paid)
   - Custom domain support
-  - API availability
   - Mobile apps
   - Browser extensions
 
@@ -1369,6 +1275,8 @@ Comparison Data:
 - Formatting improvements
 - Grammar/spelling fixes
 - Additional resource links
+
+</details>
 
 ### Contact
 
