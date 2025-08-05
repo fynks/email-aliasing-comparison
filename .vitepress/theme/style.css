@@ -133,17 +133,7 @@
 /**
  * Component: Custom Fonts
  * -------------------------------------------------------------------------- */
- .VPHero .name {
-  font-size: 50px;
-}
 
- .VPHero .text {
-  font-size: 25px;
-}
-
- .VPHero .tagline {
-  font-size: 18px;
-}
 
 .eac p{
   display: flex;
@@ -152,7 +142,9 @@
   justify-content: center;
   
 }
-
+.eac p a {
+  margin: auto 0.25rem;
+}
 .eac img {
 margin: 0.5rem 0.25rem;
 }

@@ -2,7 +2,7 @@
 
 # Email Aliasing Comparison
 
-**Complete Guide to Email Privacy & Security**
+*🛡️ Complete Guide to Email Privacy & Security*
 
 A comprehensive comparison of leading email alias services including pricing, features, security, and privacy policies. Compare [Addy.io](https://addy.io), [SimpleLogin](https://simplelogin.io), [DuckDuckGo Email Protection](https://duckduckgo.com/email), [Firefox Relay](https://relay.firefox.com), [ForwardMail](https://forwardemail.net), [Apple Hide My Email](https://support.apple.com/en-us/102219), [AdGuard Mail](https://adguard.com/adguard-mail), [33Mail](https://33mail.com), [IronVest](https://ironvest.com) and [Erine.email](https://erine.email).
 
@@ -19,17 +19,20 @@ A comprehensive comparison of leading email alias services including pricing, fe
 
 ## Table of Contents
 
-### 1. Getting Started
+<details><summary>👉 Click to expand contents</summary>
+
+### 1. Understanding Email Aliasing
 - [What is Email Aliasing?](#what-is-email-aliasing)
-- [Benefits and Use Cases](#benefits-and-use-cases)
 - [How Email Aliasing Works](#how-email-aliasing-works)
+- [Benefits and Use Cases](#benefits-and-use-cases)
 - [Provider Categories](#provider-categories)
 
-### 2. Choose Your Provider
+### 2. Quick Start Guide
 - [Interactive Provider Selector](#interactive-provider-selector)
 - [Top 3 Beginner-Friendly Providers](#top-3-beginner-friendly-providers)
 - [Quick Setup Guide](#quick-setup-guide)
-- [Use Case Recommendations](#use-case-recommendations)
+- [First Week Best Practices](#first-week-best-practices)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 
 ### 3. Provider Comparisons
 - [Complete Provider Directory](#complete-provider-directory)
@@ -39,9 +42,8 @@ A comprehensive comparison of leading email alias services including pricing, fe
 - [Cancellation Policies Comparison](#cancellation-policies-comparison)
 
 ### 4. Implementation & Best Practices
+- [Use Case Recommendations](#use-case-recommendations)
 - [Getting Started Guide](#getting-started-guide)
-- [First Week Best Practices](#first-week-best-practices)
-- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
 - [Technical Architecture Overview](#technical-architecture-overview)
 
 ### 5. Advanced Topics
@@ -50,9 +52,11 @@ A comprehensive comparison of leading email alias services including pricing, fe
 
 ### 6. Reference & Support
 - [Complete Feature Glossary](#complete-feature-glossary)
-- [Troubleshooting Guide](#troubleshooting-guide)
 - [Frequently Asked Questions](#frequently-asked-questions)
+- [Troubleshooting Guide](#troubleshooting-guide)
 - [Final Recommendations & Next Steps](#final-recommendations--next-steps)
+
+</details>
 
 ## Introduction
 
@@ -67,6 +71,39 @@ Email aliasing is a privacy technique that lets you create multiple email addres
 - Your alias for shopping: `shopping.alias@provider.com`
 - Your alias for newsletters: `news.alias@provider.com`
 - Both aliases forward emails to your real Gmail account
+
+## How Email Aliasing Works
+
+**Think of it like a P.O. Box for your email** - you give out a forwarding address instead of your real one.
+
+```
+Real World:     Your Gmail → shopping.alias@provider.com → Amazon
+Email Aliasing: Amazon thinks they have shopping.alias@provider.com
+                But emails actually go to your Gmail inbox
+```
+
+### The Big Picture
+```
+Without Aliasing: john@gmail.com → everywhere (risky!)
+With Aliasing:    shopping@alias.com → stores
+                  social@alias.com → social media  
+                  work@alias.com → professional
+                  ↓ (all forward to) ↓
+                  john@gmail.com (safe!)
+```
+
+### Process Flow
+1. **Create an alias** through your chosen provider
+2. **Use the alias** when signing up for websites or services
+3. **Emails are forwarded** from the alias to your real inbox automatically
+4. **Reply through the alias** to keep your real email hidden
+5. **Manage aliases** - deactivate, delete, or organize as needed
+
+### Types of Email Aliasing
+
+**Built-in Aliases**: Many email providers offer basic aliasing features like Gmail's `+` addressing (`yourname+tag@gmail.com`) or Outlook's alias system. These are free but have limited management options.
+
+**Dedicated Services**: Third-party providers specializing in alias management with advanced features like custom domains, encryption, detailed dashboards, and comprehensive privacy controls.
 
 
 ## Benefits and Use Cases
@@ -91,58 +128,16 @@ Email aliasing is a privacy technique that lets you create multiple email addres
 - Track which services share or sell your email
 - Organize incoming emails by source automatically
 
-
-
-## How Email Aliasing Works
-
-**Think of it like a P.O. Box for your email** - you give out a forwarding address instead of your real one.
-
-```
-Real World:     Your Gmail → shopping.alias@provider.com → Amazon
-Email Aliasing: Amazon thinks they have shopping.alias@provider.com
-                But emails actually go to your Gmail inbox
-```
-
-### The Big Picture
-```
-Without Aliasing: john@gmail.com → everywhere (risky!)
-With Aliasing:    shopping@alias.com → stores
-                  social@alias.com → social media  
-                  work@alias.com → professional
-                  ↓ (all forward to) ↓
-                  john@gmail.com (safe!)
-```
-
----
-
-
-### Process Flow
-1. **Create an alias** through your chosen provider
-2. **Use the alias** when signing up for websites or services
-3. **Emails are forwarded** from the alias to your real inbox automatically
-4. **Reply through the alias** to keep your real email hidden
-5. **Manage aliases** - deactivate, delete, or organize as needed
-
-### Types of Email Aliasing
-
-**Built-in Aliases**: Many email providers offer basic aliasing features like Gmail's `+` addressing (`yourname+tag@gmail.com`) or Outlook's alias system. These are free but have limited management options.
-
-**Dedicated Services**: Third-party providers specializing in alias management with advanced features like custom domains, encryption, detailed dashboards, and comprehensive privacy controls.
-
-
 ## Provider Categories
 
-### Premium Providers
+- ### Premium Providers
 Professional services with advanced features, custom domains, and enterprise-grade infrastructure. Typically subscription-based with comprehensive privacy features.
 
-### Free & Freemium Services
+- ### Free & Freemium Services
 Services offering substantial free tiers or freemium models. Good for getting started or light usage.
 
-### Built-in Solutions
+- ### Built-in Solutions
 Email aliasing features integrated into existing email providers or operating systems. Often the simplest to set up.
-
-
----
 
 ## Interactive Provider Selector
 
@@ -187,30 +182,47 @@ Answer 3 quick questions to get personalized recommendations:
 
 ---
 
+
 ## Quick Setup Guide
 
-### Option A: DuckDuckGo (Fastest - 2 minutes)
+### Option A: DuckDuckGo
 
-1. **Install DuckDuckGo Extension**: [Chrome](https://chrome.google.com/webstore) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/) | [Safari](https://apps.apple.com/us/app/duckduckgo-privacy-browser/id663592361)
+1. **Install DuckDuckGo Extension**: [Chrome](https://chrome.google.com/webstore/detail/bkdgflcldnnnapblkhphbgpggdiikppg) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox) | [Mac](https://spreadprivacy.com/introducing-duckduckgo-for-mac/)
 2. **Visit any signup form** on the web
 3. **Click the duck icon** in email field
 4. **Auto-generates alias** like `duck_abc123@duck.com`
 5. **Done!** Emails forward to your real address
 
-**Pro Tip**: The generated alias is permanent - write it down if you need to reference it later.
+::: tip 💡 Pro Tip
+The generated alias is permanent - write it down if you need to reference it later.
+:::
 
-### Option B: SimpleLogin (Beginner-Friendly - 5 minutes)
+### Option B: Addy.io
+
+1. **Sign up**: Visit [addy.io](https://addy.io) and create account
+2. **Verify email**: Check your inbox and click verification link
+3. **Create first alias**: Click "Create Alias" in dashboard
+4. **Choose format**: Pick shared domain like `random123@addy.io` or standard like `shopping@username.addy.io`
+5. **Test it**: Send yourself an email to verify forwarding works
+6. **Upgrade to Lite**: Consider $1/mo plan for reply functionality and custom domain
+7. **Install browser extension**: [Chrome](https://chrome.google.com/webstore/detail/addy-io/iadbdpnoknmbdeolbapdackdcogdmjpe) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/addy_io/) for easy alias creation
+
+::: tip 💡 Pro Tip
+Free plan includes GPG encryption and API access - great for testing advanced features before upgrading.
+:::
+
+### Option C: SimpleLogin
 
 1. **Sign up**: Visit [simplelogin.io](https://simplelogin.io) and create account
 2. **Verify email**: Check your inbox and click verification link
 3. **Create first alias**: Click "Create alias" in dashboard
 4. **Choose name**: Pick something memorable like `shopping.alias@simplelogin.io`
 5. **Test it**: Send yourself an email to verify forwarding works
-6. **Install browser extension**: [Get extension](https://simplelogin.io/browser-extension) for easy alias creation
+6. **Install browser extension**: [Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn) | [Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/) | [Safari](https://apps.apple.com/app/id6475835429) for easy alias creation
 
-**Pro Tip**: Start with descriptive names like `amazon.purchases@simplelogin.io` instead of random strings.
-
----
+::: tip 💡 Pro Tip
+Start with descriptive names like `amazon.purchases@simplelogin.io` instead of random strings.
+:::
 
 ## First Week Best Practices
 
@@ -235,8 +247,6 @@ Answer 3 quick questions to get personalized recommendations:
 - **Update existing accounts** starting with least critical
 - **Monitor old email** for missed account updates
 - **Consider custom domain** if you like the service
-
----
 
 ## Common Mistakes to Avoid
 
@@ -264,79 +274,6 @@ Answer 3 quick questions to get personalized recommendations:
 **Wrong**: Relying on single provider with no backup  
 **Right**: Keep old email active and document all aliases  
 **Why**: If provider goes down, you could lose access to accounts
-
----
-
-## Expert Deep Dive Path
-
-For users who want comprehensive technical analysis and advanced features
-
----
-
-## Technical Architecture Overview
-
-### Infrastructure Comparison
-
-| Provider | Server Locations |
-| :--- | :--- |
-| **SimpleLogin** | Switzerland, Germany |
-| **Addy.io** | Netherlands |
-| **DuckDuckGo** | USA (AWS) |
-| **ForwardMail** | USA, Europe |
-
-### Email Processing Pipeline
-
-```
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│   Incoming  │ -> │   Spam      │ -> │   Rules     │ -> │  Forward    │
-│   Email     │    │   Filter    │    │   Engine    │    │   to User   │
-└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
-                           │                   │
-                           v                   v
-                    ┌─────────────┐    ┌─────────────┐
-                    │   Quarantine│    │  Analytics  │
-                    │   & Logs    │    │  & Metrics  │
-                    └─────────────┘    └─────────────┘
-```
-
----
-
-## Advanced Security Analysis
-
-#### GDPR Compliance Matrix
-| Provider | Data Location | DPO Contact | Data Export | Right to Delete | Processing Legal Basis |
-|----------|---------------|-------------|-------------|----------------|----------------------|
-| **SimpleLogin** | Switzerland | Yes | Full | Yes | Legitimate Interest |
-| **Addy.io** | Netherlands | Yes | Full | Yes | Consent |
-| **ForwardMail** | USA/EU | Yes | Full | Yes | Consent |
-
-
-### Team Management Features
-
-#### Multi-User Account Support
-**SimpleLogin Business**
-- User roles: Admin, Manager, User
-- Centralized billing and management
-- Audit logs and usage analytics
-- SSO integration (SAML, OIDC)
-
-**Addy.io Pro**
-- Single-user focus
-- API access for integration
-- Webhook support for automation
-- No built-in team features
-
-#### Cost Analysis for Teams
-
-**Cost per user per month (100 aliases each):**
-
-| Team Size | SimpleLogin | Addy.io | ForwardMail |
-|-----------|-------------|---------|-------------|
-| **5 users** | $20 ($4×5) | $20 ($4×5) | $15 ($3×5) |
-| **25 users** | $100 | $100 | $75 |
-| **100 users** | $300* | $400 | $300 |
-
-*Enterprise pricing available
 
 ---
 
@@ -427,7 +364,9 @@ Enhanced with technical specifications and detailed feature analysis
 
 ## Cancellation Policies Comparison
 
-Understanding what happens when you stop paying is crucial for long-term planning. Here's how each provider handles subscription cancellations:
+::: warning Why this is important?
+Understanding what happens is crucial for long-term planning as it suggest what will happen when you stop paying. Here's how each provider handles subscription cancellations:
+:::
 
 ### Cancellation Policy Overview
 
@@ -484,11 +423,10 @@ Emergency Contacts:
   - Backup email provider ready
 ```
 
-### Recommendation
+::: tip Recommendation
 Always test the free tier first and understand the downgrade policy before committing to any paid plan.
+:::
 
-
----
 
 ## Addy.io vs SimpleLogin
 
@@ -694,6 +632,90 @@ Always test the free tier first and understand the downgrade policy before commi
 - Implement advanced rules and automation
 - Consider multiple providers for redundancy
 
+## Technical Architecture Overview
+
+### Infrastructure Comparison
+
+| Provider | Server Locations |
+| :--- | :--- |
+| **SimpleLogin** | Switzerland, Germany |
+| **Addy.io** | Netherlands |
+| **DuckDuckGo** | USA (AWS) |
+| **ForwardMail** | USA, Europe |
+
+### Email Processing Pipeline
+
+```
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│   Incoming  │ -> │   Spam      │ -> │   Rules     │ -> │  Forward    │
+│   Email     │    │   Filter    │    │   Engine    │    │   to User   │
+└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+                           │                   │
+                           v                   v
+                    ┌─────────────┐    ┌─────────────┐
+                    │   Quarantine│    │  Analytics  │
+                    │   & Logs    │    │  & Metrics  │
+                    └─────────────┘    └─────────────┘
+```
+
+## Complete Feature Glossary
+
+### Core Concepts
+
+**Alias**: An email address that forwards to your real inbox
+- *Example*: `shopping@provider.com` → `you@gmail.com`
+
+**Catch-All**: Automatically forwards ALL emails to a domain
+- *Example*: Any email to `anything@yourdomain.com` reaches you
+
+**Reply Support**: Ability to send emails FROM your alias
+- *Without*: Recipients see your real email when you reply
+- *With*: Recipients only see your alias
+
+**Custom Domain**: Using your own domain for aliases
+- *Example*: `alias@yourcompany.com` instead of `alias@provider.com`
+
+### Advanced Features
+
+**Directory/Subdomain**: Create aliases on-the-fly using patterns
+- *Example*: Enable `username+anything@provider.com` format
+
+**Rules Engine**: Automatic actions based on email content
+- *Example*: Auto-delete emails containing "unsubscribe"
+
+**Bandwidth Limiting**: Restrict data transfer per alias
+- *Purpose*: Prevent abuse and control costs
+
+**Webhook Support**: Real-time notifications to your applications
+- *Use case*: Trigger actions when emails are received
+
+### Security Terms
+
+**GPG/PGP**: End-to-end encryption standards
+- *GPG*: GNU Privacy Guard (Addy.io)
+- *PGP*: Pretty Good Privacy (SimpleLogin)
+
+**Two-Factor Authentication (2FA)**: Extra login security
+- *TOTP*: Time-based codes (Google Authenticator)
+- *WebAuthn*: Hardware keys (YubiKey)
+
+**Zero-Knowledge**: Provider can't read your data
+- *Example*: Even if hacked, your emails stay private
+
+### Provider Types
+
+**Bootstrapped**: Self-funded company (Addy.io)
+- *Pros*: Independent, user-focused
+- *Cons*: Limited resources, single point of failure
+
+**Enterprise-Backed**: Part of larger company (SimpleLogin → Proton)
+- *Pros*: More resources, professional support
+- *Cons*: Potential feature restrictions, higher costs
+
+**Open Source**: Code is publicly available for review
+- *Pros*: Transparency, community contributions
+- *Cons*: Potential security through obscurity loss
+
 ## Frequently Asked Questions
 
 <details>
@@ -769,66 +791,6 @@ Outlook: Rules → If sent to → shopping@alias.com → Move to Shopping folder
 4. Verify you can decrypt with your private key
 
 </details>
-
----
-
-## Complete Feature Glossary
-
-### Core Concepts
-
-**Alias**: An email address that forwards to your real inbox
-- *Example*: `shopping@provider.com` → `you@gmail.com`
-
-**Catch-All**: Automatically forwards ALL emails to a domain
-- *Example*: Any email to `anything@yourdomain.com` reaches you
-
-**Reply Support**: Ability to send emails FROM your alias
-- *Without*: Recipients see your real email when you reply
-- *With*: Recipients only see your alias
-
-**Custom Domain**: Using your own domain for aliases
-- *Example*: `alias@yourcompany.com` instead of `alias@provider.com`
-
-### Advanced Features
-
-**Directory/Subdomain**: Create aliases on-the-fly using patterns
-- *Example*: Enable `username+anything@provider.com` format
-
-**Rules Engine**: Automatic actions based on email content
-- *Example*: Auto-delete emails containing "unsubscribe"
-
-**Bandwidth Limiting**: Restrict data transfer per alias
-- *Purpose*: Prevent abuse and control costs
-
-**Webhook Support**: Real-time notifications to your applications
-- *Use case*: Trigger actions when emails are received
-
-### Security Terms
-
-**GPG/PGP**: End-to-end encryption standards
-- *GPG*: GNU Privacy Guard (Addy.io)
-- *PGP*: Pretty Good Privacy (SimpleLogin)
-
-**Two-Factor Authentication (2FA)**: Extra login security
-- *TOTP*: Time-based codes (Google Authenticator)
-- *WebAuthn*: Hardware keys (YubiKey)
-
-**Zero-Knowledge**: Provider can't read your data
-- *Example*: Even if hacked, your emails stay private
-
-### Provider Types
-
-**Bootstrapped**: Self-funded company (Addy.io)
-- *Pros*: Independent, user-focused
-- *Cons*: Limited resources, single point of failure
-
-**Enterprise-Backed**: Part of larger company (SimpleLogin → Proton)
-- *Pros*: More resources, professional support
-- *Cons*: Potential feature restrictions, higher costs
-
-**Open Source**: Code is publicly available for review
-- *Pros*: Transparency, community contributions
-- *Cons*: Potential security through obscurity loss
 
 ---
 
