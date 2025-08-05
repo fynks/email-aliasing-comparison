@@ -37,22 +37,22 @@ A comprehensive comparison of leading email alias services including pricing, fe
 - [Complete Provider Directory](#complete-provider-directory)
 - [Free Plans Detailed Comparison](#free-plans-detailed-comparison)
 - [Paid Plans Detailed Comparison](#paid-plans-detailed-comparison)
-- [Addy.io vs SimpleLogin](#addyio-vs-simplelogin)
 - [Cancellation Policies Comparison](#cancellation-policies-comparison)
+- [Addy.io vs SimpleLogin](#addyio-vs-simplelogin)
 
 ### 4. Implementation & Best Practices
 - [Getting Started Guide](#getting-started-guide)
-- [Technical Architecture Overview](#technical-architecture-overview)
 
 ### 5. Advanced Topics
-- [Advanced Security Analysis](#advanced-security-analysis)
-- [Legal & Compliance Framework](#legal--compliance-framework)
+- [Technical Architecture Overview](#technical-architecture)
+- [Security Analysis](#security-analysis)
 
 ### 6. Reference & Support
-- [Complete Feature Glossary](#complete-feature-glossary)
-- [Frequently Asked Questions](#frequently-asked-questions)
+- [Feature Glossary](#feature-glossary)
 - [Troubleshooting Guide](#troubleshooting-guide)
-- [Quick Decision Matrix & Use Cases](#quick-decision-matrix--use-cases)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Additional Resources](#additional-resources)
+- [Contribution Guidelines](#contributing)
 
 </details>
 
@@ -97,7 +97,7 @@ With Aliasing:    shopping@alias.com → stores
 4. **Reply through the alias** to keep your real email hidden
 5. **Manage aliases** - deactivate, delete, or organize as needed
 
-### Types of Email Aliasing
+## Types of Email Aliasing
 
 - **Built-in Aliases**: Many email providers offer basic aliasing features like Gmail's `+` addressing (`yourname+tag@gmail.com`) or Outlook's alias system. These are free but have limited management options.
 
@@ -105,45 +105,45 @@ With Aliasing:    shopping@alias.com → stores
 
 ## Benefits and Use Cases
 
-### Privacy Protection
+**Privacy Protection**
 - Hide your real email address from websites and services
 - Prevent companies from tracking you across different platforms
 - Keep your personal email private and secure
 
-### Spam Prevention
+**Spam Prevention**
 - Create disposable aliases for one-time signups
 - Easily block spam by deactivating compromised aliases
 - Keep your main inbox clean and organized
 
-### Security Benefits
+**Security Benefits**
 - Reduce risk of your main email being exposed in data breaches
 - Limit damage if one alias gets compromised
 - Better control over who can contact you
 
-### Organization and Management
+**Organization and Management**
 - Use different aliases for different purposes (work, shopping, social media)
 - Track which services share or sell your email
 - Organize incoming emails by source automatically
 
 ## Interactive Provider Selector
 
-Answer 3 quick questions to get personalized recommendations:
+**Answer 3 questions to get personalized recommendations:**
 
-### Question 1: What's your experience level?
-- **Complete Beginner**: Never used email aliases → **Recommended: DuckDuckGo**
-- **Some Experience**: Used Gmail+ or similar → **Recommended: SimpleLogin**
-- **Advanced User**: Want full control & features → **Recommended: Addy.io**
+#### 1. Experience Level:
+- Complete Beginner → **DuckDuckGo**
+- Some Experience → **SimpleLogin**
+- Advanced User → **Addy.io**
 
-### Question 2: What's your budget?
-- **Free Only**: No monthly cost → **DuckDuckGo or Erine.email**
-- **Budget Conscious**: Under $2/month → **Addy.io Lite ($1/mo)**
-- **Full-Featured**: Best features regardless → **SimpleLogin ($4/mo)**
+#### 2. Budget:
+- Free Only → **DuckDuckGo or Erine.email**
+- Under $2/month → **Addy.io Lite ($1/mo)**
+- Best Features → **SimpleLogin ($4/mo)**
 
-### Question 3: What's your primary goal?
-- **Basic Privacy**: Hide email from marketers → **DuckDuckGo**
-- **Maximum Security**: End-to-end encryption → **SimpleLogin or Addy.io**
-- **Business Use**: Team features & reliability → **SimpleLogin Premium**
-- **Apple Ecosystem**: Seamless integration → **Apple Hide My Email**
+#### 3. Primary Goal:
+- Basic Privacy → **DuckDuckGo**
+- Maximum Security → **SimpleLogin or Addy.io**
+- Business Use → **SimpleLogin Premium**
+- Apple Ecosystem → **Apple Hide My Email**
 
 ---
 
@@ -212,60 +212,45 @@ Start with descriptive names like `amazon.purchases@simplelogin.io` instead of r
 
 ## First Week Best Practices
 
-### Days 1-2: Test & Verify
-- **Create 2-3 test aliases** with different names
-- **Send test emails** to verify forwarding works
-- **Try replying** through aliases to confirm functionality
-- **Check spam folder** in case forwarded emails get filtered
+**Days 1-2: Test & Verify**
+- Create 2-3 test aliases with different names
+- Send test emails to verify forwarding works
+- Try replying through aliases to confirm functionality
+- Check spam folder in case forwarded emails get filtered
 
-### Days 3-4: Start Using for New Signups
-- **Use aliases for all new accounts** (shopping, newsletters, trials)
-- **Keep notes** of which alias goes with which service
-- **Start with low-risk sites** before using on important accounts
+**Days 3-4: Start Using for New Signups**
+- Use aliases for all new accounts (shopping, newsletters, trials)
+- Keep notes of which alias goes with which service
+- Start with low-risk sites before using on important accounts
 
-### Days 5-7: Organize & Optimize
-- **Create naming convention** (e.g., `servicename.category@provider.com`)
-- **Update password manager** with alias information
-- **Set up folders** in email client to organize forwarded emails
-- **Review and clean up** any unused test aliases
-
-### Week 2+: Gradual Migration
-- **Update existing accounts** starting with least critical
-- **Monitor old email** for missed account updates
-- **Consider custom domain** if you like the service
+**Days 5-7: Organize & Optimize**
+- Create naming convention (e.g., `servicename.category@provider.com`)
+- Update password manager with alias information
+- Set up folders in email client to organize forwarded emails
+- Review and clean up any unused test aliases
 
 ## Common Mistakes to Avoid
 
-### Mistake 1: Using Random Alias Names
-**Wrong**: `abc123xyz@provider.com`  
-**Right**: `amazon.shopping@provider.com`  
-**Why**: You'll forget what the random string was for
+1. **Using Random Alias Names**
+   - Wrong: `abc123xyz@provider.com`
+   - Right: `amazon.shopping@provider.com`
 
-### Mistake 2: Using Same Alias Everywhere
-**Wrong**: Using `general@provider.com` for all services  
-**Right**: Different alias for each service or category  
-**Why**: Defeats the purpose of tracking and spam control
+2. **Using Same Alias Everywhere**
+   - Wrong: Using `general@provider.com` for all services
+   - Right: Different alias for each service or category
 
-### Mistake 3: Not Testing Reply Functionality
-**Wrong**: Assuming you can reply from aliases  
-**Right**: Test sending emails FROM aliases before important use  
-**Why**: Some providers don't support replies on free plans
+3. **Not Testing Reply Functionality**
+   - Always test sending emails FROM aliases before important use
 
-### Mistake 4: Forgetting to Update Password Manager
-**Wrong**: Password manager still shows old email  
-**Right**: Update all entries with new aliases  
-**Why**: You'll get locked out when trying to recover accounts
+4. **Forgetting to Update Password Manager**
+   - Update all entries with new aliases to avoid lockouts
 
-### Mistake 5: Not Having Backup Plan
-**Wrong**: Relying on single provider with no backup  
-**Right**: Keep old email active and document all aliases  
-**Why**: If provider goes down, you could lose access to accounts
+5. **Not Having Backup Plan**
+   - Keep old email active and document all aliases
 
 ---
 
 ## Complete Provider Directory
-
-Enhanced with technical specifications and detailed feature analysis
 
 ### Quick Reference Table
 
@@ -507,7 +492,7 @@ Always test the free tier first and understand the downgrade policy before commi
    - Configure notification preferences
    - Set bandwidth limits (if applicable)
 
-### Step 4: Best Practices
+### Best Practices
 
 **Alias Naming Conventions:**
 - `service-purpose@provider.com` (e.g., `amazon-shopping@provider.com`)
@@ -515,9 +500,9 @@ Always test the free tier first and understand the downgrade policy before commi
 - Avoid random strings that are hard to remember
 
 **Organization Strategies:**
-- **By Category**: shopping, social, work, newsletter
-- **By Trust Level**: trusted, testing, disposable
-- **By Time Period**: monthly, yearly rotation
+- By Category: shopping, social, work, newsletter
+- By Trust Level: trusted, testing, disposable
+- By Time Period: monthly, yearly rotation
 
 **Security Practices:**
 - Regular cleanup of unused aliases
@@ -539,19 +524,11 @@ Always test the free tier first and understand the downgrade policy before commi
 - Implement advanced rules and automation
 - Consider multiple providers for redundancy
 
-## Technical Architecture Overview
+## Advanced Topics
 
-### Infrastructure Comparison
+### Technical Architecture
 
-| Provider | Server Locations |
-| :--- | :--- |
-| **SimpleLogin** | Switzerland, Germany |
-| **Addy.io** | Netherlands |
-| **DuckDuckGo** | USA (AWS) |
-| **ForwardMail** | USA, Europe |
-
-### Email Processing Pipeline
-
+**Email Processing Pipeline:**
 ```
 ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
 │   Incoming  │ -> │   Spam      │ -> │   Rules     │ -> │  Forward    │
@@ -565,333 +542,24 @@ Always test the free tier first and understand the downgrade policy before commi
                     └─────────────┘    └─────────────┘
 ```
 
-## Complete Feature Glossary
-
-### Core Concepts
-
-**Alias**: An email address that forwards to your real inbox
-- *Example*: `shopping@provider.com` → `you@gmail.com`
-
-**Catch-All**: Automatically forwards ALL emails to a domain
-- *Example*: Any email to `anything@yourdomain.com` reaches you
-
-**Reply Support**: Ability to send emails FROM your alias
-- *Without*: Recipients see your real email when you reply
-- *With*: Recipients only see your alias
-
-**Custom Domain**: Using your own domain for aliases
-- *Example*: `alias@yourcompany.com` instead of `alias@provider.com`
-
-### Advanced Features
-
-**Directory/Subdomain**: Create aliases on-the-fly using patterns
-- *Example*: Enable `username+anything@provider.com` format
-
-**Rules Engine**: Automatic actions based on email content
-- *Example*: Auto-delete emails containing "unsubscribe"
-
-**Bandwidth Limiting**: Restrict data transfer per alias
-- *Purpose*: Prevent abuse and control costs
-
-**Webhook Support**: Real-time notifications to your applications
-- *Use case*: Trigger actions when emails are received
-
-### Security Terms
-
-**GPG/PGP**: End-to-end encryption standards
-- *GPG*: GNU Privacy Guard (Addy.io)
-- *PGP*: Pretty Good Privacy (SimpleLogin)
-
-**Two-Factor Authentication (2FA)**: Extra login security
-- *TOTP*: Time-based codes (Google Authenticator)
-- *WebAuthn*: Hardware keys (YubiKey)
-
-**Zero-Knowledge**: Provider can't read your data
-- *Example*: Even if hacked, your emails stay private
-
-### Provider Types
-
-**Bootstrapped**: Self-funded company (Addy.io)
-- *Pros*: Independent, user-focused
-- *Cons*: Limited resources, single point of failure
-
-**Enterprise-Backed**: Part of larger company (SimpleLogin → Proton)
-- *Pros*: More resources, professional support
-- *Cons*: Potential feature restrictions, higher costs
-
-**Open Source**: Code is publicly available for review
-- *Pros*: Transparency, community contributions
-- *Cons*: Potential security through obscurity loss
-
-## Frequently Asked Questions
-
-<details>
-<summary><strong>Beginner Questions</strong></summary>
-
-### Q: Will people know I'm using an alias?
-**A:** No, recipients see your alias as your email address. They won't know it's forwarded unless you tell them.
-
-### Q: Can I reply from my alias?
-**A:** Most paid services support replies. Free services vary - DuckDuckGo and SimpleLogin free do, but others don't.
-
-### Q: What happens if the alias provider shuts down?
-**A:** This is why you should:
-- Keep your original email active
-- Document all aliases and where they're used
-- Consider providers with data export features
-- Have a migration plan
-
-### Q: Can I use aliases for important accounts like banking?
-**A:** Yes, but start with less critical accounts first. Make sure the provider is reliable and offers good customer support.
-
-### Q: How many aliases do I actually need?
-**A:** Most people use 10-50 aliases. Start with categories: shopping, social, newsletters, work, and temporary signups.
-
-</details>
-
-<details>
-<summary><strong>Technical Questions</strong></summary>
-
-### Q: How do SPF/DKIM records work with aliases?
-**A:** The alias provider handles authentication. Your replies will have their SPF/DKIM records, not yours, which is normal and won't cause delivery issues.
-
-### Q: Can I use custom domains with subdomains?
-**A:** Most providers support subdomains on custom domains (e.g., `user@mail.company.com`), but check provider-specific documentation.
-
-### Q: What's the difference between catch-all and individual aliases?
-**A:** 
-- **Catch-all**: Any email to your domain forwards to you (`anything@yourdomain.com`)
-- **Individual aliases**: Only specific addresses you create work
-- **Security**: Individual aliases are more secure but require more management
-
-### Q: How do I handle alias conflicts across providers?
-**A:** Use provider-specific naming conventions:
-- Addy.io: `service.addy@yourdomain.com`
-- SimpleLogin: `service.sl@yourdomain.com`
-
-### Q: Can I automatically sort emails by alias?
-**A:** Yes! Most email clients can filter by "To" field:
-```
-Gmail: Create filter → To: shopping@alias.com → Apply label: Shopping
-Outlook: Rules → If sent to → shopping@alias.com → Move to Shopping folder
-```
-
-</details>
-
-<details>
-<summary><strong>Security & Privacy Questions</strong></summary>
-
-### Q: Are my emails stored on the alias provider's servers?
-**A:** Most providers only temporarily store emails during forwarding (seconds to minutes). Check individual privacy policies for specifics.
-
-### Q: Which jurisdiction is safest for privacy?
-**A:** Generally: Switzerland > Netherlands > Germany > Other EU > USA. But provider practices matter more than location alone.
-
-### Q: Should I trust a single developer (like Addy.io)?
-**A:** Pros: Quick updates, direct communication. Cons: Single point of failure, limited capacity. Consider having backup providers.
-
-### Q: How do I verify end-to-end encryption is working?
-**A:** 
-1. Set up PGP/GPG keys in provider dashboard
-2. Send test email to yourself
-3. Check that forwarded email shows encrypted content
-4. Verify you can decrypt with your private key
-
-</details>
-
----
-
-## Troubleshooting Guide
-
-### Common Setup Issues
-
-<details>
-<summary><strong>Emails Not Being Forwarded</strong></summary>
-
-**Possible Causes & Solutions:**
-
-1. **Check Spam Folder**
-   - Forwarded emails often land in spam initially
-   - Add alias provider to safe senders list
-   - Check email client's spam settings
-
-2. **Verify Alias Configuration**
-   ```bash
-   # Test with command line (replace with your details)
-   echo "Test message" | mail -s "Test Subject" your-alias@provider.com
-   ```
-
-3. **DNS Propagation (Custom Domains)**
-   - Wait 24-48 hours after DNS changes
-   - Check DNS records: `dig MX yourdomain.com`
-   - Verify with provider's DNS checker
-
-4. **Email Client Filters**
-   - Check if your email client is filtering forwarded emails
-   - Look for rules that might be redirecting messages
-
-**Quick Test:**
-```
-1. Send email from another account to your alias
-2. Check main inbox, spam, and all folders
-3. Wait 5-10 minutes for processing
-4. Contact provider support if still not working
-```
-
-</details>
-
-<details>
-<summary><strong>Can't Reply From Alias</strong></summary>
-
-**Solutions by Provider:**
-
-**Free Plans (Often No Reply Support):**
-- Upgrade to paid plan
-- Use provider's web interface instead
-- Set up manual forwarding rules
-
-**Paid Plans (Should Work):**
-1. **Check Reply-To Settings**
-   - Ensure alias is set as default sender
-   - Verify SMTP configuration if using desktop client
-
-2. **Email Client Configuration**
-   ```
-   Gmail: Settings → Accounts → Add another email address
-   Outlook: File → Account Settings → Email → New
-   ```
-
-3. **Provider-Specific Setup**
-   - **Addy.io**: Enable "Reply from alias" in settings
-   - **SimpleLogin**: Set up "Reverse alias" for replies
-
-</details>
-
-<details>
-<summary><strong>High Bounce Rate</strong></summary>
-
-**Common Causes:**
-
-1. **Reputation Issues**
-   - New custom domain not yet trusted
-   - Too many emails sent too quickly
-   - Recipients marking as spam
-
-2. **DNS Configuration**
-   ```bash
-   # Check your domain's email reputation
-   dig TXT yourdomain.com
-   # Should show SPF, DKIM records
-   ```
-
-3. **Content Filtering**
-   - Avoid spam trigger words
-   - Don't send identical emails to many recipients
-   - Include proper unsubscribe links
-
-**Solutions:**
-- Warm up new domains gradually
-- Monitor email analytics in provider dashboard
-- Consider using provider's shared domains initially
-
-</details>
-
-### Performance Issues
-
-<details>
-<summary><strong>Slow Email Delivery</strong></summary>
-
-**Normal Delays:**
-- Most providers: 5-30 seconds
-- Peak times: Up to 2-5 minutes
-- International: Up to 10 minutes
-
-**Troubleshooting:**
-1. **Check Provider Status**
-   - Visit provider's status page
-   - Check Twitter/social media for outages
-
-2. **Network Issues**
-   - Test with different internet connection
-   - Try from different email provider
-
-3. **Recipient Server Issues**
-   - Gmail, Outlook sometimes have delays
-   - Corporate email servers may be slower
-
-**When to Worry:**
-- Delays over 30 minutes consistently
-- Complete delivery failures
-- Error messages in provider dashboard
-
-</details>
-
-### Security Concerns
-
-<details>
-<summary><strong>Suspicious Email Activity</strong></summary>
-
-**Warning Signs:**
-- Unexpected password reset emails
-- Login notifications for unknown services
-- Spam to aliases you've never used
-
-**Immediate Actions:**
-1. **Check Alias Usage**
-   - Review which services use each alias
-   - Look for patterns in suspicious emails
-
-2. **Secure Your Accounts**
-   - Change passwords for mentioned services
-   - Enable 2FA where possible
-   - Check account activity logs
-
-3. **Update Alias Strategy**
-   - Disable compromised aliases
-   - Create new aliases for affected services
-   - Consider more granular alias usage
-
-**Prevention:**
-- Use unique aliases for each service
-- Regularly review and clean up unused aliases
-- Monitor alias activity through provider dashboards
-
-</details>
-
----
-
-## Legal & Compliance Framework
-
-### Privacy Law Comparison
+**Infrastructure Comparison:**
+- SimpleLogin: Switzerland, Germany
+- Addy.io: Netherlands
+- DuckDuckGo: USA (AWS)
+- ForwardMail: USA, Europe
+
+### Security Analysis
+
+**Privacy Law Comparison:**
 
 | Provider | Jurisdiction | GDPR Compliance | Data Retention | Govt Requests | Transparency Report |
 | --- | --- | --- | --- | --- | --- |
-| **SimpleLogin** | 🇨🇭 Switzerland | ✅ Full compliance | Account deletion: immediate  <br>Logs: 30 days max | Court order required  <br>Limited scope | ✅  |
-| **Addy.io** | 🇳🇱 Netherlands | ✅ Full compliance | Account deletion: immediate  <br>Logs: minimal | EU legal process  <br>Limited data available | ❌ Not published |
-| **DuckDuckGo** | 🇺🇸 United States | ✅ GDPR compliant | Minimal data collection  <br>No email content stored | Subject to US law  <br>FISA requests possible | ❌ Limited transparency |
-| **ForwardMail** | 🇺🇸 United States | ✅ GDPR compliant | Configurable retention  <br>Open-source logging | Subject to US law  <br>Can be self-hosted | ✅ |
+| **SimpleLogin** | Switzerland | ✅ Full compliance | Account deletion: immediate, Logs: 30 days max | Court order required, Limited scope | ✅ |
+| **Addy.io** | Netherlands | ✅ Full compliance | Account deletion: immediate, Logs: minimal | EU legal process, Limited data available | ❌ Not published |
+| **DuckDuckGo** | United States | ✅ GDPR compliant | Minimal data collection, No email content stored | Subject to US law, FISA requests possible | ❌ Limited transparency |
+| **ForwardMail** | United States | ✅ GDPR compliant | Configurable retention, Open-source logging | Subject to US law, Can be self-hosted | ✅ |
 
-
-### Subpoena and Legal Request Handling
-
-#### Legal Request Response Process
-
-**SimpleLogin (Switzerland):**
-1. Court order required (no administrative requests)
-2. Legal review by Swiss counsel
-3. User notification unless prohibited
-4. Minimal data available (no email content)
-5. Appeal process available
-
-**US-Based Providers:**
-1. Subpoenas, warrants, court orders accepted
-2. National Security Letters possible (with gag orders)
-3. User notification when legally permitted
-4. Broader data collection possible
-
-### Privacy Policy Analysis
-
-#### Data Collection Comparison
+**Data Collection Comparison:**
 ```yaml
 SimpleLogin:
   personal_data:
@@ -922,118 +590,68 @@ DuckDuckGo:
   sharing: None
 ```
 
-#### Rights Under GDPR
-**Available Rights:**
-- ✅ **Right to Access**: All providers support data export
-- ✅ **Right to Rectification**: Account settings modification
-- ✅ **Right to Erasure**: Account deletion available
-- ✅ **Right to Portability**: CSV/API export available
-- ✅ **Right to Object**: Opt-out of analytics (where applicable)
-
-**Exercise Timeline:**
-- **SimpleLogin**: 30 days maximum response
-- **Addy.io**: Best effort (no formal SLA)
-- **Others**: Varies by provider
-
 ---
 
-## Quick Decision Matrix & Use Cases
+## Reference
 
-### Choose Your Provider
+### Feature Glossary
 
-**Choose DuckDuckGo if:**
-- ✅ You're completely new to email aliasing
-- ✅ You want zero setup and commitment
-- ✅ Free forever is important
-- ✅ Basic privacy is sufficient
+**Core Concepts:**
+- **Alias**: An email address that forwards to your real inbox
+- **Catch-All**: Automatically forwards ALL emails to a domain
+- **Reply Support**: Ability to send emails FROM your alias
+- **Custom Domain**: Using your own domain for aliases
 
-**Choose Addy.io if:**
-- ✅ You want the best value for money ($1/month)
-- ✅ Advanced features matter (rules, analytics, API)
-- ✅ You don't mind supporting an independent developer
-- ✅ GPG encryption is preferred
+**Advanced Features:**
+- **Directory/Subdomain**: Create aliases on-the-fly using patterns
+- **Rules Engine**: Automatic actions based on email content
+- **Bandwidth Limiting**: Restrict data transfer per alias
+- **Webhook Support**: Real-time notifications to your applications
 
-**Choose SimpleLogin if:**
-- ✅ Maximum privacy and security are priorities
-- ✅ You want enterprise-grade reliability
-- ✅ Swiss jurisdiction is important
-- ✅ Budget allows for $4/month
+**Security Terms:**
+- **GPG/PGP**: End-to-end encryption standards
+- **Two-Factor Authentication (2FA)**: Extra login security
+- **Zero-Knowledge**: Provider can't read your data
 
-**Choose ForwardMail if:**
-- ✅ You're a developer who wants self-hosting
-- ✅ Open-source transparency is critical
-- ✅ You need enterprise features
-- ✅ Custom infrastructure is required
+### Troubleshooting Guide
 
-**Choose Apple Hide My Email if:**
-- ✅ You're deep in the Apple ecosystem
-- ✅ Seamless integration is valued over features
-- ✅ You already pay for iCloud+
-- ✅ Simplicity over advanced controls
+**Emails Not Being Forwarded:**
+1. Check spam folder - forwarded emails often land in spam initially
+2. Verify alias configuration by sending test email
+3. For custom domains, check DNS propagation (24-48 hours)
+4. Review email client filters that might redirect messages
 
-### Specific Use Cases
+**Can't Reply From Alias:**
+1. Check if your plan supports reply functionality
+2. Configure email client with provider's SMTP settings
+3. Verify Reply-To settings in provider dashboard
 
-| Use Case | Best Provider | Key Reasons |
-|----------|---------------|-------------|
-| **Complete Beginner** | DuckDuckGo | Zero setup, unlimited free aliases, reply support |
-| **Budget-Conscious** | Addy.io Lite ($1/mo) | Best price-to-feature ratio, GPG encryption, custom domain |
-| **Privacy-First** | SimpleLogin | Swiss jurisdiction, PGP encryption, enterprise reliability |
-| **Power User** | Addy.io Pro ($4/mo) | Advanced rules, analytics, API access, webhooks |
-| **Business/Team** | SimpleLogin Premium | Professional support, Proton integration, team features |
-| **Apple Ecosystem** | Apple Hide My Email | Seamless iOS/macOS integration, iCloud+ domains |
-| **Developer** | ForwardMail | 100% open-source, self-hosting option, comprehensive API |
+**Slow Email Delivery:**
+- Normal delays: 5-30 seconds for most providers
+- Peak times: Up to 2-5 minutes
+- International: Up to 10 minutes
+- Check provider status page for outages
 
-## Implementation Roadmap
+### Frequently Asked Questions
 
-#### Week 1: Foundation
-- [ ] **Day 1-2**: Choose provider and create account
-- [ ] **Day 3-4**: Set up first 3-5 aliases for different categories
-- [ ] **Day 5-7**: Test forwarding and reply functionality thoroughly
+**Q: Will people know I'm using an alias?**
+A: No, recipients see your alias as your email address. They won't know it's forwarded unless you tell them.
 
-#### Week 2-4: Expansion
-- [ ] **Week 2**: Start using aliases for all new signups
-- [ ] **Week 3**: Begin migrating existing accounts (start with low-risk)
-- [ ] **Week 4**: Set up organization system and naming conventions
+**Q: Can I reply from my alias?**
+A: Most paid services support replies. Free services vary - DuckDuckGo and SimpleLogin free do, but others don't.
 
-#### Month 2-3: Optimization
-- [ ] **Month 2**: Add custom domain if desired
-- [ ] **Month 2**: Set up advanced rules and automation
-- [ ] **Month 3**: Review and clean up unused aliases
+**Q: What happens if the alias provider shuts down?**
+A: Keep your original email active, document all aliases and where they're used, and have a migration plan.
 
-#### Ongoing: Maintenance
-- [ ] **Monthly**: Review alias activity and clean up unused ones
-- [ ] **Quarterly**: Assess provider satisfaction and features
-- [ ] **Annually**: Review security practices and consider provider updates
+**Q: Can I use aliases for important accounts like banking?**
+A: Yes, but start with less critical accounts first. Make sure the provider is reliable and offers good customer support.
 
-### Getting Help & Support
+**Q: How many aliases do I actually need?**
+A: Most people use 10-50 aliases. Start with categories: shopping, social, newsletters, work, and temporary signups.
 
-#### Community Resources
-- **Reddit**: [r/privacy](https://reddit.com/r/privacy) - General privacy discussions
-- **Matrix/Discord**: Most providers have community channels
-- **GitHub**: Open-source providers offer issue tracking
 
-#### Professional Support
-- **SimpleLogin**: Ticket-based support (24-48h response)
-- **Addy.io**: Email support (best effort)
-- **Enterprise**: Dedicated support channels available
+### Additional Resources
 
-#### Emergency Contacts
-Keep these handy in case of provider issues:
-```
-SimpleLogin: support@simplelogin.io
-Addy.io: support@addy.io
-ForwardMail: support@forwardemail.net
-
-Backup Plan: Always maintain access to your original email
-```
-
----
-
-**🎉 Congratulations! You're now equipped with comprehensive knowledge about email aliasing. Choose your provider, implement gradually, and enjoy enhanced email privacy and security.**
-
----
-
-## Additional Resources
 
 ### Official Documentation
 - [Addy.io Help Center](https://addy.io/help/) - Comprehensive guides and API docs
@@ -1059,114 +677,23 @@ Backup Plan: Always maintain access to your original email
 - **Email Clients**: Thunderbird, Apple Mail, Outlook (with PGP plugins)
 - **DNS Lookup Tools**: [MXToolbox](https://mxtoolbox.com/), [Dig Web Interface](https://toolbox.googleapps.com/apps/dig/)
 
+
 ---
 
 ## Contributing
 
-Found an error, outdated information, or want to add a provider? **Your contributions make this guide better for everyone!**
+Found an error, outdated information, or want to add a provider? Your contributions make this guide better for everyone!
 
-### Quick Contributions
+**Quick Contributions:**
+- Found a mistake? Open an Issue with details
+- Price/Feature Update? Check the provider's official website first and include proof
+- Want to suggest a new provider? Include basic feature comparison data
 
-**Found a mistake?**
-- Open an [Issue](https://github.com/fynks/email-aliasing-comparison/issues) with details
-- Use template: `[ERROR] Provider Name - Brief Description`
-
-**Price/Feature Update?**
-- Check the provider's official website first
-- Include screenshot or link as proof
-- Note the date of change
-
-**Want to suggest a new provider?**
-- Must have: Active service, public pricing, reasonable user base
-- Should have: Some unique features or competitive advantage
-- Include: Basic feature comparison data
-
-### 📋 Contribution Guidelines
-
-#### ✅ Content Standards
-- **Accuracy First**: Verify all information from official sources
-- **Neutral Tone**: Avoid promotional language, maintain objectivity  
-- **Current Information**: Include dates for pricing/feature claims
-- **Consistent Formatting**: Follow existing table and section structures
-- **Helpful Context**: Explain technical terms and implications
-
-
-#### How to Contribute
-
-<details><summary>
-Click to expand the details
-</summary>
-
-**Method 1: GitHub (Recommended)**
-1. Fork this repository
-2. Create a descriptive branch name (`fix/addy-pricing-update`)
-3. Make your changes with clear, specific commits
-4. Submit a pull request with detailed description
-5. Respond to review feedback promptly
-
-**Method 2: Issue Report**
-1. Open a [new issue](https://github.com/fynks/email-aliasing-comparison/issues/new)
-2. Use appropriate labels (bug, enhancement, question)
-3. Provide specific details and sources
-4. Include screenshots when helpful
-
-
-#### Adding New Providers
-
-**Required Information:**
-```yaml
-Basic Info:
-  - Company name and website
-  - Country/jurisdiction  
-  - Founded year
-  - Business model (subscription, freemium, etc.)
-
-Features:
-  - Free tier limitations
-  - Paid plan pricing and features  
-  - Reply support (free/paid)
-  - Custom domain support
-  - Mobile apps
-  - Browser extensions
-
-Security:
-  - Encryption methods
-  - Open source status
-  - Recent security audits
-  - Privacy policy link
-
-Comparison Data:
-  - How it compares to existing providers
-  - Unique selling points
-  - Target audience
-  - Pricing competitiveness
-```
-
-#### Priority Areas for Contribution
-
-**High Priority:**
-- Pricing updates (providers change frequently)
-- New provider additions (if significant)
-- Broken links or outdated information
-- Mobile app feature updates
-
-**Medium Priority:**
-- Enhanced comparison tables
-- Use case examples and scenarios
-- Technical setup guides
-- Tips and best practices
-
-**Low Priority:**
-- Formatting improvements
-- Grammar/spelling fixes
-- Additional resource links
-
-</details>
-
-### Contact
-
-**Questions about contributing?**
-- Open a [Discussion](https://github.com/fynks/email-aliasing-comparison/discussions)
+**Content Standards:**
+- Accuracy First: Verify all information from official sources
+- Neutral Tone: Avoid promotional language, maintain objectivity
+- Current Information: Include dates for pricing/feature claims
+- Consistent Formatting: Follow existing table and section structures
 
 ---
 
@@ -1174,12 +701,11 @@ Comparison Data:
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-### What this means:
-- ✅ **Use freely** for personal or commercial purposes
-- ✅ **Modify and distribute** with attribution
-- ✅ **Fork and create derivatives** 
-- ❌ **No warranty** - information provided as-is
-- ❌ **No liability** for decisions based on this guide
+**What this means:**
+- Use freely for personal or commercial purposes
+- Modify and distribute with attribution
+- Fork and create derivatives
+- No warranty - information provided as-is
 
 ### Attribution Requirements:
 When using substantial portions of this guide:
@@ -1191,17 +717,13 @@ License: MIT
 
 ---
 
+*Disclaimer: This guide is for educational purposes. Always verify current pricing and features from official provider websites before making decisions. The authors are not affiliated with any email aliasing providers.*
 
-### **Thank You for Reading!**
+---
+<div align="center">
 
 **Made with ❤️ for digital privacy**
 
-*If this guide helped you protect your email privacy, please ⭐ star this repository!*
+*If this guide helped you protect your email privacy, please star ⭐ this repository!*
 
-**Stay Updated**: [Watch this repo](https://github.com/fynks/email-aliasing-comparison) for the latest provider updates and new features.
-
-**Spread the Word**: Share this guide with friends who value their privacy. Email aliasing is more effective when everyone uses it!
-
----
-
-*Disclaimer: This guide is for educational purposes. Always verify current pricing and features from official provider websites before making decisions. The authors are not affiliated with any email aliasing providers.*
+</div>
