@@ -2,7 +2,7 @@
 
 # Email Aliasing Comparison
 
-**_Complete Guide to Email Privacy & Security_**
+**Complete Guide to Email Privacy & Security**
 
 A comprehensive comparison of leading email alias services including pricing, features, security, and privacy policies. Compare [Addy.io](https://addy.io), [SimpleLogin](https://simplelogin.io), [DuckDuckGo Email Protection](https://duckduckgo.com/email), [Firefox Relay](https://relay.firefox.com), [ForwardMail](https://forwardemail.net), [Apple Hide My Email](https://support.apple.com/en-us/102219), [AdGuard Mail](https://adguard.com/adguard-mail), [33Mail](https://33mail.com), [IronVest](https://ironvest.com) and [Erine.email](https://erine.email).
 
@@ -11,48 +11,54 @@ A comprehensive comparison of leading email alias services including pricing, fe
 [![Awesome](https://awesome.re/badge.svg?style=for-the-badge)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge)](https://github.com/fynks/email-aliasing-comparison)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202025-brightgreen.svg?style=for-the-badge)](https://github.com/fynks/email-aliasing-comparison)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202025-brightgreen.svg?style=for-the-badge)](https://github.com/fynks/email-aliasing-comparison)
 
-**🚀 Quick Links:** [ Interactive Selector](#interactive-provider-selector) | [ Free Providers](#free-plans-detailed-comparison) | [ Paid Plans](#paid-plans-detailed-comparison) | [ Security Analysis](#advanced-features-security-comparison)
+**Quick Navigation:** [Interactive Selector](#interactive-provider-selector) | [Free Plans](#free-plans-detailed-comparison) | [Paid Plans](#paid-plans-detailed-comparison) | [Security Analysis](#advanced-features-security-comparison)
 
 </div>
 
 ## Table of Contents
 
-### Quick Start
+### 1. Getting Started
 - [What is Email Aliasing?](#what-is-email-aliasing)
+- [Benefits and Use Cases](#benefits-and-use-cases)
+- [How Email Aliasing Works](#how-email-aliasing-works)
+- [Provider Categories](#provider-categories)
+
+### 2. Choose Your Provider
 - [Interactive Provider Selector](#interactive-provider-selector)
-- [Top 3 Beginner Providers](#top-3-beginner-friendly-providers)
+- [Top 3 Beginner-Friendly Providers](#top-3-beginner-friendly-providers)
 - [5-Minute Setup Guide](#5-minute-setup-guide)
+- [Use Case Recommendations](#use-case-recommendations)
 
-### Provider Comparisons
-- [Free Plans Comparison](#free-plans-detailed-comparison) - Compare all free options
-- [Paid Plans Comparison](#paid-plans-detailed-comparison) - Premium features breakdown  
-- [Addy.io vs SimpleLogin](#addyio-vs-simplelogin) - Head-to-head comparison
-- [Complete Provider Directory](#complete-provider-directory) - All 10 providers analyzed
-- [Cancellation Policies Comparison](#cancellation-policies-comparison) - Cancellation policies Comparison
+### 3. Provider Comparisons
+- [Complete Provider Directory](#complete-provider-directory)
+- [Free Plans Detailed Comparison](#free-plans-detailed-comparison)
+- [Paid Plans Detailed Comparison](#paid-plans-detailed-comparison)
+- [Addy.io vs SimpleLogin](#addyio-vs-simplelogin)
+- [Cancellation Policies Comparison](#cancellation-policies-comparison)
 
-### Advanced Topics
-- [Security & Privacy Analysis](#advanced-features-security-comparison)
-- [Enterprise & Business Use](#enterprise-considerations)
-- [API & Developer Guide](#api--integration-guide)
-- [Legal & Compliance](#legal--compliance-framework)
+### 4. Implementation & Best Practices
+- [Getting Started Guide](#getting-started-guide)
+- [First Week Best Practices](#first-week-best-practices)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Technical Architecture Overview](#technical-architecture-overview)
 
-### Reference & Help
-- [Feature Glossary](#complete-feature-glossary) - Understand all terms
-- [Troubleshooting](#troubleshooting-guide) - Fix common issues
-- [FAQ](#frequently-asked-questions) - Quick answers
-- [Best Practices](#first-week-best-practices) - Pro tips
+### 5. Advanced Topics
+- [Advanced Security Analysis](#advanced-security-analysis)
+- [Legal & Compliance Framework](#legal--compliance-framework)
 
----
-
+### 6. Reference & Support
+- [Complete Feature Glossary](#complete-feature-glossary)
+- [Troubleshooting Guide](#troubleshooting-guide)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Final Recommendations & Next Steps](#final-recommendations--next-steps)
 
 ## Introduction
 
 Email aliasing is a fundamental privacy technique that allows you to **create multiple email addresses that all forward to your real inbox**. This comprehensive guide compares the leading email alias providers to help you choose the best solution for your privacy and security needs.
 
-
-## What is Email Aliasing? 
+## What is Email Aliasing?
 
 Email aliasing is a privacy technique that lets you create multiple email addresses that all forward to your real inbox. Think of it like having multiple front doors to your house - visitors use different entrances, but they all lead to the same place.
 
@@ -107,7 +113,7 @@ With Aliasing:    shopping@alias.com → stores
                   john@gmail.com (safe!)
 ```
 
-**Ready to dive deeper?** Choose your path above!
+---
 
 
 ### Process Flow
@@ -140,7 +146,7 @@ Email aliasing features integrated into existing email providers or operating sy
 
 ## Interactive Provider Selector
 
-*Answer 3 quick questions to get personalized recommendations:*
+Answer 3 quick questions to get personalized recommendations:
 
 ### Question 1: What's your experience level?
 - **Complete Beginner**: Never used email aliases → **Recommended: DuckDuckGo**
@@ -162,8 +168,6 @@ Email aliasing features integrated into existing email providers or operating sy
 
 ## Top 3 Beginner-Friendly Providers
 
-## Top 3 Beginner-Friendly Providers
-
 | **Best for Beginners** | **Best Value** | **Most Secure** |
 |-------------------------|----------------|------------------|
 | **DuckDuckGo Email** | **Addy.io Lite** | **SimpleLogin** |
@@ -179,11 +183,11 @@ Email aliasing features integrated into existing email providers or operating sy
 | • No custom domains | • Limited support | • Less advanced features than Addy.io |
 | • Basic features only | | |
 | **Perfect for:** First-time users who want to try aliasing with zero commitment. | **Perfect for:** Users who want advanced features without breaking the bank. | **Perfect for:** Users prioritizing security and reliability over cost. |
-| [Get Started →](https://duckduckgo.com/email) | [Get Started →](https://addy.io) | [Get Started →](https://simplelogin.io) |
+| [Get Started](https://duckduckgo.com/email) | [Get Started](https://addy.io) | [Get Started](https://simplelogin.io) |
 
 ---
 
-## 5 Minute Setup Guide
+## 5-Minute Setup Guide
 
 ### Option A: DuckDuckGo (Fastest - 2 minutes)
 
@@ -265,7 +269,7 @@ Email aliasing features integrated into existing email providers or operating sy
 
 ## Expert Deep Dive Path
 
-*For users who want comprehensive technical analysis and advanced features*
+For users who want comprehensive technical analysis and advanced features
 
 ---
 
@@ -338,22 +342,22 @@ Email aliasing features integrated into existing email providers or operating sy
 
 ## Complete Provider Directory
 
-*Enhanced with technical specifications and detailed feature analysis*
+Enhanced with technical specifications and detailed feature analysis
 
 ### Quick Reference Table
 
 | Provider | Country | Founded | Open Source | Free Tier | Starting Price | Reply Support | Encryption | Business Model |
 |----------|---------|---------|-------------|-----------|----------------|---------------|------------|----------------|
-| **[Addy.io](https://addy.io)** *Best Value* | Netherlands | 2019 | Yes | Unlimited* | **$1/mo** | Paid Only | GPG/OpenPGP | Independent |
-| **[SimpleLogin](https://simplelogin.io)** *Most Secure* | Switzerland | 2019 | Yes | 10 aliases | $4/mo | Free & Paid | PGP | Proton AG |
-| **[ForwardMail](https://forwardemail.net)** *Developer Choice* | USA | 2017 | Yes | Unlimited** | $3/mo | Yes | TLS/Quantum | Open-source |
-| **[DuckDuckGo](https://duckduckgo.com/email)** *Easiest Start* | USA | 2021 | Partial | Unlimited | **Free Only** | Yes | TLS | Search Company |
-| **[Firefox Relay](https://relay.firefox.com)** *Mozilla Users* | USA | 2021 | Yes | 5 aliases | Waitlist | Premium Only | TLS | Mozilla |
-| **[AdGuard Mail](https://adguard.com/adguard-mail)** *Ad-block Plus* | Cyprus | 2023 | Partial | 10 aliases | $2.99/mo | Premium Only | TLS | Corporate |
-| **[33Mail](https://33mail.com)** *Veteran (2010)* | UK | 2010 | No | Unlimited | $1/mo | Premium Only | TLS | Freemium |
-| **[IronVest](https://ironvest.com)** *Privacy Suite* | USA | 2012 | No | None | $39/yr | Yes | TLS | Privacy Suite |
-| **[Erine.email](https://erine.email)** *Donation-Based* | France | 2022 | Yes | Unlimited | **Free** | Yes | TLS | Donation |
-| **[Apple Hide My Email](https://support.apple.com/en-us/102219)** *Apple Ecosystem* | USA | 2021 | No | Unlimited*** | $0.99/mo | Yes | TLS | iCloud+ |
+| **[Addy.io](https://addy.io)** Best Value | Netherlands | 2019 | Yes | Unlimited* | **$1/mo** | Paid Only | GPG/OpenPGP | Independent |
+| **[SimpleLogin](https://simplelogin.io)** Most Secure | Switzerland | 2019 | Yes | 10 aliases | $4/mo | Free & Paid | PGP | Proton AG |
+| **[ForwardMail](https://forwardemail.net)** Developer Choice | USA | 2017 | Yes | Unlimited** | $3/mo | Yes | TLS/Quantum | Open-source |
+| **[DuckDuckGo](https://duckduckgo.com/email)** Easiest Start | USA | 2021 | Partial | Unlimited | **Free Only** | Yes | TLS | Search Company |
+| **[Firefox Relay](https://relay.firefox.com)** Mozilla Users | USA | 2021 | Yes | 5 aliases | Waitlist | Premium Only | TLS | Mozilla |
+| **[AdGuard Mail](https://adguard.com/adguard-mail)** Ad-block Plus | Cyprus | 2023 | Partial | 10 aliases | $2.99/mo | Premium Only | TLS | Corporate |
+| **[33Mail](https://33mail.com)** Veteran (2010) | UK | 2010 | No | Unlimited | $1/mo | Premium Only | TLS | Freemium |
+| **[IronVest](https://ironvest.com)** Privacy Suite | USA | 2012 | No | None | $39/yr | Yes | TLS | Privacy Suite |
+| **[Erine.email](https://erine.email)** Donation-Based | France | 2022 | Yes | Unlimited | **Free** | Yes | TLS | Donation |
+| **[Apple Hide My Email](https://support.apple.com/en-us/102219)** Apple Ecosystem | USA | 2021 | No | Unlimited*** | $0.99/mo | Yes | TLS | iCloud+ |
 
 *Standard aliases unlimited, shared domain aliases limited  
 **Requires own domain setup  
@@ -385,16 +389,16 @@ Email aliasing features integrated into existing email providers or operating sy
 
 | Provider & Plan | Price | Aliases | Reply | Domains | Key Features | Target |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Addy.io Lite**  <br>Best Value Pick | **$1/mo** | Unlimited + 50 Shared | Yes | 1   | GPG encryption  <br>API access  <br>Webhooks | Individual |
-| **Addy.io Pro** | $4/mo | Unlimited + Unlimited | Yes | 20  | Advanced analytics  <br>Complex rules  <br>Bulk operations | Power Users |
-| **SimpleLogin Premium**  <br>Most Secure | $4/mo | Unlimited | Yes | Unlimited | PGP encryption  <br>Proton integration  <br>Directory features | Enterprise |
-| **AdGuard Mail Premium** | $2.99/mo | 1000 | Yes | 1   | Anonymous replies  <br>Premium domains  <br>Multi-platform | Corporate |
-| **33Mail Premium** | $1/mo | Unlimited | Yes (20/day) | 5   | Simple interface  <br>15+ years experience | Small business |
-| **33Mail Pro** | $5/mo | Unlimited | Yes (1000/day) | Unlimited | Professional features  <br>High volume support | Business |
-| **IronVest Premium**  <br>Privacy Suite | $39/yr  <br>($3.25/mo) | 50 Masked emails | Yes | No  | Virtual cards  <br>Phone masking  <br>Biometric security | Privacy suite |
-| **ForwardMail Enhanced**  <br>Developer Choice | $3/mo | Unlimited | Yes | Unlimited | 100% open-source  <br>Quantum encryption  <br>Webhooks | Developers |
-| **Apple iCloud+ 50GB**  <br>Ecosystem Integration | $0.99/mo | Unlimited | Yes | Yes | Seamless Apple integration  <br>@privaterelay.appleid.com | Apple users |
-| **Apple iCloud+ 200GB** | $2.99/mo | Unlimited | Yes | Yes | More storage  <br>Family sharing | Families |
+| **Addy.io Lite** Best Value Pick | **$1/mo** | Unlimited + 50 Shared | Yes | 1   | GPG encryption, API access, Webhooks | Individual |
+| **Addy.io Pro** | $4/mo | Unlimited + Unlimited | Yes | 20  | Advanced analytics, Complex rules, Bulk operations | Power Users |
+| **SimpleLogin Premium** Most Secure | $4/mo | Unlimited | Yes | Unlimited | PGP encryption, Proton integration, Directory features | Enterprise |
+| **AdGuard Mail Premium** | $2.99/mo | 1000 | Yes | 1   | Anonymous replies, Premium domains, Multi-platform | Corporate |
+| **33Mail Premium** | $1/mo | Unlimited | Yes (20/day) | 5   | Simple interface, 15+ years experience | Small business |
+| **33Mail Pro** | $5/mo | Unlimited | Yes (1000/day) | Unlimited | Professional features, High volume support | Business |
+| **IronVest Premium** Privacy Suite | $39/yr ($3.25/mo) | 50 Masked emails | Yes | No  | Virtual cards, Phone masking, Biometric security | Privacy suite |
+| **ForwardMail Enhanced** Developer Choice | $3/mo | Unlimited | Yes | Unlimited | 100% open-source, Quantum encryption, Webhooks | Developers |
+| **Apple iCloud+ 50GB** Ecosystem Integration | $0.99/mo | Unlimited | Yes | Yes | Seamless Apple integration, @privaterelay.appleid.com | Apple users |
+| **Apple iCloud+ 200GB** | $2.99/mo | Unlimited | Yes | Yes | More storage, Family sharing | Families |
 
 ---
 
@@ -416,10 +420,10 @@ Email aliasing features integrated into existing email providers or operating sy
 *Quantum encryption refers to post-quantum cryptography preparation
 
 #### Security Rating Criteria
-- **★★★★★ Excellent**: End-to-end encryption + Swiss/EU jurisdiction + Regular audits + Open source
-- **★★★★ Good**: Strong encryption OR excellent jurisdiction + Good transparency
-- **★★★ Adequate**: Basic encryption + Reasonable jurisdiction + Some transparency  
-- **★★ Limited**: Basic features only + Privacy concerns
+- **Excellent**: End-to-end encryption + Swiss/EU jurisdiction + Regular audits + Open source
+- **Good**: Strong encryption OR excellent jurisdiction + Good transparency
+- **Adequate**: Basic encryption + Reasonable jurisdiction + Some transparency  
+- **Limited**: Basic features only + Privacy concerns
 
 ## Cancellation Policies Comparison
 
@@ -429,27 +433,27 @@ Understanding what happens when you stop paying is crucial for long-term plannin
 
 | Provider | Policy Type | Alias Functionality | Custom Domains | Advanced Features | Grace Period | Overall Rating |
 |----------|-------------|-------------------|----------------|-------------------|--------------|----------------|
-| **SimpleLogin** | 🟢 **Lenient** | All aliases continue working | Domains remain active | Settings preserved | Indefinite | ⭐⭐⭐⭐⭐ |
-| **ForwardMail** | 🟢 **Lenient** | Downgrades to free plan | Basic forwarding maintained | Loses premium features | Indefinite | ⭐⭐⭐⭐ |
-| **AdGuard Mail** | 🟢 **Lenient** | Keeps basic service | Returns to free tier limits | Loses premium domains | Indefinite | ⭐⭐⭐⭐ |
-| **33Mail** | 🟡 **Moderate** | Basic forwarding continues | Custom domains disabled | Premium features lost | Indefinite | ⭐⭐⭐ |
-| **Firefox Relay** | 🟡 **Moderate** | Returns to 5 aliases | Premium features lost | Basic functionality only | Indefinite | ⭐⭐⭐ |
-| **Addy.io** | 🔴 **Restrictive** | Limited functionality | Domains deactivated | Most features disabled | Unknown | ⭐⭐ |
-| **Apple Hide My Email** | 🔴 **Restrictive** | May stop working | iCloud+ required | No new aliases | None specified | ⭐⭐ |
-| **IronVest** | 🔴 **Restrictive** | May stop after grace | Not applicable | All features lost | Limited grace period | ⭐ |
+| **SimpleLogin** | Lenient | All aliases continue working | Domains remain active | Settings preserved | Indefinite | Excellent |
+| **ForwardMail** | Lenient | Downgrades to free plan | Basic forwarding maintained | Loses premium features | Indefinite | Good |
+| **AdGuard Mail** | Lenient | Keeps basic service | Returns to free tier limits | Loses premium domains | Indefinite | Good |
+| **33Mail** | Moderate | Basic forwarding continues | Custom domains disabled | Premium features lost | Indefinite | Fair |
+| **Firefox Relay** | Moderate | Returns to 5 aliases | Premium features lost | Basic functionality only | Indefinite | Fair |
+| **Addy.io** | Restrictive | Limited functionality | Domains deactivated | Most features disabled | Unknown | Poor |
+| **Apple Hide My Email** | Restrictive | May stop working | iCloud+ required | No new aliases | None specified | Poor |
+| **IronVest** | Restrictive | May stop after grace | Not applicable | All features lost | Limited grace period | Very Poor |
 
 ### Detailed Cancellation Impact
 
 | Provider | What Continues Working | What Gets Disabled | What Gets Deleted | Risk Level |
 |----------|----------------------|-------------------|------------------|------------|
-| **SimpleLogin** | • All existing aliases<br>• All custom domains<br>• Directory features<br>• All mailboxes | • Creating new aliases (if >10)<br>• Premium support | • Nothing permanently lost | 🟢 **Minimal Risk** |
-| **ForwardMail** | • Basic forwarding<br>• Existing aliases<br>• Core functionality | • Premium features<br>• Advanced analytics<br>• Priority support | • Premium-only configurations | 🟢 **Low Risk** |
-| **AdGuard Mail** | • Basic email service<br>• Free tier features<br>• Up to 10 aliases | • Premium domains<br>• Advanced features<br>• Higher limits | • Premium domain aliases | 🟢 **Low Risk** |
-| **33Mail** | • Basic forwarding<br>• Standard aliases<br>• Core service | • Custom domains<br>• Premium features<br>• Advanced rules | • Custom domain configurations | 🟡 **Moderate Risk** |
-| **Firefox Relay** | • First 5 aliases<br>• Basic forwarding<br>• Firefox integration | • Additional aliases<br>• Premium features<br>• Custom domains | • Aliases beyond 5 limit | 🟡 **Moderate Risk** |
-| **Addy.io** | • Standard aliases (limited)<br>• 1 recipient<br>• Basic forwarding | • Custom domains<br>• Additional usernames<br>• Shared domain aliases<br>• Multiple recipients<br>• Reply functionality | • Extra recipients<br>• Paid domain aliases<br>• Advanced features | 🔴 **High Risk** |
-| **Apple Hide My Email** | • Potentially nothing | • New alias creation<br>• Existing aliases may fail | • Risk of losing all functionality | 🔴 **Very High Risk** |
-| **IronVest** | • Limited grace period | • All masked emails<br>• Privacy features<br>• Virtual cards | • All alias functionality | 🔴 **Very High Risk** |
+| **SimpleLogin** | • All existing aliases<br>• All custom domains<br>• Directory features<br>• All mailboxes | • Creating new aliases (if >10)<br>• Premium support | • Nothing permanently lost | Minimal Risk |
+| **ForwardMail** | • Basic forwarding<br>• Existing aliases<br>• Core functionality | • Premium features<br>• Advanced analytics<br>• Priority support | • Premium-only configurations | Low Risk |
+| **AdGuard Mail** | • Basic email service<br>• Free tier features<br>• Up to 10 aliases | • Premium domains<br>• Advanced features<br>• Higher limits | • Premium domain aliases | Low Risk |
+| **33Mail** | • Basic forwarding<br>• Standard aliases<br>• Core service | • Custom domains<br>• Premium features<br>• Advanced rules | • Custom domain configurations | Moderate Risk |
+| **Firefox Relay** | • First 5 aliases<br>• Basic forwarding<br>• Firefox integration | • Additional aliases<br>• Premium features<br>• Custom domains | • Aliases beyond 5 limit | Moderate Risk |
+| **Addy.io** | • Standard aliases (limited)<br>• 1 recipient<br>• Basic forwarding | • Custom domains<br>• Additional usernames<br>• Shared domain aliases<br>• Multiple recipients<br>• Reply functionality | • Extra recipients<br>• Paid domain aliases<br>• Advanced features | High Risk |
+| **Apple Hide My Email** | • Potentially nothing | • New alias creation<br>• Existing aliases may fail | • Risk of losing all functionality | Very High Risk |
+| **IronVest** | • Limited grace period | • All masked emails<br>• Privacy features<br>• Virtual cards | • All alias functionality | Very High Risk |
 
 ### Best Practices for Cancellation Protection
 
