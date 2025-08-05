@@ -194,27 +194,25 @@ export default defineConfig({
           {
             text: 'Get Started',
             items: [
-              { text: 'What is Email Aliasing?', link: '/getting-started/what-is-email-aliasing' },
-              { text: 'Quick Setup (5 min)', link: '/getting-started/quick-start' },
-              { text: 'First Week Guide', link: '/getting-started/first-week' }
+              { text: 'Quick Start (5 min)', link: '/#5-minute-setup-guide' },
+              { text: 'Provider Selector', link: '/#interactive-provider-selector' },
+              { text: 'Top 3 Picks', link: '/#top-3-beginner-friendly-providers' }
             ]
           },
           {
-            text: 'Compare Providers',
+            text: 'Compare',
             items: [
-              { text: 'Top Picks', link: '/providers/top-picks' },
-              { text: 'All Providers', link: '/providers/overview' },
-              { text: 'Free Plans', link: '/providers/free-plans' },
-              { text: 'Paid Plans', link: '/providers/paid-plans' }
+              { text: 'All Providers', link: '/#complete-provider-directory' },
+              { text: 'Free Plans', link: '/#free-plans-detailed-comparison' },
+              { text: 'Paid Plans', link: '/#paid-plans-detailed-comparison' }
             ]
           },
           {
-            text: 'Guides & Help',
+            text: 'Learn',
             items: [
-              { text: 'Setup Guides', link: '/guides/setup-guides' },
-              { text: 'Security Analysis', link: '/guides/security' },
-              { text: 'FAQ', link: '/reference/faq' },
-              { text: 'Troubleshooting', link: '/reference/troubleshooting' }
+              { text: 'Beginner Guide', link: '/#beginner-quick-start-path' },
+              { text: 'Advanced Guide', link: '/#expert-deep-dive-path' },
+              { text: 'Best Practices', link: '/#first-week-best-practices' }
             ]
           }
         ],
@@ -222,41 +220,43 @@ export default defineConfig({
         sidebar: {
           '/': [
             {
-              text: '🚀 Getting Started',
+              text: '🚀 Quick Start',
               collapsed: false,
               items: [
-                { text: 'What is Email Aliasing?', link: '/getting-started/what-is-email-aliasing' },
-                { text: 'Quick Setup Guide', link: '/getting-started/quick-start' },
-                { text: 'First Week Best Practices', link: '/getting-started/first-week' }
+                { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
+                { text: 'Provider Selector', link: '/#interactive-provider-selector' },
+                { text: 'Top 3 Providers', link: '/#top-3-beginner-friendly-providers' },
+                { text: '5-Min Setup Guide', link: '/#5-minute-setup-guide' }
               ]
             },
             {
               text: '📊 Provider Comparison',
               collapsed: false,
               items: [
-                { text: 'Top Picks by Use Case', link: '/providers/top-picks' },
-                { text: 'Provider Overview', link: '/providers/overview' },
-                { text: 'Free Plans Analysis', link: '/providers/free-plans' },
-                { text: 'Paid Plans Comparison', link: '/providers/paid-plans' }
+                { text: 'All Providers', link: '/#complete-provider-directory' },
+                { text: 'Free Plans', link: '/#free-plans-detailed-comparison' },
+                { text: 'Paid Plans', link: '/#paid-plans-detailed-comparison' },
+                { text: 'Security Analysis', link: '/#advanced-features-security-comparison' }
               ]
             },
             {
-              text: '📚 Guides & Setup',
+              text: '📚 Learning Paths',
               collapsed: true,
               items: [
-                { text: 'Detailed Setup Guides', link: '/guides/setup-guides' },
-                { text: 'Security & Privacy Analysis', link: '/guides/security' },
-                { text: 'Migration Between Providers', link: '/guides/migration' }
+                { text: 'Beginner Path', link: '/#beginner-quick-start-path' },
+                { text: 'Expert Path', link: '/#expert-deep-dive-path' },
+                { text: 'Use Cases', link: '/#use-case-recommendations' },
+                { text: 'Best Practices', link: '/#first-week-best-practices' }
               ]
             },
             {
-              text: '📖 Reference & Help',
+              text: '🔧 Help & Support',
               collapsed: true,
               items: [
-                { text: 'Frequently Asked Questions', link: '/reference/faq' },
-                { text: 'Feature Glossary', link: '/reference/features' },
-                { text: 'Troubleshooting Guide', link: '/reference/troubleshooting' },
-                { text: 'Legal & Compliance', link: '/reference/legal' }
+                { text: 'FAQ', link: '/#frequently-asked-questions' },
+                { text: 'Troubleshooting', link: '/#troubleshooting-guide' },
+                { text: 'Migration Guide', link: '/#migration-between-providers' },
+                { text: 'Glossary', link: '/#complete-feature-glossary' }
               ]
             }
           ]
