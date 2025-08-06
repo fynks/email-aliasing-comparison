@@ -288,24 +288,25 @@ export default defineConfig({
     sidebar: {
       '/': [
         {
-          text: 'Quick Start',
+          text: 'Understanding Email Aliasing',
           collapsed: false,
           items: [
             { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
             { text: 'How Email Aliasing Works', link: '/#how-email-aliasing-works' },
-            { text: 'Benefits and Use Cases', link: '/#benefits-and-use-cases' },
-            { text: 'Interactive Provider Selector', link: '/#interactive-provider-selector' },
-            { text: 'Top 3 Beginner-Friendly Providers', link: '/#top-3-beginner-friendly-providers' }
+            { text: 'Types of Email Aliasing', link: '/#types-of-email-aliasing' },
+            { text: 'Benefits and Use Cases', link: '/#benefits-and-use-cases' }
           ]
         },
         {
-          text: 'Setup & Implementation',
+          text: 'Quick Start Guide',
           collapsed: false,
           items: [
-            { text: 'Quick Setup Guide', link: '/#quick-setup-guide' },
-            { text: 'Getting Started Guide', link: '/#getting-started-guide' },
-            { text: 'First Week Best Practices', link: '/#first-week-best-practices' },
-            { text: 'Common Mistakes to Avoid', link: '/#common-mistakes-to-avoid' }
+            { text: 'Interactive Provider Selector', link: '/#interactive-provider-selector' },
+            { text: 'Top 3 Beginner-Friendly Providers', link: '/#top-3-beginner-friendly-providers' },
+            { text: 'Complete Setup Guide', link: '/#complete-setup-guide' },
+            { text: 'Best Practices & Optimization', link: '/#step-5-best-practices-optimization' },
+            { text: 'Common Mistakes to Avoid', link: '/#step-6-common-mistakes-to-avoid' },
+            { text: 'Migration and Scaling', link: '/#step-7-migration-and-scaling' }
           ]
         },
         {
@@ -315,9 +316,9 @@ export default defineConfig({
             { text: 'Complete Provider Directory', link: '/#complete-provider-directory' },
             { text: 'Free Plans Detailed Comparison', link: '/#free-plans-detailed-comparison' },
             { text: 'Paid Plans Detailed Comparison', link: '/#paid-plans-detailed-comparison' },
-            { text: 'Advanced Features & Security', link: '/#advanced-features--security-comparison' },
-            { text: 'Cancellation Policies', link: '/#cancellation-policies-comparison' },
-            { text: 'Addy.io vs SimpleLogin', link: '/#addyio-vs-simplelogin' }
+            { text: 'Advanced Features & Security', link: '/#advanced-features-security-comparison' },
+            { text: 'Addy.io vs SimpleLogin', link: '/#addyio-vs-simplelogin' },
+            { text: 'Cancellation Policies', link: '/#cancellation-policies-comparison' }
           ]
         },
         {
