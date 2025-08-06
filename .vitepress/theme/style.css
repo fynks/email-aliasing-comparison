@@ -142,9 +142,9 @@
   justify-content: center;
   
 }
-.eac p a {
-  margin: auto 0.25rem;
-}
 .eac img {
-margin: 0.5rem 0.25rem;
+  margin: 0.25rem;
+}
+.quick-nav a {
+  margin: auto 0.25rem;
 }

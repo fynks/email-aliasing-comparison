@@ -7,14 +7,15 @@
 A comprehensive comparison of leading email alias services including pricing, features, security, and privacy policies. Compare Addy.io, SimpleLogin, DuckDuckGo Email Protection, Firefox Relay, ForwardMail, Apple Hide My Email, AdGuard Mail, 33Mail, IronVest & Erine.email.
 
 ---
-
-[![Awesome](https://awesome.re/badge.svg?style=for-the-badge)](https://awesome.re)
+[![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge&logo=github)](https://github.com/fynks/email-aliasing-comparison)
+[![Last Commit](https://img.shields.io/github/last-commit/fynks/email-aliasing-comparison?style=for-the-badge&logo=github)](https://github.com/fynks/email-aliasing-comparison/commits)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge)](https://github.com/fynks/email-aliasing-comparison)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202025-brightgreen.svg?style=for-the-badge)](https://github.com/fynks/email-aliasing-comparison)
 
-**Quick Navigation:** [Interactive Selector](#interactive-provider-selector) | [Free Plans](#free-plans-detailed-comparison) | [Paid Plans](#paid-plans-detailed-comparison) | [Setup Guide](#complete-setup-guide)
+<div class="quick-nav">
 
+**🚀  Quick Links:** [Interactive Selector](#interactive-provider-selector) |[Setup Guide](#complete-setup-guide) | [Free Plans](#free-plans-detailed-comparison) | [Paid Plans](#paid-plans-detailed-comparison)
+
+</div>
 </div>
 
 ## Table of Contents
