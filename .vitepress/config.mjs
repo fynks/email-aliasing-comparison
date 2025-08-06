@@ -20,7 +20,6 @@ export default defineConfig({
     ['link', { rel: 'dns-prefetch', href: 'https://img.shields.io' }],
     ['link', { rel: 'preconnect', href: 'https://github.com', crossorigin: '' }],
     ['link', { rel: 'dns-prefetch', href: 'https://github.com' }],
-    ['link', { rel: 'preconnect', href: 'https://awesome.re', crossorigin: '' }],
 
     // Favicons and PWA
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png', sizes: '96x96' }],
