@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: "en-US",
-  title: "Email Aliasing Comparison - Complete Privacy & Security Guide",
+  title: "Email Aliasing Comparison",
+  titleTemplate: "Complete Privacy & Security Guide",
   description: "Comprehensive comparison of the best email alias providers in 2025. Compare Addy.io, SimpleLogin, DuckDuckGo Email Protection, ForwardMail, Apple Hide My Email, Firefox Relay & more. Features detailed pricing, security analysis, setup guides & privacy comparisons.",
   ignoreDeadLinks: true,
   cleanUrls: true,
