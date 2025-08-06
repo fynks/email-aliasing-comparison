@@ -222,9 +222,9 @@ export default defineConfig({
           searchOptions: {
             fuzzy: 0.2,
             prefix: true,
-            boost: { 
-              title: 4, 
-              text: 2, 
+            boost: {
+              title: 4,
+              text: 2,
               titles: 3,
               heading: 3
             }
@@ -248,107 +248,99 @@ export default defineConfig({
           }
         }
       }
-    }, 
-        nav: [
-          {
-            text: 'Quick Start',
-            items: [
-              { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
-              { text: 'Provider Selector', link: '/#interactive-provider-selector' },
-              { text: 'Setup Guide', link: '/#quick-setup-guide' }
-            ]
-          },
-          {
-            text: 'Compare',
-            items: [
-              { text: 'All Providers', link: '/#complete-provider-directory' },
-              { text: 'Free Plans', link: '/#free-plans-detailed-comparison' },
-              { text: 'Paid Plans', link: '/#paid-plans-detailed-comparison' },
-              { text: 'Security Analysis', link: '/#advanced-features-security-comparison' }
-            ]
-          },
-          {
-            text: 'Guides',
-            items: [
-              { text: 'Getting Started', link: '/#getting-started-guide' },
-              { text: 'Best Practices', link: '/#first-week-best-practices' },
-              { text: 'Common Mistakes', link: '/#common-mistakes-to-avoid' }
-            ]
-          },
-          {
-            text: 'Support',
-            items: [
-              { text: 'FAQ', link: '/#frequently-asked-questions' },
-              { text: 'Troubleshooting', link: '/#troubleshooting-guide' },
-              { text: 'Glossary', link: '/#complete-feature-glossary' }
-            ]
-          }
-        ],
-    
-        sidebar: {
-          '/': [
-            {
-              text: 'Getting Started',
-              collapsed: false,
-              items: [
-                { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
-                { text: 'Benefits and Use Cases', link: '/#benefits-and-use-cases' },
-                { text: 'How Email Aliasing Works', link: '/#how-email-aliasing-works' },
-                { text: 'Provider Categories', link: '/#provider-categories' }
-              ]
-            },
-            {
-              text: 'Choose Your Provider',
-              collapsed: false,
-              items: [
-                { text: 'Interactive Provider Selector', link: '/#interactive-provider-selector' },
-                { text: 'Top 3 Beginner-Friendly Providers', link: '/#top-3-beginner-friendly-providers' },
-                { text: '5-Minute Setup Guide', link: '/#quick-setup-guide' },
-                { text: 'Use Case Recommendations', link: '/#use-case-recommendations' }
-              ]
-            },
-            {
-              text: 'Provider Comparisons',
-              collapsed: false,
-              items: [
-                { text: 'Complete Provider Directory', link: '/#complete-provider-directory' },
-                { text: 'Free Plans Detailed Comparison', link: '/#free-plans-detailed-comparison' },
-                { text: 'Paid Plans Detailed Comparison', link: '/#paid-plans-detailed-comparison' },
-                { text: 'Addy.io vs SimpleLogin', link: '/#addyio-vs-simplelogin' },
-                { text: 'Advanced Features & Security', link: '/#advanced-features-security-comparison' },
-                { text: 'Cancellation Policies', link: '/#cancellation-policies-comparison' }
-              ]
-            },
-            {
-              text: 'Implementation & Best Practices',
-              collapsed: true,
-              items: [
-                { text: 'Getting Started Guide', link: '/#getting-started-guide' },
-                { text: 'First Week Best Practices', link: '/#first-week-best-practices' },
-                { text: 'Common Mistakes to Avoid', link: '/#common-mistakes-to-avoid' },
-                { text: 'Technical Architecture', link: '/#technical-architecture-overview' }
-              ]
-            },
-            {
-              text: 'Advanced Topics',
-              collapsed: true,
-              items: [
-                { text: 'Advanced Security Analysis', link: '/#advanced-security-analysis' },
-                { text: 'Legal & Compliance Framework', link: '/#legal--compliance-framework' }
-              ]
-            },
-            {
-              text: 'Reference & Support',
-              collapsed: true,
-              items: [
-                { text: 'Complete Feature Glossary', link: '/#complete-feature-glossary' },
-                { text: 'Troubleshooting Guide', link: '/#troubleshooting-guide' },
-                { text: 'Frequently Asked Questions', link: '/#frequently-asked-questions' },
-                { text: 'Final Recommendations & Next Steps', link: '/#final-recommendations--next-steps' }
-              ]
-            }
+    },
+    nav: [
+      {
+        text: 'Quick Start',
+        items: [
+          { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
+          { text: 'Provider Selector', link: '/#interactive-provider-selector' },
+          { text: 'Setup Guide', link: '/#quick-setup-guide' }
+        ]
+      },
+      {
+        text: 'Compare',
+        items: [
+          { text: 'All Providers', link: '/#complete-provider-directory' },
+          { text: 'Free Plans', link: '/#free-plans-detailed-comparison' },
+          { text: 'Paid Plans', link: '/#paid-plans-detailed-comparison' },
+          { text: 'Security Analysis', link: '/#advanced-features-security-comparison' }
+        ]
+      },
+      {
+        text: 'Guides',
+        items: [
+          { text: 'Getting Started', link: '/#getting-started-guide' },
+          { text: 'Best Practices', link: '/#first-week-best-practices' },
+          { text: 'Common Mistakes', link: '/#common-mistakes-to-avoid' }
+        ]
+      },
+      {
+        text: 'Support',
+        items: [
+          { text: 'FAQ', link: '/#frequently-asked-questions' },
+          { text: 'Troubleshooting', link: '/#troubleshooting-guide' },
+          { text: 'Glossary', link: '/#feature-glossary' }
+        ]
+      }
+    ],
+
+    sidebar: {
+      '/': [
+        {
+          text: 'Quick Start',
+          collapsed: false,
+          items: [
+            { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
+            { text: 'How Email Aliasing Works', link: '/#how-email-aliasing-works' },
+            { text: 'Benefits and Use Cases', link: '/#benefits-and-use-cases' },
+            { text: 'Interactive Provider Selector', link: '/#interactive-provider-selector' },
+            { text: 'Top 3 Beginner-Friendly Providers', link: '/#top-3-beginner-friendly-providers' }
           ]
         },
+        {
+          text: 'Setup & Implementation',
+          collapsed: false,
+          items: [
+            { text: 'Quick Setup Guide', link: '/#quick-setup-guide' },
+            { text: 'Getting Started Guide', link: '/#getting-started-guide' },
+            { text: 'First Week Best Practices', link: '/#first-week-best-practices' },
+            { text: 'Common Mistakes to Avoid', link: '/#common-mistakes-to-avoid' }
+          ]
+        },
+        {
+          text: 'Provider Comparisons',
+          collapsed: false,
+          items: [
+            { text: 'Complete Provider Directory', link: '/#complete-provider-directory' },
+            { text: 'Free Plans Detailed Comparison', link: '/#free-plans-detailed-comparison' },
+            { text: 'Paid Plans Detailed Comparison', link: '/#paid-plans-detailed-comparison' },
+            { text: 'Advanced Features & Security', link: '/#advanced-features--security-comparison' },
+            { text: 'Cancellation Policies', link: '/#cancellation-policies-comparison' },
+            { text: 'Addy.io vs SimpleLogin', link: '/#addyio-vs-simplelogin' }
+          ]
+        },
+        {
+          text: 'Advanced Topics',
+          collapsed: true,
+          items: [
+            { text: 'Technical Architecture', link: '/#technical-architecture' },
+            { text: 'Security Analysis', link: '/#security-analysis' }
+          ]
+        },
+        {
+          text: 'Reference & Support',
+          collapsed: true,
+          items: [
+            { text: 'Feature Glossary', link: '/#feature-glossary' },
+            { text: 'Troubleshooting Guide', link: '/#troubleshooting-guide' },
+            { text: 'Frequently Asked Questions', link: '/#frequently-asked-questions' },
+            { text: 'Additional Resources', link: '/#additional-resources' },
+            { text: 'Contributing', link: '/#contributing' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fynks/email-aliasing-comparison' }
