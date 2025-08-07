@@ -2,9 +2,9 @@
 
 # Email Aliasing Comparison
 
-🛡️ Complete Guide to Email Privacy & Security
+**🛡️ Protect Your Privacy with Email Aliases**
 
-A comprehensive comparison of leading email alias services including pricing, features, security, and privacy policies. Compare Addy.io, SimpleLogin, DuckDuckGo Email Protection, Firefox Relay, ForwardMail, Apple Hide My Email, AdGuard Mail, 33Mail, IronVest & Erine.email.
+A comprehensive comparison of 10+ email alias services to help you choose the right privacy solution. Compare features, pricing, security, and ease of use.
 
 ---
 [![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge&logo=github)](https://github.com/fynks/email-aliasing-comparison)
@@ -55,10 +55,6 @@ A comprehensive comparison of leading email alias services including pricing, fe
 
 </details>
 
-## Introduction
-
-Email aliasing is a fundamental privacy technique that allows you to **create multiple email addresses that all forward to your real inbox**. This comprehensive guide compares the leading email alias providers to help you choose the best solution for your privacy and security needs.
-
 ## What is Email Aliasing?
 
 Email aliasing is a privacy technique that lets you create multiple email addresses that all forward to your real inbox. Think of it like having multiple front doors to your house - visitors use different entrances, but they all lead to the same place.
@@ -89,13 +85,6 @@ With Aliasing:    shopping@alias.com → stores
                   john@gmail.com (safe!)
 ```
 
-### Process Flow
-1. **Create an alias** through your chosen provider
-2. **Use the alias** when signing up for websites or services
-3. **Emails are forwarded** from the alias to your real inbox automatically
-4. **Reply through the alias** to keep your real email hidden
-5. **Manage aliases** - deactivate, delete, or organize as needed
-
 ## Types of Email Aliasing
 
 - **Built-in Aliases**: Many email providers offer basic aliasing features like Gmail's `+` addressing (`yourname+tag@gmail.com`) or Outlook's alias system. These are free but have limited management options.
@@ -104,25 +93,20 @@ With Aliasing:    shopping@alias.com → stores
 
 ## Benefits and Use Cases
 
-**Privacy Protection**
-- Hide your real email address from websites and services
-- Prevent companies from tracking you across different platforms
-- Keep your personal email private and secure
-
-**Spam Prevention**
-- Create disposable aliases for one-time signups
-- Easily block spam by deactivating compromised aliases
-- Keep your main inbox clean and organized
-
-**Security Benefits**
-- Reduce risk of your main email being exposed in data breaches
+**Privacy & Security**
+- Hide your real email from websites and data breaches
+- Prevent cross-platform tracking by companies
 - Limit damage if one alias gets compromised
-- Better control over who can contact you
 
-**Organization and Management**
-- Use different aliases for different purposes (work, shopping, social media)
+**Spam Control**
+- Create disposable aliases for one-time signups
+- Block spam by deactivating compromised aliases
+- Keep your main inbox clean
+
+**Organization**
+- Use different aliases for different purposes (work, shopping, social)
 - Track which services share or sell your email
-- Organize incoming emails by source automatically
+- Organize emails by source automatically
 
 ## Interactive Provider Selector
 
@@ -728,7 +712,6 @@ A: Most people use 10-50 aliases. Start with categories: shopping, social, newsl
 
 ## Additional Resources
 
-
 ### Official Documentation
 - [Addy.io Help Center](https://addy.io/help/) - Comprehensive guides and API docs
 - [SimpleLogin Documentation](https://simplelogin.io/docs/) - User guides and developer resources  
@@ -741,16 +724,18 @@ A: Most people use 10-50 aliases. Start with categories: shopping, social, newsl
 - [The New Oil - Email Aliasing Guide](https://thenewoil.org/en/guides/moderately-important/email-aliasing/) - Practical privacy education
 - [Proton - What is Email Alias](https://proton.me/blog/what-is-email-alias) - Technical explanation from Proton
 
-### Educational Content
-- **Video Tutorials**: Search YouTube for "email aliasing setup [provider name]"
-- **Community Forums**: 
+### Video Tutorials: 
+- [The Ultimate Guide to Aliasing For Privacy & Security](https://www.youtube.com/watch?v=cgnsa5IMufs) by Techlore
+- [ULTIMATE Email Privacy Guide (5 Ways to Use Aliases)](https://www.youtube.com/watch?v=buJHg7HRHPc) by All Things Secured
+- [STOP Giving Your Real Email Address (do this instead)](https://www.youtube.com/watch?v=J7uGUD9kprs) by All Things Secured
+- [Use an Email Alias!](https://www.youtube.com/watch?v=5HHdk_GP-Ew) by Naomi Brockwell TV
+
+### Community Forums: 
   - [r/privacy](https://reddit.com/r/privacy) - General privacy discussions
-  - [r/selfhosted](https://reddit.com/r/selfhosted) - Self-hosting email solutions
-  - Provider-specific Discord/Matrix channels
+  - [r/emailprivacy](https://www.reddit.com/r/emailprivacy)
 
 ### Tools and Utilities
-- **GPG Tools**: [GPG4Win](https://gpg4win.org/) (Windows), [GPG Suite](https://gpgtools.org/) (Mac)
-- **Email Clients**: Thunderbird, Apple Mail, Outlook (with PGP plugins)
+- **Email Clients**: [Thunderbird](https://www.thunderbird.net/en-US/), Apple Mail, Outlook (with PGP plugins)
 - **DNS Lookup Tools**: [MXToolbox](https://mxtoolbox.com/), [Dig Web Interface](https://toolbox.googleapps.com/apps/dig/)
 
 
