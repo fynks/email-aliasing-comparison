@@ -148,10 +148,13 @@ With Aliasing:    shopping@alias.com → stores
 | **Perfect for:** First-time users who want to try aliasing with zero commitment. | **Perfect for:** Users who want advanced features without breaking the bank. | **Perfect for:** Users prioritizing security and reliability over cost. |
 | [Get Started](https://duckduckgo.com/email) | [Get Started](https://addy.io) | [Get Started](https://simplelogin.io) |
 
-
 ## Complete Setup Guide
 
-Getting started with email aliasing is straightforward. This comprehensive guide will take you from zero to fully configured in minutes, regardless of your technical experience.
+<details><summary>👉 tap to expand the guide</summary>
+
+---
+
+**Getting started with email aliasing** is straightforward. This comprehensive guide will take you from zero to fully configured in minutes, regardless of your technical experience.
 
 ### Step 1: Assess Your Needs
 
@@ -201,7 +204,7 @@ The generated alias is permanent - write it down if you need to reference it lat
 
 </details>
 
-#### Option B: Addy.io (Best Value - 5 minutes)
+#### Option B: Addy.io
 
 <details><summary>👉 Click to expand details</summary>
 
@@ -223,7 +226,7 @@ Free plan includes GPG encryption and API access - great for testing advanced fe
 
 </details>
 
-#### Option C: SimpleLogin (Most Secure - 5 minutes)
+#### Option C: SimpleLogin
 
 <details><summary>👉 Click to expand details</summary>
 
@@ -244,7 +247,7 @@ Start with descriptive names like `amazon.purchases@simplelogin.io` instead of r
 
 </details>
 
-#### Option D: Apple Hide My Email (Apple Users - 1 minute)
+#### Option D: Apple Hide My Email
 
 <details><summary>👉 Click to expand details</summary>
 
@@ -387,6 +390,8 @@ Start with descriptive names like `amazon.purchases@simplelogin.io` instead of r
 - Distribute risk across services
 - Compare features and reliability
 
+</details>
+
 ## Complete Provider Directory
 
 ### Quick Reference Table
@@ -404,7 +409,7 @@ Start with descriptive names like `amazon.purchases@simplelogin.io` instead of r
 | **[Erine.email](https://erine.email)** Donation-Based | Unlimited | **Free** | Yes | Yes | TLS | Donation | France |
 | **[Apple Hide My Email](https://support.apple.com/en-us/102219)** Apple Ecosystem | Unlimited*** | $0.99/mo | No | Yes | TLS | iCloud+ | USA |
 
-*Standard aliases unlimited, shared domain aliases limited  
+*[Standard aliases ↗](https://addy.io/faq/#what-is-a-standard-alias) unlimited, [shared domain aliases ↗](https://addy.io/faq/#what-is-a-shared-domain-alias) limited  
 **Requires own domain setup  
 ***Requires iCloud+ subscription
 
@@ -449,26 +454,21 @@ Start with descriptive names like `amazon.purchases@simplelogin.io` instead of r
 
 ### Advanced Features & Security Comparison
 
-| Provider | Mobile Apps | Browser Ext | Analytics | Encryption | Jurisdiction | Team Size | Security Rating |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Addy.io** | iOS/Android | All browsers | Advanced charts | GPG/OpenPGP | Netherlands (EU Privacy Laws) | Solo dev | ★★★★ |
-| **SimpleLogin** | iOS/Android | All browsers | Basic counts | PGP | Switzerland (Non-EU, Strong Privacy) | Team (Proton) | ★★★★★ |
-| **ForwardMail** | No native apps | No extension | Basic analytics | TLS + Quantum* | USA (5-Eyes Member) | Small team | ★★★★ |
-| **DuckDuckGo** | No dedicated app | All browsers | No analytics | TLS only | USA (5-Eyes Member) | Large team | ★★★ |
-| **Firefox Relay** | No dedicated app | Firefox primary | No analytics | TLS only | USA (5-Eyes Member) | Mozilla team | ★★★ |
-| **AdGuard Mail** | iOS/Android | All browsers | Basic only | TLS only | Cyprus (EU Member) | Corporate team | ★★★ |
-| **33Mail** | No apps | No extension | No analytics | TLS only | UK (5-Eyes Member) | Small team | ★★ |
-| **IronVest** | iOS/Android | All browsers | Basic only | TLS only | USA (5-Eyes Member) | Corporate team | ★★★ |
-| **Erine.email** | No apps | No extension | No analytics | TLS only | France (EU Privacy Laws) | Solo dev | ★★★ |
-| **Apple Hide My Email** | Native iOS/macOS | Safari only | No analytics | TLS only | USA (5-Eyes Member) | Massive team | ★★★★ |
+| Provider                | Mobile Apps      | Browser Ext     | Analytics       | Encryption     | Jurisdiction                         | Team Size      |
+|-------------------------|------------------|-----------------|-----------------|----------------|--------------------------------------|----------------|
+| **Addy.io**             | iOS/Android      | All browsers    | Advanced charts | GPG/OpenPGP    | Netherlands (EU Privacy Laws)        | Solo dev       |
+| **SimpleLogin**         | iOS/Android      | All browsers    | Basic counts    | PGP            | Switzerland (Non-EU, Strong Privacy) | Team (Proton)  |
+| **ForwardMail**         | No native apps   | No extension    | Basic analytics | TLS + Quantum* | USA (5-Eyes Member)                  | Small team     |
+| **DuckDuckGo**          | No dedicated app | All browsers    | No analytics    | TLS only       | USA (5-Eyes Member)                  | Large team     |
+| **Firefox Relay**       | No dedicated app | Firefox primary | No analytics    | TLS only       | USA (5-Eyes Member)                  | Mozilla team   |
+| **AdGuard Mail**        | iOS/Android      | All browsers    | Basic only      | TLS only       | Cyprus (EU Member)                   | Corporate team |
+| **33Mail**              | No apps          | No extension    | No analytics    | TLS only       | UK (5-Eyes Member)                   | Small team     |
+| **IronVest**            | iOS/Android      | All browsers    | Basic only      | TLS only       | USA (5-Eyes Member)                  | Corporate team |
+| **Erine.email**         | No apps          | No extension    | No analytics    | TLS only       | France (EU Privacy Laws)             | Solo dev       |
+| **Apple Hide My Email** | Native iOS/macOS | Safari only     | No analytics    | TLS only       | USA (5-Eyes Member)                  | Massive team   |
 
 *Quantum encryption refers to post-quantum cryptography preparation
 
-#### Security Rating Criteria
-- **Excellent**: End-to-end encryption + Swiss/EU jurisdiction + Regular audits + Open source
-- **Good**: Strong encryption OR excellent jurisdiction + Good transparency
-- **Adequate**: Basic encryption + Reasonable jurisdiction + Some transparency  
-- **Limited**: Basic features only + Privacy concerns
 
 ## Addy.io vs SimpleLogin
 
@@ -523,22 +523,7 @@ Start with descriptive names like `amazon.purchases@simplelogin.io` instead of r
 Understanding what happens is crucial for long-term planning as it suggest what will happen when you stop paying. Here's how each provider handles subscription cancellations:
 :::
 
-### Cancellation Policy Overview
-
-| Provider | Policy Type | Alias Functionality | Custom Domains | Advanced Features | Grace Period | Overall Rating |
-|----------|-------------|-------------------|----------------|-------------------|--------------|----------------|
-| **SimpleLogin** | Lenient | All aliases continue working | Domains remain active | Settings preserved | Indefinite | Excellent |
-| **ForwardMail** | Lenient | Downgrades to free plan | Basic forwarding maintained | Loses premium features | Indefinite | Good |
-| **AdGuard Mail** | Lenient | Keeps basic service | Returns to free tier limits | Loses premium domains | Indefinite | Good |
-| **33Mail** | Moderate | Basic forwarding continues | Custom domains disabled | Premium features lost | Indefinite | Fair |
-| **Firefox Relay** | Moderate | Returns to 5 aliases | Premium features lost | Basic functionality only | Indefinite | Fair |
-| **Addy.io** | Restrictive | Limited functionality | Domains deactivated | Most features disabled | Unknown | Poor |
-| **Apple Hide My Email** | Restrictive | May stop working | iCloud+ required | No new aliases | None specified | Poor |
-| **IronVest** | Restrictive | May stop after grace | Not applicable | All features lost | Limited grace period | Very Poor |
-
 ### Detailed Cancellation Impact
-
-<details><summary>👉 Click to expand details</summary>
 
 | Provider | What Continues Working | What Gets Disabled | What Gets Deleted | Risk Level |
 |----------|----------------------|-------------------|------------------|------------|
@@ -551,7 +536,6 @@ Understanding what happens is crucial for long-term planning as it suggest what 
 | **Apple Hide My Email** | • Potentially nothing | • New alias creation<br>• Existing aliases may fail | • Risk of losing all functionality | Very High Risk |
 | **IronVest** | • Limited grace period | • All masked emails<br>• Privacy features<br>• Virtual cards | • All alias functionality | Very High Risk |
 
-</details>
 
 ### Best Practices for Cancellation Protection
 
@@ -561,96 +545,23 @@ Understanding what happens is crucial for long-term planning as it suggest what 
 - [ ] **Document critical aliases** and their purposes
 - [ ] **Understand exact cancellation terms** from provider
 
-#### For High-Risk Providers (Addy.io, Apple, IronVest):
-- [ ] **Maintain backup provider** account
-- [ ] **Use for non-critical accounts** initially
-- [ ] **Plan migration strategy** before committing
-- [ ] **Keep original email** as fallback
-
-#### Migration Preparedness:
-```yaml
-Essential Documentation:
-  - Complete alias inventory (service → alias mapping)
-  - Custom domain DNS configurations
-  - Critical account recovery emails
-  - Provider API keys and credentials
-
-Emergency Contacts:
-  - Provider support emails
-  - Domain registrar access
-  - Payment processor details
-  - Backup email provider ready
-```
-
 ::: tip Recommendation
 Always test the free tier first and understand the downgrade policy before committing to any paid plan.
 :::
 
 ## Advanced Topics
 
-### Technical Architecture
-
-**Email Processing Pipeline:**
-```
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│   Incoming  │ -> │   Spam      │ -> │   Rules     │ -> │  Forward    │
-│   Email     │    │   Filter    │    │   Engine    │    │   to User   │
-└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
-                           │                   │
-                           v                   v
-                    ┌─────────────┐    ┌─────────────┐
-                    │   Quarantine│    │  Analytics  │
-                    │   & Logs    │    │  & Metrics  │
-                    └─────────────┘    └─────────────┘
-```
-
-**Infrastructure Comparison:**
-- SimpleLogin: Switzerland, Germany
-- Addy.io: Netherlands
-- DuckDuckGo: USA (AWS)
-- ForwardMail: USA, Europe
 
 ### Security Analysis
 
 **Privacy Law Comparison:**
 
-| Provider | Jurisdiction | GDPR Compliance | Data Retention | Govt Requests | Transparency Report |
-| --- | --- | --- | --- | --- | --- |
-| **SimpleLogin** | Switzerland | ✅ Full compliance | Account deletion: immediate, Logs: 30 days max | Court order required, Limited scope | ✅ |
-| **Addy.io** | Netherlands | ✅ Full compliance | Account deletion: immediate, Logs: minimal | EU legal process, Limited data available | ❌ Not published |
-| **DuckDuckGo** | United States | ✅ GDPR compliant | Minimal data collection, No email content stored | Subject to US law, FISA requests possible | ❌ Limited transparency |
-| **ForwardMail** | United States | ✅ GDPR compliant | Configurable retention, Open-source logging | Subject to US law, Can be self-hosted | ✅ |
-
-**Data Collection Comparison:**
-```yaml
-SimpleLogin:
-  personal_data:
-    - Email address (encrypted)
-    - Payment information (via Stripe)
-    - Usage statistics (anonymized)
-  logs:
-    - Connection IPs (30 days max)
-    - Error logs (debugging only)
-  sharing: None (zero third parties)
-
-Addy.io:
-  personal_data:
-    - Email address
-    - Payment information (via Paddle)
-    - API usage logs
-  logs:
-    - Minimal connection logs
-    - No email content
-  sharing: Payment processor only
-
-DuckDuckGo:
-  personal_data:
-    - None (no account required)
-    - No email content stored
-  logs:
-    - Anonymized usage statistics
-  sharing: None
-```
+| Provider        | Jurisdiction  | GDPR Compliance   | Data Retention                                   | Govt Requests                             |   |
+|-----------------|---------------|-------------------|--------------------------------------------------|-------------------------------------------|---|
+| **SimpleLogin** | Switzerland   | ✅ Full compliance | Account deletion: immediate, Logs: 30 days max   | Court order required, Limited scope       |   |
+| **Addy.io**     | Netherlands   | ✅ Full compliance | Account deletion: immediate, Logs: minimal       | EU legal process, Limited data available  |   |
+| **DuckDuckGo**  | United States | ✅ GDPR compliant  | Minimal data collection, No email content stored | Subject to US law, FISA requests possible |   |
+| **ForwardMail** | United States | ✅ GDPR compliant  | Configurable retention, Open-source logging      | Subject to US law, Can be self-hosted     |
 
 ---
 
@@ -675,40 +586,51 @@ DuckDuckGo:
 
 ## Troubleshooting Guide
 
-**Emails Not Being Forwarded:**
+<details><summary>Emails Not Being Forwarded</summary>
 1. Check spam folder - forwarded emails often land in spam initially
 2. Verify alias configuration by sending test email
 3. For custom domains, check DNS propagation (24-48 hours)
 4. Review email client filters that might redirect messages
 
-**Can't Reply From Alias:**
+</details>
+
+<details><summary>Can't Reply From Alias</summary>
 1. Check if your plan supports reply functionality
 2. Configure email client with provider's SMTP settings
 3. Verify Reply-To settings in provider dashboard
 
-**Slow Email Delivery:**
+</details>
+
+<details><summary>Slow Email Delivery</summary>
+
 - Normal delays: 5-30 seconds for most providers
 - Peak times: Up to 2-5 minutes
 - International: Up to 10 minutes
 - Check provider status page for outages
 
+</details>
+
 ## Frequently Asked Questions
 
-**Q: Will people know I'm using an alias?**
-A: No, recipients see your alias as your email address. They won't know it's forwarded unless you tell them.
+<details><summary>Will people know I'm using an alias?</summary>
+No, recipients see your alias as your email address. They won't know it's forwarded unless you tell them.
+</details>
 
-**Q: Can I reply from my alias?**
-A: Most paid services support replies. Free services vary - DuckDuckGo and SimpleLogin free do, but others don't.
+<details><summary>Can I reply from my alias?</summary>
+Most paid services support replies. Free services vary - DuckDuckGo and SimpleLogin free do, but others don't.
+</details>
 
-**Q: What happens if the alias provider shuts down?**
-A: Keep your original email active, document all aliases and where they're used, and have a migration plan.
+<details><summary>What happens if the alias provider shuts down?</summary>
+Keep your original email active, document all aliases and where they're used, and have a migration plan.
+</details>
 
-**Q: Can I use aliases for important accounts like banking?**
-A: Yes, but start with less critical accounts first. Make sure the provider is reliable and offers good customer support.
+<details><summary>Can I use aliases for important accounts like banking?</summary>
+Yes, but start with less critical accounts first. Make sure the provider is reliable and offers good customer support.
+</details>
 
-**Q: How many aliases do I actually need?**
-A: Most people use 10-50 aliases. Start with categories: shopping, social, newsletters, work, and temporary signups.
-
+<details><summary>How many aliases do I actually need?</summary>
+Most people use 10-50 aliases. Start with categories: shopping, social, newsletters, work, and temporary signups.
+</details>
 
 ## Additional Resources
 
