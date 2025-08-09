@@ -31,15 +31,15 @@ A comprehensive comparison of 10+ email alias services to help you choose the ri
 - [Interactive Provider Selector](#interactive-provider-selector)
 - [Top 3 Beginner-Friendly Providers](#top-3-beginner-friendly-providers)
 - [Complete Setup Guide](#complete-setup-guide)
-- [First Week Best Practices](#step-5-best-practices--optimization)
+- [First Week Best Practices](#step-5-best-practices-and-optimization)
 - [Common Mistakes to Avoid](#step-6-common-mistakes-to-avoid)
 
 ### 3. Provider Comparisons
 - [Complete Provider Directory](#complete-provider-directory)
 - [Free Plans Comparison](#free-plans-detailed-comparison)
 - [Paid Plans Comparison](#paid-plans-detailed-comparison)
-- [Privacy & Data Collection Comparison](#privacy--data-collection-comparison)
-- [Advanced Features & Security](#advanced-features--security-comparison)
+- [Privacy & Data Collection Comparison](#privacy-and-data-collection-comparison)
+- [Advanced Features & Security](#advanced-features-and-security-comparison)
 - [Cancellation Policies Comparison](#cancellation-policies-comparison)
 - [Privacy Law Comparison](#privacy-law-comparison)
 - [Addy.io vs SimpleLogin](#addyio-vs-simplelogin)
@@ -283,7 +283,7 @@ Start with descriptive names like `amazon.purchases@simplelogin.io` instead of r
    - Set up folders in email client for organization
    - Document critical aliases and their purposes
 
-### Step 5: Best Practices & Optimization
+### Step 5: Best Practices and Optimization
 
 #### Alias Naming Conventions
 
@@ -501,10 +501,10 @@ Understanding what data each provider collects is crucial for email aliasing - t
 
 </details>
 
-### Privacy Rights & Data Access
+### Privacy Rights and Data Access
 
 | Provider                | GDPR Compliant | Data Export       | Account Deletion | Data Portability |
-|-------------------------|----------------|-------------------|------------------|------------------|
+| ----------------------- | -------------- | ----------------- | ---------------- | ---------------- |
 | **Addy.io**             | ✅ Full         | ✅ Yes             | ✅ Immediate      | ✅ Yes            |
 | **SimpleLogin**         | ✅ Full         | ✅ Yes             | ✅ Immediate      | ✅ Yes            |
 | **ForwardMail**         | ✅ Compliant    | ✅ Yes             | ✅ Immediate      | ✅ Yes            |
@@ -515,7 +515,7 @@ Understanding what data each provider collects is crucial for email aliasing - t
 
 ---
 
-## Advanced Features & Security Comparison
+## Advanced Features and Security Comparison
 
 | Provider                | Mobile Apps      | Browser Ext     | Analytics       | Encryption     | Jurisdiction                         | Team Size      |
 | ----------------------- | ---------------- | --------------- | --------------- | -------------- | ------------------------------------ | -------------- |
@@ -574,7 +574,7 @@ Understanding the legal framework protecting your data is crucial when choosing 
 ### Jurisdiction Analysis
 
 | Provider                | Jurisdiction   | GDPR Compliance   | Data Retention                                   | Govt Requests                               |
-|-------------------------|----------------|-------------------|--------------------------------------------------|---------------------------------------------|
+| ----------------------- | -------------- | ----------------- | ------------------------------------------------ | ------------------------------------------- |
 | **SimpleLogin**         | Switzerland    | ✅ Full compliance | Account deletion: immediate, Logs: 30 days max   | Court order required, Limited scope         |
 | **Addy.io**             | Netherlands    | ✅ Full compliance | Account deletion: immediate, Logs: minimal       | EU legal process, Limited data available    |
 | **Erine.email**         | France         | ✅ Full compliance | Minimal data collection, No email storage        | EU legal process, Strong privacy laws       |
@@ -710,7 +710,7 @@ Understanding the legal framework protecting your data is crucial when choosing 
 
 ---
 
-# Reference & Support
+# Reference and Support
 
 ## Feature Glossary
 
