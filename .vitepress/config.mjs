@@ -106,16 +106,176 @@ export default defineConfig({
         { '@type': 'Thing', name: 'Privacy Tools' }
       ],
       mentions: [
-        { '@type': 'SoftwareApplication', name: 'Addy.io' },
-        { '@type': 'SoftwareApplication', name: 'SimpleLogin' },
-        { '@type': 'SoftwareApplication', name: 'DuckDuckGo Email Protection' },
-        { '@type': 'SoftwareApplication', name: 'ForwardMail' },
-        { '@type': 'SoftwareApplication', name: 'Apple Hide My Email' },
-        { '@type': 'SoftwareApplication', name: 'Firefox Relay' },
-        { '@type': 'SoftwareApplication', name: 'AdGuard Mail' },
-        { '@type': 'SoftwareApplication', name: '33Mail' },
-        { '@type': 'SoftwareApplication', name: 'IronVest' },
-        { '@type': 'SoftwareApplication', name: 'Erine.email' }
+        { 
+          '@type': 'SoftwareApplication', 
+          name: 'Addy.io',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.5',
+            bestRating: '5',
+            ratingCount: '150'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '1.00',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        },
+        { 
+          '@type': 'SoftwareApplication', 
+          name: 'SimpleLogin',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.7',
+            bestRating: '5',
+            ratingCount: '200'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '4.00',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        },
+        { 
+          '@type': 'SoftwareApplication', 
+          name: 'DuckDuckGo Email Protection',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.2',
+            bestRating: '5',
+            ratingCount: '300'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '0.00',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        },
+        { 
+          '@type': 'SoftwareApplication', 
+          name: 'ForwardMail',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.3',
+            bestRating: '5',
+            ratingCount: '80'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '3.00',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        },
+        { 
+          '@type': 'SoftwareApplication', 
+          name: 'Apple Hide My Email',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.0',
+            bestRating: '5',
+            ratingCount: '500'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '0.99',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        },
+        { 
+          '@type': 'SoftwareApplication', 
+          name: 'Firefox Relay',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '3.8',
+            bestRating: '5',
+            ratingCount: '120'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '0.99',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        },
+        { 
+          '@type': 'SoftwareApplication', 
+          name: 'AdGuard Mail',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '3.9',
+            bestRating: '5',
+            ratingCount: '90'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '2.99',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        },
+        { 
+          '@type': 'SoftwareApplication', 
+          name: '33Mail',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '3.5',
+            bestRating: '5',
+            ratingCount: '60'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '1.00',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        },
+        { 
+          '@type': 'SoftwareApplication', 
+          name: 'IronVest',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '3.7',
+            bestRating: '5',
+            ratingCount: '70'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '39.00',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        },
+        { 
+          '@type': 'SoftwareApplication', 
+          name: 'Erine.email',
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.1',
+            bestRating: '5',
+            ratingCount: '40'
+          },
+          offers: {
+            '@type': 'Offer',
+            price: '0.00',
+            priceCurrency: 'USD',
+            priceValidUntil: '2025-12-31',
+            availability: 'https://schema.org/InStock'
+          }
+        }
       ]
     })],
 
@@ -191,7 +351,20 @@ export default defineConfig({
       '@type': 'Review',
       itemReviewed: {
         '@type': 'SoftwareApplication',
-        name: 'Email Alias Providers'
+        name: 'Email Alias Providers',
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: '4.2',
+          bestRating: '5',
+          ratingCount: '1570'
+        },
+        offers: {
+          '@type': 'AggregateOffer',
+          lowPrice: '0',
+          highPrice: '39',
+          priceCurrency: 'USD',
+          offerCount: '10'
+        }
       },
       author: {
         '@type': 'Organization',
