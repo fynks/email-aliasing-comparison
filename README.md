@@ -31,24 +31,20 @@ A comprehensive comparison of 10+ email alias services to help you choose the ri
 - [Interactive Provider Selector](#interactive-provider-selector)
 - [Top 3 Beginner-Friendly Providers](#top-3-beginner-friendly-providers)
 - [Complete Setup Guide](#complete-setup-guide)
-- [First Week Best Practices](#first-week-best-practices)
-- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [First Week Best Practices](#step-5-best-practices--optimization)
+- [Common Mistakes to Avoid](#step-6-common-mistakes-to-avoid)
 
 ### 3. Provider Comparisons
 - [Complete Provider Directory](#complete-provider-directory)
-- [Free Plans Detailed Comparison](#free-plans-detailed-comparison)
-- [Paid Plans Detailed Comparison](#paid-plans-detailed-comparison)
+- [Free Plans Comparison](#free-plans-detailed-comparison)
+- [Paid Plans Comparison](#paid-plans-detailed-comparison)
 - [Privacy & Data Collection Comparison](#privacy--data-collection-comparison)
 - [Advanced Features & Security](#advanced-features--security-comparison)
 - [Cancellation Policies Comparison](#cancellation-policies-comparison)
 - [Privacy Law Comparison](#privacy-law-comparison)
 - [Addy.io vs SimpleLogin](#addyio-vs-simplelogin)
 
-### 4. Advanced Topics
-- [Technical Architecture Overview](#technical-architecture)
-- [Security Analysis](#security-analysis)
-
-### 5. Reference & Support
+### 4. Reference & Support
 - [Feature Glossary](#feature-glossary)
 - [Troubleshooting Guide](#troubleshooting-guide)
 - [Frequently Asked Questions](#frequently-asked-questions)
