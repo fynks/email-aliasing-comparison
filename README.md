@@ -106,6 +106,8 @@ With Aliasing:
 - Track which services share or sell your email
 - Organize emails by source automatically
 
+[(↑ Back to top)](#table-of-contents)
+
 ---
 
 ## Interactive Provider Selector
@@ -131,20 +133,22 @@ With Aliasing:
 
 ## Top 3 Beginner-Friendly Providers
 
-| Best for Beginners | Best Value | Most Secure |
-| --- | --- | --- |
-| DuckDuckGo Email (🇺🇸) | Addy.io Lite (🇳🇱) | SimpleLogin (🇨🇭) |
-| Free • Unlimited • Zero Setup                                                    | $1/month • Unlimited • Feature-Rich                                          | $4/month • Unlimited • Enterprise                                       |
-| **Pros:**                                                                        | **Pros:**                                                                    | **Pros:**                                                               |
-| • No registration needed                                                         | • Best price-to-feature ratio                                                | • Swiss privacy laws                                                    |
-| • Unlimited aliases                                                              | • Unlimited standard aliases                                                 | • Enterprise-grade reliability                                          |
-| • Built-in tracker removal                                                       | • GPG encryption                                                             | • PGP encryption                                                        |
-| • Reply functionality                                                            | • API access                                                                 | • Excellent support                                                     |
-|                                                                                  | • 1 custom domain                                                            | • Proton integration                                                    |
-| **Cons:**                                                                        | **Cons:**                                                                    | **Cons:**                                                               |
-| • @duck.com domain only                                                          | • Single developer                                                           | • Higher cost                                                           |
-| • No custom domains                                                              | • Limited support                                                            | • Less advanced features than Addy.io                                   |
-| • Basic features only                                                            |                                                                              |                                                                         |
+| Best for Beginners            | Best Value                          | Most Secure                           |
+| ----------------------------- | ----------------------------------- | ------------------------------------- |
+| DuckDuckGo Email (🇺🇸)          | Addy.io Lite (🇳🇱)                    | SimpleLogin (🇨🇭)                       |
+| Free • Unlimited • Zero Setup | $1/month • Unlimited • Feature-Rich | $4/month • Unlimited • Enterprise     |
+| **Pros:**                     | **Pros:**                           | **Pros:**                             |
+| • No registration needed      | • Best price-to-feature ratio       | • Swiss privacy laws                  |
+| • Unlimited aliases           | • Unlimited standard aliases        | • Enterprise-grade reliability        |
+| • Built-in tracker removal    | • GPG encryption                    | • PGP encryption                      |
+| • Reply functionality         | • API access                        | • Excellent support                   |
+|                               | • 1 custom domain                   | • Proton integration                  |
+| **Cons:**                     | **Cons:**                           | **Cons:**                             |
+| • @duck.com domain only       | • Single developer                  | • Higher cost                         |
+| • No custom domains           | • Limited support                   | • Less advanced features than Addy.io |
+| • Basic features only         |                                     |                                       |
+
+[(↑ Back to top)](#table-of-contents)
 
 ---
 
@@ -168,14 +172,14 @@ Privacy level:
 
 ### Step 2: Choose a provider (decision matrix)
 
-| Your Need | Best Provider | Price | Why |
-| --- | --- | --- | --- |
-| Just getting started | DuckDuckGo 🇺🇸 | Free | Zero setup, unlimited aliases |
-| Basic privacy on budget | Addy.io Lite 🇳🇱 | $1/mo | Most features per dollar |
-| Max privacy & security | SimpleLogin 🇨🇭 | $4/mo | Swiss laws, PGP |
-| Apple ecosystem | Hide My Email 🇺🇸 | $0.99/mo | Seamless integration |
-| Developer/Technical | ForwardMail 🇺🇸 | $3/mo | Open-source, self-hostable |
-| Business/Teams | SimpleLogin Premium 🇨🇭 | $4/mo | Enterprise-grade |
+| Your Need               | Best Provider         | Price    | Why                           |
+| ----------------------- | --------------------- | -------- | ----------------------------- |
+| Just getting started    | DuckDuckGo 🇺🇸          | Free     | Zero setup, unlimited aliases |
+| Basic privacy on budget | Addy.io Lite 🇳🇱        | $1/mo    | Most features per dollar      |
+| Max privacy & security  | SimpleLogin 🇨🇭         | $4/mo    | Swiss laws, PGP               |
+| Apple ecosystem         | Hide My Email 🇺🇸       | $0.99/mo | Seamless integration          |
+| Developer/Technical     | ForwardMail 🇺🇸         | $3/mo    | Open-source, self-hostable    |
+| Business/Teams          | SimpleLogin Premium 🇨🇭 | $4/mo    | Enterprise-grade              |
 
 ### Step 3: Provider setup (condensed, all steps preserved)
 
@@ -270,60 +274,70 @@ Pro tip: Use descriptive aliases for organization.
 
 </details>
 
+
+[(↑ Back to top)](#table-of-contents)
+
 ---
 
 # Provider Comparisons
 
 ### Quick Reference Table
 
-| Provider | Free Tier | Starting Price | Open Source | Reply Support | Encryption | Business Model | Country |
-| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
-| [Addy.io](https://addy.io) | Unlimited* | $1/mo | ✅ | Paid only | GPG/OpenPGP | Independent | 🇳🇱 Netherlands |
-| [SimpleLogin](https://simplelogin.io) | 10 aliases | $4/mo | ✅ | ✅ (Free & Paid) | PGP | Proton AG | 🇨🇭 Switzerland |
-| [ForwardMail](https://forwardemail.net) | Unlimited** | $3/mo | ✅ | ✅ | TLS/“Post-quantum” | Open-source | 🇺🇸 United States |
-| [DuckDuckGo](https://duckduckgo.com/email) | Unlimited | Free only | ➖ Partial | ✅ | TLS | Search company | 🇺🇸 United States |
-| [Firefox Relay](https://relay.firefox.com) | 5 aliases | Waitlist | ✅ | ➖ Premium only | TLS | Mozilla | 🇺🇸 United States |
-| [AdGuard Mail](https://adguard.com/adguard-mail) | 10 aliases | $2.99/mo | ➖ Partial | ➖ Premium only | TLS | Corporate | 🇨🇾 Cyprus |
-| [33Mail](https://33mail.com) | Unlimited | $1/mo | ❌ | ➖ Premium only | TLS | Freemium | 🇬🇧 United Kingdom |
-| [IronVest](https://ironvest.com) | None | $39/yr | ❌ | ✅ | TLS | Privacy suite | 🇺🇸 United States |
-| [Erine.email](https://erine.email) | Unlimited | Free | ✅ | ✅ | TLS | Donation | 🇫🇷 France |
-| [Apple Hide My Email](https://support.apple.com/en-us/102219) | Unlimited*** | $0.99/mo | ❌ | ✅ | TLS | iCloud+ | 🇺🇸 United States |
+| Provider                                                      | Free Tier    | Starting Price | Open Source | Reply Support   | Encryption         | Business Model | Country          |
+| :------------------------------------------------------------ | :----------- | :------------- | :---------- | :-------------- | :----------------- | :------------- | :--------------- |
+| [Addy.io](https://addy.io)                                    | Unlimited*   | $1/mo          | ✅           | Paid only       | GPG/OpenPGP        | Independent    | 🇳🇱 Netherlands    |
+| [SimpleLogin](https://simplelogin.io)                         | 10 aliases   | $4/mo          | ✅           | ✅ (Free & Paid) | PGP                | Proton AG      | 🇨🇭 Switzerland    |
+| [ForwardMail](https://forwardemail.net)                       | Unlimited**  | $3/mo          | ✅           | ✅               | TLS/“Post-quantum” | Open-source    | 🇺🇸 United States  |
+| [DuckDuckGo](https://duckduckgo.com/email)                    | Unlimited    | Free only      | ➖ Partial   | ✅               | TLS                | Search company | 🇺🇸 United States  |
+| [Firefox Relay](https://relay.firefox.com)                    | 5 aliases    | Waitlist       | ✅           | ➖ Premium only  | TLS                | Mozilla        | 🇺🇸 United States  |
+| [AdGuard Mail](https://adguard.com/adguard-mail)              | 10 aliases   | $2.99/mo       | ➖ Partial   | ➖ Premium only  | TLS                | Corporate      | 🇨🇾 Cyprus         |
+| [33Mail](https://33mail.com)                                  | Unlimited    | $1/mo          | ❌           | ➖ Premium only  | TLS                | Freemium       | 🇬🇧 United Kingdom |
+| [IronVest](https://ironvest.com)                              | None         | $39/yr         | ❌           | ✅               | TLS                | Privacy suite  | 🇺🇸 United States  |
+| [Erine.email](https://erine.email)                            | Unlimited    | Free           | ✅           | ✅               | TLS                | Donation       | 🇫🇷 France         |
+| [Apple Hide My Email](https://support.apple.com/en-us/102219) | Unlimited*** | $0.99/mo       | ❌           | ✅               | TLS                | iCloud+        | 🇺🇸 United States  |
 
 - *Standard aliases unlimited; shared domain aliases limited  
 - **Requires own domain setup  
 - ***Requires iCloud+ subscription
 
+[(↑ Back to top)](#table-of-contents)
+
 ## Free Plans Detailed Comparison
 
-| Provider | Free Aliases | Reply Support | Custom Domains | Monthly Limits | Standout Features | Best For |
-| --- | --- | --- | --- | --- | --- | --- |
-| Addy.io | Unlimited Standard + 10 Shared | ❌ | ❌ | 10 MB | GPG, API | Power users testing |
-| SimpleLogin | 10 aliases | ✅ | ❌ | Unlimited | PGP, Mobile apps | Beginners |
-| DuckDuckGo | Unlimited @duck.com | ✅ | ❌ | Unlimited | Tracker removal, zero setup | Quick start |
-| Firefox Relay | 5 aliases | ❌ | ❌ | Unlimited | Tracker removal, Mozilla integration | Mozilla users |
-| AdGuard Mail | 10 aliases | ❌ | ❌ | 2,000 emails | Multi-platform apps, temporary aliases | Light usage |
-| 33Mail | Unlimited | ❌ | ❌ | 10 MB | 15+ years, simple interface | Basic forwarding |
-| Erine.email | Unlimited | ✅ | ❌ | Unlimited | French privacy laws, open-source | Privacy advocates |
-| ForwardMail | Unlimited* | ✅ | ✅ | 50 MB | Self-host option, enterprise-grade | Developers |
-| Apple Hide My Email | Unlimited** | ✅ | ✅ (iCloud+) | Unlimited | Apple ecosystem, seamless | Apple users |
+| Provider            | Free Aliases                   | Reply Support | Custom Domains | Monthly Limits | Standout Features                      | Best For            |
+| ------------------- | ------------------------------ | ------------- | -------------- | -------------- | -------------------------------------- | ------------------- |
+| Addy.io             | Unlimited Standard + 10 Shared | ❌             | ❌              | 10 MB          | GPG, API                               | Power users testing |
+| SimpleLogin         | 10 aliases                     | ✅             | ❌              | Unlimited      | PGP, Mobile apps                       | Beginners           |
+| DuckDuckGo          | Unlimited @duck.com            | ✅             | ❌              | Unlimited      | Tracker removal, zero setup            | Quick start         |
+| Firefox Relay       | 5 aliases                      | ❌             | ❌              | Unlimited      | Tracker removal, Mozilla integration   | Mozilla users       |
+| AdGuard Mail        | 10 aliases                     | ❌             | ❌              | 2,000 emails   | Multi-platform apps, temporary aliases | Light usage         |
+| 33Mail              | Unlimited                      | ❌             | ❌              | 10 MB          | 15+ years, simple interface            | Basic forwarding    |
+| Erine.email         | Unlimited                      | ✅             | ❌              | Unlimited      | French privacy laws, open-source       | Privacy advocates   |
+| ForwardMail         | Unlimited*                     | ✅             | ✅              | 50 MB          | Self-host option, enterprise-grade     | Developers          |
+| Apple Hide My Email | Unlimited**                    | ✅             | ✅ (iCloud+)    | Unlimited      | Apple ecosystem, seamless              | Apple users         |
 
 - *Requires own domain  
 - **Requires iCloud+ ($0.99/mo minimum)
 
+[(↑ Back to top)](#table-of-contents)
+
 ## Paid Plans Detailed Comparison
 
-| Provider & Plan | Price | Aliases | Reply | Domains | Key Features | Target |
-| --- | --- | --- | --- | --- | --- | --- |
-| Addy.io Lite | $1/mo | Unlimited + 50 Shared | ✅ | 1 | GPG, API, Webhooks | Individual |
-| Addy.io Pro | $4/mo | Unlimited + Unlimited | ✅ | 20 | Analytics, rules, bulk ops | Power users |
-| SimpleLogin Premium | $4/mo | Unlimited | ✅ | Unlimited | PGP, Proton integration, directory | Enterprise |
-| AdGuard Mail Premium | $2.99/mo | 1000 | ✅ | 1 | Anonymous replies, premium domains | Corporate |
-| 33Mail Premium | $1/mo | Unlimited | ✅ (20/day) | 5 | Simple interface, longevity | Small business |
-| 33Mail Pro | $5/mo | Unlimited | ✅ (1000/day) | Unlimited | Pro features, high volume | Business |
-| IronVest Premium | $39/yr ($3.25/mo) | 50 | ✅ | ❌ | Virtual cards, phone masking | Privacy suite |
-| ForwardMail Enhanced | $3/mo | Unlimited | ✅ | Unlimited | 100% open-source, “PQ” claims, webhooks | Developers |
-| Apple iCloud+ 50GB | $0.99/mo | Unlimited | ✅ | ✅ | Seamless Apple integration | Apple users |
-| Apple iCloud+ 200GB | $2.99/mo | Unlimited | ✅ | ✅ | More storage, family sharing | Families |
+| Provider & Plan      | Price             | Aliases               | Reply        | Domains   | Key Features                            | Target         |
+| -------------------- | ----------------- | --------------------- | ------------ | --------- | --------------------------------------- | -------------- |
+| Addy.io Lite         | $1/mo             | Unlimited + 50 Shared | ✅            | 1         | GPG, API, Webhooks                      | Individual     |
+| Addy.io Pro          | $4/mo             | Unlimited + Unlimited | ✅            | 20        | Analytics, rules, bulk ops              | Power users    |
+| SimpleLogin Premium  | $4/mo             | Unlimited             | ✅            | Unlimited | PGP, Proton integration, directory      | Enterprise     |
+| AdGuard Mail Premium | $2.99/mo          | 1000                  | ✅            | 1         | Anonymous replies, premium domains      | Corporate      |
+| 33Mail Premium       | $1/mo             | Unlimited             | ✅ (20/day)   | 5         | Simple interface, longevity             | Small business |
+| 33Mail Pro           | $5/mo             | Unlimited             | ✅ (1000/day) | Unlimited | Pro features, high volume               | Business       |
+| IronVest Premium     | $39/yr ($3.25/mo) | 50                    | ✅            | ❌         | Virtual cards, phone masking            | Privacy suite  |
+| ForwardMail Enhanced | $3/mo             | Unlimited             | ✅            | Unlimited | 100% open-source, “PQ” claims, webhooks | Developers     |
+| Apple iCloud+ 50GB   | $0.99/mo          | Unlimited             | ✅            | ✅         | Seamless Apple integration              | Apple users    |
+| Apple iCloud+ 200GB  | $2.99/mo          | Unlimited             | ✅            | ✅         | More storage, family sharing            | Families       |
+
+
+[(↑ Back to top)](#table-of-contents)
 
 ---
 
@@ -335,62 +349,72 @@ Understanding what data each provider collects is core to aliasing.
 
 ### Data Collection Summary
 
-| Provider | Email Content | IP Logging | Analytics | Log Retention | Account Data |
-| --- | --- | --- | --- | --- | --- |
-| Addy.io | Never stored | 3 days | Self-hosted Umami | 3 days | Email, encrypted recipients |
-| SimpleLogin | 7 days (undelivered) | 7 days | Plausible | 30 days max | Email, billing via processors |
-| ForwardMail | IMAP only (encrypted) | Never logged | None | Never | Minimal (domain configs) |
-| DuckDuckGo | Never stored | Never logged | Anonymous only | Never | Email address only |
-| Firefox Relay | Never stored | Mozilla standard | Mozilla telemetry | Mozilla policy | Mozilla account data |
-| AdGuard Mail | Never stored | Standard logs | Internal analytics | Standard rotation | Email, encrypted data |
-| 33Mail | Never stored | Standard logs | Unknown | Unknown | Email, basic account |
-| Apple Hide My Email | Never stored | Apple policy | Apple analytics | Apple policy | iCloud account data |
+| Provider            | Email Content         | IP Logging       | Analytics          | Log Retention     | Account Data                  |
+| ------------------- | --------------------- | ---------------- | ------------------ | ----------------- | ----------------------------- |
+| Addy.io             | Never stored          | 3 days           | Self-hosted Umami  | 3 days            | Email, encrypted recipients   |
+| SimpleLogin         | 7 days (undelivered)  | 7 days           | Plausible          | 30 days max       | Email, billing via processors |
+| ForwardMail         | IMAP only (encrypted) | Never logged     | None               | Never             | Minimal (domain configs)      |
+| DuckDuckGo          | Never stored          | Never logged     | Anonymous only     | Never             | Email address only            |
+| Firefox Relay       | Never stored          | Mozilla standard | Mozilla telemetry  | Mozilla policy    | Mozilla account data          |
+| AdGuard Mail        | Never stored          | Standard logs    | Internal analytics | Standard rotation | Email, encrypted data         |
+| 33Mail              | Never stored          | Standard logs    | Unknown            | Unknown           | Email, basic account          |
+| Apple Hide My Email | Never stored          | Apple policy     | Apple analytics    | Apple policy      | iCloud account data           |
+
+[(↑ Back to top)](#table-of-contents)
 
 ### Privacy Rights and Data Access
 
-| Provider | GDPR Compliant | Data Export | Account Deletion | Data Portability |
-| --- | --- | --- | --- | --- |
-| Addy.io 🇳🇱 | ✅ Full | ✅ | ✅ Immediate | ✅ |
-| SimpleLogin 🇨🇭 | ✅ Full | ✅ | ✅ Immediate | ✅ |
-| ForwardMail 🇺🇸 | ✅ Compliant | ✅ | ✅ Immediate | ✅ |
-| DuckDuckGo 🇺🇸 | ✅ Compliant | N/A (no data) | ✅ | N/A |
-| Firefox Relay 🇺🇸 | ✅ Compliant | ✅ (Mozilla account) | ✅ | ✅ |
-| AdGuard Mail 🇨🇾 | ✅ Full | ✅ | ✅ | ✅ |
-| Apple Hide My Email 🇺🇸 | ✅ Compliant | ✅ Limited | ✅ | ✅ Limited |
+| Provider              | GDPR Compliant | Data Export         | Account Deletion | Data Portability |
+| --------------------- | -------------- | ------------------- | ---------------- | ---------------- |
+| Addy.io 🇳🇱             | ✅ Full         | ✅                   | ✅ Immediate      | ✅                |
+| SimpleLogin 🇨🇭         | ✅ Full         | ✅                   | ✅ Immediate      | ✅                |
+| ForwardMail 🇺🇸         | ✅ Compliant    | ✅                   | ✅ Immediate      | ✅                |
+| DuckDuckGo 🇺🇸          | ✅ Compliant    | N/A (no data)       | ✅                | N/A              |
+| Firefox Relay 🇺🇸       | ✅ Compliant    | ✅ (Mozilla account) | ✅                | ✅                |
+| AdGuard Mail 🇨🇾        | ✅ Full         | ✅                   | ✅                | ✅                |
+| Apple Hide My Email 🇺🇸 | ✅ Compliant    | ✅ Limited           | ✅                | ✅ Limited        |
+
+[(↑ Back to top)](#table-of-contents)
 
 ---
 
 ## Advanced Features and Security Comparison
 
-| Provider | Mobile Apps | Browser Ext | Analytics | Encryption | Jurisdiction | Team Size |
-| --- | --- | --- | --- | --- | --- | --- |
-| Addy.io | iOS/Android | All browsers | Advanced charts | GPG/OpenPGP | 🇳🇱 Netherlands (EU privacy laws) | Solo dev |
-| SimpleLogin | iOS/Android | All browsers | Basic counts | PGP | 🇨🇭 Switzerland (strong privacy) | Team (Proton) |
-| ForwardMail | No native apps | No extension | Basic | TLS + “Post-quantum” | 🇺🇸 United States | Small team |
-| DuckDuckGo | No dedicated app | All browsers | None | TLS | 🇺🇸 United States | Large team |
-| Firefox Relay | No dedicated app | Firefox primary | None | TLS | 🇺🇸 United States | Mozilla team |
-| AdGuard Mail | iOS/Android | All browsers | Basic | TLS | 🇨🇾 Cyprus (EU member) | Corporate |
-| 33Mail | No apps | No extension | None | TLS | 🇬🇧 United Kingdom | Small team |
-| IronVest | iOS/Android | All browsers | Basic | TLS | 🇺🇸 United States | Corporate |
-| Erine.email | No apps | No extension | None | TLS | 🇫🇷 France (EU privacy) | Solo dev |
-| Apple Hide My Email | Native iOS/macOS | Safari only | None | TLS | 🇺🇸 United States | Massive team |
+| Provider            | Mobile Apps      | Browser Ext     | Analytics       | Encryption           | Jurisdiction                    | Team Size     |
+| ------------------- | ---------------- | --------------- | --------------- | -------------------- | ------------------------------- | ------------- |
+| Addy.io             | iOS/Android      | All browsers    | Advanced charts | GPG/OpenPGP          | 🇳🇱 Netherlands (EU privacy laws) | Solo dev      |
+| SimpleLogin         | iOS/Android      | All browsers    | Basic counts    | PGP                  | 🇨🇭 Switzerland (strong privacy)  | Team (Proton) |
+| ForwardMail         | No native apps   | No extension    | Basic           | TLS + “Post-quantum” | 🇺🇸 United States                 | Small team    |
+| DuckDuckGo          | No dedicated app | All browsers    | None            | TLS                  | 🇺🇸 United States                 | Large team    |
+| Firefox Relay       | No dedicated app | Firefox primary | None            | TLS                  | 🇺🇸 United States                 | Mozilla team  |
+| AdGuard Mail        | iOS/Android      | All browsers    | Basic           | TLS                  | 🇨🇾 Cyprus (EU member)            | Corporate     |
+| 33Mail              | No apps          | No extension    | None            | TLS                  | 🇬🇧 United Kingdom                | Small team    |
+| IronVest            | iOS/Android      | All browsers    | Basic           | TLS                  | 🇺🇸 United States                 | Corporate     |
+| Erine.email         | No apps          | No extension    | None            | TLS                  | 🇫🇷 France (EU privacy)           | Solo dev      |
+| Apple Hide My Email | Native iOS/macOS | Safari only     | None            | TLS                  | 🇺🇸 United States                 | Massive team  |
 
 Note: “Post-quantum” indicates claimed preparation for future PQC; verify vendor specifics.
+
+[(↑ Back to top)](#table-of-contents)
+
+---
 
 ## Cancellation Policies Comparison
 
 Why it matters: Know what breaks if you downgrade or stop paying.
 
-| Provider | What Continues Working | What Gets Disabled | What Gets Deleted | Risk Level |
-| --- | --- | --- | --- | --- |
-| SimpleLogin | Existing aliases/domains, directory, mailboxes | Creating new aliases (>10), premium support | Nothing permanent | Minimal |
-| ForwardMail | Basic forwarding, existing aliases | Premium features, advanced analytics, priority support | Premium-only configs | Low |
-| AdGuard Mail | Basic service, free-tier features, up to 10 aliases | Premium domains, advanced features, higher limits | Premium domain aliases | Low |
-| 33Mail | Basic forwarding, standard aliases | Custom domains, premium features, advanced rules | Custom domain configs | Moderate |
-| Firefox Relay | First 5 aliases, basic forwarding | Extra aliases, premium features, custom domains | Aliases beyond free limit | Moderate |
-| Addy.io | Standard aliases (limited), 1 recipient, basic forwarding | Custom domains, more usernames, shared domains, multiple recipients, replies | Extra recipients, paid domain aliases, advanced features | High |
+| Provider      | What Continues Working                                    | What Gets Disabled                                                           | What Gets Deleted                                        | Risk Level |
+| ------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------- | ---------- |
+| SimpleLogin   | Existing aliases/domains, directory, mailboxes            | Creating new aliases (>10), premium support                                  | Nothing permanent                                        | Minimal    |
+| ForwardMail   | Basic forwarding, existing aliases                        | Premium features, advanced analytics, priority support                       | Premium-only configs                                     | Low        |
+| AdGuard Mail  | Basic service, free-tier features, up to 10 aliases       | Premium domains, advanced features, higher limits                            | Premium domain aliases                                   | Low        |
+| 33Mail        | Basic forwarding, standard aliases                        | Custom domains, premium features, advanced rules                             | Custom domain configs                                    | Moderate   |
+| Firefox Relay | First 5 aliases, basic forwarding                         | Extra aliases, premium features, custom domains                              | Aliases beyond free limit                                | Moderate   |
+| Addy.io       | Standard aliases (limited), 1 recipient, basic forwarding | Custom domains, more usernames, shared domains, multiple recipients, replies | Extra recipients, paid domain aliases, advanced features | High       |
 
 Tip: Always export aliases and read downgrade terms before upgrading.
+
+[(↑ Back to top)](#table-of-contents)
 
 ---
 
@@ -398,22 +422,24 @@ Tip: Always export aliases and read downgrade terms before upgrading.
 
 ## Privacy Law Comparison
 
-| Provider | Jurisdiction | GDPR Compliance | Data Retention | Govt Requests |
-| --- | --- | --- | --- | --- |
-| SimpleLogin | 🇨🇭 Switzerland | ✅ Full | Deletion: immediate; Logs: 30 days max | Court order, limited scope |
-| Addy.io | 🇳🇱 Netherlands | ✅ Full | Deletion: immediate; Logs: minimal | EU legal process; limited data |
-| Erine.email | 🇫🇷 France | ✅ Full | Minimal collection; no email storage | EU legal process |
-| AdGuard Mail | 🇨🇾 Cyprus | ✅ Full | Standard EU retention | EU legal process |
-| 33Mail | 🇬🇧 United Kingdom | ✅ GDPR compliant | Standard retention | UK legal process |
-| ForwardMail | 🇺🇸 United States | ✅ GDPR compliant | Configurable; open-source logging | US law; self-host option |
-| DuckDuckGo | 🇺🇸 United States | ✅ GDPR compliant | Minimal collection | US law; FISA possible |
-| Firefox Relay | 🇺🇸 United States | ✅ GDPR compliant | Mozilla policies | US law; transparency reports |
-| Apple Hide My Email | 🇺🇸 United States | ✅ GDPR compliant | Apple retention policies | US law; strong resistance record |
+| Provider            | Jurisdiction     | GDPR Compliance  | Data Retention                         | Govt Requests                    |
+| ------------------- | ---------------- | ---------------- | -------------------------------------- | -------------------------------- |
+| SimpleLogin         | 🇨🇭 Switzerland    | ✅ Full           | Deletion: immediate; Logs: 30 days max | Court order, limited scope       |
+| Addy.io             | 🇳🇱 Netherlands    | ✅ Full           | Deletion: immediate; Logs: minimal     | EU legal process; limited data   |
+| Erine.email         | 🇫🇷 France         | ✅ Full           | Minimal collection; no email storage   | EU legal process                 |
+| AdGuard Mail        | 🇨🇾 Cyprus         | ✅ Full           | Standard EU retention                  | EU legal process                 |
+| 33Mail              | 🇬🇧 United Kingdom | ✅ GDPR compliant | Standard retention                     | UK legal process                 |
+| ForwardMail         | 🇺🇸 United States  | ✅ GDPR compliant | Configurable; open-source logging      | US law; self-host option         |
+| DuckDuckGo          | 🇺🇸 United States  | ✅ GDPR compliant | Minimal collection                     | US law; FISA possible            |
+| Firefox Relay       | 🇺🇸 United States  | ✅ GDPR compliant | Mozilla policies                       | US law; transparency reports     |
+| Apple Hide My Email | 🇺🇸 United States  | ✅ GDPR compliant | Apple retention policies               | US law; strong resistance record |
 
 Practical picks:
 - Maximum privacy: 🇨🇭 Switzerland (SimpleLogin)
 - Strong privacy + features: 🇪🇺 EU (Addy.io 🇳🇱, Erine.email 🇫🇷)
 - Acceptable with trade-offs: 🇺🇸 US (DuckDuckGo, ForwardMail self-host)
+
+[(↑ Back to top)](#table-of-contents)
 
 ---
 
@@ -464,6 +490,8 @@ Practical picks:
 | **Session Management** | Standard         | Advanced        |
 | **Security Audits**    | 2023 (Securitum) | Regular audits  |
 
+[(↑ Back to top)](#table-of-contents)
+
 ---
 
 # Best Practices
@@ -497,6 +525,8 @@ Practical picks:
 - `monthly-2025-01@provider.com` - Rotate monthly
 - `yearly-2025@provider.com` - Annual rotation
 
+[(↑ Back to top)](#table-of-contents)
+
 ---
 
 # Mistakes to Avoid
@@ -517,6 +547,8 @@ Practical picks:
 
 5) Rushing critical accounts  
 - Migrate low-risk accounts first; then banking/work/2FA
+
+[(↑ Back to top)](#table-of-contents)
 
 ---
 
@@ -541,6 +573,8 @@ Practical picks:
 - **Two-Factor Authentication (2FA)**: Extra login security
 - **Zero-Knowledge**: Provider can't read your data
 
+[(↑ Back to top)](#table-of-contents)
+
 ## Troubleshooting Guide
 
 <details><summary>Emails not forwarding</summary>
@@ -560,6 +594,8 @@ Practical picks:
 - Normal: 5–30s; peak: up to 2–5m; international: up to 10m  
 - Check provider status page for incidents
 </details>
+
+[(↑ Back to top)](#table-of-contents)
 
 ## Frequently Asked Questions
 
@@ -582,6 +618,8 @@ Yes, but migrate critical accounts last and choose a reliable provider with supp
 <details><summary>How many aliases do I need?</summary>
 Typically 10–50. Start with categories (shopping, social, newsletters, work, disposable).
 </details>
+
+[(↑ Back to top)](#table-of-contents)
 
 ## Additional Resources
 ### Official Documentation
@@ -610,6 +648,8 @@ Typically 10–50. Start with categories (shopping, social, newsletters, work, d
 - **Email Client**: [Thunderbird](https://www.thunderbird.net/en-US/)
 - **DNS Lookup Tools**: [MXToolbox](https://mxtoolbox.com/), [Dig Web Interface](https://toolbox.googleapps.com/apps/dig/)
 
+[(↑ Back to top)](#table-of-contents)
+
 ---
 
 ## Contributing
@@ -626,6 +666,8 @@ Found an error, outdated information, or want to add a provider? Your contributi
 - Neutral Tone: Avoid promotional language, maintain objectivity
 - Current Information: Include dates for pricing/feature claims
 - Consistent Formatting: Follow existing table and section structures
+
+[(↑ Back to top)](#table-of-contents)
 
 ---
 
@@ -646,6 +688,8 @@ Source: Email Aliasing Comparison Guide
 Author: github.com/fynks/email-aliasing-comparison  
 License: MIT
 ```
+
+[(↑ Back to top)](#table-of-contents)
 
 ---
 
