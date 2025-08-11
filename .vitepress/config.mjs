@@ -436,8 +436,8 @@ export default defineConfig({
         text: 'Compare',
         items: [
           { text: 'Quick Reference', link: '/#quick-reference-table' },
-          { text: 'Free Plans', link: '/#free-plans-comparison' },
-          { text: 'Paid Plans', link: '/#paid-plans-comparison' },
+          { text: 'Free Plans', link: '/#free-plans-detailed-comparison' },
+          { text: 'Paid Plans', link: '/#paid-plans-detailed-comparison' },
           { text: 'Privacy & Security', link: '/#privacy-and-data-collection-comparison' },
           { text: 'Addy.io vs SimpleLogin', link: '/#addyio-vs-simplelogin' }
         ]
@@ -446,9 +446,8 @@ export default defineConfig({
         text: 'Guides',
         items: [
           { text: 'Getting Started', link: '/#complete-setup-guide' },
-          { text: 'Best Practices', link: '/#step-5-best-practices-and-optimization' },
-          { text: 'Common Mistakes', link: '/#step-6-common-mistakes-to-avoid' },
-          { text: 'Migration & Scaling', link: '/#step-7-migration-and-scaling' }
+          { text: 'Best Practices', link: '/#alias-naming-conventions' },
+          { text: 'Common Mistakes', link: '/#mistakes-to-avoid' }
         ]
       },
       {
@@ -480,10 +479,7 @@ export default defineConfig({
           items: [
             { text: 'Interactive Provider Selector', link: '/#interactive-provider-selector' },
             { text: 'Top 3 Beginner-Friendly Providers', link: '/#top-3-beginner-friendly-providers' },
-            { text: 'Complete Setup Guide', link: '/#complete-setup-guide' },
-            { text: 'Best Practices & Optimization', link: '/#step-5-best-practices-and-optimization' },
-            { text: 'Common Mistakes to Avoid', link: '/#step-6-common-mistakes-to-avoid' },
-            { text: 'Migration and Scaling', link: '/#step-7-migration-and-scaling' }
+            { text: 'Complete Setup Guide', link: '/#complete-setup-guide' }
           ]
         },
         {
@@ -491,12 +487,17 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Quick Reference Table', link: '/#quick-reference-table' },
-            { text: 'Free Plans Comparison', link: '/#free-plans-comparison' },
-            { text: 'Paid Plans Comparison', link: '/#paid-plans-comparison' },
+            { text: 'Free Plans Comparison', link: '/#free-plans-detailed-comparison' },
+            { text: 'Paid Plans Comparison', link: '/#paid-plans-detailed-comparison' }
+          ]
+        },
+        {
+          text: 'Privacy and Security Analysis',
+          collapsed: false,
+          items: [
             { text: 'Privacy & Data Collection', link: '/#privacy-and-data-collection-comparison' },
             { text: 'Advanced Features & Security', link: '/#advanced-features-and-security-comparison' },
-            { text: 'Cancellation Policies', link: '/#cancellation-policies-comparison' },
-            { text: 'Addy.io vs SimpleLogin', link: '/#addyio-vs-simplelogin' }
+            { text: 'Cancellation Policies', link: '/#cancellation-policies-comparison' }
           ]
         },
         {
@@ -504,8 +505,16 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Privacy Law Comparison', link: '/#privacy-law-comparison' },
-            { text: 'Jurisdiction Analysis', link: '/#jurisdiction-analysis' },
-            { text: 'Legal Framework Overview', link: '/#legal-framework-overview' }
+            { text: 'Addy.io vs SimpleLogin', link: '/#addyio-vs-simplelogin' }
+          ]
+        },
+        {
+          text: 'Best Practices',
+          collapsed: true,
+          items: [
+            { text: 'Alias Naming Conventions', link: '/#alias-naming-conventions' },
+            { text: 'Organization Strategies', link: '/#organization-strategies' },
+            { text: 'Mistakes to Avoid', link: '/#mistakes-to-avoid' }
           ]
         },
         {
@@ -515,8 +524,7 @@ export default defineConfig({
             { text: 'Feature Glossary', link: '/#feature-glossary' },
             { text: 'Troubleshooting Guide', link: '/#troubleshooting-guide' },
             { text: 'Frequently Asked Questions', link: '/#frequently-asked-questions' },
-            { text: 'Additional Resources', link: '/#additional-resources' },
-            { text: 'Contributing', link: '/#contributing' }
+            { text: 'Additional Resources', link: '/#additional-resources' }
           ]
         }
       ]
