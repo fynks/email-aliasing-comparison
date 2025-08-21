@@ -326,7 +326,7 @@ Pro tip: Use descriptive aliases for organization.
 | Provider & Plan      | Price             | Aliases               | Reply        | Domains   | Key Features                            | Target         |
 | -------------------- | ----------------- | --------------------- | ------------ | --------- | --------------------------------------- | -------------- |
 | Addy.io Lite         | $1/mo             | Unlimited + 50 Shared | ✅            | 1         | GPG, API, Webhooks                      | Individual     |
-| Addy.io Pro          | $4/mo             | Unlimited + Unlimited | ✅            | 20        | Analytics, rules, bulk ops              | Power users    |
+| Addy.io Pro          | $3/mo (yr) / $4/mo             | Unlimited + Unlimited | ✅            | 20        | Analytics, rules, bulk ops              | Power users    |
 | SimpleLogin Premium  | $4/mo             | Unlimited             | ✅            | Unlimited | PGP, Proton integration, directory      | Enterprise     |
 | AdGuard Mail Premium | $2.99/mo          | 1000                  | ✅            | 1         | Anonymous replies, premium domains      | Corporate      |
 | 33Mail Premium       | $1/mo             | Unlimited             | ✅ (20/day)   | 5         | Simple interface, longevity             | Small business |
