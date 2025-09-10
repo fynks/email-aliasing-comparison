@@ -2,11 +2,8 @@
 
 # Email Aliasing Comparison
 
-🛡️ Protect your privacy with email aliases
-
 Compare 10+ email alias services by features, pricing, security, privacy, and ease of use.
 
----
 [![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge&logo=github)](https://github.com/fynks/email-aliasing-comparison)
 [![Last Commit](https://img.shields.io/github/last-commit/fynks/email-aliasing-comparison?style=for-the-badge&logo=github)](https://github.com/fynks/email-aliasing-comparison/commits)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
