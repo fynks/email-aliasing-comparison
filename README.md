@@ -54,8 +54,6 @@ Compare 10+ email alias services by features, pricing, security, and privacy
 
 </details>
 
----
-
 ## What is Email Aliasing?
 
 Email aliasing lets you create alternate addresses that forward to your real inbox, so you can use unique addresses without exposing your primary email.

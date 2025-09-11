@@ -427,36 +427,35 @@ export default defineConfig({
         text: 'Quick Start',
         items: [
           { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
-          { text: 'Provider Selector', link: '/#interactive-provider-selector' },
-          { text: 'Setup Guide', link: '/#complete-setup-guide' },
-          { text: 'Top 3 Providers', link: '/#top-3-beginner-friendly-providers' }
+          { text: 'How it Works', link: '/#how-email-aliasing-works' },
+          { text: 'Provider Selector', link: '/#provider-selector' },
+          { text: 'Top 3 Recommendations', link: '/#top-3-recommendations' }
         ]
       },
       {
-        text: 'Compare',
+        text: 'Compare Providers',
         items: [
           { text: 'Quick Reference', link: '/#quick-reference-table' },
           { text: 'Free Plans', link: '/#free-plans-detailed-comparison' },
           { text: 'Paid Plans', link: '/#paid-plans-detailed-comparison' },
-          { text: 'Privacy & Security', link: '/#privacy-and-data-collection-comparison' },
-          { text: 'Addy.io vs SimpleLogin', link: '/#addyio-vs-simplelogin' }
+          { text: 'Addy.io vs SimpleLogin', link: '/#addy-io-vs-simplelogin' }
         ]
       },
       {
-        text: 'Guides',
+        text: 'Privacy & Security',
         items: [
-          { text: 'Getting Started', link: '/#complete-setup-guide' },
-          { text: 'Best Practices', link: '/#alias-naming-conventions' },
-          { text: 'Common Mistakes', link: '/#mistakes-to-avoid' }
+          { text: 'Data Collection', link: '/#data-collection-and-retention' },
+          { text: 'Legal & Compliance', link: '/#legal-and-compliance' },
+          { text: 'Cancellation Policies', link: '#cancellation-downgrade-behavior'}
         ]
       },
       {
-        text: 'Support',
+        text: 'Help & Support',
         items: [
+          { text: 'Best Practices', link: '/#best-practices' },
+          { text: 'Common Mistakes', link: '/#mistakes-to-avoid' },
           { text: 'FAQ', link: '/#frequently-asked-questions' },
-          { text: 'Troubleshooting', link: '/#troubleshooting-guide' },
-          { text: 'Glossary', link: '/#feature-glossary' },
-          { text: 'Additional Resources', link: '/#additional-resources' }
+          { text: 'Troubleshooting', link: '/#troubleshooting-guide' }
         ]
       }
     ],
@@ -464,66 +463,45 @@ export default defineConfig({
     sidebar: {
       '/': [
         {
-          text: 'Understanding Email Aliasing',
+          text: '🚀 Getting Started',
           collapsed: false,
           items: [
             { text: 'What is Email Aliasing?', link: '/#what-is-email-aliasing' },
-            { text: 'How Email Aliasing Works', link: '/#how-email-aliasing-works' },
-            { text: 'Types of Email Aliasing', link: '/#types-of-email-aliasing' },
-            { text: 'Benefits and Use Cases', link: '/#benefits-and-use-cases' }
-          ]
-        },
-        {
-          text: 'Quick Start Guide',
-          collapsed: false,
-          items: [
-            { text: 'Interactive Provider Selector', link: '/#interactive-provider-selector' },
-            { text: 'Top 3 Beginner-Friendly Providers', link: '/#top-3-beginner-friendly-providers' },
-            { text: 'Complete Setup Guide', link: '/#complete-setup-guide' }
+            { text: 'How it Works', link: '/#how-email-aliasing-works' },
+            { text: 'Types of Aliasing', link: '/#types-of-email-aliasing' },
+            { text: 'Provider Selector', link: '/#provider-selector' },
+            { text: 'Top 3 Recommendations', link: '/#top-3-recommendations' }
           ]
         },
         {
           text: 'Provider Comparisons',
           collapsed: false,
           items: [
-            { text: 'Quick Reference Table', link: '/#quick-reference-table' },
-            { text: 'Free Plans Comparison', link: '/#free-plans-detailed-comparison' },
-            { text: 'Paid Plans Comparison', link: '/#paid-plans-detailed-comparison' }
+            { text: 'Quick Reference', link: '/#quick-reference-table' },
+            { text: 'Free Plans', link: '/#free-plans-detailed-comparison' },
+            { text: 'Paid Plans', link: '/#paid-plans-detailed-comparison' },
+            { text: 'Addy.io vs SimpleLogin', link: '/#addy-io-vs-simplelogin' }
           ]
         },
         {
-          text: 'Privacy and Security Analysis',
+          text: 'Privacy & Security',
           collapsed: false,
           items: [
-            { text: 'Privacy & Data Collection', link: '/#privacy-and-data-collection-comparison' },
-            { text: 'Advanced Features & Security', link: '/#advanced-features-and-security-comparison' },
-            { text: 'Cancellation Policies', link: '/#cancellation-policies-comparison' }
+            { text: 'Data Collection & Retention', link: '/#data-collection-and-retention' },
+            { text: 'Legal & Compliance', link: '/#legal-and-compliance' },
+            { text: 'Cancellation Policies', link: '/#cancellation-downgrade-behavior' }
           ]
         },
         {
-          text: 'Legal and Compliance',
+          text: 'Best Practices & Support',
           collapsed: true,
           items: [
-            { text: 'Privacy Law Comparison', link: '/#privacy-law-comparison' },
-            { text: 'Addy.io vs SimpleLogin', link: '/#addyio-vs-simplelogin' }
-          ]
-        },
-        {
-          text: 'Best Practices',
-          collapsed: true,
-          items: [
-            { text: 'Alias Naming Conventions', link: '/#alias-naming-conventions' },
+            { text: 'Naming Conventions', link: '/#alias-naming-conventions' },
             { text: 'Organization Strategies', link: '/#organization-strategies' },
-            { text: 'Mistakes to Avoid', link: '/#mistakes-to-avoid' }
-          ]
-        },
-        {
-          text: 'Reference & Support',
-          collapsed: true,
-          items: [
+            { text: 'Common Mistakes', link: '/#mistakes-to-avoid' },
             { text: 'Feature Glossary', link: '/#feature-glossary' },
-            { text: 'Troubleshooting Guide', link: '/#troubleshooting-guide' },
-            { text: 'Frequently Asked Questions', link: '/#frequently-asked-questions' },
+            { text: 'Troubleshooting', link: '/#troubleshooting-guide' },
+            { text: 'FAQ', link: '/#frequently-asked-questions' },
             { text: 'Additional Resources', link: '/#additional-resources' }
           ]
         }
