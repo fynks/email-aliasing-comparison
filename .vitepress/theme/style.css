@@ -135,14 +135,14 @@
  * -------------------------------------------------------------------------- */
 
 
-.eac p{
+.intro p{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   
 }
-.eac img {
+.intro img {
   margin: 0.25rem;
 }
 .quick-nav a {
