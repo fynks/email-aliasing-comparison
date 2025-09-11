@@ -14,14 +14,6 @@
 
 Compare 10+ email alias services by features, pricing, security, and privacy
 
-<div class="quick-nav">
- 
-[Free Plans](#free-plans-detailed-comparison) • 
-[Paid Plans](#paid-plans-detailed-comparison) • 
-[Security & Privacy](#privacy-and-security-analysis) • 
-[Best Practices](#best-practices)
-
-</div>
 </div>
 
 ### Table of Contents
