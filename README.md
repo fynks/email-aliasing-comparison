@@ -68,25 +68,19 @@ Example:
 - Aliases: shopping@provider.com, news@provider.com
 - Both forward to your Gmail, and you can often reply from the alias
 
+## Key Benefits:
+
+- **Privacy** - Hide your real email from data breaches
+- **Spam Control** - Disable compromised aliases instantly
+- **Organization** - Sort emails by source automatically
+- **Tracking** - Identify who sells your data
+- **Security** - Use unique addresses for sensitive accounts
+
 ## How Email Aliasing Works
 
 Think of it like a P.O. Box for your email: you hand out a forwarding address instead of your real one.
 
-Without Aliasing:
-- john@gmail.com → used everywhere (easily leaked, spammed)
-
-With Aliasing:
-- shopping@alias.com → stores
-- social@alias.com → social media
-- work@alias.com → professional
-- All forward to john@gmail.com
-
-## Key Benefits:
-
-- 🛡️ **Privacy** - Hide your real email from data breaches
-- 🚫 **Spam Control** - Disable compromised aliases instantly
-- 📁 **Organization** - Sort emails by source automatically
-- 🔍 **Tracking** - Identify who sells your data
+![How Email Aliasing Works](./public/how-email-aliasing-works.png)
 
 
 ## Types of Email Aliasing
