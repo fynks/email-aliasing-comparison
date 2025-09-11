@@ -1,5 +1,11 @@
 <div class="intro" align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./public/logo/logo_dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./public/logo/logo_light.svg">
+  <img src="./public/logo/logo_light.svg" alt="Awesome Android Root Logo" width="120" height="120" />
+</picture>
+
 # Email Aliasing Comparison
 
 Compare 10+ email alias services by features, pricing, security, and privacy
@@ -10,7 +16,6 @@ Compare 10+ email alias services by features, pricing, security, and privacy
 
 <div class="quick-nav">
  
-[Provider Selector](#provider-selector) • 
 [Free Plans](#free-plans-detailed-comparison) • 
 [Paid Plans](#paid-plans-detailed-comparison) • 
 [Security & Privacy](#privacy-and-security-analysis) • 
