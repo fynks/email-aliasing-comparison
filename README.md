@@ -448,15 +448,16 @@ Typically 10–50. Start with categories (shopping, social, newsletters, work, d
 - [Proton - What is Email Alias](https://proton.me/blog/what-is-email-alias) - Technical explanation from Proton
 
 ### Video Tutorials: 
-- Y[The Ultimate Guide to Aliasing For Privacy & Security](https://www.youtube.com/watch?v=cgnsa5IMufs) by *Techlore*
+- [The Ultimate Guide to Aliasing For Privacy & Security](https://www.youtube.com/watch?v=cgnsa5IMufs) by *Techlore*
 - [ULTIMATE Email Privacy Guide (5 Ways to Use Aliases)](https://www.youtube.com/watch?v=buJHg7HRHPc) by *All Things Secured*
 - [STOP Giving Your Real Email Address (do this instead)](https://www.youtube.com/watch?v=J7uGUD9kprs) by *All Things Secured*
 - [Use an Email Alias!](https://www.youtube.com/watch?v=5HHdk_GP-Ew) by *Naomi Brockwell TV*
 
 ### Community Forums: 
   - [r/privacy](https://reddit.com/r/privacy) - General privacy discussions
-  - [r/emailprivacy](https://www.reddit.com/r/emailprivacy)
-  - [r/SimpleLogin](https://www.reddit.com/r/SimpleLogin)
+  - [r/emailprivacy](https://www.reddit.com/r/emailprivacy) - Email privacy topics
+  - [r/simpleLogin](https://www.reddit.com/r/SimpleLogin) - SimpleLogin subreddit
+  - [r/addy_io](https://www.reddit.com/r/addy_io/) - Addy.io subreddit
 
 [(↑ Back to top)](#table-of-contents)
 
@@ -509,8 +510,6 @@ Always verify current pricing, limits, and policies from official provider sites
 
 <div align="center">
 
-Made with ❤️ by [fynks](https://github.com/fynks)
-
-If this guide helped you protect your email privacy, please **star ⭐ this repository**!
+⚡ Made with ❤️ by [fynks](https://github.com/fynks)
 
 </div>
