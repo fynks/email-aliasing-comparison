@@ -485,7 +485,7 @@ Found an error or outdated info? Contributions keep this guide accurate.
 
 ## License
 
-MIT License — see [LICENSE](LICENSE.md).
+**MIT License** — see [LICENSE](LICENSE.md).
 
 What this means:
 - Free use for personal/commercial
