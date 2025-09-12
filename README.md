@@ -8,8 +8,8 @@
 
 # Email Aliasing Comparison
 
-[![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge&logo=github)](https://github.com/fynks/email-aliasing-comparison)
-[![Last Commit](https://img.shields.io/github/last-commit/fynks/email-aliasing-comparison?style=for-the-badge&logo=github)](https://github.com/fynks/email-aliasing-comparison/commits)
+[![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge&logo=github&label=Star%20on%20GitHub)](https://github.com/fynks/email-aliasing-comparison)
+[![Last Commit](https://img.shields.io/github/last-commit/fynks/email-aliasing-comparison?style=for-the-badge&logo=github&label=Last%20Update)](https://github.com/fynks/email-aliasing-comparison/commits)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 Compare 10+ email alias services by features, pricing, security, and privacy
