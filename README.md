@@ -485,28 +485,6 @@ Found an error or outdated info? Contributions keep this guide accurate.
 
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-**What this means:**
-- Use freely for personal or commercial purposes
-- Modify and distribute with attribution
-- Fork and create derivatives
-- No warranty - information provided as-is
-
-### Attribution Requirements:
-When using substantial portions of this guide:
-```
-Source: Email Aliasing Comparison Guide
-Author: github.com/fynks/email-aliasing-comparison  
-License: MIT
-```
-
-[(↑ Back to top)](#table-of-contents)
-
----
-
-## License
-
 MIT License — see [LICENSE](LICENSE.md).
 
 What this means:
@@ -515,6 +493,7 @@ What this means:
 - No warranty; information is provided as‑is
 
 Attribution for substantial reuse:
+
 ```
 Source: Email Aliasing Comparison Guide
 Author: github.com/fynks/email-aliasing-comparison
