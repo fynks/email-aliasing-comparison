@@ -72,7 +72,30 @@ Example:
 
 Think of it like a P.O. Box for your email: you hand out a forwarding address instead of your real one.
 
-![How Email Aliasing Works](./public/how-email-aliasing-works.png)
+```mermaid
+graph LR
+    A1["Retail Website 1"] --> B1["Shopping@alias.com"]
+    A2["Retail Website 2"] --> B2["Social@alias.com"]
+    A3["Newsletter Subscription"] --> B3["Work@alias.com"]
+
+    B1 --> C["Primary Inbox<br/>name@email.com"]
+    B2 --> C
+    B3 --> C
+
+    %% Website nodes
+    style A1 fill:#f3f4f6,stroke:#2563eb,stroke-width:1px,color:#111827
+    style A2 fill:#f3f4f6,stroke:#2563eb,stroke-width:1px,color:#111827
+    style A3 fill:#f3f4f6,stroke:#2563eb,stroke-width:1px,color:#111827
+
+    %% Alias nodes
+    style B1 fill:#2563eb,stroke:none,color:#f9fafb
+    style B2 fill:#2563eb,stroke:none,color:#f9fafb
+    style B3 fill:#2563eb,stroke:none,color:#f9fafb
+
+    %% Inbox node
+    style C fill:#f3f4f6,stroke:#2563eb,stroke-width:2px,color:#111827,font-weight:bold
+```
+
 
 ## Types of Email Aliasing
 
