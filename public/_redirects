@@ -1,0 +1,9 @@
+# Redirect old URLs or common misspellings
+/addy-io-vs-simplelogin /#addyio-vs-simplelogin 301
+/comparison /#quick-reference-table 301
+/free-plans /#free-plans-detailed-comparison 301
+/paid-plans /#paid-plans-detailed-comparison 301
+/privacy /#data-collection-and-retention 301
+/security /#legal-and-compliance 301
+/faq /#frequently-asked-questions 301
+/guide /#best-practices 301

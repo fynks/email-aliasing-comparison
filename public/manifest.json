@@ -1,11 +1,11 @@
 {
-  "name": "Awesome Email Aliasing",
-  "short_name": "EmailAliasing",
-  "description": "Comprehensive guide to email aliasing services",
+  "name": "Email Aliasing Comparison",
+  "short_name": "Email Aliasing",
+  "description": "Compare 10+ email alias providers by features, pricing, security, and privacy",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#2563eb",
+  "theme_color": "#3b82f6",
   "icons": [
     {
       "src": "/icons/favicon-16x16.png",
