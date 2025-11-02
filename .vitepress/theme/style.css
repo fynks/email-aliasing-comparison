@@ -146,3 +146,30 @@
   margin: 0.25rem;
 }
 
+/**
+ * Custom: Mermaid diagram styling
+ * -------------------------------------------------------------------------- */
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  padding: 24px;
+  overflow-x: auto;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .mermaid {
+    padding: 16px;
+    margin: 16px -24px;
+    border-radius: 0;
+  }
+}
+

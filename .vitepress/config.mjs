@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   lang: "en-US",
   title: "Email Aliasing Comparison",
   titleTemplate: ":title | Complete Privacy Guide",
@@ -277,5 +278,21 @@ export default defineConfig({
         timeStyle: 'medium'
       }
     }
+  },
+
+  // Mermaid configuration
+  mermaid: {
+    theme: 'default',
+    themeVariables: {
+      primaryColor: '#3b82f6',
+      primaryTextColor: '#1f2937',
+      primaryBorderColor: '#2563eb',
+      lineColor: '#6b7280',
+      secondaryColor: '#06b6d4',
+      tertiaryColor: '#f3f4f6'
+    }
+  },
+  mermaidPlugin: {
+    class: 'mermaid'
   }
-})
+}))
