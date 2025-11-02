@@ -12,22 +12,27 @@
 [![Last Commit](https://img.shields.io/github/last-commit/fynks/email-aliasing-comparison?style=for-the-badge&logo=github&label=Last%20Update)](https://github.com/fynks/email-aliasing-comparison/commits)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Compare 10+ email alias services by features, pricing, security, and privacy
+**Compare 10+ email alias services by features, pricing, security, and privacy**
+
+[Quick Start](#provider-selector) • [Comparisons](#provider-comparisons) • [Privacy & Security](#privacy-and-security-analysis) • [Best Practices](#best-practices) • [FAQ](#frequently-asked-questions)
+
 
 </div>
 
-### Table of Contents
+## Table of Contents
 
-<details><summary>👉 Click to expand contents</summary>
+<details>
+<summary>Click to expand full table of contents</summary>
 
 ### Getting Started
 - [What is Email Aliasing?](#what-is-email-aliasing)
+- [Key Benefits](#key-benefits)
 - [How it Works](#how-email-aliasing-works)
-- [Types](#types-of-email-aliasing)
+- [Types of Email Aliasing](#types-of-email-aliasing)
 - [Provider Selector](#provider-selector)
-  - [Top 3 Recommendations](#top-3-recommendations)
+- [Top 3 Recommendations](#top-3-recommendations)
 
-### Provider Comparisons  
+### Provider Comparisons
 - [Quick Reference Table](#quick-reference-table)
 - [Free Plans Comparison](#free-plans-detailed-comparison)
 - [Paid Plans Comparison](#paid-plans-detailed-comparison)
@@ -36,18 +41,19 @@ Compare 10+ email alias services by features, pricing, security, and privacy
 ### Privacy & Security
 - [Data Collection & Retention](#data-collection-and-retention)
 - [Legal & Compliance](#legal-and-compliance)
-- [Cancellation Policies](#cancellation--downgrade-behavior)
+- [Cancellation & Downgrade Policies](#cancellation--downgrade-behavior)
 
-### Best Practices & Support
-- [Naming Conventions](#alias-naming-conventions)
-- [Organization Tips](#organization-strategies)
-- [Common Mistakes](#mistakes-to-avoid)
+### Best Practices
+- [Alias Naming Conventions](#alias-naming-conventions)
+- [Organization Strategies](#organization-strategies)
+- [Common Mistakes to Avoid](#mistakes-to-avoid)
 
 ### Reference & Help
 - [Feature Glossary](#feature-glossary)
-- [Troubleshooting](#troubleshooting-guide)
+- [Troubleshooting Guide](#troubleshooting-guide)
 - [FAQ](#frequently-asked-questions)
-- [Resources](#additional-resources)
+- [Additional Resources](#additional-resources)
+- [Contributing](#contributing)
 
 </details>
 
@@ -55,10 +61,10 @@ Compare 10+ email alias services by features, pricing, security, and privacy
 
 Email aliasing lets you create alternate addresses that forward to your real inbox, so you can use unique addresses without exposing your primary email.
 
-Example:
-- Real inbox: john.doe@gmail.com
-- Aliases: shopping@provider.com, news@provider.com
-- Both forward to Gmail; many services also support replying from the alias
+**Example:**
+- Real inbox: `john.doe@gmail.com`
+- Aliases: `shopping@provider.com`, `news@provider.com`
+- Both forward to Gmail (many services also support replying from the alias)
 
 ## Key Benefits
 
@@ -100,9 +106,11 @@ graph LR
 ## Types of Email Aliasing
 
 #### Built‑in aliases:
-  - Gmail “+” addressing (yourname+tag@gmail.com)
+  - Gmail "+" addressing (`yourname+tag@gmail.com`)
   - Outlook additional addresses/aliases
-  - Pros: free and instant • Cons: limited management, easier to guess/strip
+- **Pros:** Free and instant
+- **Cons:** Limited management, easier to guess/strip
+
 #### Dedicated services:
   - Full alias lifecycle management, custom domains, reply support, encryption, rules, APIs, dashboards
 
@@ -110,36 +118,29 @@ graph LR
 
 ## Provider Selector
 
-Pick the fastest path based on your priorities:
+Choose the best provider based on your needs:
 
 | Your Need | Best Choice | Price | Why |
-|---|---:|---:|---|
+|-----------|-------------|------:|-----|
 | **Just starting** | DuckDuckGo Email Protection | Free | Zero setup, great tracker removal |
 | **Budget conscious** | Addy.io Lite | $1/mo | Strong feature/price ratio |
 | **Maximum privacy** | SimpleLogin (by Proton) | $4/mo | Swiss jurisdiction, strong security, apps |
-| **Apple ecosystem** | Hide My Email (iCloud+) | from $0.99/mo | System‑level integration, easy replies |
-| **Developers/self‑hosting** | Forward Email | from $3/mo | Open‑source, own domain, flexible |
+| **Apple ecosystem** | Hide My Email (iCloud+) | from $0.99/mo | System-level integration, easy replies |
+| **Developers/self-hosting** | Forward Email | from $3/mo | Open-source, own domain, flexible |
 
-::: info **Notes**:
-> - Prices shown are starting paid tiers where applicable; some providers offer free plans.
-> - iCloud+ pricing varies by storage tier and region.
-:::
+> [!NOTE]
+> Prices shown are starting paid tiers. Many providers offer free plans.
+> iCloud+ pricing varies by storage tier and region.
 
 [(↑ Back to top)](#table-of-contents)
 
----
+<br>
 
 ## Top 3 Recommendations
 
-| Best for Beginners | Best Value | Most Secure (mainstream) |
-|---|---|---|
-| [DuckDuckGo Email](https://duckduckgo.com/email) | [Addy.io](https://addy.io) | [SimpleLogin](https://simplelogin.io) |
-| Price: Free | Price: $1/mo | Price: $4/mo |
-| Aliases: Unlimited @duck.com | Aliases: Unlimited standard + shared domain limits | Aliases: Unlimited |
-| Setup: Zero config | Domains: 1 custom on Lite | Jurisdiction: Switzerland (Proton) |
-| ✅ Easy onboarding | ✅ GPG/OpenPGP, API | ✅ PGP, WebAuthn, Proton integration |
-| ✅ Tracker removal | ✅ Rules, webhooks (higher tiers) | ✅ Mature apps and extensions |
-| ❌ @duck.com only | ❌ Solo developer | ❌ Higher cost |
+| Best for Beginners | Best Value | Most Secure |
+|--------------------|------------|-------------|
+| **[DuckDuckGo Email](https://duckduckgo.com/email)**<br><br>**Price:** Free<br>**Aliases:** Unlimited `@duck.com`<br>**Setup:** Zero config<br><br>**Pros:**<br>- Easy onboarding<br>- Tracker removal<br>- Reply support<br><br>**Cons:**<br>- `@duck.com` only | **[Addy.io](https://addy.io)**<br><br>**Price:** $1/mo (Lite)<br>**Aliases:** Unlimited<br>**Domains:** 1 custom<br><br>**Pros:**<br>- GPG/OpenPGP, API<br>- Rules, webhooks<br>- Reply support<br><br>**Cons:**<br>- Solo developer | **[SimpleLogin](https://simplelogin.io)**<br><br>**Price:** $4/mo<br>**Aliases:** Unlimited<br>**Jurisdiction:** Switzerland<br><br>**Pros:**<br>- PGP, WebAuthn<br>- Proton integration<br>- Mature apps<br><br>**Cons:**<br>- Higher cost |
 
 [(↑ Back to top)](#table-of-contents)
 
@@ -147,41 +148,48 @@ Pick the fastest path based on your priorities:
 
 # Provider Comparisons
 
+
 ### Quick Reference Table
-| Provider | Free Tier | Starting Pricing | Reply Support | Open Source | Encryption in transit |
-| :--- | :--- | ---: | :---: | :---: | :---: |
-| Addy.io (🇳🇱) | Yes | $1/mo | Paid | ✅ server code not fully OSS | TLS |
-| SimpleLogin (🇨🇭, Proton) | Yes (10 aliases) | $4/mo | Free &amp; Paid | ✅ | TLS |
-| Forward Email (🇺🇸) | Yes (own domain) | $3/mo | Yes (see docs) | ✅ | TLS |
-| DuckDuckGo Email (🇺🇸) | Yes | ❌ | Yes | Partial | TLS |
-| Firefox Relay (🇺🇸) | Yes (5 aliases) | ~ $0.99–$1.99/mo | Premium | Partial | TLS |
-| AdGuard Mail (🇨🇾) | Yes (limited) | $2.99/mo | Premium | Partial | TLS |
-| 33Mail (🇬🇧) | Yes | $1/mo | Premium | ❌ | TLS |
-| IronVest (🇺🇸) | No free email‑only | $39/yr | Yes | ❌ | TLS |
-| Erine.email (🇫🇷) | Yes | Free | Yes | ✅ | TLS |
-| Apple Hide My Email (🇺🇸) | Requires iCloud+ | from $0.99/mo | Yes | ❌ | TLS |
+
+
+| Provider | Jurisdiction | Free Tier | Starting Price | Reply Support | Open Source | Encryption |
+|----------|:------------:|-----------|---------------:|:-------------:|:-----------:|:----------:|
+| [Addy.io](https://addy.io) | Netherlands | ✅ | $1/mo | Paid plans | Partial | TLS |
+| [SimpleLogin](https://simplelogin.io) | Switzerland | ✅ (10 aliases) | $4/mo | ✅ | ✅ | TLS |
+| [Forward Email](https://forwardemail.net) | USA | ✅ (own domain) | $3/mo | ✅ | ✅ | TLS |
+| [DuckDuckGo Email](https://duckduckgo.com/email) | USA | ✅ (unlimited) | Free only | ✅ | Partial | TLS |
+| [Firefox Relay](https://relay.firefox.com) | USA | ✅ (5 aliases) | $0.99-$1.99/mo | Premium | Partial | TLS |
+| [AdGuard Mail](https://adguard.com/adguard-temp-mail) | Cyprus | ✅ (limited) | $2.99/mo | Premium | Partial | TLS |
+| [33Mail](https://33mail.com) | UK | ✅ | $1/mo | Premium | ❌ | TLS |
+| [IronVest](https://ironvest.com) | USA | ❌ | $39/yr | ✅ | ❌ | TLS |
+| [Erine.email](https://erine.email) | France | ✅ | Free | ✅ | ✅ | TLS |
+| [Apple Hide My Email](https://support.apple.com/en-us/HT210425) | USA | Requires iCloud+ | from $0.99/mo | ✅ | ❌ | TLS |
 
 [(↑ Back to top)](#table-of-contents)
+
+<br>
 
 ## Free Plans Detailed Comparison
 
 | Provider | Free Aliases | Reply Support | Custom Domains | Monthly Limits | Standout Features | Best For |
-|---|---|:---:|:---:|---:|---|---|
+|----------|--------------|:-------------:|:--------------:|----------------|-------------------|----------|
 | Addy.io | Unlimited standard + limited shared domain | ❌ | ❌ | ~10 MB bandwidth | GPG/OpenPGP, API (paid) | Power users trial |
-| SimpleLogin | 10 | ✅ | ❌ | Fair use | PGP, mobile apps, browser add‑ons | Beginners |
+| SimpleLogin | 10 | ✅ | ❌ | Fair use | PGP, mobile apps, browser extensions | Beginners |
 | DuckDuckGo | Unlimited @duck.com | ✅ | ❌ | Fair use | Tracker removal, autofill | Quick start |
 | Firefox Relay | 5 | ❌ | ❌ | Fair use | Tracker removal, Firefox integration | Mozilla users |
 | AdGuard Mail | ~10 | ❌ | ❌ | ~2,000 emails | Temporary aliases, ecosystem | Light usage |
-| 33Mail | Unlimited | ❌ | ❌ | ~10 MB | Simple & reliable | Basic forwarding |
-| Erine.email | Unlimited | ✅ | ❌ | Fair use | Open‑source, EU‑hosted | Privacy advocates |
-| Forward Email | Unlimited* | ✅ | ✅ (own domain) | Provider SMTP limits | Open‑source, self‑host option | Developers |
-| Apple Hide My Email | N/A (iCloud+ required) | ✅ | Separate “Custom Email Domain” in iCloud Mail | Apple policy | Seamless Apple integration | Apple users |
+| 33Mail | Unlimited | ❌ | ❌ | ~10 MB | Simple and reliable | Basic forwarding |
+| Erine.email | Unlimited | ✅ | ❌ | Fair use | Open-source, EU-hosted | Privacy advocates |
+| Forward Email | Unlimited* | ✅ | ✅ (own domain) | Provider SMTP limits | Open-source, self-host option | Developers |
+| Apple Hide My Email | N/A (iCloud+ required) | ✅ | Separate feature | Apple policy | Seamless Apple integration | Apple users |
 
-::: info **Note:**
-> *Own domain required for Forward Email free.
-:::
+
+> [!NOTE]
+> *Own domain required for Forward Email free tier.
 
 [(↑ Back to top)](#table-of-contents)
+
+<br>
 
 ## Paid Plans Detailed Comparison
 
@@ -197,10 +205,10 @@ Pick the fastest path based on your priorities:
 | Forward Email Enhanced | $3/mo | Unlimited | ✅ | Unlimited | 100% open‑source stack, webhooks | Developers |
 | Apple iCloud+ 50GB | from $0.99/mo | Up to 1,000 | ✅ | ✅ (iCloud Mail custom domains) | System‑level integration | Apple users |
 
-::: info **Notes:**
+> [!NOTE]
 > - Regional pricing varies.
 > - “Unlimited” often means “no fixed hard cap” but subject to fair use/abuse limits.
-:::
+
 
 [(↑ Back to top)](#table-of-contents)
 
@@ -210,7 +218,8 @@ Pick the fastest path based on your priorities:
 
 ## Data Collection and Retention
 
-Always prefer the provider’s current privacy policy; retention practices can change.
+> [!IMPORTANT]
+> Always prefer the provider’s current privacy policy; retention practices can change.
 
 | Provider | Email Content Storage | IP Logging | Analytics | Account Data |
 |---|---|---|---|---|
@@ -224,16 +233,15 @@ Always prefer the provider’s current privacy policy; retention practices can c
 | IronVest | Delivery only | Standard logs | Basic | Account & payment |
 | Apple Hide My Email | Delivery only | Apple policy | Apple analytics | iCloud account data |
 
-::: tip **Tip:**
-- For true content secrecy, use end‑to‑end encryption (PGP/GPG) with contacts. Aliasing alone does not hide content from providers.
-:::
+> [!TIP]
+> For true content secrecy, use end‑to‑end encryption (PGP/GPG) with contacts. Aliasing alone does not hide content from providers.
 
 [(↑ Back to top)](#table-of-contents)
 
 
 ## Cancellation / Downgrade Behavior
 
-Knowing what breaks on downgrade helps you avoid lock‑in.
+Understanding what happens when you downgrade helps you avoid vendor lock-in.
 
 | Provider | Keeps Working | Disabled | Deleted | Risk |
 |---|---|---|---|---|
@@ -244,9 +252,8 @@ Knowing what breaks on downgrade helps you avoid lock‑in.
 | Firefox Relay | First 5 aliases | Extra aliases, custom domains (if offered) | Aliases beyond free limit | Moderate |
 | Addy.io | Standard aliases; 1 recipient; basic forwarding | Multiple recipients, usernames, custom/shared domains, reply | Extra recipients, premium domain aliases | Moderate |
 
-::: tip **Tip:**
-Best practice: Export alias → service mappings before you upgrade and before any downgrade.
-:::
+> [!TIP]
+> **Best practice**: Export alias → service mappings before you upgrade and before any downgrade.
 
 [(↑ Back to top)](#table-of-contents)
 
@@ -255,24 +262,26 @@ Best practice: Export alias → service mappings before you upgrade and before a
 
 # Legal and Compliance
 
-Jurisdiction can affect data access rules, retention, and gag orders. EU/CH typically offer stronger privacy protections.
+Jurisdiction can affect data access rules, retention, and government requests.
 
-| Provider | Jurisdiction | GDPR | Retention (high‑level) | Govt Requests |
-|---|---|:---:|---|---|
-| SimpleLogin | 🇨🇭 Switzerland (Proton) | ✅ | Minimal; logs time‑limited | Requires Swiss/EU legal process |
-| Addy.io | 🇳🇱 Netherlands (EU) | ✅ | Minimal; deletion upon request | EU legal process |
-| Erine.email | 🇫🇷 France (EU) | ✅ | Minimal collection | EU legal process |
-| AdGuard Mail | 🇨🇾 Cyprus (EU) | ✅ | Standard EU retention | EU legal process |
-| 33Mail | 🇬🇧 United Kingdom | ✅ (UK GDPR) | Standard | UK legal process |
-| Forward Email | 🇺🇸 United States | ✅ (as applicable) | Configurable/self‑host | US law; self‑host option |
-| DuckDuckGo | 🇺🇸 United States | ✅ (as applicable) | Minimal collection | US law; transparency statements |
-| Firefox Relay | 🇺🇸 United States | ✅ (as applicable) | Mozilla policies | US law; transparency reports |
-| Apple Hide My Email | 🇺🇸 United States | ✅ (as applicable) | Apple policies | US law; well‑documented process |
+| Provider | Jurisdiction | GDPR | Retention | Govt Requests |
+|----------|--------------|:----:|-----------|---------------|
+| SimpleLogin | Switzerland (Proton) | ✅ | Minimal; logs time-limited | Requires Swiss/EU legal process |
+| Addy.io | Netherlands (EU) | ✅ | Minimal; deletion upon request | EU legal process |
+| Erine.email | France (EU) | ✅ | Minimal collection | EU legal process |
+| AdGuard Mail | Cyprus (EU) | ✅ | Standard EU retention | EU legal process |
+| 33Mail | United Kingdom | ✅ (UK GDPR) | Standard | UK legal process |
+| Forward Email | United States | ✅ (as applicable) | Configurable/self-host | US law; self-host option |
+| DuckDuckGo | United States | ✅ (as applicable) | Minimal collection | US law; transparency statements |
+| Firefox Relay | United States | ✅ (as applicable) | Mozilla policies | US law; transparency reports |
+| Apple Hide My Email | United States | ✅ (as applicable) | Apple policies | US law; well-documented process |
 
-Practical picks:
-- Maximum privacy: 🇨🇭 Switzerland (SimpleLogin/Proton)
-- Strong privacy + features: 🇪🇺 EU providers (Addy.io 🇳🇱, Erine.email 🇫🇷)
-- Acceptable with trade‑offs: 🇺🇸 US providers (DuckDuckGo, Forward Email, Apple), depending on threat model
+> [!TIP]
+> **Practical Picks by Privacy Level:**
+> - **Maximum privacy:** Switzerland (SimpleLogin/Proton)
+> - **Strong privacy + features:** EU providers (Addy.io, Erine.email)
+> - **Acceptable with trade-offs:** US providers (DuckDuckGo, Forward Email, Apple)
+
 
 [(↑ Back to top)](#table-of-contents)
 
@@ -281,109 +290,116 @@ Practical picks:
 
 ## Addy.io vs SimpleLogin
 
-| Criteria                 | Addy.io                         | SimpleLogin                   | Winner      |
-| ------------------------ | ------------------------------- | ----------------------------- | ----------- |
-| **Best for Beginners**   | Moderate setup complexity       | Simple setup and interface    | SimpleLogin |
-| **Best for Power Users** | Advanced features, better value | Core features focus           | Addy.io     |
-| **Best Value**           | $1/mo for most features         | $4/mo for all features        | Addy.io     |
-| **Most Reliable**        | Single developer dependency     | Enterprise infrastructure     | SimpleLogin |
-| **Best Privacy**         | Netherlands jurisdiction, GPG   | Switzerland jurisdiction, PGP | Tie         |
+| Criteria | Addy.io | SimpleLogin | Winner |
+|----------|---------|-------------|--------|
+| **Best for Beginners** | Moderate setup complexity | Simple setup and interface | SimpleLogin |
+| **Best for Power Users** | Advanced features, better value | Core features focus | Addy.io |
+| **Best Value** | $1/mo for most features | $4/mo for all features | Addy.io |
+| **Most Reliable** | Single developer dependency | Enterprise infrastructure | SimpleLogin |
+| **Best Privacy** | Netherlands jurisdiction, GPG | Switzerland jurisdiction, PGP | Tie |
 
-#### Company Structure Analysis
+### Company Structure Analysis
 
 **Addy.io: The Independent Pioneer**
-- **Strengths**: Quick updates, direct communication, lower costs, innovation
-- **Concerns**: Single point of failure, limited capacity, no succession plan
+- **Strengths:** Quick updates, direct communication, lower costs, innovation
+- **Concerns:** Single point of failure, limited capacity, no succession plan
 
 **SimpleLogin: The Enterprise Solution**
-- **Strengths**: Team redundancy, 24/7 support, financial stability, professional operations
-- **Concerns**: Corporate bureaucracy, higher costs, less experimental
+- **Strengths:** Team redundancy, 24/7 support, financial stability, professional operations
+- **Concerns:** Corporate bureaucracy, higher costs, less experimental
+- **Mitigations:** Backed by Proton, a well-established privacy company
 
 #### Feature Comparison Details
 
-**Core Features**
-| Feature             | Addy.io           | SimpleLogin |
-| :------------------ | :---------------- | :---------- |
-| **Bulk Operations** | CSV import/export | Basic bulk  |
-| **Search & Filter** | Advanced          | Basic       |
-| **Bounce Handling** | Detailed logs     | Basic       |
-| **Spam Detection**  | SpamAssassin      | Basic       |
+### Core Features Comparison
 
-**Advanced Features**
-| Feature                 | Addy.io         | SimpleLogin         |
-| :---------------------- | :-------------- | :------------------ |
-| **Conditional Rules**   | Advanced regex  | Basic patterns      |
-| **Auto-Enable/Disable** | Smart rules     | Manual only         |
-| **Usage Analytics**     | Detailed charts | Basic counts        |
-| **Bandwidth Tracking**  | Per-alias       | Not available       |
-| **Alert System**        | Configurable    | Basic notifications |
+| Feature | Addy.io | SimpleLogin |
+|---------|---------|-------------|
+| **Bulk Operations** | CSV import/export | Basic bulk |
+| **Search & Filter** | Advanced | Basic |
+| **Bounce Handling** | Detailed logs | Basic |
+| **Spam Detection** | SpamAssassin | Basic |
 
-**Security Comparison**
-| Feature                | Addy.io          | SimpleLogin     |
-| :--------------------- | :--------------- | :-------------- |
-| **2FA Support**        | TOTP only        | TOTP + WebAuthn |
-| **Password Security**  | bcrypt           | Argon2          |
-| **Session Management** | Standard         | Advanced        |
-| **Security Audits**    | 2023 (Securitum) | Regular audits  |
+### Advanced Features Comparison
+
+| Feature | Addy.io | SimpleLogin |
+|---------|---------|-------------|
+| **Conditional Rules** | Advanced regex | Basic patterns |
+| **Auto-Enable/Disable** | Smart rules | Manual only |
+| **Usage Analytics** | Detailed charts | Basic counts |
+| **Bandwidth Tracking** | Per-alias | Not available |
+| **Alert System** | Configurable | Basic notifications |
+
+### Security Comparison
+
+| Feature | Addy.io | SimpleLogin |
+|---------|---------|-------------|
+| **2FA Support** | TOTP only | TOTP + WebAuthn |
+| **Password Security** | bcrypt | Argon2 |
+| **Session Management** | Standard | Advanced |
+| **Security Audits** | 2023 (Securitum) | Regular audits |
 
 [(↑ Back to top)](#table-of-contents)
 
 ---
 
+
 # Best Practices
 
-#### Alias Naming Conventions
+## Alias Naming Conventions
 
-**Recommended Formats:**
-- `service-purpose@provider.com` → `amazon-shopping@provider.com`
-- `category-date@provider.com` → `newsletter-2025@provider.com` 
-- `trustlevel-service@provider.com` → `trusted-banking@provider.com`
+### Recommended Formats
 
-**Avoid:**
-- Random strings: `abc123xyz@provider.com` ❌
-- Generic names: `general@provider.com` ❌
-- Same alias everywhere ❌
+| Format | Example | Use Case |
+|--------|---------|----------|
+| `service-purpose@` | `amazon-shopping@provider.com` | Service-specific aliases |
+| `category-date@` | `newsletter-2025@provider.com` | Time-based organization |
+| `trustlevel-service@` | `trusted-banking@provider.com` | Security-based sorting |
 
-#### Organization Strategies
+### Avoid These Patterns
 
-**By Category:**
+- **Random strings:** `abc123xyz@provider.com` (hard to track)
+- **Generic names:** `general@provider.com` (defeats the purpose)
+- **Same alias everywhere:** (no breach isolation)
+
+## Organization Strategies
+
+<details>
+<summary><strong>View organization strategies</strong> (click to expand)</summary>
+
+### By Category
 - `shopping@provider.com` - All e-commerce
 - `social@provider.com` - Social media platforms
-- `work@provider.com` - Professional accounts  
+- `work@provider.com` - Professional accounts
 - `newsletter@provider.com` - Subscriptions
 
-**By Trust Level:**
+### By Trust Level
 - `trusted@provider.com` - Banking, important services
 - `testing@provider.com` - New services you're trying
 - `disposable@provider.com` - One-time signups
 
-**By Time Period:**
+### By Time Period
 - `monthly-2025-01@provider.com` - Rotate monthly
 - `yearly-2025@provider.com` - Annual rotation
+
+</details>
+<br>
 
 [(↑ Back to top)](#table-of-contents)
 
 ---
 
-# Mistakes to Avoid
+## Common Mistakes to Avoid
 
-1) Using random or reused aliases  
-- Wrong: abc123xyz@provider.com or general@provider.com  
-- Right: amazon.shopping@provider.com (unique per service)
+| Mistake | Wrong Approach | Right Approach |
+|---------|----------------|----------------|
+| **Random/reused aliases** | `abc123xyz@provider.com` or `general@provider.com` | `amazon-shopping@provider.com` (unique per service) |
+| **Not testing replies** | Assuming replies will work | Always send a test from your alias before important use |
+| **Skipping password manager** | Not tracking which alias goes where | Store alias + service mapping to avoid lockouts |
+| **No backup plan** | Immediately switching all accounts | Keep original email active during transition; export aliases |
+| **Rushing critical accounts** | Migrating banking/2FA accounts first | Start with low-risk accounts, then move to banking/work/2FA |
 
-2) Not testing replies  
-- Always send a test from your alias before important use
-
-3) Skipping password manager updates  
-- Store alias + service mapping to avoid lockouts
-
-4) No backup plan  
-- Keep original email active during transition  
-- Export aliases and document where used
-
-5) Rushing critical accounts  
-- Migrate low-risk accounts first; then banking/work/2FA
-
+<br><br>
 [(↑ Back to top)](#table-of-contents)
 
 ---
@@ -413,49 +429,73 @@ Practical picks:
 
 ## Troubleshooting Guide
 
-<details><summary>Emails not forwarding</summary>
-1) Check spam/junk 
-2) Send a direct test to the alias
-3) If custom domain: wait 24–48h for DNS propagation
-4) Check your email client filters/rules 
+<details>
+<summary><strong>Emails not forwarding</strong></summary>
+
+1. Check spam/junk folder
+2. Send a direct test to the alias
+3. If using custom domain: wait 24-48h for DNS propagation
+4. Check your email client filters/rules
+
 </details>
 
-<details><summary>Can't reply from alias</summary>
-1) Confirm plan supports replies  
-2) Configure SMTP/app settings from provider docs  
-3) Verify Reply-To in provider dashboard
+<details>
+<summary><strong>Can't reply from alias</strong></summary>
+
+1. Confirm your plan supports replies
+2. Configure SMTP/app settings from provider docs
+3. Verify Reply-To settings in provider dashboard
+
 </details>
 
-<details><summary>Slow delivery</summary>
-- Normal: 5–30s; peak: up to 2–5m; international: up to 10m  
-- Check provider status page for incidents
-</details>
+<details>
+<summary><strong>Slow delivery</strong></summary>
 
-[(↑ Back to top)](#table-of-contents)
+**Expected delivery times:**
+- Normal: 5-30 seconds
+- Peak hours: up to 2-5 minutes
+- International: up to 10 minutes
+
+**Action:** Check provider status page for incidents
+
+</details>
 
 ## Frequently Asked Questions
 
-<details><summary>Will recipients know it's an alias?</summary>
-No. They see the alias as the sender unless you disclose it.
+<details>
+<summary><strong>Will recipients know it's an alias?</strong></summary>
+
+No. Recipients see the alias as the sender unless you disclose it.
+
 </details>
 
-<details><summary>Can I reply from my alias?</summary>
-Most paid services support replies. Free support varies (DuckDuckGo and SimpleLogin free support replies).
+<details>
+<summary><strong>Can I reply from my alias?</strong></summary>
+
+Most paid services support replies. Free tier support varies (DuckDuckGo and SimpleLogin free both support replies).
+
 </details>
 
-<details><summary>What if the provider shuts down?</summary>
-Keep your main email active, document alias mappings, and maintain a migration plan (and optional backup provider).
+<details>
+<summary><strong>What if the provider shuts down?</strong></summary>
+
+Keep your main email active, document alias mappings, and maintain a migration plan. Consider having a backup provider for critical aliases.
+
 </details>
 
-<details><summary>Are aliases safe for banking?</summary>
-Yes, but migrate critical accounts last and choose a reliable provider with support and strong security.
+<details>
+<summary><strong>Are aliases safe for banking?</strong></summary>
+
+Yes, but migrate critical accounts last and choose a reliable provider with good support and strong security track record.
+
 </details>
 
-<details><summary>How many aliases do I need?</summary>
-Typically 10–50. Start with categories (shopping, social, newsletters, work, disposable).
-</details>
+<details>
+<summary><strong>How many aliases do I need?</strong></summary>
 
-[(↑ Back to top)](#table-of-contents)
+Typically 10-50 aliases. Start with categories: shopping, social, newsletters, work, and disposable.
+
+</details>
 
 ## Additional Resources
 ### Official Documentation
@@ -490,18 +530,20 @@ Typically 10–50. Start with categories (shopping, social, newsletters, work, d
 
 Found an error or outdated info? Contributions keep this guide accurate.
 
-- How we verify:
-  - Use official docs/pricing pages/privacy policies
-  - Include links and the date verified in PRs/issues
-- Quick contributions:
-  - Pricing/feature updates (with links/screenshots)
-  - New provider suggestions (include free/paid, security, jurisdiction)
-- Standards:
-  - Accuracy first; neutral tone
-  - Include dates for pricing/feature claims
-  - Keep tables/sections consistent
-  
-> For more info please see: **[CONTRIBUTING.md](CONTRIBUTING.md)**
+**Verification Standards:**
+- Use official docs/pricing pages/privacy policies
+- Include links and verification dates in PRs/issues
+
+**Quick Contributions:**
+- Pricing/feature updates (with links/screenshots)
+- New provider suggestions (include free/paid plans, security features, jurisdiction)
+
+**Quality Standards:**
+- Accuracy first with neutral tone
+- Include dates for pricing/feature claims
+- Keep tables and sections consistent
+
+> For detailed guidelines see: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 [(↑ Back to top)](#table-of-contents)
 
@@ -509,14 +551,14 @@ Found an error or outdated info? Contributions keep this guide accurate.
 
 ## License
 
-**MIT License** — see [LICENSE](LICENSE.md).
+**MIT License** - see [LICENSE](LICENSE.md)
 
-What this means:
-- Free use for personal/commercial
+**What this means:**
+- Free to use for personal or commercial purposes
 - Modify and distribute with attribution
-- No warranty; information is provided as‑is
+- No warranty; information provided as-is
 
-Attribution for substantial reuse:
+**Attribution for substantial reuse:**
 
 ```
 Source: Email Aliasing Comparison Guide
