@@ -2,11 +2,36 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://awesome-email-aliasing.com/sitemap.xml
+Sitemap: https://email-aliasing-comparison.netlify.app/sitemap.xml
 
-# Crawl delay
-Crawl-delay: 1
+# Optimal crawl delay
+Crawl-delay: 0.5
 
-# Disallow certain paths if needed
-# Disallow: /admin/
-# Disallow: /private/
+# Block bad bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+# Allow search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /

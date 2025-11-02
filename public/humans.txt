@@ -1,0 +1,15 @@
+/* TEAM */
+Project: Email Aliasing Comparison
+Site: https://email-aliasing-comparison.netlify.app
+Repository: https://github.com/fynks/email-aliasing-comparison
+License: MIT
+
+/* THANKS */
+To all contributors who help keep this guide up-to-date
+To the email privacy community for their valuable feedback
+
+/* SITE */
+Last update: 2025-11-02
+Standards: HTML5, CSS3, ES6+
+Components: VitePress, Vue 3
+Software: VS Code, Git
