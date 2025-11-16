@@ -7,7 +7,3 @@
 /security /#legal-and-compliance 301
 /faq /#frequently-asked-questions 301
 /guide /#best-practices 301
-
-# Fallback - serve index.html for client-side routing
-/* /index.html 200
-
