@@ -68,6 +68,9 @@ export default withMermaid(defineConfig({
     ['meta', { name: 'twitter:image', content: 'https://email-aliasing-comparison.netlify.app/og.png' }],
     ['meta', { name: 'twitter:image:alt', content: 'Email Aliasing Comparison Guide' }],
 
+    // verification meta tags
+    ['meta', { name: 'google-site-verification', content: 'yh6OZ9qZhOAVRs3tkFAwwBYIb3BKrveBy6C0QEVHpw0' }],
+
     // JSON-LD Structured Data
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       '@context': 'https://schema.org',
