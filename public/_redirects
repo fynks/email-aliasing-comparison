@@ -1,3 +1,6 @@
+# Redirect www subdomain to apex domain (Cloudflare Pages)
+https://www.email-aliasing-comparison.pages.dev/* https://email-aliasing-comparison.pages.dev/:splat 301!
+
 # Redirect old URLs or common misspellings
 /addy-io-vs-simplelogin /#addyio-vs-simplelogin 301
 /comparison /#quick-reference-table 301
@@ -7,3 +10,4 @@
 /security /#legal-and-compliance 301
 /faq /#frequently-asked-questions 301
 /guide /#best-practices 301
+
