@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://email-aliasing-comparison.netlify.app/sitemap.xml
+Sitemap: https://email-aliasing-comparison.pages.dev/sitemap.xml
 
 # Optimal crawl delay
 Crawl-delay: 0.5

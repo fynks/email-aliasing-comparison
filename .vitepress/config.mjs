@@ -29,7 +29,7 @@ export default withMermaid(defineConfig({
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-    ['link', { rel: 'canonical', href: 'https://email-aliasing-comparison.netlify.app' }],
+    ['link', { rel: 'canonical', href: 'https://email-aliasing-comparison.pages.dev' }],
 
     // Additional browser compatibility meta tags
     ['meta', { name: 'theme-color', content: '#ffffff' }],
@@ -53,9 +53,9 @@ export default withMermaid(defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Email Aliasing Comparison - Best Privacy Solutions 2025' }],
     ['meta', { property: 'og:description', content: 'Compare 10+ email alias providers by features, pricing, and security. Expert analysis of Addy.io, SimpleLogin, DuckDuckGo Email, and more.' }],
-    ['meta', { property: 'og:url', content: 'https://email-aliasing-comparison.netlify.app' }],
+    ['meta', { property: 'og:url', content: 'https://email-aliasing-comparison.pages.dev' }],
     ['meta', { property: 'og:site_name', content: 'Email Aliasing Comparison' }],
-    ['meta', { property: 'og:image', content: 'https://email-aliasing-comparison.netlify.app/og.png' }],
+    ['meta', { property: 'og:image', content: 'https://email-aliasing-comparison.pages.dev/og.png' }],
     ['meta', { property: 'og:image:alt', content: 'Email Aliasing Comparison - Best Privacy Solutions 2025' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '630' }],
@@ -65,7 +65,7 @@ export default withMermaid(defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'Email Aliasing Comparison - Best Privacy Solutions 2025' }],
     ['meta', { name: 'twitter:description', content: 'Compare 10+ email alias providers by features, pricing, and security. Expert analysis and recommendations.' }],
-    ['meta', { name: 'twitter:image', content: 'https://email-aliasing-comparison.netlify.app/og.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://email-aliasing-comparison.pages.dev/og.png' }],
     ['meta', { name: 'twitter:image:alt', content: 'Email Aliasing Comparison Guide' }],
 
     // verification meta tags
@@ -77,10 +77,10 @@ export default withMermaid(defineConfig({
       '@type': 'WebSite',
       name: 'Email Aliasing Comparison',
       description: 'Compare 10+ email alias providers by features, pricing, security, and privacy. Expert analysis to help you find the best email privacy solution.',
-      url: 'https://email-aliasing-comparison.netlify.app',
+      url: 'https://email-aliasing-comparison.pages.dev',
       potentialAction: {
         '@type': 'SearchAction',
-        target: 'https://email-aliasing-comparison.netlify.app/?q={search_term_string}',
+        target: 'https://email-aliasing-comparison.pages.dev/?q={search_term_string}',
         'query-input': 'required name=search_term_string'
       },
       inLanguage: 'en-US'

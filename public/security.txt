@@ -1,4 +1,4 @@
 Contact: https://github.com/fynks/email-aliasing-comparison/issues
 Expires: 2026-12-31T23:59:59.000Z
 Preferred-Languages: en
-Canonical: https://email-aliasing-comparison.netlify.app/.well-known/security.txt
+Canonical: https://email-aliasing-comparison.pages.dev/.well-known/security.txt

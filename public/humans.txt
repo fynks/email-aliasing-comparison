@@ -1,6 +1,6 @@
 /* TEAM */
 Project: Email Aliasing Comparison
-Site: https://email-aliasing-comparison.netlify.app
+Site: https://email-aliasing-comparison.pages.dev
 Repository: https://github.com/fynks/email-aliasing-comparison
 License: MIT
 
