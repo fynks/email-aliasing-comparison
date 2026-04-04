@@ -1,0 +1,93 @@
+<svg width="640" height="280" viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Email aliasing flow diagram">
+
+  <defs>
+
+    <style>
+      :root {
+        --bg-page:         #ffffff;
+        --bg-source:       #f3f4f6;
+        --stroke-source:   #2563eb;
+        --text-source:     #111827;
+        --bg-alias:        #2563eb;
+        --text-alias:      #f9fafb;
+        --bg-inbox:        #f3f4f6;
+        --stroke-inbox:    #2563eb;
+        --text-inbox:      #111827;
+        --text-inbox-sub:  #111827;
+        --arrow:           #9ca3af;
+        --arrow-fill:      #9ca3af;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-page:         #0d1117;
+          --bg-source:       #161b22;
+          --stroke-source:   #60a5fa;
+          --text-source:     #e6edf3;
+          --bg-alias:        #1d4ed8;
+          --text-alias:      #f9fafb;
+          --bg-inbox:        #161b22;
+          --stroke-inbox:    #60a5fa;
+          --text-inbox:      #e6edf3;
+          --text-inbox-sub:  #e6edf3;
+          --arrow:           #6b7280;
+          --arrow-fill:      #6b7280;
+        }
+      }
+
+      .bg-page       { fill: var(--bg-page); }
+      .bg-source     { fill: var(--bg-source);     stroke: var(--stroke-source); }
+      .text-source   { fill: var(--text-source); }
+      .bg-alias      { fill: var(--bg-alias); }
+      .text-alias    { fill: var(--text-alias); }
+      .bg-inbox      { fill: var(--bg-inbox);      stroke: var(--stroke-inbox); }
+      .text-inbox    { fill: var(--text-inbox); }
+      .text-inbox-sub{ fill: var(--text-inbox-sub); }
+      .arrow-line    { stroke: var(--arrow); }
+      .arrow-head    { fill: var(--arrow-fill); }
+    </style>
+
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon class="arrow-head" points="0 0, 10 3.5, 0 7"/>
+    </marker>
+
+  </defs>
+
+  <!-- ─── Page background ─── -->
+  <rect width="640" height="280" class="bg-page"/>
+
+  <!-- ─── Source → Alias arrows ─── -->
+  <line x1="152" y1="70"  x2="217" y2="70"  class="arrow-line" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="152" y1="140" x2="217" y2="140" class="arrow-line" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="152" y1="210" x2="217" y2="210" class="arrow-line" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ─── Alias → Inbox arrows ─── -->
+  <path d="M 387 70  C 425 70,  425 140, 452 140" class="arrow-line" fill="none" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line   x1="387" y1="140" x2="452" y2="140"     class="arrow-line"              stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 387 210 C 425 210, 425 140, 452 140" class="arrow-line" fill="none" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ─── Source nodes ─── -->
+  <rect x="15"  y="50"  width="137" height="40" rx="6" class="bg-source" stroke-width="1.5"/>
+  <text x="83"  y="75"  text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" class="text-source">Retail Website</text>
+
+  <rect x="15"  y="120" width="137" height="40" rx="6" class="bg-source" stroke-width="1.5"/>
+  <text x="83"  y="145" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" class="text-source">Social Media</text>
+
+  <rect x="15"  y="190" width="137" height="40" rx="6" class="bg-source" stroke-width="1.5"/>
+  <text x="83"  y="215" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" class="text-source">Newsletter</text>
+
+  <!-- ─── Alias nodes ─── -->
+  <rect x="220" y="50"  width="167" height="40" rx="6" class="bg-alias"/>
+  <text x="303" y="75"  text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" class="text-alias">shopping@alias.com</text>
+
+  <rect x="220" y="120" width="167" height="40" rx="6" class="bg-alias"/>
+  <text x="303" y="145" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" class="text-alias">social@alias.com</text>
+
+  <rect x="220" y="190" width="167" height="40" rx="6" class="bg-alias"/>
+  <text x="303" y="215" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" class="text-alias">news@alias.com</text>
+
+  <!-- ─── Primary Inbox node ─── -->
+  <rect x="455" y="108" width="162" height="64" rx="6" class="bg-inbox" stroke-width="2"/>
+  <text x="536" y="133" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" font-weight="700" class="text-inbox">Primary Inbox</text>
+  <text x="536" y="153" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" class="text-inbox-sub">name@email.com</text>
+
+</svg>

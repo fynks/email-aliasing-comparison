@@ -87,24 +87,7 @@ Email aliasing lets you create alternate addresses that forward to your real inb
 
 Think of it like a P.O. Box for your email - you hand out forwarding addresses, never your real one.
 
-```mermaid
-graph LR
-    A1["Retail Website"] --> B1["shopping@alias.com"]
-    A2["Social Media"] --> B2["social@alias.com"]
-    A3["Newsletter"] --> B3["news@alias.com"]
-
-    B1 --> C["Primary Inbox\nname@email.com"]
-    B2 --> C
-    B3 --> C
-
-    style A1 fill:#f3f4f6,stroke:#2563eb,stroke-width:1px,color:#111827
-    style A2 fill:#f3f4f6,stroke:#2563eb,stroke-width:1px,color:#111827
-    style A3 fill:#f3f4f6,stroke:#2563eb,stroke-width:1px,color:#111827
-    style B1 fill:#2563eb,stroke:none,color:#f9fafb
-    style B2 fill:#2563eb,stroke:none,color:#f9fafb
-    style B3 fill:#2563eb,stroke:none,color:#f9fafb
-    style C fill:#f3f4f6,stroke:#2563eb,stroke-width:2px,color:#111827,font-weight:bold
-```
+![How Email Aliasing Works](./public/diagrams/email-aliasing-flow.svg)
 
 ---
 
