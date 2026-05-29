@@ -145,6 +145,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | [Forward Email](https://forwardemail.net) | USA 🇺🇸 | ✅ (own domain) | $3/mo | ✅ | ✅ | AES-256 at rest, 10GB storage |
 | [DuckDuckGo Email](https://duckduckgo.com/email) | USA 🇺🇸 | ✅ (unlimited) | Free only | ✅ | Partial | Tracker removal |
 | [Firefox Relay](https://relay.firefox.com) | USA 🇺🇸 | ✅ (5 masks) | $0.99/mo | Premium | Partial | Phone masking on Premium |
+| [Emcognito](https://emcognito.com) | USA 🇺🇸 | ✅ (100 forwards/mo) | $2/mo | ✅ | ❌ | Forward-metered: unlimited aliases, passwordless |
 | [AdGuard Mail](https://adguard.com/adguard-temp-mail) | Cyprus 🇨🇾 | ✅ (limited) | $2.99/mo | Premium | Partial | Temporary aliases |
 | [33Mail](https://33mail.com) | UK 🇬🇧 | ✅ | $1/mo | Premium | ❌ | Simple, long-standing service |
 | [IronVest](https://ironvest.com) | USA 🇺🇸 | ❌ | $39/yr | ✅ | ❌ | Virtual cards + phone masking |
@@ -168,6 +169,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | SimpleLogin | 10 | ✅ | ❌ | PGP, mobile apps, browser extensions | Beginners |
 | DuckDuckGo | Unlimited `@duck.com` | ✅ | ❌ | Tracker removal, browser autofill | Quickest start |
 | Firefox Relay | 5 masks | ❌ | ❌ | Tracker removal, Firefox integration | Mozilla users |
+| Emcognito | Unlimited (100 forwards/mo) | ✅ | ❌ | Forward-metered, passwordless (magic link/passkey), no body storage | Unlimited burner aliases on free |
 | AdGuard Mail | ~10 | ❌ | ❌ | Temporary alias option | Light/casual use |
 | 33Mail | Unlimited | ❌ | ❌ | Simple and reliable | Basic forwarding |
 | Erine.email | Unlimited | ✅ | ❌ | Open-source, EU-hosted | Privacy advocates |
@@ -191,6 +193,8 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | **Forward Email Enhanced** | $3/mo | Unlimited | ✅ | Unlimited | AES-256 at rest, 10GB IMAP, webhooks, API |
 | **Forward Email Team** | $9/mo | Unlimited | ✅ | Unlimited | Shared team access, priority support |
 | **Firefox Relay Premium** | $0.99/mo | Unlimited masks | ✅ | 1 subdomain | Phone masking (US/CA), tracker removal |
+| **Emcognito Plus** | $2/mo ($20/yr) | Unlimited | ✅ | ❌ | 2,500 forwards/mo, no sponsor card |
+| **Emcognito Pro** | $4/mo ($36/yr) | Unlimited | ✅ | 1 subdomain (coming Q3) | 15,000 forwards/mo, $0.001/send overage |
 | **AdGuard Mail Premium** | $2.99/mo | ~1,000 | ✅ | 1 | Anonymous replies, premium domains |
 | **33Mail Premium** | $1/mo | Unlimited | ✅ (20/day) | 5 | Simple, long-standing |
 | **33Mail Pro** | $5/mo | Unlimited | ✅ (1,000/day) | Unlimited | Higher volume |
@@ -201,6 +205,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 
 > [!NOTE]
 > - "Unlimited" means no fixed hard cap but subject to fair-use/abuse limits.
+> - Emcognito meters **forwarded emails per month** rather than the number of aliases — every tier (including free) allows unlimited aliases, and the plan price buys forwarding volume.
 > - SimpleLogin Premium now **includes Proton Pass Plus** at no extra cost (as of Nov 2024).
 > - Firefox Relay phone masking is available in the US and Canada only.
 > - Regional pricing varies; always verify on the provider's official site.
