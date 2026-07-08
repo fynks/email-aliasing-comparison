@@ -101,7 +101,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 
 #### Dedicated Services (Recommended)
 - Full alias management, custom domains, reply support, encryption, rules, APIs, dashboards
-- Examples: Addy.io, SimpleLogin, Forward Email, DuckDuckGo Email
+- Examples: Addy.io, SimpleLogin, Forward Email, DuckDuckGo Email, anon.li Alias
 
 ---
 
@@ -113,7 +113,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | **Budget conscious** | Addy.io Lite | $1/mo | Best feature-to-price ratio |
 | **Maximum privacy** | SimpleLogin (by Proton) | $4/mo | Swiss jurisdiction, PGP, WebAuthn, mature apps |
 | **Apple ecosystem** | Hide My Email (iCloud+) | from $0.99/mo | System-level iOS/macOS integration |
-| **Developers / self-hosting** | Forward Email | from $3/mo | 100% open-source, unlimited domains |
+| **Developers / self-hosting** | anon.li Alias | Free | 100% open-source, developer API, CLI, documentation |
 | **All-in-one privacy** | Cloaked | ~$10/mo | Email + phone masking + password management |
 | **Full email hosting + aliases** | StartMail | $5/mo | PGP, custom domains, full IMAP mailbox |
 
@@ -140,6 +140,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 
 | Provider | Jurisdiction | Free Tier | Starting Price | Reply Support | Open Source | Notable |
 |----------|:------------:|:---------:|---------------:|:-------------:|:-----------:|---------|
+| [anon.li Alias](https://anon.li/alias) | Liechtenstein 🇱🇮 | ✅ | $1.99/mo | ✅ | ✅ | PGP, API, CLI, Browser Extension |
 | [Addy.io](https://addy.io) | Netherlands 🇳🇱 | ✅ | $1/mo | Paid only | ✅ | GPG, API, webhooks |
 | [SimpleLogin](https://simplelogin.io) | Switzerland 🇨🇭 | ✅ (10 aliases) | $4/mo | ✅ | ✅ | Proton-owned, Pass Plus bundled |
 | [Forward Email](https://forwardemail.net) | USA 🇺🇸 | ✅ (own domain) | $3/mo | Paid only | ✅ | AES-256 at rest, 10GB storage |
@@ -164,6 +165,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 
 | Provider | Free Aliases | Reply Support | Custom Domains | Standout Features | Best For |
 |----------|:------------:|:-------------:|:--------------:|-------------------|----------|
+| anon.li Alias | 10 + 1 custom | ✅ | ❌ | PGP, CLI, API on **free** | Developers, modern UI lovers |
 | Addy.io | Unlimited (subdomain) + 10 shared-domain | ❌ | ❌ | GPG, API on paid | Power users trialing |
 | SimpleLogin | 10 | ✅ | ❌ | PGP, mobile apps, browser extensions | Beginners |
 | DuckDuckGo | Unlimited `@duck.com` | ✅ | ❌ | Tracker removal, browser autofill | Quickest start |
@@ -185,6 +187,8 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 
 | Provider & Plan | Price | Aliases | Reply | Domains | Key Features |
 |---|---:|:---:|:---:|:---:|---|
+| **anon.li Alias+** | $1.99/mo (annual) / $2.49/mo | 100 + 10 custom | ✅ | 3 | 5 email recipients, PGP encryption |
+| **anon.li Alias Pro** | $2.99/mo (annual) / $3.49/mo | 250 + 100 custom | ✅ | 10 | 10 email recipients, PGP encryption |
 | **Addy.io Lite** | $1/mo | Unlimited + 50 shared | ✅ | 1 | GPG/PGP, API, rules, 6 usernames |
 | **Addy.io Pro** | $3/mo (annual) / $4/mo | Unlimited | ✅ | 20 | Analytics, webhooks, bulk ops, 21 usernames |
 | **SimpleLogin Premium** | $4/mo ($36/yr) | Unlimited | ✅ | Unlimited | PGP, WebAuthn, Proton Pass Plus included |
@@ -326,11 +330,12 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | Firefox Relay | United States 🇺🇸 | ✅ (applicable) | US law; Mozilla transparency reports |
 | Cloaked | United States 🇺🇸 | ✅ (applicable) | US law |
 | Apple Hide My Email | United States 🇺🇸 | ✅ (applicable) | US law; well-documented process |
+| anon.li Alias | Liechtenstein 🇱🇮 (EEA) | ✅ | EU legal process required |
 
 > [!TIP]
 > **Practical picks by privacy level:**
 > - 🔒 **Maximum:** Switzerland - SimpleLogin/Proton
-> - 🔐 **Strong:** EU - Addy.io, StartMail, Erine.email
+> - 🔐 **Strong:** EU - Addy.io, StartMail, Erine.email, anon.li Alias
 > - ✅ **Acceptable with trade-offs:** US - DuckDuckGo, Forward Email, Apple
 
 [(↑ Back to top)](#table-of-contents)
@@ -536,6 +541,7 @@ Yes. As of November 2024, SimpleLogin Premium includes Proton Pass Plus features
 - [Firefox Relay Support](https://support.mozilla.org/en-US/products/relay)
 - [StartMail Help Center](https://support.startmail.com)
 - [Cloaked Help Center](https://support.cloaked.app)
+- [anon.li Documentation](https://anon.li/docs)
 
 ### Privacy & Security Guides
 - [Privacy Guides - Email Aliasing](https://www.privacyguides.org/en/email-aliasing/) - Independent analysis
