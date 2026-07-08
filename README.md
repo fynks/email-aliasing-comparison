@@ -12,7 +12,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/fynks/email-aliasing-comparison?style=for-the-badge&logo=github&label=Last%20Update)](https://github.com/fynks/email-aliasing-comparison/commits)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**Compare 12+ email alias services by features, pricing, security, and privacy**
+**Compare 12+ email alias services by features, pricing, and privacy**
 
 [Quick Start](#provider-selector)&nbsp; • &nbsp;[Comparisons](#provider-comparisons)&nbsp; • &nbsp;[Privacy & Security](#privacy-and-security-analysis)&nbsp; • &nbsp;[Best Practices](#best-practices)&nbsp; • &nbsp;[FAQ](#frequently-asked-questions)
 
@@ -114,8 +114,8 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | **Maximum privacy** | SimpleLogin (by Proton) | $4/mo | Swiss jurisdiction, PGP, WebAuthn, mature apps |
 | **Apple ecosystem** | Hide My Email (iCloud+) | from $0.99/mo | System-level iOS/macOS integration |
 | **Developers / self-hosting** | Forward Email | from $3/mo | 100% open-source, unlimited domains |
-| **All-in-one privacy** | Cloaked | ~$10/mo | Email + phone masking + password management |
-| **Full email hosting + aliases** | StartMail | $5/mo | PGP, custom domains, full IMAP mailbox |
+| **All-in-one privacy** | Ivy (IronVest) | $3.25/mo | AI copilot, email + phone + card masking + password manager |
+| **Full email hosting + aliases** | StartMail | $4.99/mo | PGP, custom domains, full IMAP mailbox |
 
 > [!NOTE]
 > Prices are starting paid tiers. Many providers offer free plans. Regional pricing may vary.
@@ -141,15 +141,15 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | Provider | Jurisdiction | Free Tier | Starting Price | Reply Support | Open Source | Notable |
 |----------|:------------:|:---------:|---------------:|:-------------:|:-----------:|---------|
 | [Addy.io](https://addy.io) | Netherlands 🇳🇱 | ✅ | $1/mo | Paid only | ✅ | GPG, API, webhooks |
-| [SimpleLogin](https://simplelogin.io) | Switzerland 🇨🇭 | ✅ (10 aliases) | $4/mo | ✅ | ✅ | Proton-owned, Pass Plus bundled |
+| [SimpleLogin](https://simplelogin.io) | Switzerland 🇨🇭 | ✅ (10 aliases + Pass Free) | $4/mo | ✅ | ✅ | Proton-owned, Pass Plus bundled on Premium |
 | [Forward Email](https://forwardemail.net) | USA 🇺🇸 | ✅ (own domain) | $3/mo | Paid only | ✅ | AES-256 at rest, 10GB storage |
 | [DuckDuckGo Email](https://duckduckgo.com/email) | USA 🇺🇸 | ✅ (unlimited) | Free only | ✅ | Partial | Tracker removal |
 | [Firefox Relay](https://relay.firefox.com) | USA 🇺🇸 | ✅ (50 masks) | $0.99/mo | Premium | Partial | Phone masking on Premium |
 | [AdGuard Mail](https://adguard.com/adguard-temp-mail) | Cyprus 🇨🇾 | ✅ (limited) | $2.99/mo | Premium | Partial | Temporary aliases |
 | [33Mail](https://33mail.com) | UK 🇬🇧 | ✅ | $1/mo | Premium | ❌ | Simple, long-standing service |
-| [IronVest](https://ironvest.com) | USA 🇺🇸 | ❌ | $39/yr | ✅ | ❌ | Virtual cards + phone masking |
-| [Cloaked](https://www.cloaked.com) | USA 🇺🇸 | ❌ | ~$10/mo | ✅ | ❌ | Email + phone + password manager |
-| [StartMail](https://www.startmail.com) | Netherlands 🇳🇱 | ❌ | $5/mo | ✅ | ❌ | Full IMAP mailbox, PGP, custom domains |
+| [Ivy by IronVest](https://getivy.ai) | USA 🇺🇸 | ❌ | $3.25/mo ($39/yr) | ✅ | ❌ | AI copilot, email + phone + card masking |
+| [Cloaked](https://www.cloaked.com) | USA 🇺🇸 | ❌ | $9.99/mo | ✅ | ❌ | Email + phone + password manager + data removal |
+| [StartMail](https://www.startmail.com) | Netherlands 🇳🇱 | ❌ | $4.99/mo | ✅ | ❌ | Full IMAP mailbox, PGP, custom domains |
 | [Erine.email](https://erine.email) | France 🇫🇷 | ✅ | Free | ✅ | ✅ | EU-hosted, open-source |
 | [Apple Hide My Email](https://support.apple.com/en-us/HT210425) | USA 🇺🇸 | Requires iCloud+ | from $0.99/mo | ✅ | ❌ | Deep Apple ecosystem integration |
 
@@ -165,7 +165,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | Provider | Free Aliases | Reply Support | Custom Domains | Standout Features | Best For |
 |----------|:------------:|:-------------:|:--------------:|-------------------|----------|
 | Addy.io | Unlimited (subdomain) + 10 shared-domain | ❌ | ❌ | GPG, API on paid | Power users trialing |
-| SimpleLogin | 10 | ✅ | ❌ | PGP, mobile apps, browser extensions | Beginners |
+| SimpleLogin | 10 (+ Proton Pass Free) | ✅ | ❌ | PGP, mobile apps, browser extensions, Proton Pass Free included | Beginners |
 | DuckDuckGo | Unlimited `@duck.com` | ✅ | ❌ | Tracker removal, browser autofill | Quickest start |
 | Firefox Relay | 50 masks | ❌ | ❌ | Tracker removal, Firefox integration | Mozilla users |
 | AdGuard Mail | ~10 | ❌ | ❌ | Temporary alias option | Light/casual use |
@@ -192,11 +192,11 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | **Forward Email Team** | $9/mo | Unlimited | ✅ | Unlimited | Shared team access, priority support |
 | **Firefox Relay Premium** | $0.99/mo | Unlimited masks | ✅ | 1 subdomain | Phone masking (US/CA), tracker removal |
 | **AdGuard Mail Premium** | $2.99/mo | ~1,000 | ✅ | 1 | Anonymous replies, premium domains |
-| **33Mail Premium** | $1/mo | Unlimited | ✅ (20/day) | 5 | Simple, long-standing |
-| **33Mail Pro** | $5/mo | Unlimited | ✅ (1,000/day) | Unlimited | Higher volume |
-| **IronVest Premium** | $39/yr | ~50 | ✅ | ❌ | Virtual payment cards, phone masking |
-| **Cloaked** | ~$10/mo | Unlimited | ✅ | ❌ | Email + phone alias + password manager |
-| **StartMail** | $5/mo ($50/yr) | Unlimited | ✅ | ✅ | Full IMAP mailbox, PGP, custom domains |
+| **33Mail Premium** | $1/mo | Unlimited | ✅ (20/day) | 1 | Simple, long-standing |
+| **33Mail Pro** | $5/mo | Unlimited | ✅ (100/day) | 5 | Higher volume |
+| **Ivy Pro (IronVest)** | $3.25/mo ($39/yr) | 50 masks + 35 virtual cards | ✅ | ❌ | AI copilot, phone masking, virtual cards, password manager |
+| **Cloaked Individual** | $9.99/mo ($119.99/yr) | Unlimited | ✅ | ❌ | Email + phone alias + password manager + data removal |
+| **StartMail Personal** | $4.99/mo ($59.88/yr) | Unlimited | ✅ | ✅ | Full IMAP mailbox, PGP, custom domains, 20GB storage |
 | **Apple iCloud+ 50GB** | from $0.99/mo | Up to 1,000 | ✅ | ✅ (iCloud Mail) | System-level integration, no extra app needed |
 
 > [!NOTE]
@@ -221,6 +221,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | **2FA Support** | TOTP only | TOTP + WebAuthn (Yubikey) | SimpleLogin |
 | **Open Source** | ✅ Full | ✅ Full | Tie |
 
+<br>
 <details>
 <summary><strong>Detailed Feature & Security Analysis</strong> (click to expand)</summary>
 
@@ -257,7 +258,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | Security audits | 2023 (Securitum) | Regular (Proton program) |
 | Encryption at rest | Partial (recipients) | Partial (standard) |
 
-</details>
+</details><br>
 
 [(↑ Back to top)](#table-of-contents)
 
@@ -279,7 +280,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | Firefox Relay | Delivery only; deleted after forward | Mozilla policies | Mozilla telemetry (opt-out) | Mozilla account data |
 | AdGuard Mail | Delivery only | Anti-abuse logs | Internal | Email and account data |
 | 33Mail | Delivery only | Standard logs | Unknown | Basic account info |
-| IronVest | Delivery only; 24h temp storage | Standard logs | Basic | Account and payment data |
+| Ivy (IronVest) | Delivery only; zero-knowledge architecture | Standard logs | Basic | Account and payment data |
 | Cloaked | Delivery only; E2E encrypted | Standard logs | Basic | Comprehensive identity data |
 | StartMail | Full IMAP mailbox (by design) | Standard logs | Internal | PGP available; full email provider |
 | Apple Hide My Email | Delivery only | Apple policy | Apple analytics | Full iCloud account data |
@@ -324,6 +325,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | Forward Email | United States 🇺🇸 | ✅ (applicable) | US law; self-host option available |
 | DuckDuckGo Email | United States 🇺🇸 | ✅ (applicable) | US law; transparency reports |
 | Firefox Relay | United States 🇺🇸 | ✅ (applicable) | US law; Mozilla transparency reports |
+| Ivy (IronVest) | United States 🇺🇸 | ✅ (applicable) | US law |
 | Cloaked | United States 🇺🇸 | ✅ (applicable) | US law |
 | Apple Hide My Email | United States 🇺🇸 | ✅ (applicable) | US law; well-documented process |
 
