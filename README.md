@@ -142,9 +142,9 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 |----------|:------------:|:---------:|---------------:|:-------------:|:-----------:|---------|
 | [Addy.io](https://addy.io) | Netherlands 🇳🇱 | ✅ | $1/mo | Paid only | ✅ | GPG, API, webhooks |
 | [SimpleLogin](https://simplelogin.io) | Switzerland 🇨🇭 | ✅ (10 aliases) | $4/mo | ✅ | ✅ | Proton-owned, Pass Plus bundled |
-| [Forward Email](https://forwardemail.net) | USA 🇺🇸 | ✅ (own domain) | $3/mo | ✅ | ✅ | AES-256 at rest, 10GB storage |
+| [Forward Email](https://forwardemail.net) | USA 🇺🇸 | ✅ (own domain) | $3/mo | Paid only | ✅ | AES-256 at rest, 10GB storage |
 | [DuckDuckGo Email](https://duckduckgo.com/email) | USA 🇺🇸 | ✅ (unlimited) | Free only | ✅ | Partial | Tracker removal |
-| [Firefox Relay](https://relay.firefox.com) | USA 🇺🇸 | ✅ (5 masks) | $0.99/mo | Premium | Partial | Phone masking on Premium |
+| [Firefox Relay](https://relay.firefox.com) | USA 🇺🇸 | ✅ (50 masks) | $0.99/mo | Premium | Partial | Phone masking on Premium |
 | [AdGuard Mail](https://adguard.com/adguard-temp-mail) | Cyprus 🇨🇾 | ✅ (limited) | $2.99/mo | Premium | Partial | Temporary aliases |
 | [33Mail](https://33mail.com) | UK 🇬🇧 | ✅ | $1/mo | Premium | ❌ | Simple, long-standing service |
 | [IronVest](https://ironvest.com) | USA 🇺🇸 | ❌ | $39/yr | ✅ | ❌ | Virtual cards + phone masking |
@@ -167,11 +167,11 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | Addy.io | Unlimited (subdomain) + 10 shared-domain | ❌ | ❌ | GPG, API on paid | Power users trialing |
 | SimpleLogin | 10 | ✅ | ❌ | PGP, mobile apps, browser extensions | Beginners |
 | DuckDuckGo | Unlimited `@duck.com` | ✅ | ❌ | Tracker removal, browser autofill | Quickest start |
-| Firefox Relay | 5 masks | ❌ | ❌ | Tracker removal, Firefox integration | Mozilla users |
+| Firefox Relay | 50 masks | ❌ | ❌ | Tracker removal, Firefox integration | Mozilla users |
 | AdGuard Mail | ~10 | ❌ | ❌ | Temporary alias option | Light/casual use |
 | 33Mail | Unlimited | ❌ | ❌ | Simple and reliable | Basic forwarding |
 | Erine.email | Unlimited | ✅ | ❌ | Open-source, EU-hosted | Privacy advocates |
-| Forward Email | Unlimited* | ✅ | ✅ (own domain req.) | 100% open-source, self-host option | Developers |
+| Forward Email | Unlimited* | ❌ | ✅ (own domain req.) | 100% open-source, self-host option | Developers |
 | Apple Hide My Email | N/A (iCloud+ req.) | ✅ | Separate iCloud feature | Seamless iOS/macOS integration | Apple users |
 
 > [!NOTE]
@@ -299,7 +299,7 @@ Think of it like a P.O. Box for your email - you hand out forwarding addresses, 
 | Forward Email | Existing forwarding | Premium SMTP/API, priority support | Some premium configs | **Low** |
 | AdGuard Mail | Free features and base quota | Premium domains/features | Premium-only aliases | **Low** |
 | 33Mail | Basic forwarding | Custom domains, higher reply limits | Custom domain configs | **Moderate** |
-| Firefox Relay | First 5 masks | Extra masks | Masks beyond free limit | **Moderate** |
+| Firefox Relay | First 50 masks | Extra masks | Masks beyond free limit | **Moderate** |
 | Addy.io | Subdomain aliases; 1 recipient; basic forwarding | Multiple recipients, custom/shared domains, replies | Extra recipient configs, premium-domain aliases | **Moderate** |
 | Cloaked | None (no free tier) | All features | Aliases deleted on cancellation | **High** - no free fallback |
 | StartMail | None (no free tier) | Full mailbox | All data on cancellation | **High** - export before cancelling |
